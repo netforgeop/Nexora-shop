@@ -1,0 +1,573 @@
+تو یک **Senior Front-End Engineer و UI/UX Designer حرفه‌ای** هستی و باید این پروژه را مثل یک پروژه واقعی Production بررسی و پیاده‌سازی کنی.
+
+من یک لینک GitHub در اختیار تو قرار می‌دهم که داخل آن یک قالب HTML/CSS/JavaScript به صورت ZIP یا فایل‌های پروژه قرار دارد.
+
+**GitHub Repository:**
+https://github.com/netforgeop/Nexora-shop/blob/main/creek.zip
+
+---
+
+# مرحله 1 — مهندسی معکوس کامل قالب
+
+قبل از اینکه حتی یک خط کد جدید بنویسی، کل پروژه را بررسی کن.
+
+هیچ فایل، فولدر، CSS، JavaScript، HTML، فونت، Asset یا Library مهمی را بدون بررسی رد نکن.
+
+ساختار پروژه را به صورت کامل تحلیل کن:
+
+* تمام فایل‌های HTML
+* تمام صفحات
+* تمام `<section>`
+* تمام `<div>`
+* تمام Containerها
+* Grid و Flexbox
+* Header
+* Navbar
+* Hero
+* Sidebar
+* Footer
+* Cards
+* Buttons
+* Forms
+* Modals
+* Dropdownها
+* Tabs
+* Sliders
+* Breadcrumb
+* Pagination
+* Tables
+* Product components
+* Responsive breakpoints
+* Mobile navigation
+* عناصر تعاملی
+* CSS architecture
+* JavaScript architecture
+
+برای هر بخش مشخص کن:
+
+1. چه کاری انجام می‌دهد؟
+2. چه ساختار HTMLای دارد؟
+3. چه کلاس‌هایی دارد؟
+4. CSS چگونه آن را طراحی کرده؟
+5. JavaScript چگونه روی آن تأثیر می‌گذارد؟
+6. از چه Library یا Frameworkی استفاده شده؟
+7. Responsive behavior آن چگونه است؟
+8. چه الگوهای UI/UX در آن استفاده شده؟
+
+---
+
+# مرحله 2 — شناسایی تکنولوژی‌ها و Libraryها
+
+تمام وابستگی‌های پروژه را شناسایی کن.
+
+به دنبال مواردی مانند:
+
+* Bootstrap
+* Tailwind
+* jQuery
+* Swiper
+* Slick
+* AOS
+* GSAP
+* Font Awesome
+* Bootstrap Icons
+* Remix Icon
+* Material Icons
+* Google Fonts
+* سایر Icon Libraryها
+* CSS Frameworkها
+* JavaScript Pluginها
+
+باش.
+
+فایل‌های:
+
+* package.json
+* package-lock.json
+* yarn.lock
+* pnpm-lock.yaml
+* README
+* CDNها
+* `<link>`
+* `<script>`
+
+را نیز بررسی کن.
+
+در پایان یک گزارش کوتاه بده که مشخص کند:
+
+**Template Stack**
+**CSS Framework**
+**JS Libraries**
+**Icon System**
+**Font System**
+**Animation System**
+**Responsive Strategy**
+**Component Strategy**
+
+---
+
+# مرحله 3 — استخراج Design System
+
+ظاهر قالب را فقط کپی نکن؛ Design System آن را استخراج کن.
+
+بررسی کن:
+
+* Primary Color
+* Secondary Color
+* Background Colors
+* Surface Colors
+* Text Colors
+* Border Colors
+* Hover Colors
+* Font Family
+* Font Weights
+* Font Sizes
+* Heading Scale
+* Border Radius
+* Shadows
+* Spacing System
+* Container Width
+* Grid System
+* Button Styles
+* Card Styles
+* Input Styles
+* Navigation Styles
+* Icon Sizes
+* Animation Duration
+* Transitionها
+
+اگر پروژه از CSS Variables استفاده می‌کند، آنها را نیز استخراج و تحلیل کن.
+
+---
+
+# مرحله 4 — درک فلسفه طراحی
+
+باید بفهمی این قالب چرا اینگونه طراحی شده است.
+
+تحلیل کن:
+
+* Visual Hierarchy
+* UX Flow
+* Information Architecture
+* Content Density
+* Whitespace
+* Alignment
+* Visual Rhythm
+* Card Composition
+* CTA Placement
+* Navigation Pattern
+* Mobile UX
+* Desktop UX
+* Interaction Design
+
+هدف این است که **منطق طراحی قالب را یاد بگیری، نه اینکه فقط ظاهر آن را کپی کنی.**
+
+---
+
+# مرحله 5 — تبدیل آن به یک E-Commerce واقعی
+
+حالا با الهام از معماری، Design System و الگوهای UI قالب اصلی، یک **قالب فروشگاهی حرفه‌ای و مدرن** طراحی کن.
+
+این پروژه باید از نظر کیفیت در حد یک قالب تجاری واقعی باشد.
+
+قالب جدید باید شامل این بخش‌ها باشد:
+
+## صفحات
+
+### Home
+
+* Header
+* Announcement Bar
+* Main Navigation
+* Hero Section
+* Featured Categories
+* Featured Products
+* Flash Sale
+* New Arrivals
+* Best Sellers
+* Promotional Banner
+* Product Collections
+* Brand Section
+* Customer Reviews
+* Blog Section
+* Newsletter
+* Footer
+
+### Shop
+
+* Product Grid
+* Sidebar Filters
+* Category Filter
+* Price Filter
+* Rating Filter
+* Brand Filter
+* Sort
+* Pagination
+* Product Count
+* Grid/List View
+
+### Product Details
+
+* Product Gallery
+* Image Zoom
+* Product Title
+* Rating
+* Reviews
+* Price
+* Discount
+* Stock Status
+* Variations
+* Quantity Selector
+* Add to Cart
+* Buy Now
+* Wishlist
+* Compare
+* Product Information
+* Specifications
+* Shipping Information
+* Reviews
+* Related Products
+
+### Cart
+
+* Cart Items
+* Quantity Controls
+* Remove Item
+* Coupon
+* Subtotal
+* Shipping
+* Total
+* Checkout CTA
+
+### Checkout
+
+* Customer Information
+* Address
+* Shipping Method
+* Payment Method
+* Order Summary
+* Coupon
+* Place Order
+
+### Wishlist
+
+* Wishlist Products
+* Add to Cart
+* Remove
+
+### Search
+
+* Search Input
+* Search Results
+* Filters
+* Product Cards
+
+### Authentication
+
+* Login
+* Register
+* Forgot Password
+
+### Account
+
+* Dashboard
+* Orders
+* Order Details
+* Wishlist
+* Profile
+* Addresses
+* Logout
+
+### Blog
+
+* Blog Grid
+* Article Page
+* Categories
+* Tags
+* Related Articles
+
+---
+
+# مرحله 6 — Product Card حرفه‌ای
+
+Product Card یکی از مهم‌ترین اجزای پروژه است.
+
+یک Product Card واقعی طراحی کن که شامل موارد زیر باشد:
+
+* Product Image
+* Product Badge
+* Sale Badge
+* Wishlist Icon
+* Quick View
+* Compare
+* Product Category
+* Product Name
+* Rating
+* Review Count
+* Old Price
+* Current Price
+* Discount Percentage
+* Add to Cart
+* Hover State
+
+Hover interaction حرفه‌ای داشته باشد.
+
+در Desktop و Mobile به‌درستی کار کند.
+
+---
+
+# مرحله 7 — Icon System
+
+**به هیچ عنوان از Emoji استفاده نکن.**
+
+❌ ممنوع:
+
+❤️
+🛒
+🔍
+⭐
+🔥
+📦
+👤
+☰
+
+به جای Emoji از Icon Library واقعی استفاده کن.
+
+ترجیحاً از همان Icon Library قالب مرجع استفاده کن.
+
+مثلاً:
+
+* Bootstrap Icons
+* Font Awesome
+* Lucide
+* Remix Icon
+* Heroicons
+
+اما اگر قالب اصلی Icon Library مشخصی دارد، **همان سیستم را حفظ کن.**
+
+تمام Iconها باید:
+
+* SVG یا Icon Font واقعی باشند
+* اندازه استاندارد داشته باشند
+* Stroke/Weight هماهنگ داشته باشند
+* Hover State داشته باشند
+* Accessibility مناسب داشته باشند
+
+---
+
+# مرحله 8 — کیفیت Front-End
+
+کد باید توسط یک Front-End Developer حرفه‌ای نوشته شود.
+
+اصول زیر را رعایت کن:
+
+* Semantic HTML5
+* Clean HTML
+* Modular CSS
+* Reusable Components
+* DRY
+* BEM یا یک Naming Convention منطقی
+* CSS Variables
+* Responsive Design
+* Accessibility
+* Keyboard Navigation
+* Focus States
+* Hover States
+* Loading States
+* Empty States
+* Error States
+* Proper Form Validation
+* Performance Optimization
+* Lazy Loading
+* Optimized Assets
+
+از کدهای بی‌دلیل تکراری جلوگیری کن.
+
+---
+
+# مرحله 9 — Responsive Design
+
+قالب باید واقعاً Responsive باشد، نه اینکه فقط در چند Breakpoint ساده تغییر اندازه بدهد.
+
+حداقل برای این شرایط طراحی کن:
+
+* 1440px+
+* 1200px
+* 992px
+* 768px
+* 576px
+* 480px
+* Mobile
+
+در Mobile:
+
+* Navigation باید مناسب Touch باشد
+* Product Grid باید منطقی شود
+* Sidebar تبدیل به Filter Drawer شود
+* Buttons قابل لمس باشند
+* تصاویر نسبت مناسب داشته باشند
+* Typography متناسب شود
+* فاصله‌ها اصلاح شوند
+
+---
+
+# مرحله 10 — Interaction و Animation
+
+انیمیشن‌ها باید حرفه‌ای و ظریف باشند.
+
+مثلاً:
+
+* Product Hover
+* Image Transition
+* Add to Cart Animation
+* Wishlist Animation
+* Dropdown Animation
+* Modal Animation
+* Mobile Menu
+* Filter Drawer
+* Toast Notification
+* Loading Skeleton
+* Page Transition
+
+اما:
+
+**از Animation بیش از حد استفاده نکن.**
+
+هدف باید Premium بودن UI باشد، نه شلوغی.
+
+---
+
+# مرحله 11 — Accessibility
+
+این موارد را رعایت کن:
+
+* Semantic Elements
+* aria-label
+* alt مناسب برای تصاویر
+* Keyboard Navigation
+* Focus Visible
+* Contrast مناسب
+* Accessible Forms
+* Buttonهای واقعی به جای div
+* لینک‌های واقعی به جای عناصر غیرقابل دسترس
+
+---
+
+# مرحله 12 — SEO
+
+ساختار HTML را SEO-friendly طراحی کن.
+
+شامل:
+
+* صحیح بودن H1/H2/H3 hierarchy
+* Semantic HTML
+* Meta structure
+* Product structured data در صورت امکان
+* Breadcrumb
+* Alt Text
+* Canonical-ready structure
+* SEO-friendly URLs
+
+---
+
+# مرحله 13 — مهم‌ترین قانون
+
+**قالب مرجع را Pixel-by-Pixel کپی نکن.**
+
+از آن به عنوان Reference استفاده کن تا:
+
+* Architecture
+* Design Language
+* Component Logic
+* Spacing Philosophy
+* Typography System
+* Interaction Patterns
+* Responsive Strategy
+
+را یاد بگیری.
+
+اما محصول نهایی باید یک **E-Commerce Template جدید و Original** باشد.
+
+یعنی اگر قالب اصلی مثلاً یک Portfolio است، تو نباید Portfolio را بازسازی کنی؛ باید همان کیفیت طراحی و مهندسی را به یک فروشگاه اینترنتی تبدیل کنی.
+
+---
+
+# مرحله 14 — خروجی نهایی
+
+در نهایت پروژه باید شامل یک ساختار حرفه‌ای باشد، مثلاً:
+
+assets/
+├── css/
+├── js/
+├── images/
+├── icons/
+├── fonts/
+
+pages/
+├── index.html
+├── shop.html
+├── product.html
+├── cart.html
+├── checkout.html
+├── wishlist.html
+├── login.html
+├── register.html
+├── account.html
+├── search.html
+├── blog.html
+└── single-post.html
+
+یا اگر Architecture پروژه اصلی ساختار متفاوت و بهتری دارد، از همان الگوی مناسب استفاده کن.
+
+---
+
+# مرحله 15 — قبل از کدنویسی
+
+ابتدا فقط این موارد را ارائه بده:
+
+1. Project Architecture Analysis
+2. Technology Stack
+3. Libraries
+4. Design System
+5. Component Architecture
+6. E-Commerce Page Architecture
+7. Responsive Strategy
+8. Icon Strategy
+
+سپس شروع به پیاده‌سازی کن.
+
+**هیچ بخش مهمی از پروژه مرجع را بدون دلیل حذف نکن.**
+
+اگر یک Library در قالب اصلی استفاده شده و برای پروژه جدید هم مفید است، آن را حفظ کن.
+
+اگر Library خاصی غیرضروری است، دلیل حذف آن را توضیح بده.
+
+---
+
+# استاندارد نهایی
+
+من نمی‌خواهم یک HTML Template ساده دریافت کنم.
+
+می‌خواهم نتیجه شبیه کاری باشد که یک:
+
+**Senior Front-End Engineer + UI/UX Designer**
+
+برای یک فروشگاه اینترنتی واقعی ساخته است.
+
+بنابراین:
+
+* ظاهر باید Premium باشد.
+* کد باید Clean باشد.
+* Components باید Reusable باشند.
+* Responsive باید واقعی باشد.
+* Interactionها باید طبیعی باشند.
+* Iconها باید حرفه‌ای باشند.
+* هیچ Emoji استفاده نشود.
+* UI نباید آماتور یا Generic باشد.
+* از Placeholderهای بی‌کیفیت استفاده نشود.
+* Layout نباید شلوغ باشد.
+* جزئیات کوچک UI را جدی بگیر.
+* تمام صفحات باید از یک Design System مشترک پیروی کنند.
+
+**اول قالب GitHub را کامل یاد بگیر و مهندسی معکوس کن؛ سپس بر اساس آن یک فروشگاه اینترنتی حرفه‌ای و Original بساز.**
+
