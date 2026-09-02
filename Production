@@ -1,0 +1,1624 @@
+# تبدیل قالب HTML به قالب حرفه‌ای WordPress + WooCommerce
+
+تو اکنون باید پروژه HTML فروشگاهی که در مرحله قبل ساخته‌ای را به یک **WordPress Theme حرفه‌ای، کامل، قابل فروش و Production-Ready** تبدیل کنی.
+
+هدف این نیست که فقط HTML را به PHP تبدیل کنی.
+
+باید این پروژه را به یک **قالب واقعی WordPress + WooCommerce** تبدیل کنی که صاحب فروشگاه بدون نیاز به برنامه‌نویسی بتواند تقریباً تمام بخش‌های سایت را از پیشخوان مدیریت و شخصی‌سازی کند.
+
+---
+
+# 1. بررسی پروژه فعلی
+
+ابتدا تمام پروژه فعلی را بررسی کن.
+
+ساختار فعلی:
+
+* HTML
+* CSS
+* JavaScript
+* Images
+* Icons
+* Fonts
+* Components
+* Pages
+* UI Components
+* Animations
+* Libraries
+
+را کامل بررسی کن.
+
+ظاهر فعلی را تا حد ممکن حفظ کن.
+
+**UI نباید در فرآیند تبدیل به WordPress خراب یا ساده شود.**
+
+هدف:
+
+> HTML Template → Professional WordPress Theme → WooCommerce Store
+
+---
+
+# 2. معماری WordPress
+
+قالب را مطابق استانداردهای واقعی WordPress توسعه بده.
+
+ساختار منطقی و قابل نگهداری ایجاد کن.
+
+مثلاً:
+
+theme/
+│
+├── style.css
+├── functions.php
+├── index.php
+├── front-page.php
+├── home.php
+├── single.php
+├── page.php
+├── archive.php
+├── search.php
+├── 404.php
+│
+├── header.php
+├── footer.php
+├── sidebar.php
+│
+├── screenshot.png
+│
+├── assets/
+│   ├── css/
+│   ├── js/
+│   ├── images/
+│   ├── icons/
+│   └── fonts/
+│
+├── inc/
+│   ├── setup.php
+│   ├── enqueue.php
+│   ├── customizer.php
+│   ├── admin/
+│   ├── ajax/
+│   ├── security/
+│   ├── woocommerce/
+│   └── helpers/
+│
+├── template-parts/
+│   ├── header/
+│   ├── footer/
+│   ├── products/
+│   ├── cards/
+│   ├── blog/
+│   └── components/
+│
+├── woocommerce/
+│   ├── archive-product.php
+│   ├── single-product.php
+│   ├── content-product.php
+│   ├── cart/
+│   ├── checkout/
+│   └── ...
+│
+└── languages/
+
+اگر Architecture بهتری وجود دارد، از آن استفاده کن.
+
+کد را Modular نگه دار.
+
+---
+
+# 3. WordPress Theme Setup
+
+در `functions.php` و فایل‌های مربوطه موارد استاندارد WordPress را پیاده‌سازی کن:
+
+* `add_theme_support`
+* `register_nav_menus`
+* `register_sidebar`
+* Post Thumbnails
+* Custom Logo
+* Custom Background
+* HTML5 Support
+* Title Tag
+* Responsive Embeds
+* WooCommerce Support
+
+از Hard-code کردن محتوا خودداری کن.
+
+---
+
+# 4. تبدیل تمام محتوای Static به Dynamic
+
+هیچ محتوای مهمی نباید بدون دلیل داخل PHP Hard-code شده باشد.
+
+موارد زیر باید Dynamic باشند:
+
+* Logo
+* Site Title
+* Site Description
+* Header
+* Menu
+* Footer
+* Copyright
+* Hero
+* Banners
+* Categories
+* Products
+* Prices
+* Images
+* Blog Posts
+* Testimonials
+* Brands
+* Social Links
+* Contact Information
+* Buttons
+* Sections
+
+---
+
+# 5. WooCommerce
+
+فروشگاه باید کاملاً بر پایه **WooCommerce** باشد.
+
+محصول جدید نباید با Custom Post Type اختصاصی ساخته شود.
+
+مدیریت محصولات باید توسط WooCommerce انجام شود.
+
+از قابلیت‌های استاندارد WooCommerce استفاده کن:
+
+* Simple Product
+* Variable Product
+* Grouped Product
+* External Product
+* Product Categories
+* Product Tags
+* Attributes
+* Variations
+* Inventory
+* Shipping
+* Coupons
+* Orders
+* Customers
+* Reviews
+* Payment Methods
+
+قالب باید با WooCommerce به صورت Native کار کند.
+
+---
+
+# 6. صفحات WooCommerce
+
+ظاهر تمام صفحات WooCommerce را با Design System قالب هماهنگ کن:
+
+* Shop
+* Product
+* Category
+* Cart
+* Checkout
+* My Account
+* Login
+* Register
+* Lost Password
+* Order Details
+* Wishlist در صورت وجود
+* Search
+* Product Reviews
+
+---
+
+# 7. Elementor استفاده نکن
+
+قالب نباید برای کارکرد اصلی خود به Elementor وابسته باشد.
+
+همه چیز باید با:
+
+* WordPress Core
+* Gutenberg
+* WooCommerce
+* ACF در صورت نیاز
+
+کار کند.
+
+---
+
+# 8. ACF و Option Pages
+
+برای تنظیمات قابل مدیریت، از **Advanced Custom Fields** استفاده کن.
+
+برای اطلاعات تکرارشونده و Global از Option Page استفاده کن.
+
+یک پنل اختصاصی در پیشخوان ایجاد کن.
+
+مثلاً:
+
+### Theme Dashboard
+
+* داشبورد
+* تنظیمات عمومی
+* هدر
+* فوتر
+* صفحه اصلی
+* فروشگاه
+* محصولات
+* وبلاگ
+* شبکه‌های اجتماعی
+* تماس با ما
+* رنگ‌بندی
+* آموزش‌ها
+* افزونه‌ها
+* درباره قالب
+
+---
+
+# 9. Sub Option Pages
+
+Option Pageها باید ساختار مرتب داشته باشند.
+
+مثلاً:
+
+## تنظیمات قالب
+
+### عمومی
+
+* لوگو
+* Favicon
+* اطلاعات تماس
+* ایمیل
+* تلفن
+* آدرس
+* شبکه‌های اجتماعی
+
+### هدر
+
+* لوگو
+* منوی اصلی
+* دکمه Header
+* Search
+* Cart
+* Wishlist
+* Account
+* Announcement Bar
+
+### فوتر
+
+* Logo
+* About
+* Columns
+* Newsletter
+* Social Links
+* Copyright
+* Payment Icons
+
+### صفحه اصلی
+
+* Hero
+* Featured Categories
+* Featured Products
+* Sale
+* New Products
+* Brands
+* Testimonials
+* Blog
+* Newsletter
+
+### فروشگاه
+
+* تعداد محصولات
+* Layout
+* Sidebar
+* Filters
+* Sorting
+* Product Card Settings
+
+### وبلاگ
+
+* Layout
+* Sidebar
+* Related Posts
+* Author
+* Date
+* Categories
+
+---
+
+# 10. UI حرفه‌ای برای فیلدها
+
+فیلدهای ACF را به صورت پیش‌فرض و زشت رها نکن.
+
+Admin UI باید حرفه‌ای و مرتب باشد.
+
+از:
+
+* Tabs
+* Accordion
+* Sections
+* Cards
+* Description
+* Help Text
+* Conditional Fields
+* Image Preview
+* Color Picker
+* Repeater
+* Group
+* Flexible Content در صورت نیاز
+
+استفاده کن.
+
+هر بخش باید توضیح کوتاه داشته باشد که کاربر بداند آن تنظیم چه کاری انجام می‌دهد.
+
+---
+
+# 11. Theme Dashboard اختصاصی
+
+یک Dashboard اختصاصی برای قالب بساز.
+
+مثلاً:
+
+# فروشگاه من
+
+و در آن:
+
+* وضعیت سایت
+* وضعیت WooCommerce
+* وضعیت افزونه‌های موردنیاز
+* وضعیت تنظیمات
+* لینک‌های سریع
+* آموزش شروع کار
+* آخرین آموزش‌ها
+* وضعیت Theme
+* Theme Version
+
+نمایش داده شود.
+
+UI این داشبورد باید حرفه‌ای و هماهنگ با خود قالب باشد.
+
+---
+
+# 12. Plugin Manager
+
+داخل Theme Dashboard بخشی به نام:
+
+**افزونه‌ها**
+
+ایجاد کن.
+
+افزونه‌های Required و Recommended را مشخص کن.
+
+مثلاً:
+
+### Required
+
+* WooCommerce
+* Advanced Custom Fields
+
+### Recommended
+
+* Rank Math SEO
+* افزونه درگاه پرداخت WooCommerce
+* افزونه امنیتی در صورت نیاز
+* افزونه Cache در صورت نیاز
+
+برای هر افزونه نمایش بده:
+
+* نام
+* توضیح
+* وضعیت
+* نصب شده / نصب نشده
+* فعال / غیرفعال
+* نسخه
+
+---
+
+# 13. بررسی وضعیت Pluginها
+
+قالب باید بتواند تشخیص دهد:
+
+### WooCommerce
+
+Installed ✓
+Active ✓
+Configured ✓
+
+یا:
+
+Installed ✓
+Inactive ⚠
+
+یا:
+
+Not Installed ✕
+
+اما:
+
+**هرگز بدون اجازه کاربر افزونه خارجی را از منابع ناشناس نصب نکن.**
+
+برای نصب:
+
+* WordPress.org
+* فایل ZIP معتبر
+* منبع رسمی Plugin
+
+استفاده کن.
+
+---
+
+# 14. بررسی Configuration
+
+فقط بررسی نکن که WooCommerce نصب است.
+
+بررسی کن که تنظیمات ضروری هم انجام شده باشند.
+
+مثلاً:
+
+* Currency
+* Store Address
+* Shipping
+* Payment
+* Checkout
+* Pages
+* Product Settings
+
+و وضعیت را نمایش بده.
+
+مثلاً:
+
+**فروشگاه**
+✓ WooCommerce فعال است
+
+**واحد پول**
+✓ تومان
+
+**درگاه پرداخت**
+⚠ هنوز تنظیم نشده
+
+---
+
+# 15. One Click Setup
+
+وقتی قالب نصب و Activate شد، یک Setup Wizard حرفه‌ای نمایش بده.
+
+مثلاً:
+
+# خوش آمدید 👋
+
+بیایید فروشگاه شما را در چند مرحله آماده کنیم.
+
+### Step 1
+
+فعال بودن WooCommerce
+
+### Step 2
+
+تنظیم اطلاعات فروشگاه
+
+### Step 3
+
+انتخاب Demo
+
+### Step 4
+
+انتخاب رنگ‌بندی
+
+### Step 5
+
+تنظیم Header
+
+### Step 6
+
+تنظیم Footer
+
+### Step 7
+
+بررسی Payment
+
+### Step 8
+
+بررسی صفحات WooCommerce
+
+### Step 9
+
+Import Demo Content در صورت انتخاب
+
+### Step 10
+
+Finish
+
+---
+
+# 16. فعال‌سازی قالب
+
+وقتی ZIP قالب را از:
+
+WordPress → Appearance → Themes → Add New → Upload Theme
+
+آپلود کردم و:
+
+**Activate**
+
+را زدم:
+
+قالب باید تا حد ممکن به صورت خودکار آماده شود.
+
+اما:
+
+**اطلاعات حساس، پرداخت، API Key، رمز عبور و اطلاعات مالی را هرگز خودکار وارد نکن.**
+
+مواردی که می‌توانند بدون خطر انجام شوند:
+
+* Register Menus
+* Register Sidebars
+* Create Required Pages
+* Setup Theme Options
+* Setup Default Settings
+* Enable WooCommerce Support
+* Setup Image Sizes
+* Flush Rewrite Rules در زمان مناسب
+* ایجاد صفحات لازم
+* Setup Default Homepage
+* ایجاد Demo Data در صورت انتخاب کاربر
+
+---
+
+# 17. Demo Content
+
+حداقل چند Demo Store آماده کن.
+
+مثلاً:
+
+### Demo 1
+
+Modern Fashion
+
+### Demo 2
+
+Electronics
+
+### Demo 3
+
+General Store
+
+کاربر بتواند یکی را انتخاب کند.
+
+هر Demo باید شامل:
+
+* Homepage
+* Header
+* Footer
+* Categories
+* Sample Products
+* Banners
+* Blog
+* Colors
+
+باشد.
+
+اما محصولات واقعی WooCommerce باید قابل حذف باشند.
+
+---
+
+# 18. سه Theme Preset اصلی
+
+از ابتدا **3 Preset حرفه‌ای** برای رنگ‌بندی قالب قرار بده.
+
+### Preset 01 — Classic Red
+
+* White
+* Red
+* Dark
+
+### Preset 02 — Modern Blue
+
+* White
+* Blue
+* Dark Navy
+
+### Preset 03 — Luxury Green
+
+* White
+* Deep Green
+* Dark
+
+نام و رنگ‌ها را حرفه‌ای انتخاب کن.
+
+Presetها باید از طریق Theme Settings قابل انتخاب باشند.
+
+---
+
+# 19. سیستم ذخیره Theme Color
+
+یک سیستم حرفه‌ای برای Color Preset بساز.
+
+کاربر بتواند:
+
+### Create New Theme
+
+مثلاً:
+
+**قرمز فروشگاهی**
+
+Primary:
+Red
+
+Secondary:
+White
+
+Accent:
+Dark
+
+بعد:
+
+**Save**
+
+را بزند.
+
+---
+
+# 20. Multiple Saved Themes
+
+کاربر بتواند چند Theme ذخیره کند.
+
+مثلاً:
+
+* قرمز فروشگاهی
+* آبی مدرن
+* سبز لوکس
+* مشکی طلایی
+
+هر Preset شامل:
+
+* Primary Color
+* Secondary Color
+* Accent Color
+* Background
+* Text
+* Border
+* Button
+* Header
+* Footer
+
+باشد.
+
+---
+
+# 21. مدیریت Presetها
+
+کاربر بتواند:
+
+* Create
+* Edit
+* Duplicate
+* Activate
+* Delete
+
+انجام دهد.
+
+مثلاً:
+
+Saved Themes
+
+---
+
+● قرمز فروشگاهی
+Active
+
+[Edit] [Duplicate] [Delete]
+
+---
+
+● آبی مدرن
+
+[Activate] [Edit] [Duplicate] [Delete]
+
+---
+
+● سبز لوکس
+
+[Activate] [Edit] [Duplicate] [Delete]
+
+---
+
+# 22. CSS Architecture برای رنگ‌ها
+
+رنگ‌ها را Hard-code نکن.
+
+از CSS Variables استفاده کن.
+
+مثلاً:
+
+--theme-primary
+--theme-secondary
+--theme-accent
+--theme-background
+--theme-text
+--theme-border
+--theme-button
+
+تنظیمات WordPress باید این Variables را کنترل کنند.
+
+---
+
+# 23. Live Preview
+
+در صورت امکان، هنگام تغییر رنگ‌ها Preview زنده نمایش بده.
+
+کاربر بتواند رنگ را تغییر دهد و نتیجه را ببیند.
+
+بعد:
+
+**Save Theme**
+
+را بزند.
+
+---
+
+# 24. آموزش داخل قالب
+
+یک بخش کامل:
+
+# آموزش استفاده از قالب
+
+داخل پیشخوان ایجاد کن.
+
+این بخش باید همیشه در دسترس باشد.
+
+آموزش‌ها دسته‌بندی شوند:
+
+### شروع کار
+
+* نصب قالب
+* Setup Wizard
+* تنظیمات اولیه
+
+### فروشگاه
+
+* ساخت محصول
+* محصول متغیر
+* دسته‌بندی
+* ویژگی‌ها
+* موجودی
+
+### سفارش‌ها
+
+* مشاهده سفارش
+* تغییر وضعیت
+* مدیریت مشتری
+
+### پرداخت
+
+* نصب درگاه
+* تنظیم درگاه
+* تست پرداخت
+
+### ظاهر سایت
+
+* تغییر رنگ
+* تغییر Logo
+* Header
+* Footer
+* Homepage
+
+### وبلاگ
+
+* ساخت مقاله
+* دسته‌بندی
+* تصویر شاخص
+
+### تنظیمات قالب
+
+* Theme Options
+* Presets
+* Social Media
+* Contact
+
+---
+
+# 25. Onboarding Tutorial
+
+اولین بار که کاربر وارد WordPress شد، یک Tutorial کوتاه نمایش بده.
+
+مثلاً:
+
+مرحله 1:
+ساخت محصول
+
+مرحله 2:
+ساخت دسته‌بندی
+
+مرحله 3:
+تنظیم درگاه
+
+مرحله 4:
+تنظیم ارسال
+
+مرحله 5:
+تنظیم ظاهر
+
+مرحله 6:
+انتشار فروشگاه
+
+کاربر بتواند:
+
+**Skip Tutorial**
+
+را نیز بزند.
+
+---
+
+# 26. آموزش Contextual
+
+در کنار تنظیمات مهم، Help Box قرار بده.
+
+مثلاً در بخش Product:
+
+> برای اضافه کردن محصول جدید، از مسیر WooCommerce → Products استفاده کنید.
+
+در بخش Payment:
+
+> درگاه پرداخت باید از طریق WooCommerce نصب و تنظیم شود.
+
+در بخش رنگ:
+
+> یک Preset جدید ایجاد کنید تا بتوانید بعداً بین رنگ‌بندی‌ها جابه‌جا شوید.
+
+---
+
+# 27. Payment Gateway
+
+سیستم پرداخت باید **کاملاً بر پایه WooCommerce** باشد.
+
+قالب نباید سیستم پرداخت اختصاصی ایجاد کند.
+
+مثلاً اگر کاربر افزونه رسمی/معتبر:
+
+**ZarinPal WooCommerce Gateway**
+
+را نصب کرد، قالب باید با آن کار کند.
+
+قالب نباید:
+
+* API پرداخت اختصاصی ایجاد کند
+* اطلاعات کارت ذخیره کند
+* سیستم پرداخت موازی بسازد
+* اطلاعات حساس پرداخت را مدیریت کند
+
+Payment Gateway باید توسط WooCommerce و Plugin Gateway مدیریت شود.
+
+---
+
+# 28. Compatibility
+
+قالب باید با نسخه‌های جدید:
+
+* WordPress
+* WooCommerce
+* PHP
+
+سازگار باشد.
+
+از Deprecated APIها استفاده نکن.
+
+از Functionهای قدیمی بدون دلیل استفاده نکن.
+
+---
+
+# 29. Security Audit
+
+امنیت را جدی بگیر.
+
+قبل از تحویل، کل پروژه را Security Audit کن.
+
+موارد زیر را بررسی کن:
+
+### PHP
+
+* SQL Injection
+* XSS
+* CSRF
+* RCE
+* File Inclusion
+* Path Traversal
+* Arbitrary File Upload
+* Privilege Escalation
+* Object Injection
+
+### WordPress
+
+* Nonce
+* Capability Checks
+* Sanitization
+* Validation
+* Escaping
+* Secure AJAX
+* REST API permissions
+* Admin permissions
+* Direct File Access
+
+---
+
+# 30. Sanitization
+
+تمام ورودی‌های کاربر را بررسی کن.
+
+استفاده صحیح از:
+
+* sanitize_text_field
+* sanitize_email
+* sanitize_url
+* absint
+* wp_kses_post
+* sanitize_key
+
+و موارد مناسب دیگر.
+
+---
+
+# 31. Escaping
+
+تمام Outputها را بر اساس Context Escape کن.
+
+مثلاً:
+
+* esc_html
+* esc_attr
+* esc_url
+* wp_kses_post
+
+هیچ User Inputای را مستقیم چاپ نکن.
+
+---
+
+# 32. Nonce
+
+برای:
+
+* Forms
+* AJAX
+* Settings
+* Delete actions
+* Save actions
+* Import actions
+
+از Nonce استفاده کن.
+
+Nonce را فقط کافی ندان؛ Capability Check هم انجام بده.
+
+---
+
+# 33. Capability
+
+هر عملیات Admin را با Permission مناسب محافظت کن.
+
+مثلاً:
+
+current_user_can()
+
+را در عملیات حساس بررسی کن.
+
+کاربر عادی نباید بتواند:
+
+* Theme Settings را تغییر دهد
+* Preset حذف کند
+* Demo Import کند
+* Plugin Management انجام دهد
+
+---
+
+# 34. Database Security
+
+از SQL Queryهای ناامن جلوگیری کن.
+
+در صورت نیاز به `$wpdb`:
+
+از:
+
+`$wpdb->prepare()`
+
+استفاده کن.
+
+هیچ SQL Queryای را با User Input به صورت مستقیم concatenate نکن.
+
+---
+
+# 35. AJAX Security
+
+هر AJAX Action باید:
+
+* Nonce
+* Capability
+* Input Validation
+* Sanitization
+
+داشته باشد.
+
+---
+
+# 36. File Upload Security
+
+اگر امکان Upload فایل وجود دارد:
+
+* MIME Type
+* Extension
+* File Type
+* User Capability
+
+بررسی شود.
+
+از Upload فایل اجرایی خطرناک جلوگیری کن.
+
+---
+
+# 37. Demo Import Security
+
+Demo Import باید محدود به Administrator باشد.
+
+فایل‌های Import را Validate کن.
+
+از اجرای PHP یا فایل ناشناخته هنگام Import جلوگیری کن.
+
+---
+
+# 38. No Secrets in Theme
+
+هیچ:
+
+* API Key
+* Password
+* Secret
+* Token
+* Payment Credential
+
+را داخل Theme قرار نده.
+
+---
+
+# 39. Performance
+
+قالب باید سریع باشد.
+
+بررسی کن:
+
+* CSS
+* JS
+* Images
+* Lazy Loading
+* Font Loading
+* Asset Loading
+* Query Count
+* Database Calls
+
+فقط Scriptهایی را Load کن که واقعاً لازم هستند.
+
+---
+
+# 40. Admin Performance
+
+Theme Dashboard نباید WordPress Admin را سنگین کند.
+
+Assetهای Admin را فقط در صفحات Theme Dashboard Load کن.
+
+---
+
+# 41. Front-End Performance
+
+Assetهای مربوط به Theme Dashboard نباید در Front-End Load شوند.
+
+همچنین:
+
+* Gutenberg Assets
+* WooCommerce Assets
+* Admin Assets
+
+را بی‌دلیل در همه صفحات Load نکن.
+
+---
+
+# 42. Accessibility
+
+قالب باید:
+
+* Keyboard Friendly
+* Screen Reader Friendly
+* Semantic
+* Accessible
+
+باشد.
+
+Focus State مناسب ایجاد کن.
+
+---
+
+# 43. RTL / فارسی
+
+قالب باید برای زبان فارسی و RTL آماده باشد.
+
+از:
+
+`rtl.css`
+
+یا معماری RTL مناسب استفاده کن.
+
+موارد زیر را تست کن:
+
+* Header
+* Menu
+* Product Grid
+* Sidebar
+* Checkout
+* Forms
+* Tables
+* Dashboard
+
+هیچ Layoutی در RTL خراب نشود.
+
+---
+
+# 44. Translation Ready
+
+تمام Stringهای قابل نمایش را Translation Ready کن.
+
+از:
+
+* `__()`
+* `_e()`
+* `esc_html__()`
+* `esc_attr__()`
+
+و Text Domain مناسب استفاده کن.
+
+---
+
+# 45. WordPress Coding Standards
+
+کد را بر اساس WordPress Coding Standards بنویس.
+
+نام‌گذاری مناسب.
+
+Indentation مناسب.
+
+Comment فقط جایی که لازم است.
+
+کد Dead حذف شود.
+
+کد تکراری Refactor شود.
+
+---
+
+# 46. Theme Options نباید محتوا را قفل کنند
+
+کاربر باید بتواند محتوای سایت را از WordPress مدیریت کند.
+
+Theme Options برای:
+
+* Global Settings
+* Appearance
+* Layout
+* Branding
+* Header
+* Footer
+* Global Components
+
+استفاده شود.
+
+محصولات فقط از WooCommerce.
+
+Posts فقط از WordPress.
+
+---
+
+# 47. صفحه اصلی
+
+Homepage را تا حد امکان Component-Based بساز.
+
+هر Section باید قابل کنترل باشد.
+
+مثلاً:
+
+Hero
+
+* Enable/Disable
+* Title
+* Description
+* Image
+* Button
+* Link
+
+Featured Products
+
+* Enable/Disable
+* Title
+* Product Source
+* Number
+* Columns
+
+Banner
+
+* Enable/Disable
+* Image
+* Title
+* Button
+* Link
+
+و غیره.
+
+---
+
+# 48. Reusable Components
+
+اجزایی مثل:
+
+* Product Card
+* Button
+* Badge
+* Section Heading
+* Banner
+* Icon Button
+* Modal
+* Breadcrumb
+
+را Reusable بساز.
+
+---
+
+# 49. هیچ Emoji
+
+در Front-End و Admin UI:
+
+**از Emoji برای UI استفاده نکن.**
+
+از Icon Library واقعی استفاده کن.
+
+مثلاً:
+
+* SVG
+* Bootstrap Icons
+* Lucide
+* Font Awesome
+
+هر Icon باید از یک سیستم یکپارچه استفاده کند.
+
+---
+
+# 50. Theme Documentation
+
+داخل Theme یک Documentation کامل ایجاد کن.
+
+حداقل شامل:
+
+* Installation
+* Setup
+* WooCommerce
+* Products
+* Categories
+* Payment
+* Shipping
+* Header
+* Footer
+* Homepage
+* Colors
+* Presets
+* Blog
+* Troubleshooting
+* FAQ
+* Security
+* Updates
+
+باشد.
+
+---
+
+# 51. Theme Setup Checker
+
+در Theme Dashboard یک بخش:
+
+## System Status
+
+ایجاد کن.
+
+مثلاً:
+
+WordPress
+✓ Compatible
+
+PHP
+✓ Compatible
+
+WooCommerce
+✓ Installed
+
+ACF
+✓ Installed
+
+PHP Memory
+✓ 256 MB
+
+Uploads
+✓ Writable
+
+Permalinks
+✓ Configured
+
+WooCommerce Pages
+✓ Configured
+
+Payment
+⚠ Not Configured
+
+---
+
+# 52. Error Handling
+
+هیچ Error مهمی نباید باعث White Screen شود.
+
+در صورت Missing Plugin:
+
+قالب باید Gracefully Degrade کند.
+
+مثلاً اگر ACF نصب نبود:
+
+قالب نباید Fatal Error بدهد.
+
+به جای آن:
+
+> برای فعال شدن تنظیمات پیشرفته قالب، افزونه Advanced Custom Fields را نصب کنید.
+
+نمایش بده.
+
+---
+
+# 53. عدم وابستگی خطرناک
+
+Theme نباید به گونه‌ای نوشته شود که بدون یک Plugin خاص کل سایت از کار بیفتد.
+
+WooCommerce Integration باید Conditional باشد.
+
+مثلاً:
+
+if ( class_exists( 'WooCommerce' ) )
+
+---
+
+# 54. Testing
+
+قبل از تحویل پروژه، تست کامل انجام بده.
+
+حداقل:
+
+### Front-End
+
+* Homepage
+* Shop
+* Product
+* Cart
+* Checkout
+* Account
+* Search
+* Blog
+* 404
+
+### Admin
+
+* Theme Dashboard
+* Options
+* Presets
+* Plugin Status
+* Tutorial
+* Demo Import
+
+### WooCommerce
+
+* Product
+* Variable Product
+* Cart
+* Coupon
+* Checkout
+* Order
+
+### Responsive
+
+* Desktop
+* Tablet
+* Mobile
+
+### RTL
+
+* Full RTL Test
+
+### Security
+
+* Input Validation
+* XSS
+* CSRF
+* Capability
+* Nonce
+* SQL Injection
+* File Upload
+
+---
+
+# 55. Final Quality Gate
+
+قبل از اینکه پروژه را تمام‌شده اعلام کنی، این سؤال را از خودت بپرس:
+
+> آیا این Theme را می‌توانم به عنوان یک Premium WooCommerce Theme منتشر کنم؟
+
+اگر جواب نه است، مشکلات را اصلاح کن.
+
+---
+
+# 56. مهم‌ترین اصل
+
+من یک **HTML را نمی‌خواهم که PHP شده باشد.**
+
+من یک:
+
+**Professional WordPress WooCommerce Theme**
+
+می‌خواهم.
+
+یعنی:
+
+HTML
+↓
+WordPress Architecture
+↓
+Dynamic Content
+↓
+WooCommerce
+↓
+ACF Options
+↓
+Theme Dashboard
+↓
+Setup Wizard
+↓
+Plugin Checker
+↓
+Theme Presets
+↓
+Documentation
+↓
+Security Audit
+↓
+Performance Optimization
+↓
+Production Ready
+
+---
+
+# 57. ترتیب اجرای پروژه
+
+پروژه را در این ترتیب انجام بده:
+
+### Phase 1
+
+Analyze Current HTML
+
+### Phase 2
+
+Design WordPress Architecture
+
+### Phase 3
+
+Convert Static Components → PHP Components
+
+### Phase 4
+
+WordPress Core Integration
+
+### Phase 5
+
+WooCommerce Integration
+
+### Phase 6
+
+ACF + Option Pages
+
+### Phase 7
+
+Theme Dashboard
+
+### Phase 8
+
+Plugin Checker
+
+### Phase 9
+
+Setup Wizard
+
+### Phase 10
+
+Theme Color System
+
+### Phase 11
+
+3 Default Presets
+
+### Phase 12
+
+Demo Import
+
+### Phase 13
+
+Tutorial System
+
+### Phase 14
+
+RTL + Translation
+
+### Phase 15
+
+Security Audit
+
+### Phase 16
+
+Performance Optimization
+
+### Phase 17
+
+Testing
+
+### Phase 18
+
+Final Cleanup
+
+---
+
+# 58. در پایان
+
+بعد از اتمام پروژه یک گزارش نهایی ارائه بده:
+
+## Theme Architecture
+
+چه ساختاری ساخته شد.
+
+## Installed Dependencies
+
+چه Pluginهایی لازم هستند.
+
+## WooCommerce
+
+چه بخش‌هایی Integration شده.
+
+## Theme Options
+
+چه تنظیماتی ساخته شد.
+
+## Presets
+
+چه Presetهایی ساخته شد.
+
+## Setup Wizard
+
+چه چیزهایی خودکار می‌شوند.
+
+## Tutorial
+
+چه آموزش‌هایی وجود دارد.
+
+## Security
+
+چه مواردی بررسی و اصلاح شدند.
+
+## Performance
+
+چه Optimizationهایی انجام شد.
+
+## Compatibility
+
+نسخه‌های مورد انتظار WordPress / PHP / WooCommerce.
+
+## Remaining Issues
+
+اگر هر مشکلی باقی مانده، دقیقاً اعلام کن.
+
+---
+
+**قانون نهایی:**
+
+کد را فقط برای "کار کردن" ننویس.
+
+کد باید:
+
+**Secure + Maintainable + Scalable + Responsive + Accessible + Performant + WordPress-Native + WooCommerce-Native**
+
+باشد.
+
+و UI باید در سطح یک **Premium Commercial WordPress Theme** باقی بماند.
