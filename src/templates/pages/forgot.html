@@ -1,0 +1,49 @@
+<section class="auth" style="grid-template-columns:1fr">
+  <div class="auth__form-wrap">
+    <div class="auth-card" data-forgot>
+      <form data-auth-form="forgot" data-forgot-step="1" novalidate>
+        <div class="auth-card__head" style="margin-block-end:var(--space-5)">
+          <span class="newsletter__icon" style="margin-inline:auto">{{icon "key" size="lg"}}</span>
+          <h1 class="auth-card__title">{{t "auth.forgotTitle"}}</h1>
+          <p class="auth-card__sub">{{t "auth.forgotSub"}}</p>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="forgot-id">{{t "auth.identifier"}} <span class="req">*</span></label>
+          <div class="input-icon"><span class="icon icon--sm linear-icon-user" aria-hidden="true"></span><input id="forgot-id" class="form-control" name="identifier" autocomplete="username" placeholder="{{t "auth.identifierPlaceholder"}}" required data-validate="identifier" dir="ltr"></div>
+          <span class="form-error" role="alert"></span>
+        </div>
+        <button type="submit" class="btn btn--primary btn--lg btn--block" style="margin-block-start:var(--space-5)">{{t "auth.sendCode"}}</button>
+        <p class="auth-card__footer" style="margin-block-start:var(--space-5)"><a href="{{root}}login.html">{{icon "arrow-right" size="xs" class="icon--flip-ltr"}} {{t "auth.backToLogin"}}</a></p>
+      </form>
+
+      <form data-auth-form="otp" data-forgot-step="2" hidden novalidate>
+        <div class="auth-card__head" style="margin-block-end:var(--space-5)">
+          <span class="newsletter__icon" style="margin-inline:auto">{{icon "smartphone" size="lg"}}</span>
+          <h2 class="auth-card__title">{{t "auth.otpTitle"}}</h2>
+          <p class="auth-card__sub" data-otp-sub></p>
+        </div>
+        <div class="form-group">
+          <span class="form-label visually-hidden">{{t "auth.otpTitle"}}</span>
+          <div class="otp" data-otp>
+            <input class="form-control" type="text" inputmode="numeric" maxlength="1" aria-label="1" autocomplete="one-time-code">
+            <input class="form-control" type="text" inputmode="numeric" maxlength="1" aria-label="2">
+            <input class="form-control" type="text" inputmode="numeric" maxlength="1" aria-label="3">
+            <input class="form-control" type="text" inputmode="numeric" maxlength="1" aria-label="4">
+            <input class="form-control" type="text" inputmode="numeric" maxlength="1" aria-label="5">
+          </div>
+          <span class="form-error" role="alert" style="justify-content:center"></span>
+        </div>
+        <button type="submit" class="btn btn--primary btn--lg btn--block" style="margin-block-start:var(--space-5)">{{t "auth.verify"}}</button>
+        <p class="auth-card__footer" style="margin-block-start:var(--space-4)"><button type="button" class="btn btn--link" data-otp-resend disabled>{{t "auth.resend"}}</button></p>
+      </form>
+
+      <div data-forgot-step="3" hidden>
+        <div class="success-box" style="padding-block:var(--space-4)">
+          <span class="success-box__icon">{{icon "checkmark-circle" size="xl"}}</span>
+          <h2 class="h4">{{t "auth.loginSuccess"}}</h2>
+          <a class="btn btn--primary" href="{{root}}account.html">{{t "account.dashboard"}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

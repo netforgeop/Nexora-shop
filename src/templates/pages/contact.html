@@ -1,0 +1,35 @@
+<section class="section section--sm">
+  <div class="container">
+    <div class="page-head__inner" style="margin-block-end:var(--space-7)">
+      <div><h1 class="h3">{{t "nav.contact"}}</h1><p class="text-muted">{{#if lang == "fa"}}تیم پشتیبانی نکسورا هر روز هفته آماده پاسخگویی به شماست.{{else}}The Nexora support team is here for you every day of the week.{{/if}}</p></div>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="stack">
+          <div class="card-surface card-surface--pad" style="display:flex;gap:var(--space-4)"><span class="trust-item__icon">{{icon "telephone"}}</span><div><div class="fw-bold text-strong">{{t "footer.phoneLabel"}}</div><a class="ltr" href="tel:+982191008800">{{t "header.phone"}}</a><div class="small text-muted">{{t "footer.hours"}}</div></div></div>
+          <div class="card-surface card-surface--pad" style="display:flex;gap:var(--space-4)"><span class="trust-item__icon">{{icon "envelope"}}</span><div><div class="fw-bold text-strong">{{t "footer.emailLabel"}}</div><a class="ltr" href="mailto:{{t "footer.email"}}">{{t "footer.email"}}</a></div></div>
+          <div class="card-surface card-surface--pad" style="display:flex;gap:var(--space-4)"><span class="trust-item__icon">{{icon "map-marker"}}</span><div><div class="fw-bold text-strong">{{t "footer.addressLabel"}}</div><p class="small">{{t "footer.address"}}</p></div></div>
+          <div class="card-surface card-surface--pad"><div class="fw-bold text-strong" style="margin-block-end:var(--space-3)">{{t "footer.socials"}}</div><ul class="social"><li><a class="social__link" href="#" aria-label="Instagram" style="background:var(--color-surface);color:var(--color-text-strong)">{{svg "i-instagram"}}</a></li><li><a class="social__link" href="#" aria-label="Telegram" style="background:var(--color-surface);color:var(--color-text-strong)">{{svg "i-telegram"}}</a></li><li><a class="social__link" href="#" aria-label="WhatsApp" style="background:var(--color-surface);color:var(--color-text-strong)">{{svg "i-whatsapp"}}</a></li><li><a class="social__link" href="#" aria-label="LinkedIn" style="background:var(--color-surface);color:var(--color-text-strong)">{{svg "i-linkedin"}}</a></li></ul></div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <form class="card-surface card-surface--pad" data-contact-form novalidate>
+          <h2 class="h4" style="margin-block-end:var(--space-5)">{{#if lang == "fa"}}فرم تماس{{else}}Contact form{{/if}}</h2>
+          <div class="form-row">
+            <div class="form-group"><label class="form-label" for="ct-name">{{t "blog.name"}} <span class="req">*</span></label><input id="ct-name" class="form-control" name="name" required data-minlength="3" autocomplete="name"><span class="form-error" role="alert"></span></div>
+            <div class="form-group"><label class="form-label" for="ct-email">{{t "auth.email"}} <span class="req">*</span></label><input id="ct-email" class="form-control" name="email" type="email" required data-validate="email" dir="ltr" autocomplete="email"><span class="form-error" role="alert"></span></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label class="form-label" for="ct-phone">{{t "auth.phone"}}</label><input id="ct-phone" class="form-control" name="phone" type="tel" data-validate="phone" dir="ltr" autocomplete="tel"><span class="form-error" role="alert"></span></div>
+            <div class="form-group"><label class="form-label" for="ct-subject">{{#if lang == "fa"}}موضوع{{else}}Subject{{/if}} <span class="req">*</span></label><select id="ct-subject" class="form-control" name="subject" required><option value="">{{t "common.select"}}</option><option>{{t "nav.trackOrder"}}</option><option>{{t "nav.returns"}}</option><option>{{t "nav.payment"}}</option><option>{{t "nav.sellers"}}</option><option>{{#if lang == "fa"}}سایر{{else}}Other{{/if}}</option></select><span class="form-error" role="alert"></span></div>
+          </div>
+          <div class="form-group"><label class="form-label" for="ct-msg">{{#if lang == "fa"}}پیام شما{{else}}Your message{{/if}} <span class="req">*</span></label><textarea id="ct-msg" class="form-control" name="message" rows="5" required data-minlength="20"></textarea><span class="form-error" role="alert"></span></div>
+          <div class="cluster" style="margin-block-start:var(--space-5)"><button type="submit" class="btn btn--primary">{{icon "paper-plane" size="xs"}}{{#if lang == "fa"}}ارسال پیام{{else}}Send message{{/if}}</button></div>
+        </form>
+      </div>
+    </div>
+    <div class="card-surface" style="margin-block-start:var(--space-7);aspect-ratio:21/7;min-block-size:220px;display:grid;place-items:center;background:var(--color-surface) repeating-linear-gradient(45deg, transparent 0 18px, rgba(0,0,0,.025) 18px 36px);color:var(--color-text-muted)" aria-label="Map">
+      <div style="display:grid;justify-items:center;gap:var(--space-2)">{{icon "map-marker" size="xl"}}<span>{{t "footer.address"}}</span></div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,14 @@
+<section class="section section--sm" data-compare-page>
+  <div class="container">
+    <div class="wishlist-head">
+      <h1 class="h3">{{icon "compare" size="md"}} {{t "compare.heading"}}</h1>
+      <button type="button" class="btn btn--ghost btn--sm text-danger" data-compare-clear-page hidden>{{icon "trash2" size="xs"}}{{t "compare.clear"}}</button>
+    </div>
+    <div class="table-scroll card-surface" data-compare-filled hidden>
+      <table class="compare-table" data-compare-table></table>
+    </div>
+    <div data-compare-empty hidden>
+      {{{empty iconName="compare" title=L.compare.empty text=L.compare.emptyText cta=L.common.goToShop href=shopHref}}}
+    </div>
+  </div>
+</section>

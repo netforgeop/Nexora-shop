@@ -1,0 +1,67 @@
+<section class="section section--sm" data-account-page>
+  <div class="container">
+    <div class="with-sidebar">
+      <aside class="with-sidebar__aside">{{> account-nav}}</aside>
+      <div>
+        <div class="account-panel">
+          <div class="account-panel__head">
+            <div><h1 class="account-panel__title">{{t "account.welcome" name="سارا"}}</h1><p class="text-muted small">{{t "account.welcomeText"}}</p></div>
+            <span class="status status--info">{{icon "medal-first" size="xs"}}{{t "account.memberSince"}}</span>
+          </div>
+          <div class="stat-grid">
+            <div class="stat"><span class="stat__icon">{{icon "box"}}</span><div><div class="stat__value">{{digits 6}}</div><div class="stat__label">{{t "account.statOrders"}}</div></div></div>
+            <div class="stat"><span class="stat__icon">{{icon "hourglass"}}</span><div><div class="stat__value">{{digits 1}}</div><div class="stat__label">{{t "account.statPending"}}</div></div></div>
+            <div class="stat"><span class="stat__icon">{{icon "heart"}}</span><div><div class="stat__value" data-count="wishlist">0</div><div class="stat__label">{{t "account.statWishlist"}}</div></div></div>
+            <div class="stat"><span class="stat__icon">{{icon "diamond"}}</span><div><div class="stat__value">{{num 2450}}</div><div class="stat__label">{{t "account.statPoints"}}</div></div></div>
+          </div>
+        </div>
+
+        <div class="account-panel">
+          <div class="account-panel__head"><h2 class="account-panel__title">{{t "account.recentOrders"}}</h2><a class="link--arrow small" href="{{root}}account-orders.html">{{t "account.viewAllOrders"}}{{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</a></div>
+          <div class="table-scroll">
+            <table class="data-table">
+              <thead><tr><th scope="col">{{t "account.orderId"}}</th><th scope="col">{{t "account.orderDate"}}</th><th scope="col">{{t "account.orderItems"}}</th><th scope="col">{{t "account.orderTotal"}}</th><th scope="col">{{t "account.orderStatus"}}</th><th scope="col"><span class="visually-hidden">{{t "common.details"}}</span></th></tr></thead>
+              <tbody>
+                {{#each orders}}
+                {{#if this.recent}}
+                <tr>
+                  <td><span class="num ltr">{{this.code}}</span></td>
+                  <td>{{this.date}}</td>
+                  <td><div class="data-table__thumbs">{{#each this.items}}<img src="{{root}}assets/img/{{this.product.image}}" width="40" height="40" alt="{{this.product.name}}" loading="lazy">{{/each}}</div></td>
+                  <td><span class="num">{{price this.total}}</span></td>
+                  <td><span class="status status--{{this.statusClass}}">{{this.statusLabel}}</span></td>
+                  <td><a class="btn btn--outline btn--sm" href="{{root}}account-order.html?order={{this.code}}">{{t "account.viewOrder"}}</a></td>
+                </tr>
+                {{/if}}
+                {{/each}}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="account-panel" style="block-size:100%">
+              <div class="account-panel__head"><h2 class="account-panel__title">{{t "account.addresses"}}</h2><a class="link--arrow small" href="{{root}}account-addresses.html">{{t "common.edit"}}{{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</a></div>
+              <div class="address-card is-default" style="border-style:dashed">
+                <div class="address-card__title">{{icon "home" size="xs"}}{{#if lang == "fa"}}خانه{{else}}Home{{/if}} <span class="badge badge--discount">{{t "account.default"}}</span></div>
+                <p class="address-card__text">{{t "footer.address"}}</p>
+                <div class="address-card__meta">{{t "account.userName"}} · <span class="ltr">{{t "account.userPhone"}}</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="account-panel" style="block-size:100%">
+              <div class="account-panel__head"><h2 class="account-panel__title">{{t "account.profile"}}</h2><a class="link--arrow small" href="{{root}}account-profile.html">{{t "common.edit"}}{{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</a></div>
+              <dl class="stack--sm small" style="display:grid;grid-template-columns:auto 1fr;gap:var(--space-2) var(--space-4)">
+                <dt class="text-muted">{{t "auth.fullName"}}</dt><dd class="fw-medium" data-user-name>{{t "account.userName"}}</dd>
+                <dt class="text-muted">{{t "auth.email"}}</dt><dd class="fw-medium ltr" data-user-email>{{t "account.userEmail"}}</dd>
+                <dt class="text-muted">{{t "auth.phone"}}</dt><dd class="fw-medium ltr">{{t "account.userPhone"}}</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

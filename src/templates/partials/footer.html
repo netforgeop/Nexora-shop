@@ -1,0 +1,105 @@
+<footer class="site-footer" id="site-footer">
+  <div class="footer-features">
+    <div class="container">
+      <div class="footer-features__grid">
+        <div class="footer-feature"><span class="footer-feature__icon">{{icon "truck"}}</span><div><div class="footer-feature__title">{{t "footer.f1Title"}}</div><div class="footer-feature__text">{{t "footer.f1Text"}}</div></div></div>
+        <div class="footer-feature"><span class="footer-feature__icon">{{icon "undo"}}</span><div><div class="footer-feature__title">{{t "footer.f2Title"}}</div><div class="footer-feature__text">{{t "footer.f2Text"}}</div></div></div>
+        <div class="footer-feature"><span class="footer-feature__icon">{{icon "shield-check"}}</span><div><div class="footer-feature__title">{{t "footer.f3Title"}}</div><div class="footer-feature__text">{{t "footer.f3Text"}}</div></div></div>
+        <div class="footer-feature"><span class="footer-feature__icon">{{icon "lock"}}</span><div><div class="footer-feature__title">{{t "footer.f4Title"}}</div><div class="footer-feature__text">{{t "footer.f4Text"}}</div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-main">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a class="brand brand--light" href="{{root}}index.html" aria-label="{{L.meta.siteName}}">
+            <span class="brand__mark">{{svg "i-logo"}}</span>
+            <span class="brand__text"><span>{{L.meta.siteNameLatin}}</span><span class="brand__tag">{{L.meta.tagline}}</span></span>
+          </a>
+          <p class="footer-about">{{t "footer.about"}}</p>
+          <div class="footer-contact">
+            <div class="footer-contact__item">{{icon "map-marker" size="sm"}}<div><span class="footer-contact__label">{{t "footer.addressLabel"}}</span>{{t "footer.address"}}</div></div>
+            <div class="footer-contact__item">{{icon "telephone" size="sm"}}<div><span class="footer-contact__label">{{t "footer.phoneLabel"}}</span><a class="ltr" href="tel:+982191008800">{{t "header.phone"}}</a> <span class="text-muted small">({{t "footer.hours"}})</span></div></div>
+            <div class="footer-contact__item">{{icon "envelope" size="sm"}}<div><span class="footer-contact__label">{{t "footer.emailLabel"}}</span><a class="ltr" href="mailto:{{t "footer.email"}}">{{t "footer.email"}}</a></div></div>
+          </div>
+        </div>
+
+        <nav class="footer-col" aria-labelledby="footer-quick">
+          <h2 class="footer-col__title" id="footer-quick">{{t "footer.quickLinks"}}</h2>
+          <ul class="footer-links">
+            <li><a href="{{root}}about.html">{{t "nav.about"}}</a></li>
+            <li><a href="{{root}}contact.html">{{t "nav.contact"}}</a></li>
+            <li><a href="{{root}}blog.html">{{t "nav.blog"}}</a></li>
+            <li><a href="{{root}}about.html#careers">{{t "nav.careers"}}</a></li>
+            <li><a href="{{root}}about.html#sellers">{{t "nav.sellers"}}</a></li>
+            <li><a href="{{root}}faq.html">{{t "nav.faq"}}</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-col" aria-labelledby="footer-service">
+          <h2 class="footer-col__title" id="footer-service">{{t "footer.customerService"}}</h2>
+          <ul class="footer-links">
+            <li><a href="{{root}}account-orders.html">{{t "nav.trackOrder"}}</a></li>
+            <li><a href="{{root}}faq.html#shipping">{{t "nav.shipping"}}</a></li>
+            <li><a href="{{root}}faq.html#returns">{{t "nav.returns"}}</a></li>
+            <li><a href="{{root}}faq.html#payment">{{t "nav.payment"}}</a></li>
+            <li><a href="{{root}}terms.html">{{t "nav.terms"}}</a></li>
+            <li><a href="{{root}}terms.html#privacy">{{t "nav.privacy"}}</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-col" aria-labelledby="footer-cats">
+          <h2 class="footer-col__title" id="footer-cats">{{t "footer.categories"}}</h2>
+          <ul class="footer-links">
+            {{#each categories}}<li><a href="{{root}}shop.html?cat={{this.slug}}">{{this.name}}</a></li>{{/each}}
+          </ul>
+        </nav>
+
+        <div class="footer-col">
+          <h2 class="footer-col__title">{{t "footer.newsletterTitle"}}</h2>
+          <form class="footer-newsletter" data-newsletter novalidate>
+            <p class="small" style="color:var(--color-gray-400)">{{t "footer.newsletterText"}}</p>
+            <div class="form-group">
+              <label class="visually-hidden" for="footer-newsletter-email">{{t "footer.newsletterPlaceholder"}}</label>
+              <div class="input-group input-group--attached">
+                <input id="footer-newsletter-email" class="form-control" type="email" name="email" placeholder="{{t "footer.newsletterPlaceholder"}}" autocomplete="email" required dir="ltr">
+                <button type="submit" class="btn btn--primary">{{t "footer.subscribe"}}</button>
+              </div>
+              <span class="form-error" role="alert"></span>
+            </div>
+          </form>
+          <div class="footer-apps">
+            <a class="app-badge" href="#" rel="noopener">{{icon "apple" size="sm"}}<span><small>{{t "footer.onGooglePlay"}}</small>App Store</span></a>
+            <a class="app-badge" href="#" rel="noopener">{{icon "smartphone" size="sm"}}<span><small>{{t "footer.onGooglePlay"}}</small>{{t "footer.googlePlay"}}</span></a>
+          </div>
+          <div class="footer-trust" aria-label="{{t "footer.trust"}}">
+            <a class="footer-trust__badge" href="#" aria-label="eNAMAD">{{svg "i-enamad"}}</a>
+            <a class="footer-trust__badge" href="#" aria-label="Shaparak">{{svg "i-shaparak"}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="footer-bottom__inner">
+        <p>{{t "footer.copyright"}}</p>
+        <ul class="social" aria-label="{{t "footer.socials"}}">
+          <li><a class="social__link" href="#" aria-label="Instagram">{{svg "i-instagram"}}</a></li>
+          <li><a class="social__link" href="#" aria-label="Telegram">{{svg "i-telegram"}}</a></li>
+          <li><a class="social__link" href="#" aria-label="WhatsApp">{{svg "i-whatsapp"}}</a></li>
+          <li><a class="social__link" href="#" aria-label="X">{{svg "i-x"}}</a></li>
+          <li><a class="social__link" href="#" aria-label="LinkedIn">{{svg "i-linkedin"}}</a></li>
+          <li><a class="social__link" href="#" aria-label="YouTube">{{svg "i-youtube"}}</a></li>
+          <li><a class="social__link" href="#" aria-label="Aparat">{{svg "i-aparat"}}</a></li>
+        </ul>
+        <div class="payments" aria-label="{{t "footer.paymentMethods"}}">
+          {{svg "i-shaparak"}}{{svg "i-visa"}}{{svg "i-mastercard"}}
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

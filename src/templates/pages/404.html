@@ -1,0 +1,18 @@
+<section class="error-page container">
+  <div class="error-page__code" aria-hidden="true">404</div>
+  <h1 class="error-page__title">{{t "notFound.heading"}}</h1>
+  <p class="error-page__text">{{t "notFound.text"}}</p>
+  <div class="search" data-search>
+    <form class="search__form" role="search" action="{{root}}search.html" method="get">
+      <label for="err-search" class="visually-hidden">{{t "header.searchLabel"}}</label>
+      <input id="err-search" class="search__input" type="search" name="q" placeholder="{{t "header.searchPlaceholder"}}" autocomplete="off" data-search-input aria-autocomplete="list" aria-controls="err-search-suggest" aria-expanded="false">
+      <button type="submit" class="search__submit" aria-label="{{t "header.search"}}">{{icon "magnifier" size="sm"}}</button>
+    </form>
+    <div class="search__suggest" id="err-search-suggest" role="listbox" data-search-suggest></div>
+  </div>
+  <div class="error-page__links">
+    <a class="btn btn--primary" href="{{root}}index.html">{{icon "home" size="xs"}}{{t "notFound.home"}}</a>
+    <a class="btn btn--outline" href="{{root}}shop.html">{{icon "store" size="xs"}}{{t "notFound.shop"}}</a>
+    <a class="btn btn--ghost" href="{{root}}contact.html">{{icon "headset" size="xs"}}{{t "notFound.contact"}}</a>
+  </div>
+</section>

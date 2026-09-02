@@ -1,0 +1,38 @@
+<section class="section section--sm">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-6">
+        <span class="hero__eyebrow" style="color:var(--color-primary-text)">{{t "nav.about"}}</span>
+        <h1 class="h2" style="margin-block:var(--space-3) var(--space-4)">{{#if lang == "fa"}}خرید آنلاین باید ساده، سریع و قابل اعتماد باشد{{else}}Online shopping should be simple, fast and trustworthy{{/if}}</h1>
+        <div class="prose"><p>{{t "footer.about"}}</p><p>{{#if lang == "fa"}}نکسورا از سال ۱۴۰۲ با تیمی ۸۰ نفره، بیش از ۱۲۰ هزار سفارش را به سراسر کشور ارسال کرده است. تمرکز ما روی سه اصل است: اصالت کالا، شفافیت قیمت و پشتیبانی واقعی.{{else}}Since 2023 a team of 80 people at Nexora has shipped more than 120,000 orders nationwide. We focus on three principles: authentic products, transparent pricing and real support.{{/if}}</p></div>
+        <div class="cluster" style="margin-block-start:var(--space-6)"><a class="btn btn--primary" href="{{root}}shop.html">{{t "common.goToShop"}}</a><a class="btn btn--outline" href="{{root}}contact.html">{{t "nav.contact"}}</a></div>
+      </div>
+      <div class="col-lg-6"><img class="card-surface" style="border-radius:var(--radius-lg)" src="{{img "categories/tile-home.webp"}}" width="800" height="600" alt="" decoding="async"></div>
+    </div>
+  </div>
+</section>
+<section class="stats-band"><div class="container"><div class="stats-band__grid">
+  <div class="stat-big"><span class="stat-big__value">{{t "home.stat1"}}</span><span class="stat-big__label">{{t "home.stat1Label"}}</span></div>
+  <div class="stat-big"><span class="stat-big__value">{{t "home.stat2"}}</span><span class="stat-big__label">{{t "home.stat2Label"}}</span></div>
+  <div class="stat-big"><span class="stat-big__value">{{t "home.stat3"}}</span><span class="stat-big__label">{{t "home.stat3Label"}}</span></div>
+  <div class="stat-big"><span class="stat-big__value">{{t "home.stat4"}}</span><span class="stat-big__label">{{t "home.stat4Label"}}</span></div>
+</div></div></section>
+<section class="section" id="values">
+  <div class="container">
+    <div class="section-head section-head--center"><div><h2 class="section-head__title">{{#if lang == "fa"}}ارزش‌های ما{{else}}Our values{{/if}}</h2></div></div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3"><div class="card-surface card-surface--pad" style="block-size:100%"><span class="trust-item__icon" style="margin-block-end:var(--space-4)">{{icon "shield-check"}}</span><h3 class="h5">{{t "home.trust3Title"}}</h3><p class="small text-muted">{{t "footer.f3Text"}}</p></div></div>
+      <div class="col-md-6 col-lg-3"><div class="card-surface card-surface--pad" style="block-size:100%"><span class="trust-item__icon" style="margin-block-end:var(--space-4)">{{icon "truck"}}</span><h3 class="h5">{{t "home.trust1Title"}}</h3><p class="small text-muted">{{t "footer.f1Text"}}</p></div></div>
+      <div class="col-md-6 col-lg-3"><div class="card-surface card-surface--pad" style="block-size:100%"><span class="trust-item__icon" style="margin-block-end:var(--space-4)">{{icon "undo"}}</span><h3 class="h5">{{t "home.trust4Title"}}</h3><p class="small text-muted">{{t "footer.f2Text"}}</p></div></div>
+      <div class="col-md-6 col-lg-3"><div class="card-surface card-surface--pad" style="block-size:100%"><span class="trust-item__icon" style="margin-block-end:var(--space-4)">{{icon "headset"}}</span><h3 class="h5">{{t "home.stat4Label"}}</h3><p class="small text-muted">{{t "footer.hours"}}</p></div></div>
+    </div>
+  </div>
+</section>
+<section class="section bg-surface" id="careers">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-6"><div class="card-surface card-surface--pad" style="block-size:100%"><h2 class="h4" style="margin-block-end:var(--space-3)">{{t "nav.careers"}}</h2><p class="text-muted">{{#if lang == "fa"}}اگر به ساختن تجربه خرید بهتر علاقه دارید، رزومه خود را برای ما بفرستید.{{else}}If you care about building a better shopping experience, send us your CV.{{/if}}</p><a class="btn btn--dark btn--sm" style="margin-block-start:var(--space-4)" href="mailto:jobs@nexora.shop">jobs@nexora.shop</a></div></div>
+      <div class="col-lg-6" id="sellers"><div class="card-surface card-surface--pad" style="block-size:100%"><h2 class="h4" style="margin-block-end:var(--space-3)">{{t "nav.sellers"}}</h2><p class="text-muted">{{#if lang == "fa"}}محصولات خود را در نکسورا عرضه کنید و به بیش از ۱۲۰ هزار مشتری دسترسی داشته باشید.{{else}}List your products on Nexora and reach more than 120,000 customers.{{/if}}</p><a class="btn btn--primary btn--sm" style="margin-block-start:var(--space-4)" href="{{root}}contact.html">{{t "nav.contact"}}</a></div></div>
+    </div>
+  </div>
+</section>

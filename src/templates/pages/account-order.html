@@ -1,0 +1,79 @@
+<section class="section section--sm" data-account-page data-order-detail>
+  <div class="container">
+    <div class="with-sidebar">
+      <aside class="with-sidebar__aside">{{> account-nav}}</aside>
+      <div>
+        {{#with order}}
+        <div class="account-panel">
+          <div class="account-panel__head">
+            <div>
+              <h1 class="account-panel__title">{{t "account.orderDetail"}} <span class="num ltr text-muted">{{this.code}}</span></h1>
+              <p class="text-muted small">{{t "account.orderDate"}}: {{this.date}}</p>
+            </div>
+            <span class="status status--{{this.statusClass}}">{{this.statusLabel}}</span>
+          </div>
+          <ol class="timeline" aria-label="{{t "common.status"}}">
+            <li class="timeline__step is-done"><span class="timeline__dot">{{icon "check" size="xs"}}</span><span>{{t "account.timelinePlaced"}}</span><span class="timeline__date">{{this.date}}</span></li>
+            <li class="timeline__step {{#if this.stepProcessing}}is-done{{else}}is-active{{/if}}"><span class="timeline__dot">{{icon "cog" size="xs"}}</span><span>{{t "account.timelineProcessing"}}</span></li>
+            <li class="timeline__step {{#if this.stepShipped}}is-done{{else}}{{#if this.stepProcessing}}is-active{{/if}}{{/if}}"><span class="timeline__dot">{{icon "truck" size="xs"}}</span><span>{{t "account.timelineShipped"}}</span></li>
+            <li class="timeline__step {{#if this.stepDelivered}}is-done{{else}}{{#if this.stepShipped}}is-active{{/if}}{{/if}}"><span class="timeline__dot">{{icon "home" size="xs"}}</span><span>{{t "account.timelineDelivered"}}</span></li>
+          </ol>
+          {{#if this.tracking}}<div class="alert alert--info">{{icon "map-marker" size="sm"}}<span>{{t "account.trackingCode"}}: <strong class="ltr">{{this.tracking}}</strong></span></div>{{/if}}
+        </div>
+
+        <div class="account-panel">
+          <h2 class="account-panel__title" style="margin-block-end:var(--space-4)">{{t "account.orderItems"}}</h2>
+          <div class="table-scroll">
+            <table class="data-table">
+              <thead><tr><th scope="col">{{t "cart.product"}}</th><th scope="col">{{t "cart.unitPrice"}}</th><th scope="col">{{t "cart.qty"}}</th><th scope="col">{{t "cart.total"}}</th></tr></thead>
+              <tbody>
+                {{#each this.items}}
+                <tr>
+                  <td><div style="display:flex;gap:var(--space-3);align-items:center"><img src="{{root}}assets/img/{{this.product.image}}" width="56" height="56" alt="" loading="lazy" style="border-radius:var(--radius-sm);border:1px solid var(--color-border)"><div><a class="fw-medium text-strong" href="{{root}}product/{{this.product.slug}}.html">{{this.product.name}}</a><div class="small text-muted">{{this.product.brandName}}</div></div></div></td>
+                  <td><span class="num">{{price this.product.price}}</span></td>
+                  <td><span class="num">{{digits this.qty}}</span></td>
+                  <td><span class="num">{{price this.lineTotal}}</span></td>
+                </tr>
+                {{/each}}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-7">
+            <div class="account-panel" style="block-size:100%">
+              <h2 class="account-panel__title" style="margin-block-end:var(--space-4)">{{t "account.shippingTo"}}</h2>
+              <p>{{t "account.userName"}} · <span class="ltr">{{t "account.userPhone"}}</span></p>
+              <p class="text-muted">{{t "footer.address"}}</p>
+              <hr class="divider">
+              <dl class="small" style="display:grid;grid-template-columns:auto 1fr;gap:var(--space-2) var(--space-4)">
+                <dt class="text-muted">{{t "account.shippingMethod"}}</dt><dd>{{t "checkout.ship2"}}</dd>
+                <dt class="text-muted">{{t "account.paymentMethod"}}</dt><dd>{{t "checkout.pay1"}}</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="summary">
+              <h2 class="summary__title">{{t "cart.summary"}}</h2>
+              <div class="summary__rows">
+                <div class="summary__row"><span>{{t "cart.subtotal"}}</span><span class="num">{{price this.subtotal}}</span></div>
+                <div class="summary__row summary__row--discount"><span>{{t "cart.discount"}}</span><span class="num">− {{price this.discount}}</span></div>
+                <div class="summary__row"><span>{{t "cart.shipping"}}</span><span class="num">{{price this.shipping}}</span></div>
+              </div>
+              <div class="summary__total"><span>{{t "cart.grandTotal"}}</span><span class="num">{{price this.total}}</span></div>
+              <div class="cluster">
+                <button type="button" class="btn btn--dark btn--sm" data-reorder="{{this.code}}">{{icon "refresh" size="xs"}}{{t "account.reorder"}}</button>
+                <button type="button" class="btn btn--outline btn--sm" data-invoice>{{icon "download" size="xs"}}{{t "account.invoice"}}</button>
+                {{#if this.canCancel}}<button type="button" class="btn btn--ghost btn--sm text-danger" data-cancel-order>{{t "account.cancelOrder"}}</button>{{/if}}
+                {{#if this.stepDelivered}}<button type="button" class="btn btn--ghost btn--sm" data-return-order>{{t "account.returnRequest"}}</button>{{/if}}
+              </div>
+              <p class="summary__note">{{icon "question-circle"}}<span>{{t "account.needHelp"}} <a class="link" href="{{root}}contact.html">{{t "account.contactSupport"}}</a></span></p>
+            </div>
+          </div>
+        </div>
+        {{/with}}
+      </div>
+    </div>
+  </div>
+</section>

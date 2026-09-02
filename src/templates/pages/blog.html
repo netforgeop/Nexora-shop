@@ -1,0 +1,77 @@
+<section class="section section--sm" data-blog-page>
+  <div class="container">
+    <div class="page-head__inner" style="margin-block-end:var(--space-6)">
+      <div><h1 class="h3">{{t "blog.heading"}}</h1><p class="text-muted">{{t "blog.sub"}}</p></div>
+      <form class="input-icon" role="search" style="inline-size:min(100%,320px)" data-blog-search><span class="icon icon--sm linear-icon-magnifier" aria-hidden="true"></span><label class="visually-hidden" for="blog-q">{{t "blog.search"}}</label><input id="blog-q" class="form-control" type="search" name="q" placeholder="{{t "blog.search"}}"></form>
+    </div>
+
+    {{#with featuredPost}}
+    <article class="post-card post-card--horizontal" style="margin-block-end:var(--space-8)" data-reveal>
+      <a class="post-card__media" href="{{root}}blog/{{this.slug}}.html" tabindex="-1" aria-hidden="true"><img src="{{root}}assets/img/{{this.wide}}" width="1600" height="686" alt="" fetchpriority="high" decoding="async" style="block-size:100%"><span class="badge badge--hot post-card__cat">{{t "blog.featured"}}</span></a>
+      <div class="post-card__body" style="justify-content:center;padding:var(--space-7)">
+        <div class="post-card__meta"><span class="badge badge--discount">{{this.category.name}}</span><span>{{icon "calendar-full" size="xs"}}{{this.dateLabel}}</span><span>{{icon "clock3" size="xs"}}{{t "blog.readTime" n=this.readTime}}</span></div>
+        <h2 class="post-card__title" style="font-size:var(--fs-2xl)"><a href="{{root}}blog/{{this.slug}}.html">{{this.title}}</a></h2>
+        <p class="post-card__excerpt">{{this.excerpt}}</p>
+        <div><a class="btn btn--dark" href="{{root}}blog/{{this.slug}}.html">{{t "common.readMore"}}{{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</a></div>
+      </div>
+    </article>
+    {{/with}}
+
+    <div class="with-sidebar with-sidebar--end">
+      <div>
+        <div class="tabs tabs--pills" style="margin-block-end:var(--space-6)" data-blog-cats>
+          <div class="tabs__list" role="tablist" aria-label="{{t "blog.categories"}}">
+            <button type="button" class="tabs__tab" role="tab" aria-selected="true" data-blog-cat="">{{t "blog.all"}}</button>
+            {{#each blogCategories}}<button type="button" class="tabs__tab" role="tab" aria-selected="false" data-blog-cat="{{this.slug}}">{{this.name}} <span class="badge badge--soft">{{digits this.count}}</span></button>{{/each}}
+          </div>
+        </div>
+        <div class="row g-4" data-blog-grid>
+          {{#each posts}}
+          <div class="col-md-6" data-post data-cat="{{this.category.slug}}" data-tags="{{this.tagsJoined}}" data-title="{{this.title}}">
+            <article class="post-card">
+              <a class="post-card__media" href="{{root}}blog/{{this.slug}}.html" tabindex="-1" aria-hidden="true"><img src="{{root}}assets/img/{{this.image}}" width="800" height="500" alt="" loading="lazy" decoding="async"><span class="badge badge--discount post-card__cat">{{this.category.name}}</span></a>
+              <div class="post-card__body">
+                <div class="post-card__meta"><span>{{icon "calendar-full" size="xs"}}{{this.dateLabel}}</span><span>{{icon "clock3" size="xs"}}{{t "blog.readTime" n=this.readTime}}</span><span>{{icon "bubble" size="xs"}}{{digits this.comments}}</span></div>
+                <h2 class="post-card__title"><a href="{{root}}blog/{{this.slug}}.html">{{this.title}}</a></h2>
+                <p class="post-card__excerpt">{{this.excerpt}}</p>
+                <div class="post-card__footer"><span class="post-card__author">{{icon "user" size="xs"}}{{this.author}}</span><a class="link--arrow small" href="{{root}}blog/{{this.slug}}.html">{{t "common.readMore"}}{{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</a></div>
+              </div>
+            </article>
+          </div>
+          {{/each}}
+        </div>
+        <div data-blog-empty hidden>{{{empty iconName="file-empty" title=L.search.noResults text=L.common.noResultsHint}}}</div>
+        <nav class="pagination" aria-label="{{t "common.page"}}">
+          <a class="pagination__link is-disabled" href="#" aria-disabled="true" tabindex="-1" aria-label="{{t "common.prev"}}">{{icon "chevron-right" size="xs" class="icon--flip-ltr"}}</a>
+          <a class="pagination__link" href="#" aria-current="page">{{digits 1}}</a>
+          <a class="pagination__link" href="#">{{digits 2}}</a>
+          <a class="pagination__link" href="#">{{digits 3}}</a>
+          <a class="pagination__link" href="#" aria-label="{{t "common.next"}}">{{icon "chevron-left" size="xs" class="icon--flip-ltr"}}</a>
+        </nav>
+      </div>
+
+      <aside class="with-sidebar__aside">
+        <div class="widget">
+          <h2 class="widget__title">{{t "blog.categories"}}</h2>
+          <ul class="widget__list">{{#each blogCategories}}<li><a href="{{root}}blog.html?cat={{this.slug}}"><span>{{this.name}}</span><span class="count">{{digits this.count}}</span></a></li>{{/each}}</ul>
+        </div>
+        <div class="widget">
+          <h2 class="widget__title">{{t "blog.recent"}}</h2>
+          <div class="widget__posts">
+            {{#each recentPosts}}<article class="post-inline"><a class="post-inline__media" href="{{root}}blog/{{this.slug}}.html" tabindex="-1" aria-hidden="true"><img src="{{root}}assets/img/{{this.image}}" width="80" height="80" alt="" loading="lazy"></a><div><h3 class="post-inline__title"><a href="{{root}}blog/{{this.slug}}.html">{{this.title}}</a></h3><span class="post-inline__date">{{this.dateLabel}}</span></div></article>{{/each}}
+          </div>
+        </div>
+        <div class="widget">
+          <h2 class="widget__title">{{t "blog.tags"}}</h2>
+          <div class="tag-cloud">{{#each blogTags}}<a href="{{root}}blog.html?tag={{this}}">{{this}}</a>{{/each}}</div>
+        </div>
+        <div class="widget" style="padding:0;overflow:hidden">
+          <a class="promo promo--dark" href="{{root}}shop.html?discount=1" style="min-block-size:260px;border-radius:0">
+            <img src="{{img "banners/promo-digital.webp"}}" width="600" height="300" alt="" loading="lazy">
+            <span class="promo__body" style="max-inline-size:100%"><span class="promo__kicker">{{t "nav.flash"}}</span><span class="promo__title" style="font-size:var(--fs-xl)">{{t "home.flashCardTitle"}}</span><span class="btn btn--primary btn--sm">{{t "home.flashCardCta"}}</span></span>
+          </a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>

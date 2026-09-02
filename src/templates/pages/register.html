@@ -1,0 +1,59 @@
+<section class="auth">
+  <div class="auth__visual">
+    <img src="{{img "banners/auth-visual.webp"}}" width="800" height="597" alt="" decoding="async">
+    <div class="auth__visual-body">
+      <h2 class="auth__visual-title">{{t "home.ctaTitle"}}</h2>
+      <p style="color:var(--color-gray-300)">{{t "home.ctaText"}}</p>
+      <ul class="auth__visual-list">
+        <li>{{icon "checkmark-circle" size="sm"}}{{t "auth.visualItem1"}}</li>
+        <li>{{icon "checkmark-circle" size="sm"}}{{t "auth.visualItem2"}}</li>
+        <li>{{icon "checkmark-circle" size="sm"}}{{t "auth.visualItem3"}}</li>
+      </ul>
+    </div>
+  </div>
+  <div class="auth__form-wrap">
+    <form class="auth-card" data-auth-form="register" novalidate>
+      <div class="auth-card__head">
+        <h1 class="auth-card__title">{{t "auth.registerTitle"}}</h1>
+        <p class="auth-card__sub">{{t "auth.registerSub"}} <a href="{{root}}login.html">{{t "auth.loginLink"}}</a></p>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="reg-name">{{t "auth.fullName"}} <span class="req">*</span></label>
+        <div class="input-icon"><span class="icon icon--sm linear-icon-user" aria-hidden="true"></span><input id="reg-name" class="form-control" name="name" autocomplete="name" required data-minlength="3"></div>
+        <span class="form-error" role="alert"></span>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="reg-phone">{{t "auth.phone"}} <span class="req">*</span></label>
+        <div class="input-icon"><span class="icon icon--sm linear-icon-smartphone" aria-hidden="true"></span><input id="reg-phone" class="form-control" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="{{t "checkout.phonePlaceholder"}}" required data-validate="phone" dir="ltr"></div>
+        <span class="form-error" role="alert"></span>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="reg-email">{{t "auth.email"}} <span class="text-muted">({{t "common.optional"}})</span></label>
+        <div class="input-icon"><span class="icon icon--sm linear-icon-envelope" aria-hidden="true"></span><input id="reg-email" class="form-control" name="email" type="email" autocomplete="email" placeholder="{{t "checkout.emailPlaceholder"}}" data-validate="email" dir="ltr"></div>
+        <span class="form-error" role="alert"></span>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="reg-pass">{{t "auth.password"}} <span class="req">*</span></label>
+        <div class="input-icon"><span class="icon icon--sm linear-icon-lock" aria-hidden="true"></span><input id="reg-pass" class="form-control" name="password" type="password" autocomplete="new-password" required data-validate="password" dir="ltr" style="padding-inline-end:52px"><button type="button" class="icon-btn icon-btn--ghost input-action" data-toggle-password aria-label="{{t "auth.showPassword"}}" aria-pressed="false" style="inline-size:36px;block-size:36px">{{icon "eye" size="sm"}}</button></div>
+        <div class="password-strength" data-password-strength data-level="0"><div class="password-strength__bars"><span class="password-strength__bar"></span><span class="password-strength__bar"></span><span class="password-strength__bar"></span><span class="password-strength__bar"></span></div><span class="password-strength__text" data-strength-text>{{t "auth.strength0"}}</span></div>
+        <span class="form-error" role="alert"></span>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="reg-pass2">{{t "auth.passwordConfirm"}} <span class="req">*</span></label>
+        <div class="input-icon"><span class="icon icon--sm linear-icon-lock" aria-hidden="true"></span><input id="reg-pass2" class="form-control" name="passwordConfirm" type="password" autocomplete="new-password" required data-validate="passwordMatch" data-match="reg-pass" dir="ltr"></div>
+        <span class="form-error" role="alert"></span>
+      </div>
+      <div class="form-group">
+        <label class="check"><input class="check__input" type="checkbox" name="terms" required data-validate="terms"><span class="check__box"></span><span class="check__label">{{{t "auth.terms"}}}</span></label>
+        <span class="form-error" role="alert"></span>
+        <label class="check"><input class="check__input" type="checkbox" name="newsletter" checked><span class="check__box"></span><span class="check__label">{{t "auth.newsletterOpt"}}</span></label>
+      </div>
+      <button type="submit" class="btn btn--primary btn--lg btn--block">{{t "auth.register"}}</button>
+      <div class="divider--text">{{t "auth.orContinue"}}</div>
+      <div class="auth-card__social">
+        <button type="button" class="btn btn--outline" data-social-login="google"><span class="ltr fw-bold" aria-hidden="true">G</span>{{t "auth.google"}}</button>
+        <button type="button" class="btn btn--outline" data-social-login="apple">{{icon "apple" size="sm"}}{{t "auth.apple"}}</button>
+      </div>
+    </form>
+  </div>
+</section>

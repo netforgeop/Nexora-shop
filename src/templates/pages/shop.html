@@ -1,0 +1,72 @@
+<section class="section section--sm" data-shop data-per-page="{{site.perPage}}">
+  <div class="container">
+    <div class="shop-banner">
+      <img src="{{img "banners/shop-banner.webp"}}" width="1600" height="360" alt="" fetchpriority="high" decoding="async">
+      <div class="shop-banner__body">
+        <h1 class="shop-banner__title" data-shop-title>{{t "shop.bannerTitle"}}</h1>
+        <p class="shop-banner__text" data-shop-subtitle>{{t "shop.bannerText"}}</p>
+      </div>
+    </div>
+
+    <div class="shop-categories" role="list" aria-label="{{t "shop.categories"}}">
+      <a class="chip is-active" role="listitem" href="{{root}}shop.html" data-cat-chip="">{{icon "grid" size="xs"}}{{t "account.filterAll"}}</a>
+      {{#each categories}}<a class="chip" role="listitem" href="{{root}}shop.html?cat={{this.slug}}" data-cat-chip="{{this.slug}}">{{icon this.icon size="xs"}}{{this.name}}</a>{{/each}}
+    </div>
+
+    <div class="with-sidebar">
+      <aside class="with-sidebar__aside" data-filters-host aria-label="{{t "shop.filters"}}">
+        {{> filters}}
+      </aside>
+
+      <div>
+        <div class="toolbar">
+          <div class="toolbar__group">
+            <button type="button" class="btn btn--outline btn--sm toolbar__filter-btn" data-drawer-open="drawer-filters" aria-controls="drawer-filters" aria-expanded="false">{{icon "funnel" size="xs"}}{{t "shop.openFilters"}}<span class="badge badge--discount" data-filters-count hidden>0</span></button>
+            <p class="toolbar__count" aria-live="polite" data-shop-count>{{t "common.showing" from="۱" to="۱۲" total="۲۸"}}</p>
+          </div>
+          <div class="toolbar__group">
+            <div class="toolbar__sort">
+              <label for="shop-sort" class="text-muted">{{icon "sort-amount-desc" size="xs"}} {{t "common.sortBy"}}</label>
+              <div class="sort-tabs" role="group" aria-label="{{t "common.sortBy"}}">
+                <button type="button" class="sort-tabs__btn is-active" data-sort="popular">{{t "shop.sortPopular"}}</button>
+                <button type="button" class="sort-tabs__btn" data-sort="newest">{{t "shop.sortNewest"}}</button>
+                <button type="button" class="sort-tabs__btn" data-sort="best">{{t "shop.sortBest"}}</button>
+                <button type="button" class="sort-tabs__btn" data-sort="rating">{{t "shop.sortRating"}}</button>
+                <button type="button" class="sort-tabs__btn" data-sort="priceAsc">{{t "shop.sortPriceAsc"}}</button>
+                <button type="button" class="sort-tabs__btn" data-sort="priceDesc">{{t "shop.sortPriceDesc"}}</button>
+                <button type="button" class="sort-tabs__btn" data-sort="discount">{{t "shop.sortDiscount"}}</button>
+              </div>
+              <select id="shop-sort" class="form-control" data-sort-select>
+                <option value="popular">{{t "shop.sortPopular"}}</option>
+                <option value="newest">{{t "shop.sortNewest"}}</option>
+                <option value="best">{{t "shop.sortBest"}}</option>
+                <option value="rating">{{t "shop.sortRating"}}</option>
+                <option value="priceAsc">{{t "shop.sortPriceAsc"}}</option>
+                <option value="priceDesc">{{t "shop.sortPriceDesc"}}</option>
+                <option value="discount">{{t "shop.sortDiscount"}}</option>
+              </select>
+            </div>
+            <div class="view-switch" role="group" aria-label="{{t "common.grid"}} / {{t "common.list"}}">
+              <button type="button" class="view-switch__btn" data-view="grid" aria-pressed="true" aria-label="{{t "common.grid"}}">{{icon "grid" size="xs"}}</button>
+              <button type="button" class="view-switch__btn" data-view="list" aria-pressed="false" aria-label="{{t "common.list"}}">{{icon "list" size="xs"}}</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="active-filters" data-active-filters aria-live="polite"></div>
+
+        <div class="shop-results" data-shop-results aria-live="polite" aria-busy="false">
+          <div class="shop-results__loader" aria-hidden="true"><div class="spinner"></div></div>
+          <div class="product-grid" data-shop-grid>
+            {{{skeletons 8}}}
+          </div>
+          <div data-shop-empty hidden>
+            {{{empty iconName="magnifier" title=L.common.noResults text=L.common.noResultsHint cta=L.shop.clearFilters href="#"}}}
+          </div>
+        </div>
+
+        <div data-shop-pagination></div>
+      </div>
+    </div>
+  </div>
+</section>

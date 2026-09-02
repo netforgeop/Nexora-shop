@@ -1,0 +1,19 @@
+<header class="site-header site-header--minimal" data-header data-no-sticky>
+  <div class="header-main">
+    <div class="container">
+      <div class="header-main__inner" style="grid-template-columns: auto 1fr auto;">
+        <a class="brand" href="{{root}}index.html" aria-label="{{L.meta.siteName}} – {{L.meta.tagline}}">
+          <span class="brand__mark">{{svg "i-logo"}}</span>
+          <span class="brand__text"><span>{{L.meta.siteNameLatin}}</span><span class="brand__tag">{{L.meta.tagline}}</span></span>
+        </a>
+        <span></span>
+        <div class="header-actions">
+          <a class="lang-switch" href="{{otherLangHref}}" hreflang="{{otherLang}}" lang="{{otherLang}}" data-lang-switch style="color:var(--color-text);border-color:var(--color-border)">
+            {{#if lang == "fa"}}{{svg "i-flag-en"}}{{else}}{{svg "i-flag-ir"}}{{/if}}<span>{{L.meta.otherLang}}</span>
+          </a>
+          <a class="header-action" href="{{root}}shop.html">{{icon "arrow-left" size="sm" class="icon--flip-ltr"}}<span class="header-action__text"><span class="header-action__value">{{t "common.continueShopping"}}</span></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

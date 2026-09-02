@@ -1,0 +1,48 @@
+<section class="section section--sm" data-account-page>
+  <div class="container">
+    <div class="with-sidebar">
+      <aside class="with-sidebar__aside">{{> account-nav}}</aside>
+      <div>
+        <form class="account-panel" data-profile-form novalidate>
+          <div class="account-panel__head"><h1 class="account-panel__title">{{t "account.personalInfo"}}</h1></div>
+          <div style="display:flex;align-items:center;gap:var(--space-5);margin-block-end:var(--space-6)">
+            <span class="avatar avatar--xl" style="display:grid;place-items:center;background:var(--color-gray-900);color:var(--color-primary);font-weight:700;font-size:2rem" aria-hidden="true" data-user-initial>{{#if lang == "fa"}}س{{else}}S{{/if}}</span>
+            <div><div class="fw-bold text-strong" data-user-name>{{t "account.userName"}}</div><div class="small text-muted">{{t "account.memberSince"}}</div><button type="button" class="btn btn--outline btn--sm" style="margin-block-start:var(--space-2)">{{icon "camera" size="xs"}}{{t "account.avatarChange"}}</button></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label class="form-label" for="pf-name">{{t "auth.fullName"}} <span class="req">*</span></label><input id="pf-name" class="form-control" name="name" value="{{t "account.userName"}}" required data-minlength="3" autocomplete="name"><span class="form-error" role="alert"></span></div>
+            <div class="form-group"><label class="form-label" for="pf-national">{{t "account.nationalId"}}</label><input id="pf-national" class="form-control" name="nationalId" inputmode="numeric" dir="ltr" autocomplete="off"><span class="form-error" role="alert"></span></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label class="form-label" for="pf-email">{{t "auth.email"}} <span class="req">*</span></label><input id="pf-email" class="form-control" name="email" type="email" value="{{t "account.userEmail"}}" required data-validate="email" dir="ltr" autocomplete="email"><span class="form-error" role="alert"></span></div>
+            <div class="form-group"><label class="form-label" for="pf-phone">{{t "auth.phone"}} <span class="req">*</span></label><input id="pf-phone" class="form-control" name="phone" type="tel" value="{{t "account.userPhone"}}" required data-validate="phone" dir="ltr" autocomplete="tel"><span class="form-error" role="alert"></span></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label class="form-label" for="pf-birth">{{t "account.birthDate"}}</label><input id="pf-birth" class="form-control" name="birth" type="date" dir="ltr"></div>
+            <div class="form-group"><span class="form-label">{{t "account.gender"}}</span><div class="cluster" style="min-block-size:var(--control-h)"><label class="check check--radio"><input class="check__input" type="radio" name="gender" value="f" checked><span class="check__box"></span><span class="check__label">{{t "account.female"}}</span></label><label class="check check--radio"><input class="check__input" type="radio" name="gender" value="m"><span class="check__box"></span><span class="check__label">{{t "account.male"}}</span></label><label class="check check--radio"><input class="check__input" type="radio" name="gender" value="x"><span class="check__box"></span><span class="check__label">{{t "account.other"}}</span></label></div></div>
+          </div>
+          <hr class="divider">
+          <div class="stack--sm" style="display:grid;gap:var(--space-3)">
+            <label class="switch"><input class="switch__input" type="checkbox" name="newsletter" checked><span class="switch__track"></span><span>{{t "account.newsletterPref"}}</span></label>
+            <label class="switch"><input class="switch__input" type="checkbox" name="sms" checked><span class="switch__track"></span><span>{{t "account.smsPref"}}</span></label>
+          </div>
+          <div class="cluster" style="margin-block-start:var(--space-6)"><button type="submit" class="btn btn--primary">{{icon "check" size="xs"}}{{t "account.saveChanges"}}</button></div>
+        </form>
+
+        <form class="account-panel" data-password-form novalidate>
+          <div class="account-panel__head"><h2 class="account-panel__title">{{t "account.changePassword"}}</h2></div>
+          <div class="form-row">
+            <div class="form-group"><label class="form-label" for="pw-current">{{t "account.currentPassword"}} <span class="req">*</span></label><input id="pw-current" class="form-control" name="current" type="password" required data-minlength="6" autocomplete="current-password" dir="ltr"><span class="form-error" role="alert"></span></div>
+            <div class="form-group"><label class="form-label" for="pw-new">{{t "account.newPassword"}} <span class="req">*</span></label><input id="pw-new" class="form-control" name="password" type="password" required data-validate="password" autocomplete="new-password" dir="ltr"><span class="form-error" role="alert"></span></div>
+            <div class="form-group"><label class="form-label" for="pw-confirm">{{t "auth.passwordConfirm"}} <span class="req">*</span></label><input id="pw-confirm" class="form-control" name="passwordConfirm" type="password" required data-validate="passwordMatch" data-match="pw-new" autocomplete="new-password" dir="ltr"><span class="form-error" role="alert"></span></div>
+          </div>
+          <div class="cluster" style="margin-block-start:var(--space-6)"><button type="submit" class="btn btn--dark">{{icon "lock" size="xs"}}{{t "account.changePassword"}}</button></div>
+        </form>
+
+        <div class="account-panel" style="border-color:rgba(214,69,69,.35)">
+          <div class="account-panel__head"><div><h2 class="account-panel__title text-danger">{{t "account.deleteAccount"}}</h2><p class="small text-muted">{{t "account.deleteAccountText"}}</p></div><button type="button" class="btn btn--danger btn--sm" data-delete-account>{{icon "trash2" size="xs"}}{{t "account.deleteAccount"}}</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

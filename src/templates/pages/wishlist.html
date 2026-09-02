@@ -1,0 +1,24 @@
+<section class="section section--sm" data-wishlist-page>
+  <div class="container">
+    <div class="wishlist-head">
+      <h1 class="h3">{{icon "heart" size="md"}} {{t "wishlist.heading"}} <span class="wishlist-head__count" data-wishlist-count></span></h1>
+      <div class="cluster" data-wishlist-actions hidden>
+        <button type="button" class="btn btn--dark btn--sm" data-wishlist-add-all>{{icon "cart-add" size="xs"}}{{t "wishlist.addAll"}}</button>
+        <button type="button" class="btn btn--ghost btn--sm text-danger" data-wishlist-clear>{{icon "trash2" size="xs"}}{{t "wishlist.clear"}}</button>
+      </div>
+    </div>
+    <div class="card-surface" style="padding-inline:var(--space-5)" data-wishlist-filled hidden>
+      <div data-wishlist-items></div>
+    </div>
+    <div data-wishlist-empty hidden>
+      {{{empty iconName="heart" title=L.wishlist.empty text=L.wishlist.emptyText cta=L.common.goToShop href=shopHref}}}
+    </div>
+  </div>
+</section>
+
+<section class="section bg-surface" aria-labelledby="sec-wish-suggest">
+  <div class="container">
+    <div class="section-head"><div><h2 class="section-head__title" id="sec-wish-suggest">{{t "cart.youMayLike"}}</h2></div></div>
+    <div class="product-carousel"><div class="swiper" data-swiper="products" data-carousel-id="suggest"><div class="swiper-wrapper">{{{slides lists.featured}}}</div></div></div>
+  </div>
+</section>

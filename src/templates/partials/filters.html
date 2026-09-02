@@ -1,0 +1,84 @@
+<form class="filters" data-filters novalidate>
+  <div class="filters__head">
+    <h2>{{icon "funnel" size="sm"}}{{t "shop.filters"}}</h2>
+    <button type="button" class="filters__clear" data-filters-clear>{{t "shop.clearFilters"}}</button>
+  </div>
+
+  <details class="filter-group" open>
+    <summary class="filter-group__summary">{{t "shop.categories"}}{{icon "chevron-down" size="xs"}}</summary>
+    <div class="filter-group__body">
+      <div class="filter-group__list scroll-thin" data-filter="cat">
+        {{#each categories}}
+        <label class="check"><input class="check__input" type="checkbox" name="cat" value="{{this.slug}}"><span class="check__box"></span><span class="check__label">{{this.name}}</span><span class="check__count">{{num this.count}}</span></label>
+        {{/each}}
+      </div>
+    </div>
+  </details>
+
+  <details class="filter-group" open>
+    <summary class="filter-group__summary">{{t "shop.price"}}{{icon "chevron-down" size="xs"}}</summary>
+    <div class="filter-group__body" data-filter="price" data-min="{{priceMin}}" data-max="{{priceMax}}">
+      <div class="range">
+        <div class="range__track"><div class="range__fill" data-range-fill></div></div>
+        <input type="range" name="min" min="{{priceMin}}" max="{{priceMax}}" value="{{priceMin}}" step="10000" aria-label="{{t "common.min"}}" data-range-min>
+        <input type="range" name="max" min="{{priceMin}}" max="{{priceMax}}" value="{{priceMax}}" step="10000" aria-label="{{t "common.max"}}" data-range-max>
+      </div>
+      <div class="price-range__values"><span data-range-min-label>{{price priceMin}}</span><span data-range-max-label>{{price priceMax}}</span></div>
+      <div class="price-inputs">
+        <label class="visually-hidden" for="price-from">{{t "shop.priceFrom"}}</label>
+        <input id="price-from" class="form-control form-control--sm" type="text" inputmode="numeric" data-price-input="min" placeholder="{{t "common.min"}}">
+        <span class="price-inputs__sep">{{t "shop.priceTo"}}</span>
+        <label class="visually-hidden" for="price-to">{{t "shop.priceTo"}}</label>
+        <input id="price-to" class="form-control form-control--sm" type="text" inputmode="numeric" data-price-input="max" placeholder="{{t "common.max"}}">
+      </div>
+    </div>
+  </details>
+
+  <details class="filter-group" open>
+    <summary class="filter-group__summary">{{t "shop.brands"}}{{icon "chevron-down" size="xs"}}</summary>
+    <div class="filter-group__body">
+      <div class="input-icon filter-group__search"><span class="icon icon--xs linear-icon-magnifier" aria-hidden="true"></span><input class="form-control form-control--sm" type="search" placeholder="{{t "shop.searchBrand"}}" aria-label="{{t "shop.searchBrand"}}" data-brand-search></div>
+      <div class="filter-group__list scroll-thin" data-filter="brand">
+        {{#each brands}}
+        <label class="check" data-brand-item="{{this.name}}"><input class="check__input" type="checkbox" name="brand" value="{{this.slug}}"><span class="check__box"></span><span class="check__label ltr">{{this.name}}</span><span class="check__count">{{num this.count}}</span></label>
+        {{/each}}
+      </div>
+    </div>
+  </details>
+
+  <details class="filter-group">
+    <summary class="filter-group__summary">{{t "shop.rating"}}{{icon "chevron-down" size="xs"}}</summary>
+    <div class="filter-group__body rating-filter" data-filter="rating">
+      <label class="check check--radio"><input class="check__input" type="radio" name="rating" value="4"><span class="check__box"></span><span class="check__label">{{{rating 4 showValue=false}}}<span>{{t "common.andUp"}}</span></span></label>
+      <label class="check check--radio"><input class="check__input" type="radio" name="rating" value="3"><span class="check__box"></span><span class="check__label">{{{rating 3 showValue=false}}}<span>{{t "common.andUp"}}</span></span></label>
+      <label class="check check--radio"><input class="check__input" type="radio" name="rating" value="2"><span class="check__box"></span><span class="check__label">{{{rating 2 showValue=false}}}<span>{{t "common.andUp"}}</span></span></label>
+      <label class="check check--radio"><input class="check__input" type="radio" name="rating" value=""><span class="check__box"></span><span class="check__label">{{t "account.filterAll"}}</span></label>
+    </div>
+  </details>
+
+  <details class="filter-group">
+    <summary class="filter-group__summary">{{t "shop.colors"}}{{icon "chevron-down" size="xs"}}</summary>
+    <div class="filter-group__body">
+      <div class="color-filter" data-filter="color">
+        <label class="color-filter__item"><input type="checkbox" name="color" value="#111111"><span class="color-filter__swatch" style="background:#111111" title="Black">{{icon "check" size="xs"}}</span></label>
+        <label class="color-filter__item"><input type="checkbox" name="color" value="#f4f4f4"><span class="color-filter__swatch" style="background:#f4f4f4" title="White">{{icon "check" size="xs"}}</span></label>
+        <label class="color-filter__item"><input type="checkbox" name="color" value="#c9c9c9"><span class="color-filter__swatch" style="background:#c9c9c9" title="Silver">{{icon "check" size="xs"}}</span></label>
+        <label class="color-filter__item"><input type="checkbox" name="color" value="#f6d014"><span class="color-filter__swatch" style="background:#f6d014" title="Yellow">{{icon "check" size="xs"}}</span></label>
+        <label class="color-filter__item"><input type="checkbox" name="color" value="#3b6ea5"><span class="color-filter__swatch" style="background:#3b6ea5" title="Blue">{{icon "check" size="xs"}}</span></label>
+        <label class="color-filter__item"><input type="checkbox" name="color" value="#b5651d"><span class="color-filter__swatch" style="background:#b5651d" title="Tan">{{icon "check" size="xs"}}</span></label>
+        <label class="color-filter__item"><input type="checkbox" name="color" value="#5a3a22"><span class="color-filter__swatch" style="background:#5a3a22" title="Brown">{{icon "check" size="xs"}}</span></label>
+        <label class="color-filter__item"><input type="checkbox" name="color" value="#2f5d47"><span class="color-filter__swatch" style="background:#2f5d47" title="Green">{{icon "check" size="xs"}}</span></label>
+        <label class="color-filter__item"><input type="checkbox" name="color" value="#d7a21a"><span class="color-filter__swatch" style="background:#d7a21a" title="Mustard">{{icon "check" size="xs"}}</span></label>
+        <label class="color-filter__item"><input type="checkbox" name="color" value="#6e1c2a"><span class="color-filter__swatch" style="background:#6e1c2a" title="Burgundy">{{icon "check" size="xs"}}</span></label>
+      </div>
+    </div>
+  </details>
+
+  <details class="filter-group" open>
+    <summary class="filter-group__summary">{{t "shop.availability"}}{{icon "chevron-down" size="xs"}}</summary>
+    <div class="filter-group__body">
+      <label class="switch"><input class="switch__input" type="checkbox" name="instock" value="1"><span class="switch__track"></span><span>{{t "shop.onlyInStock"}}</span></label>
+      <label class="switch"><input class="switch__input" type="checkbox" name="discount" value="1"><span class="switch__track"></span><span>{{t "shop.onlyDiscount"}}</span></label>
+    </div>
+  </details>
+</form>

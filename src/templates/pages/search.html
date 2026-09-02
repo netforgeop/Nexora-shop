@@ -1,0 +1,70 @@
+<section class="section section--sm" data-shop data-mode="search" data-per-page="{{site.perPage}}">
+  <div class="container">
+    <div class="search-page__head">
+      <h1 class="h3">{{t "search.heading"}}</h1>
+      <div class="search" data-search data-search-page>
+        <form class="search__form" role="search" action="{{root}}search.html" method="get">
+          <label for="page-search" class="visually-hidden">{{t "header.searchLabel"}}</label>
+          <input id="page-search" class="search__input" type="search" name="q" placeholder="{{t "search.placeholder"}}" autocomplete="off" data-search-input aria-autocomplete="list" aria-controls="page-search-suggest" aria-expanded="false">
+          <button type="submit" class="search__submit" aria-label="{{t "header.search"}}">{{icon "magnifier" size="sm"}}</button>
+        </form>
+        <div class="search__suggest" id="page-search-suggest" role="listbox" data-search-suggest></div>
+      </div>
+      <p class="search-page__query" data-search-query aria-live="polite"></p>
+      <div class="search-suggestions" data-search-popular>
+        <span>{{t "search.popular"}}</span>
+        <a class="chip" href="{{root}}search.html?q={{#if lang == "fa"}}هدفون{{else}}headphones{{/if}}">{{#if lang == "fa"}}هدفون{{else}}headphones{{/if}}</a>
+        <a class="chip" href="{{root}}search.html?q={{#if lang == "fa"}}گوشی{{else}}phone{{/if}}">{{#if lang == "fa"}}گوشی{{else}}phone{{/if}}</a>
+        <a class="chip" href="{{root}}search.html?q={{#if lang == "fa"}}کفش{{else}}sneakers{{/if}}">{{#if lang == "fa"}}کفش{{else}}sneakers{{/if}}</a>
+        <a class="chip" href="{{root}}search.html?q={{#if lang == "fa"}}چرم{{else}}leather{{/if}}">{{#if lang == "fa"}}چرم{{else}}leather{{/if}}</a>
+        <a class="chip" href="{{root}}search.html?q={{#if lang == "fa"}}سرم{{else}}serum{{/if}}">{{#if lang == "fa"}}سرم{{else}}serum{{/if}}</a>
+      </div>
+    </div>
+
+    <div class="with-sidebar">
+      <aside class="with-sidebar__aside" data-filters-host aria-label="{{t "shop.filters"}}">
+        {{> filters}}
+      </aside>
+      <div>
+        <div class="toolbar">
+          <div class="toolbar__group">
+            <button type="button" class="btn btn--outline btn--sm toolbar__filter-btn" data-drawer-open="drawer-filters" aria-controls="drawer-filters" aria-expanded="false">{{icon "funnel" size="xs"}}{{t "shop.openFilters"}}<span class="badge badge--discount" data-filters-count hidden>0</span></button>
+            <p class="toolbar__count" aria-live="polite" data-shop-count></p>
+          </div>
+          <div class="toolbar__group">
+            <div class="toolbar__sort">
+              <label for="search-sort" class="text-muted">{{icon "sort-amount-desc" size="xs"}} {{t "common.sortBy"}}</label>
+              <div class="sort-tabs" role="group" aria-label="{{t "common.sortBy"}}">
+                <button type="button" class="sort-tabs__btn is-active" data-sort="popular">{{t "shop.sortPopular"}}</button>
+                <button type="button" class="sort-tabs__btn" data-sort="newest">{{t "shop.sortNewest"}}</button>
+                <button type="button" class="sort-tabs__btn" data-sort="rating">{{t "shop.sortRating"}}</button>
+                <button type="button" class="sort-tabs__btn" data-sort="priceAsc">{{t "shop.sortPriceAsc"}}</button>
+                <button type="button" class="sort-tabs__btn" data-sort="priceDesc">{{t "shop.sortPriceDesc"}}</button>
+              </div>
+              <select id="search-sort" class="form-control" data-sort-select>
+                <option value="popular">{{t "shop.sortPopular"}}</option>
+                <option value="newest">{{t "shop.sortNewest"}}</option>
+                <option value="rating">{{t "shop.sortRating"}}</option>
+                <option value="priceAsc">{{t "shop.sortPriceAsc"}}</option>
+                <option value="priceDesc">{{t "shop.sortPriceDesc"}}</option>
+              </select>
+            </div>
+            <div class="view-switch" role="group">
+              <button type="button" class="view-switch__btn" data-view="grid" aria-pressed="true" aria-label="{{t "common.grid"}}">{{icon "grid" size="xs"}}</button>
+              <button type="button" class="view-switch__btn" data-view="list" aria-pressed="false" aria-label="{{t "common.list"}}">{{icon "list" size="xs"}}</button>
+            </div>
+          </div>
+        </div>
+        <div class="active-filters" data-active-filters aria-live="polite"></div>
+        <div class="shop-results" data-shop-results aria-live="polite" aria-busy="false">
+          <div class="shop-results__loader" aria-hidden="true"><div class="spinner"></div></div>
+          <div class="product-grid" data-shop-grid>{{{skeletons 8}}}</div>
+          <div data-shop-empty hidden>
+            {{{empty iconName="magnifier" title=L.search.noQuery text=L.search.noQueryText}}}
+          </div>
+        </div>
+        <div data-shop-pagination></div>
+      </div>
+    </div>
+  </div>
+</section>

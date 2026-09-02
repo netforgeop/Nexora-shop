@@ -1,0 +1,25 @@
+<section class="section section--sm">
+  <div class="container container-narrow">
+    <div class="section-head section-head--center"><div><h1 class="section-head__title">{{t "nav.faq"}}</h1><p class="section-head__sub">{{#if lang == "fa"}}پاسخ پرسش‌های رایج درباره خرید، ارسال، پرداخت و بازگشت کالا{{else}}Answers to common questions about ordering, shipping, payment and returns{{/if}}</p></div></div>
+
+    <h2 class="h5" id="shipping" style="margin-block:var(--space-6) var(--space-3)">{{icon "truck" size="sm"}} {{t "nav.shipping"}}</h2>
+    <div class="accordion">
+      <details class="accordion__item" open><summary class="accordion__summary">{{#if lang == "fa"}}هزینه و زمان ارسال چقدر است؟{{else}}How much does shipping cost and how long does it take?{{/if}}{{icon "chevron-down" size="xs"}}</summary><div class="accordion__body">{{t "product.shippingInfo"}}</div></details>
+      <details class="accordion__item"><summary class="accordion__summary">{{#if lang == "fa"}}چطور سفارشم را پیگیری کنم؟{{else}}How do I track my order?{{/if}}{{icon "chevron-down" size="xs"}}</summary><div class="accordion__body">{{#if lang == "fa"}}از بخش «سفارش‌های من» در حساب کاربری، وضعیت لحظه‌ای و کد رهگیری پستی هر سفارش را ببینید.{{else}}Open "My orders" in your account to see the live status and the carrier tracking number of every order.{{/if}}</div></details>
+    </div>
+
+    <h2 class="h5" id="payment" style="margin-block:var(--space-7) var(--space-3)">{{icon "credit-card" size="sm"}} {{t "nav.payment"}}</h2>
+    <div class="accordion">
+      <details class="accordion__item"><summary class="accordion__summary">{{#if lang == "fa"}}چه روش‌های پرداختی دارید؟{{else}}Which payment methods do you accept?{{/if}}{{icon "chevron-down" size="xs"}}</summary><div class="accordion__body">{{t "checkout.pay1Meta"}}. {{t "checkout.pay2Meta"}}.</div></details>
+      <details class="accordion__item"><summary class="accordion__summary">{{#if lang == "fa"}}آیا پرداخت اقساطی دارید؟{{else}}Do you offer instalments?{{/if}}{{icon "chevron-down" size="xs"}}</summary><div class="accordion__body">{{t "home.promo1Title"}} — {{t "home.promo1Text"}}.</div></details>
+    </div>
+
+    <h2 class="h5" id="returns" style="margin-block:var(--space-7) var(--space-3)">{{icon "undo" size="sm"}} {{t "nav.returns"}}</h2>
+    <div class="accordion">
+      <details class="accordion__item"><summary class="accordion__summary">{{#if lang == "fa"}}شرایط بازگشت کالا چیست؟{{else}}What is the return policy?{{/if}}{{icon "chevron-down" size="xs"}}</summary><div class="accordion__body">{{t "product.returnsInfo"}}</div></details>
+      <details class="accordion__item" id="authentic"><summary class="accordion__summary">{{#if lang == "fa"}}اصالت کالاها چگونه تضمین می‌شود؟{{else}}How do you guarantee authenticity?{{/if}}{{icon "chevron-down" size="xs"}}</summary><div class="accordion__body">{{t "footer.f3Text"}}. {{t "product.sellerMeta"}}.</div></details>
+    </div>
+
+    <div class="cta-band" style="border-radius:var(--radius-md);margin-block-start:var(--space-8)"><div class="cta-band__inner" style="padding-inline:var(--space-6)"><div><div class="cta-band__title">{{icon "headset"}}{{t "account.needHelp"}}</div><div class="cta-band__text">{{t "footer.hours"}} · <span class="ltr">{{t "header.phone"}}</span></div></div><a class="btn btn--dark" href="{{root}}contact.html">{{t "account.contactSupport"}}</a></div></div>
+  </div>
+</section>

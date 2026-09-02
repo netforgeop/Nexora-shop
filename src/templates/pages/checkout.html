@@ -1,0 +1,107 @@
+<section class="section section--sm" data-checkout-page>
+  <div class="container">
+    <h1 class="visually-hidden">{{t "checkout.heading"}}</h1>
+    <ol class="steps" aria-label="{{t "checkout.heading"}}">
+      <li class="steps__item is-done"><span class="steps__num">{{icon "check" size="xs"}}</span><span class="steps__label">{{t "checkout.step1"}}</span></li>
+      <li class="steps__line is-done" aria-hidden="true"></li>
+      <li class="steps__item is-active" aria-current="step"><span class="steps__num">{{digits 2}}</span><span class="steps__label">{{t "checkout.step2"}}</span></li>
+      <li class="steps__line" aria-hidden="true"></li>
+      <li class="steps__item"><span class="steps__num">{{digits 3}}</span><span class="steps__label">{{t "checkout.step3"}}</span></li>
+      <li class="steps__line" aria-hidden="true"></li>
+      <li class="steps__item"><span class="steps__num">{{digits 4}}</span><span class="steps__label">{{t "checkout.step4"}}</span></li>
+    </ol>
+
+    <div data-checkout-filled hidden>
+      <form class="cart-layout" data-checkout-form novalidate>
+        <div>
+          <section class="checkout-section" aria-labelledby="co-contact">
+            <div class="checkout-section__head"><h2 class="checkout-section__title" id="co-contact"><span class="step-badge">{{digits 1}}</span>{{t "checkout.contact"}}</h2><span class="small text-muted">{{t "checkout.haveAccount"}} <a class="link" href="{{root}}login.html">{{t "checkout.loginLink"}}</a></span></div>
+            <div class="form-row">
+              <div class="form-group"><label class="form-label" for="co-phone">{{t "checkout.phone"}} <span class="req">*</span></label><input id="co-phone" class="form-control" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="{{t "checkout.phonePlaceholder"}}" required data-validate="phone" dir="ltr"><span class="form-error" role="alert"></span></div>
+              <div class="form-group"><label class="form-label" for="co-email">{{t "checkout.email"}} <span class="text-muted">({{t "common.optional"}})</span></label><input id="co-email" class="form-control" name="email" type="email" autocomplete="email" placeholder="{{t "checkout.emailPlaceholder"}}" data-validate="email" dir="ltr"><span class="form-error" role="alert"></span></div>
+            </div>
+          </section>
+
+          <section class="checkout-section" aria-labelledby="co-address">
+            <div class="checkout-section__head"><h2 class="checkout-section__title" id="co-address"><span class="step-badge">{{digits 2}}</span>{{t "checkout.shippingAddress"}}</h2></div>
+            <div class="option-cards" style="margin-block-end:var(--space-5)" data-saved-addresses>
+              <label class="option-card"><input type="radio" name="addressMode" value="saved" checked><span class="option-card__body"><span class="option-card__icon">{{icon "home" size="sm"}}</span><span class="option-card__content"><span class="option-card__title">{{t "checkout.savedAddress"}} <span class="badge badge--soft">{{t "account.default"}}</span></span><span class="option-card__meta">{{t "account.userName"}} · {{t "footer.address"}}</span></span></span></label>
+              <label class="option-card"><input type="radio" name="addressMode" value="new"><span class="option-card__body"><span class="option-card__icon">{{icon "plus" size="sm"}}</span><span class="option-card__content"><span class="option-card__title">{{t "checkout.newAddress"}}</span></span></span></label>
+            </div>
+            <fieldset data-new-address hidden>
+              <legend class="visually-hidden">{{t "checkout.newAddress"}}</legend>
+              <div class="form-row">
+                <div class="form-group"><label class="form-label" for="co-first">{{t "checkout.firstName"}} <span class="req">*</span></label><input id="co-first" class="form-control" name="firstName" autocomplete="given-name" data-required><span class="form-error" role="alert"></span></div>
+                <div class="form-group"><label class="form-label" for="co-last">{{t "checkout.lastName"}} <span class="req">*</span></label><input id="co-last" class="form-control" name="lastName" autocomplete="family-name" data-required><span class="form-error" role="alert"></span></div>
+              </div>
+              <div class="form-row">
+                <div class="form-group"><label class="form-label" for="co-province">{{t "checkout.province"}} <span class="req">*</span></label><select id="co-province" class="form-control" name="province" autocomplete="address-level1" data-required><option value="">{{t "common.select"}}</option>{{#if lang == "fa"}}<option>تهران</option><option>اصفهان</option><option>فارس</option><option>خراسان رضوی</option><option>آذربایجان شرقی</option><option>البرز</option><option>مازندران</option><option>گیلان</option><option>خوزستان</option>{{else}}<option>California</option><option>New York</option><option>Texas</option><option>Florida</option><option>Washington</option><option>Illinois</option>{{/if}}</select><span class="form-error" role="alert"></span></div>
+                <div class="form-group"><label class="form-label" for="co-city">{{t "checkout.city"}} <span class="req">*</span></label><input id="co-city" class="form-control" name="city" autocomplete="address-level2" data-required><span class="form-error" role="alert"></span></div>
+              </div>
+              <div class="form-group"><label class="form-label" for="co-street">{{t "checkout.address"}} <span class="req">*</span></label><textarea id="co-street" class="form-control" name="address" rows="2" autocomplete="street-address" placeholder="{{t "checkout.addressPlaceholder"}}" data-required data-minlength="10" style="min-block-size:80px"></textarea><span class="form-error" role="alert"></span></div>
+              <div class="form-row">
+                <div class="form-group"><label class="form-label" for="co-postal">{{t "checkout.postalCode"}} <span class="req">*</span></label><input id="co-postal" class="form-control" name="postal" inputmode="numeric" autocomplete="postal-code" placeholder="{{t "checkout.postalPlaceholder"}}" data-required data-validate="postal" dir="ltr"><span class="form-error" role="alert"></span></div>
+                <div class="form-group" style="justify-content:flex-end"><label class="check"><input class="check__input" type="checkbox" name="saveAddress" checked><span class="check__box"></span><span class="check__label">{{t "checkout.saveAddress"}}</span></label></div>
+              </div>
+            </fieldset>
+            <div class="form-group"><label class="form-label" for="co-note">{{t "checkout.note"}}</label><textarea id="co-note" class="form-control" name="note" rows="2" placeholder="{{t "checkout.notePlaceholder"}}" style="min-block-size:70px"></textarea></div>
+          </section>
+
+          <section class="checkout-section" aria-labelledby="co-ship">
+            <div class="checkout-section__head"><h2 class="checkout-section__title" id="co-ship"><span class="step-badge">{{digits 3}}</span>{{t "checkout.shippingMethod"}}</h2></div>
+            <div class="option-cards" data-shipping-options>
+              <label class="option-card"><input type="radio" name="shipping" value="post" checked><span class="option-card__body"><span class="option-card__icon">{{icon "envelope" size="sm"}}</span><span class="option-card__content"><span class="option-card__title">{{t "checkout.ship1"}}</span><span class="option-card__meta">{{t "checkout.ship1Meta"}}</span></span><span class="option-card__price" data-ship-price="post"></span></span></label>
+              <label class="option-card"><input type="radio" name="shipping" value="tipax"><span class="option-card__body"><span class="option-card__icon">{{icon "truck" size="sm"}}</span><span class="option-card__content"><span class="option-card__title">{{t "checkout.ship2"}}</span><span class="option-card__meta">{{t "checkout.ship2Meta"}}</span></span><span class="option-card__price" data-ship-price="tipax"></span></span></label>
+              <label class="option-card"><input type="radio" name="shipping" value="courier"><span class="option-card__body"><span class="option-card__icon">{{icon "rocket" size="sm"}}</span><span class="option-card__content"><span class="option-card__title">{{t "checkout.ship3"}}</span><span class="option-card__meta">{{t "checkout.ship3Meta"}}</span></span><span class="option-card__price" data-ship-price="courier"></span></span></label>
+            </div>
+          </section>
+
+          <section class="checkout-section" aria-labelledby="co-pay">
+            <div class="checkout-section__head"><h2 class="checkout-section__title" id="co-pay"><span class="step-badge">{{digits 4}}</span>{{t "checkout.payment"}}</h2></div>
+            <div class="option-cards">
+              <label class="option-card"><input type="radio" name="payment" value="online" checked><span class="option-card__body"><span class="option-card__icon">{{icon "credit-card" size="sm"}}</span><span class="option-card__content"><span class="option-card__title">{{t "checkout.pay1"}}</span><span class="option-card__meta">{{t "checkout.pay1Meta"}}</span></span><span class="option-card__logos">{{svg "i-shaparak"}}{{svg "i-visa"}}{{svg "i-mastercard"}}</span></span></label>
+              <label class="option-card"><input type="radio" name="payment" value="cod"><span class="option-card__body"><span class="option-card__icon">{{icon "cash-dollar" size="sm"}}</span><span class="option-card__content"><span class="option-card__title">{{t "checkout.pay2"}}</span><span class="option-card__meta">{{t "checkout.pay2Meta"}}</span></span></span></label>
+              <label class="option-card"><input type="radio" name="payment" value="wallet"><span class="option-card__body"><span class="option-card__icon">{{icon "wallet" size="sm"}}</span><span class="option-card__content"><span class="option-card__title">{{t "checkout.pay3"}}</span><span class="option-card__meta">{{t "checkout.pay3Meta" n=walletBalance}}</span></span></span></label>
+            </div>
+          </section>
+
+          <div class="form-group" style="margin-block-start:var(--space-5)">
+            <label class="check"><input class="check__input" type="checkbox" name="terms" required data-validate="terms"><span class="check__box"></span><span class="check__label">{{{t "checkout.terms"}}}</span></label>
+            <span class="form-error" role="alert"></span>
+          </div>
+        </div>
+
+        <aside class="cart-layout__aside">
+          <div class="summary">
+            <div class="cluster cluster--between"><h2 class="summary__title" style="border:0;padding:0">{{t "checkout.orderSummary"}}</h2><a class="checkout-section__edit" href="{{root}}cart.html">{{t "checkout.editCart"}}</a></div>
+            <div class="summary__items scroll-thin" data-checkout-items></div>
+            <div class="summary__rows">
+              <div class="summary__row"><span>{{t "cart.subtotal"}} (<span data-summary-count></span>)</span><span class="num" data-summary-subtotal></span></div>
+              <div class="summary__row summary__row--discount" data-summary-discount-row hidden><span>{{t "cart.discount"}}</span><span class="num" data-summary-discount></span></div>
+              <div class="summary__row summary__row--discount" data-summary-coupon-row hidden><span>{{t "cart.couponDiscount"}} (<span data-summary-coupon-code></span>)</span><span class="num" data-summary-coupon></span></div>
+              <div class="summary__row"><span>{{t "cart.shipping"}}</span><span class="num" data-summary-shipping></span></div>
+              <div class="summary__row"><span>{{t "cart.tax"}}</span><span class="num" data-summary-tax></span></div>
+            </div>
+            <div class="summary__total"><span>{{t "cart.grandTotal"}}</span><span class="num" data-summary-total></span></div>
+            <button type="submit" class="btn btn--primary btn--lg btn--block" data-place-order>{{icon "lock" size="xs"}}{{t "checkout.placeOrder"}}</button>
+            <div class="summary__secure">{{icon "shield-check" size="xs"}}{{t "cart.secure"}}</div>
+          </div>
+        </aside>
+      </form>
+    </div>
+
+    <div data-checkout-success hidden>
+      <div class="success-box card-surface">
+        <span class="success-box__icon">{{icon "checkmark-circle" size="xl"}}</span>
+        <h2 class="h3">{{t "checkout.successTitle"}}</h2>
+        <p class="text-muted" style="max-inline-size:48ch">{{t "checkout.successText"}}</p>
+        <div><span class="small text-muted">{{t "checkout.orderCode"}}:</span> <span class="success-box__code ltr" data-order-code></span></div>
+        <div class="cluster"><a class="btn btn--primary" href="{{root}}account-orders.html">{{t "checkout.trackOrder"}}</a><a class="btn btn--outline" href="{{root}}index.html">{{t "checkout.backHome"}}</a></div>
+      </div>
+    </div>
+
+    <div data-checkout-empty hidden>
+      {{{empty iconName="cart-empty" title=L.checkout.emptyTitle text=L.checkout.emptyText cta=L.common.goToShop href=shopHref}}}
+    </div>
+  </div>
+</section>

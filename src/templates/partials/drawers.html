@@ -1,0 +1,105 @@
+<div class="overlay" data-overlay hidden></div>
+
+<!-- Mobile navigation drawer -->
+<aside class="drawer" id="drawer-menu" data-drawer aria-label="{{t "mobileNav.menu"}}" aria-hidden="true" inert>
+  <div class="drawer__header">
+    <a class="brand" href="{{root}}index.html"><span class="brand__mark">{{svg "i-logo"}}</span><span class="brand__text"><span>{{L.meta.siteNameLatin}}</span></span></a>
+    <button type="button" class="icon-btn" data-drawer-close aria-label="{{t "common.close"}}">{{icon "cross"}}</button>
+  </div>
+  <div class="drawer__body scroll-thin">
+    <div class="mobile-nav__tabs" role="tablist">
+      <button type="button" class="mobile-nav__tab" role="tab" id="mtab-menu" aria-selected="true" aria-controls="mpanel-menu" data-mobile-tab="menu">{{t "mobileNav.menu"}}</button>
+      <button type="button" class="mobile-nav__tab" role="tab" id="mtab-cats" aria-selected="false" aria-controls="mpanel-cats" data-mobile-tab="cats" tabindex="-1">{{t "mobileNav.categories"}}</button>
+    </div>
+
+    <div id="mpanel-menu" role="tabpanel" aria-labelledby="mtab-menu" data-mobile-panel="menu">
+      <ul class="mobile-nav__list">
+        <li class="mobile-nav__item"><a class="mobile-nav__link{{#if page.nav == "home"}} is-active{{/if}}" href="{{root}}index.html">{{icon "home" size="sm"}}{{t "nav.home"}}</a></li>
+        <li class="mobile-nav__item">
+          <div class="mobile-nav__link{{#if page.nav == "shop"}} is-active{{/if}}">
+            <a href="{{root}}shop.html" style="display:inline-flex;align-items:center;gap:var(--space-3);flex:1">{{icon "store" size="sm"}}{{t "nav.shop"}}</a>
+            <button type="button" class="mobile-nav__toggle" aria-expanded="false" aria-controls="msub-shop" aria-label="{{t "nav.shop"}}" data-mobile-sub-toggle>{{icon "chevron-down" size="xs"}}</button>
+          </div>
+          <div class="mobile-nav__sub" id="msub-shop">
+            <a href="{{root}}shop.html">{{t "shop.heading"}}</a>
+            <a href="{{root}}shop.html?sort=newest">{{t "nav.newArrivals"}}</a>
+            <a href="{{root}}shop.html?sort=best">{{t "nav.bestSellers"}}</a>
+            <a href="{{root}}shop.html?discount=1">{{t "nav.flash"}}</a>
+            <a href="{{root}}compare.html">{{t "nav.compare"}}</a>
+          </div>
+        </li>
+        <li class="mobile-nav__item"><a class="mobile-nav__link" href="{{root}}shop.html?discount=1" style="color:var(--color-danger)">{{icon "alarm-ringing" size="sm"}}{{t "nav.flash"}}</a></li>
+        <li class="mobile-nav__item"><a class="mobile-nav__link{{#if page.nav == "blog"}} is-active{{/if}}" href="{{root}}blog.html">{{icon "book" size="sm"}}{{t "nav.blog"}}</a></li>
+        <li class="mobile-nav__item"><a class="mobile-nav__link" href="{{root}}about.html">{{icon "apartment" size="sm"}}{{t "nav.about"}}</a></li>
+        <li class="mobile-nav__item"><a class="mobile-nav__link" href="{{root}}contact.html">{{icon "bubble" size="sm"}}{{t "nav.contact"}}</a></li>
+        <li class="mobile-nav__item"><a class="mobile-nav__link" href="{{root}}faq.html">{{icon "question-circle" size="sm"}}{{t "nav.faq"}}</a></li>
+      </ul>
+
+      <div class="mobile-nav__section">{{t "mobileNav.quickAccess"}}</div>
+      <ul class="mobile-nav__list">
+        <li class="mobile-nav__item"><a class="mobile-nav__link" href="{{root}}login.html" data-auth-link>{{icon "user" size="sm"}}<span data-auth-label>{{t "header.login"}}</span></a></li>
+        <li class="mobile-nav__item"><a class="mobile-nav__link" href="{{root}}account-orders.html">{{icon "map-marker" size="sm"}}{{t "nav.trackOrder"}}</a></li>
+        <li class="mobile-nav__item"><a class="mobile-nav__link" href="{{root}}wishlist.html">{{icon "heart" size="sm"}}{{t "header.wishlist"}} <span class="badge badge--soft" data-count="wishlist">0</span></a></li>
+        <li class="mobile-nav__item"><a class="mobile-nav__link" href="{{root}}compare.html">{{icon "compare" size="sm"}}{{t "header.compare"}} <span class="badge badge--soft" data-count="compare">0</span></a></li>
+      </ul>
+
+      <div class="mobile-nav__section">{{t "header.language"}}</div>
+      <a class="lang-switch" href="{{otherLangHref}}" hreflang="{{otherLang}}" lang="{{otherLang}}" data-lang-switch style="color:var(--color-text);border-color:var(--color-border);display:inline-flex">
+        {{#if lang == "fa"}}{{svg "i-flag-en"}}{{else}}{{svg "i-flag-ir"}}{{/if}}<span>{{L.meta.otherLang}}</span>
+      </a>
+
+      <div class="mobile-nav__section">{{t "mobileNav.contactUs"}}</div>
+      <div class="mobile-nav__contact">
+        <a class="ltr" href="tel:+982191008800" style="direction:ltr">{{icon "telephone" size="xs"}}{{t "header.phone"}}</a>
+        <a href="mailto:{{t "footer.email"}}">{{icon "envelope" size="xs"}}<span class="ltr">{{t "footer.email"}}</span></a>
+      </div>
+    </div>
+
+    <div id="mpanel-cats" role="tabpanel" aria-labelledby="mtab-cats" data-mobile-panel="cats" hidden>
+      <ul class="mobile-nav__list">
+        {{#each categories}}
+        <li class="mobile-nav__item">
+          <div class="mobile-nav__link">
+            <a href="{{root}}shop.html?cat={{this.slug}}" style="display:inline-flex;align-items:center;gap:var(--space-3);flex:1">{{icon this.icon size="sm"}}{{this.name}}</a>
+            <button type="button" class="mobile-nav__toggle" aria-expanded="false" aria-controls="msub-{{this.slug}}" aria-label="{{this.name}}" data-mobile-sub-toggle>{{icon "chevron-down" size="xs"}}</button>
+          </div>
+          <div class="mobile-nav__sub" id="msub-{{this.slug}}">
+            {{#each this.children}}<a href="{{root}}shop.html?cat={{this.slug}}">{{this.name}}</a>{{/each}}
+            <a href="{{root}}shop.html?cat={{this.slug}}" class="fw-medium">{{t "nav.viewAllIn"}} {{this.name}}</a>
+          </div>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+  <div class="drawer__footer">
+    <a class="btn btn--primary btn--block" href="{{root}}shop.html">{{icon "store" size="sm"}}{{t "common.goToShop"}}</a>
+  </div>
+</aside>
+
+<!-- Filters drawer (shop / search) — content is moved here by JS on small screens -->
+<aside class="drawer drawer--end" id="drawer-filters" data-drawer aria-label="{{t "shop.filters"}}" aria-hidden="true" inert>
+  <div class="drawer__header">
+    <span class="drawer__title">{{icon "funnel" size="sm"}}{{t "shop.filters"}}</span>
+    <button type="button" class="icon-btn" data-drawer-close aria-label="{{t "common.close"}}">{{icon "cross"}}</button>
+  </div>
+  <div class="drawer__body scroll-thin" data-filters-drawer-body></div>
+  <div class="drawer__footer" style="grid-template-columns:1fr 1fr">
+    <button type="button" class="btn btn--outline" data-filters-clear>{{t "shop.clearFilters"}}</button>
+    <button type="button" class="btn btn--primary" data-drawer-close><span data-filters-apply-label>{{t "shop.applyFilters"}}</span></button>
+  </div>
+</aside>
+
+<!-- Quick view dialog -->
+<dialog class="modal" id="quick-view" data-quick-view aria-label="{{t "product.quickViewTitle"}}">
+  <button type="button" class="icon-btn icon-btn--light modal__close" data-modal-close aria-label="{{t "common.close"}}">{{icon "cross"}}</button>
+  <div class="modal__body scroll-thin" data-quick-view-body></div>
+</dialog>
+
+<!-- Compare floating bar -->
+<div class="compare-bar" data-compare-bar aria-live="polite">
+  <span class="compare-bar__thumbs" data-compare-thumbs></span>
+  <span data-compare-label></span>
+  <a class="btn btn--primary btn--sm btn--pill" href="{{root}}compare.html">{{t "common.compareNow"}}</a>
+  <button type="button" class="icon-btn icon-btn--circle" data-compare-clear aria-label="{{t "compare.clear"}}" style="color:var(--color-gray-400)">{{icon "cross" size="xs"}}</button>
+</div>

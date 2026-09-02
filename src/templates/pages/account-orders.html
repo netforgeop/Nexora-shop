@@ -1,0 +1,43 @@
+<section class="section section--sm" data-account-page>
+  <div class="container">
+    <div class="with-sidebar">
+      <aside class="with-sidebar__aside">{{> account-nav}}</aside>
+      <div>
+        <div class="account-panel">
+          <div class="account-panel__head">
+            <h1 class="account-panel__title">{{t "account.orders"}}</h1>
+            <div class="tabs tabs--pills" data-order-filter>
+              <div class="tabs__list" role="tablist">
+                <button type="button" class="tabs__tab" role="tab" aria-selected="true" data-order-status="">{{t "account.filterAll"}} <span class="badge badge--soft">{{digits 6}}</span></button>
+                <button type="button" class="tabs__tab" role="tab" aria-selected="false" data-order-status="processing">{{t "account.statusProcessing"}}</button>
+                <button type="button" class="tabs__tab" role="tab" aria-selected="false" data-order-status="shipped">{{t "account.statusShipped"}}</button>
+                <button type="button" class="tabs__tab" role="tab" aria-selected="false" data-order-status="delivered">{{t "account.statusDelivered"}}</button>
+                <button type="button" class="tabs__tab" role="tab" aria-selected="false" data-order-status="cancelled">{{t "account.statusCancelled"}}</button>
+              </div>
+            </div>
+          </div>
+          <div class="table-scroll">
+            <table class="data-table">
+              <thead><tr><th scope="col">{{t "account.orderId"}}</th><th scope="col">{{t "account.orderDate"}}</th><th scope="col">{{t "account.orderItems"}}</th><th scope="col">{{t "account.orderTotal"}}</th><th scope="col">{{t "account.orderStatus"}}</th><th scope="col"><span class="visually-hidden">{{t "common.details"}}</span></th></tr></thead>
+              <tbody data-orders-body>
+                {{#each orders}}
+                <tr data-order-row="{{this.status}}">
+                  <td><span class="num ltr">{{this.code}}</span></td>
+                  <td>{{this.date}}</td>
+                  <td><div class="data-table__thumbs">{{#each this.items}}<img src="{{root}}assets/img/{{this.product.image}}" width="40" height="40" alt="{{this.product.name}}" loading="lazy">{{/each}}</div><span class="small text-muted">{{digits this.items.length}} {{t "common.product"}}</span></td>
+                  <td><span class="num">{{price this.total}}</span></td>
+                  <td><span class="status status--{{this.statusClass}}">{{this.statusLabel}}</span></td>
+                  <td><a class="btn btn--outline btn--sm" href="{{root}}account-order.html?order={{this.code}}">{{t "account.viewOrder"}}</a></td>
+                </tr>
+                {{/each}}
+              </tbody>
+            </table>
+          </div>
+          <div data-orders-empty hidden>
+            {{{empty iconName="box" title=L.account.noOrders text=L.account.noOrdersText cta=L.common.goToShop href=shopHref}}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

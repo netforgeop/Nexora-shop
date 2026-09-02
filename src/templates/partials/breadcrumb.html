@@ -1,0 +1,10 @@
+<div class="container">
+  <nav class="breadcrumb" aria-label="{{t "common.breadcrumb"}}" style="padding-block: var(--space-4);">
+    <ol class="breadcrumb" style="padding:0">
+      <li class="breadcrumb__item"><a href="{{root}}index.html">{{icon "home" size="xs"}}<span>{{t "common.home"}}</span></a><span class="breadcrumb__sep linear-icon-chevron-left icon--flip-ltr" aria-hidden="true"></span></li>
+      {{#each page.crumbs}}
+      <li class="breadcrumb__item"{{#unless this.1}} aria-current="page"{{/unless}}>{{#if this.1}}<a href="{{root}}{{this.1}}">{{this.0}}</a><span class="breadcrumb__sep linear-icon-chevron-left icon--flip-ltr" aria-hidden="true"></span>{{else}}<span class="truncate" style="max-inline-size:60vw">{{this.0}}</span>{{/if}}</li>
+      {{/each}}
+    </ol>
+  </nav>
+</div>

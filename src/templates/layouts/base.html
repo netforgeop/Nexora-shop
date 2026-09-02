@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="{{lang}}" dir="{{dir}}" data-root="{{root}}" data-lang-root="{{langRoot}}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{page.fullTitle}}</title>
+  <meta name="description" content="{{page.description}}">
+  <meta name="theme-color" content="{{site.themeColor}}">
+  <meta name="color-scheme" content="light">
+  <link rel="canonical" href="{{page.canonical}}">
+  <link rel="alternate" hreflang="{{lang}}" href="{{page.canonical}}">
+  <link rel="alternate" hreflang="{{otherLang}}" href="{{#if otherLang == "en"}}{{site.domain}}/en/{{page.path}}{{else}}{{site.domain}}/{{page.path}}{{/if}}">
+  <link rel="icon" href="{{root}}assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" href="{{root}}assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{{root}}assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="{{root}}site.webmanifest">
+
+  <meta property="og:type" content="{{#if product}}product{{else}}website{{/if}}">
+  <meta property="og:site_name" content="{{L.meta.siteName}}">
+  <meta property="og:title" content="{{page.fullTitle}}">
+  <meta property="og:description" content="{{page.description}}">
+  <meta property="og:url" content="{{page.canonical}}">
+  <meta property="og:locale" content="{{L.meta.locale}}">
+  <meta property="og:image" content="{{site.domain}}/assets/img/{{#if product}}{{product.image}}{{else}}{{#if post}}{{post.image}}{{else}}hero/hero-1.webp{{/if}}{{/if}}">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preload" href="{{root}}assets/fonts/{{#if lang == "fa"}}iran-yekan-400.woff2{{else}}inter-latin-400-normal.woff2{{/if}}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{root}}assets/fonts/linearicons-subset.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="{{root}}assets/vendor/bootstrap/{{#if isRTL}}bootstrap-grid.rtl.min.css{{else}}bootstrap-grid.min.css{{/if}}">
+  {{#if vendor.swiper}}<link rel="stylesheet" href="{{root}}assets/vendor/swiper/swiper-bundle.min.css">{{/if}}
+  {{#if vendor.photoswipe}}<link rel="stylesheet" href="{{root}}assets/vendor/photoswipe/photoswipe.css">{{/if}}
+  <link rel="stylesheet" href="{{root}}assets/css/fonts.css">
+  <link rel="stylesheet" href="{{root}}assets/css/tokens.css">
+  <link rel="stylesheet" href="{{root}}assets/css/icons.css">
+  <link rel="stylesheet" href="{{root}}assets/css/base.css">
+  <link rel="stylesheet" href="{{root}}assets/css/layout.css">
+  <link rel="stylesheet" href="{{root}}assets/css/components.css">
+  <link rel="stylesheet" href="{{root}}assets/css/pages.css">
+
+  <script>
+    // Apply persisted preferences before first paint to avoid flashes.
+    (function () { try { var a = localStorage.getItem('nx:announcement'); if (a === 'dismissed') document.documentElement.classList.add('no-announcement'); } catch (e) {} })();
+  </script>
+  {{#if structuredData}}<script type="application/ld+json">{{{structuredData}}}</script>{{/if}}
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"{{L.meta.siteName}}","url":"{{site.domain}}/{{#if lang == "en"}}en/{{/if}}","potentialAction":{"@type":"SearchAction","target":"{{site.domain}}/{{#if lang == "en"}}en/{{/if}}search.html?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+  {{#if page.crumbs}}<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"{{L.common.home}}","item":"{{site.domain}}/{{#if lang == "en"}}en/{{/if}}"}{{#each page.crumbs}},{"@type":"ListItem","position":{{crumbPos @number}},"name":"{{this.0}}"{{#if this.1}},"item":"{{site.domain}}/{{#if lang == "en"}}en/{{/if}}{{this.1}}"{{/if}}}{{/each}}]}</script>{{/if}}
+</head>
+<body class="{{page.bodyClass}}" data-page="{{page.id}}">
+  <a class="skip-link" href="#main">{{t "common.skipToContent"}}</a>
+  <div class="page-progress" id="page-progress" aria-hidden="true"></div>
+
+  {{> sprite}}
+
+  {{#if page.minimal}}
+    {{> header-minimal}}
+  {{else}}
+    {{> header}}
+  {{/if}}
+
+  <main id="main" tabindex="-1">
+    {{#if page.crumbs}}{{#unless page.noCrumbs}}{{> breadcrumb}}{{/unless}}{{/if}}
+    {{{content}}}
+  </main>
+
+  {{#if page.minimal}}
+    {{> footer-minimal}}
+  {{else}}
+    {{> footer}}
+  {{/if}}
+
+  {{> drawers}}
+  {{> mobile-bar}}
+
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="false"></div>
+  <button type="button" class="back-to-top" id="back-to-top" aria-label="{{t "common.backToTop"}}">{{icon "chevron-up" size="sm"}}</button>
+
+  <script src="{{root}}assets/js/i18n.{{lang}}.js"></script>
+  <script src="{{root}}assets/js/catalog.{{lang}}.js" defer></script>
+  {{#if vendor.swiper}}<script src="{{root}}assets/vendor/swiper/swiper-bundle.min.js" defer></script>{{/if}}
+  {{#if vendor.photoswipe}}<script src="{{root}}assets/vendor/photoswipe/photoswipe.iife.min.js" defer></script>{{/if}}
+  <script src="{{root}}assets/js/app.js" defer></script>
+</body>
+</html>

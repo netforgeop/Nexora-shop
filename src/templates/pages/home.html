@@ -1,0 +1,320 @@
+<h1 class="visually-hidden">{{L.meta.siteName}} – {{L.meta.description}}</h1>
+
+<!-- ============ HERO ============ -->
+<section class="home-hero" aria-label="{{t "home.hero1Eyebrow"}}">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero swiper" data-swiper="hero">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <article class="hero__slide">
+              <div class="hero__media"><img src="{{img "hero/hero-1.webp"}}" srcset="{{img "hero/hero-1-sm.webp"}} 900w, {{img "hero/hero-1.webp"}} 1600w" sizes="(min-width: 1200px) 880px, 100vw" width="1600" height="679" alt="" fetchpriority="high" decoding="async"></div>
+              <div class="container"><div class="hero__content">
+                <span class="hero__eyebrow">{{t "home.hero1Eyebrow"}}</span>
+                <h2 class="hero__title">{{{t "home.hero1Title"}}}</h2>
+                <p class="hero__text">{{t "home.hero1Text"}}</p>
+                <div class="hero__cta"><a class="btn btn--primary btn--lg" href="{{root}}product/headphones-noise-cancelling.html">{{t "home.hero1Cta"}}{{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</a><a class="btn btn--outline-light btn--lg" href="{{root}}shop.html?cat=digital">{{t "home.hero1Cta2"}}</a></div>
+              </div></div>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="hero__slide">
+              <div class="hero__media"><img src="{{img "hero/hero-2.webp"}}" srcset="{{img "hero/hero-2-sm.webp"}} 900w, {{img "hero/hero-2.webp"}} 1600w" sizes="(min-width: 1200px) 880px, 100vw" width="1600" height="679" alt="" loading="lazy" decoding="async"></div>
+              <div class="container"><div class="hero__content">
+                <span class="hero__eyebrow">{{t "home.hero2Eyebrow"}}</span>
+                <h2 class="hero__title">{{{t "home.hero2Title"}}}</h2>
+                <p class="hero__text">{{t "home.hero2Text"}}</p>
+                <div class="hero__cta"><a class="btn btn--primary btn--lg" href="{{root}}shop.html?cat=fashion">{{t "home.hero2Cta"}}{{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</a><a class="btn btn--outline-light btn--lg" href="{{root}}shop.html?cat=fashion&sort=newest">{{t "home.hero2Cta2"}}</a></div>
+              </div></div>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="hero__slide">
+              <div class="hero__media"><img src="{{img "hero/hero-3.webp"}}" srcset="{{img "hero/hero-3-sm.webp"}} 900w, {{img "hero/hero-3.webp"}} 1600w" sizes="(min-width: 1200px) 880px, 100vw" width="1600" height="679" alt="" loading="lazy" decoding="async"></div>
+              <div class="container"><div class="hero__content">
+                <span class="hero__eyebrow">{{t "home.hero3Eyebrow"}}</span>
+                <h2 class="hero__title">{{{t "home.hero3Title"}}}</h2>
+                <p class="hero__text">{{t "home.hero3Text"}}</p>
+                <div class="hero__cta"><a class="btn btn--primary btn--lg" href="{{root}}shop.html?cat=home">{{t "home.hero3Cta"}}{{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</a><a class="btn btn--outline-light btn--lg" href="{{root}}shop.html?discount=1">{{t "home.hero3Cta2"}}</a></div>
+              </div></div>
+            </article>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <button type="button" class="hero__nav hero__nav--prev" data-swiper-prev aria-label="{{t "home.heroPrevSlide"}}">{{icon "chevron-right" size="sm" class="icon--flip-ltr"}}</button>
+        <button type="button" class="hero__nav hero__nav--next" data-swiper-next aria-label="{{t "home.heroNextSlide"}}">{{icon "chevron-left" size="sm" class="icon--flip-ltr"}}</button>
+      </div>
+
+      <div class="hero-grid__aside">
+        <a class="hero-tile" href="{{root}}product/wireless-earbuds.html">
+          <img src="{{img "banners/tile-earbuds.webp"}}" width="640" height="480" alt="" loading="lazy" decoding="async">
+          <span class="hero-tile__body"><span class="hero-tile__kicker">{{t "home.tile1Kicker"}}</span><span class="hero-tile__title">{{t "home.tile1Title"}}</span><span class="hero-tile__link">{{t "home.tile1Link"}} {{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</span></span>
+        </a>
+        <a class="hero-tile hero-tile--dark" href="{{root}}product/classic-leather-watch.html">
+          <img src="{{img "banners/tile-watch.webp"}}" width="640" height="480" alt="" loading="lazy" decoding="async">
+          <span class="hero-tile__body"><span class="hero-tile__kicker">{{t "home.tile2Kicker"}}</span><span class="hero-tile__title">{{t "home.tile2Title"}}</span><span class="hero-tile__link">{{t "home.tile2Link"}} {{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST BAR ============ -->
+<section class="section section--sm" aria-label="{{t "footer.featuresTitle"}}">
+  <div class="container">
+    <div class="trust-bar" style="border:1px solid var(--color-border);border-radius:var(--radius-md)">
+      <div class="trust-bar__grid">
+        <div class="trust-item"><span class="trust-item__icon">{{icon "truck"}}</span><div><div class="trust-item__title">{{t "home.trust1Title"}}</div><div class="trust-item__text">{{t "home.trust1Text"}}</div></div></div>
+        <div class="trust-item"><span class="trust-item__icon">{{icon "credit-card"}}</span><div><div class="trust-item__title">{{t "home.trust2Title"}}</div><div class="trust-item__text">{{t "home.trust2Text"}}</div></div></div>
+        <div class="trust-item"><span class="trust-item__icon">{{icon "shield-check"}}</span><div><div class="trust-item__title">{{t "home.trust3Title"}}</div><div class="trust-item__text">{{t "home.trust3Text"}}</div></div></div>
+        <div class="trust-item"><span class="trust-item__icon">{{icon "undo"}}</span><div><div class="trust-item__title">{{t "home.trust4Title"}}</div><div class="trust-item__text">{{t "home.trust4Text"}}</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CATEGORIES ============ -->
+<section class="section section--flush-top" aria-labelledby="sec-categories">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <div><h2 class="section-head__title" id="sec-categories">{{t "home.categoriesTitle"}}</h2><p class="section-head__sub">{{t "home.categoriesSub"}}</p></div>
+      <div class="section-head__aside"><a class="link--arrow" href="{{root}}shop.html">{{t "common.viewAll"}}{{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</a></div>
+    </div>
+    <ul class="category-grid">
+      {{#each categories}}
+      <li data-reveal style="--reveal-delay:{{@index}}0ms">
+        <a class="category-card" href="{{root}}shop.html?cat={{this.slug}}">
+          <span class="category-card__media{{#unless this.image}} category-card__media--icon{{/unless}}">{{#if this.image}}<img src="{{root}}assets/img/{{this.image}}" width="160" height="160" alt="" loading="lazy" decoding="async">{{else}}{{icon this.icon size="lg"}}{{/if}}</span>
+          <span class="category-card__name">{{this.name}}</span>
+          <span class="category-card__count">{{num this.count}} {{t "common.products"}}</span>
+        </a>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</section>
+
+<!-- ============ FEATURED ============ -->
+<section class="section bg-surface" aria-labelledby="sec-featured">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <div><h2 class="section-head__title" id="sec-featured">{{t "home.featuredTitle"}}</h2><p class="section-head__sub">{{t "home.featuredSub"}}</p></div>
+      <div class="section-head__aside">
+        <a class="link--arrow" href="{{root}}shop.html">{{t "common.viewAll"}}{{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</a>
+        <div class="carousel-nav"><button type="button" class="carousel-nav__btn" data-carousel-prev="featured" aria-label="{{t "common.prev"}}">{{icon "chevron-right" size="xs" class="icon--flip-ltr"}}</button><button type="button" class="carousel-nav__btn" data-carousel-next="featured" aria-label="{{t "common.next"}}">{{icon "chevron-left" size="xs" class="icon--flip-ltr"}}</button></div>
+      </div>
+    </div>
+    <div class="product-carousel" data-reveal>
+      <div class="swiper" data-swiper="products" data-carousel-id="featured">
+        <div class="swiper-wrapper">{{{slides lists.featured}}}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FLASH SALE ============ -->
+<section class="section flash-sale" aria-labelledby="sec-flash">
+  <div class="container">
+    <div class="home-deal">
+      <div class="deal-card" data-reveal>
+        <div>
+          <span class="deal-card__kicker">{{icon "alarm-ringing" size="sm"}}{{t "home.flashCardKicker"}}</span>
+          <h2 class="deal-card__title" id="sec-flash">{{t "home.flashTitle"}}</h2>
+          <p class="deal-card__text">{{t "home.flashCardTitle"}} — {{t "home.flashCardText"}}</p>
+        </div>
+        <div class="countdown" data-countdown data-countdown-hours="18" aria-label="{{t "home.flashSub"}}">
+          <span class="countdown__unit"><span class="countdown__value" data-cd="h">00</span><span class="countdown__label">{{t "common.hours"}}</span></span>
+          <span class="countdown__sep" aria-hidden="true">:</span>
+          <span class="countdown__unit"><span class="countdown__value" data-cd="m">00</span><span class="countdown__label">{{t "common.minutes"}}</span></span>
+          <span class="countdown__sep" aria-hidden="true">:</span>
+          <span class="countdown__unit"><span class="countdown__value" data-cd="s">00</span><span class="countdown__label">{{t "common.seconds"}}</span></span>
+        </div>
+        <a class="btn btn--dark" href="{{root}}shop.html?discount=1&sort=discount">{{t "home.flashCardCta"}}{{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</a>
+      </div>
+      <div class="product-carousel" data-reveal>
+        <div class="flash-sale__head" style="margin-block-end:var(--space-4)">
+          <p class="text-muted" style="color:var(--color-gray-300)">{{t "home.flashSub"}}</p>
+          <div class="carousel-nav carousel-nav--light"><button type="button" class="carousel-nav__btn" data-carousel-prev="flash" aria-label="{{t "common.prev"}}">{{icon "chevron-right" size="xs" class="icon--flip-ltr"}}</button><button type="button" class="carousel-nav__btn" data-carousel-next="flash" aria-label="{{t "common.next"}}">{{icon "chevron-left" size="xs" class="icon--flip-ltr"}}</button></div>
+        </div>
+        <div class="swiper" data-swiper="products" data-carousel-id="flash" data-slides-xl="3" data-slides-xxl="3">
+          <div class="swiper-wrapper">{{{slides lists.flash flash=true}}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NEW ARRIVALS ============ -->
+<section class="section" aria-labelledby="sec-new">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <div><h2 class="section-head__title" id="sec-new">{{t "home.newTitle"}}</h2><p class="section-head__sub">{{t "home.newSub"}}</p></div>
+      <div class="section-head__aside"><a class="link--arrow" href="{{root}}shop.html?sort=newest">{{t "common.viewAll"}}{{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</a></div>
+    </div>
+    <div class="product-grid" data-reveal>{{{cards lists.newest}}}</div>
+  </div>
+</section>
+
+<!-- ============ PROMO BANNERS ============ -->
+<section class="section section--flush-top" aria-label="{{t "home.promo1Kicker"}} / {{t "home.promo2Kicker"}}">
+  <div class="container">
+    <div class="promo-grid">
+      <a class="promo promo--dark" href="{{root}}shop.html?cat=mobile" data-reveal>
+        <img src="{{img "banners/promo-digital.webp"}}" width="1200" height="600" alt="" loading="lazy" decoding="async">
+        <span class="promo__body"><span class="promo__kicker">{{t "home.promo1Kicker"}}</span><span class="promo__title">{{t "home.promo1Title"}}</span><span class="promo__text">{{t "home.promo1Text"}}</span><span class="btn btn--primary btn--sm">{{t "home.promo1Cta"}}</span></span>
+      </a>
+      <a class="promo promo--light" href="{{root}}shop.html?cat=beauty" data-reveal style="--reveal-delay:100ms">
+        <img src="{{img "banners/promo-fashion.webp"}}" width="1200" height="600" alt="" loading="lazy" decoding="async">
+        <span class="promo__body"><span class="promo__kicker">{{t "home.promo2Kicker"}}</span><span class="promo__title">{{t "home.promo2Title"}}</span><span class="promo__text">{{t "home.promo2Text"}}</span><span class="btn btn--dark btn--sm">{{t "home.promo2Cta"}}</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEST SELLERS ============ -->
+<section class="section bg-surface" aria-labelledby="sec-best">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <div><h2 class="section-head__title" id="sec-best">{{t "home.bestTitle"}}</h2><p class="section-head__sub">{{t "home.bestSub"}}</p></div>
+      <div class="section-head__aside">
+        <a class="link--arrow" href="{{root}}shop.html?sort=best">{{t "common.viewAll"}}{{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</a>
+        <div class="carousel-nav"><button type="button" class="carousel-nav__btn" data-carousel-prev="best" aria-label="{{t "common.prev"}}">{{icon "chevron-right" size="xs" class="icon--flip-ltr"}}</button><button type="button" class="carousel-nav__btn" data-carousel-next="best" aria-label="{{t "common.next"}}">{{icon "chevron-left" size="xs" class="icon--flip-ltr"}}</button></div>
+      </div>
+    </div>
+    <div class="product-carousel" data-reveal>
+      <div class="swiper" data-swiper="products" data-carousel-id="best">
+        <div class="swiper-wrapper">{{{slides lists.best}}}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COLLECTIONS ============ -->
+<section class="section" aria-labelledby="sec-collections">
+  <div class="container">
+    <div class="section-head section-head--center" data-reveal>
+      <div><h2 class="section-head__title" id="sec-collections">{{t "home.collectionsTitle"}}</h2><p class="section-head__sub">{{t "home.collectionsSub"}}</p></div>
+    </div>
+    <div class="collections" data-reveal>
+      <div class="collection"><h3 class="collection__title">{{t "home.topRated"}}<a href="{{root}}shop.html?sort=rating">{{t "common.viewAll"}}</a></h3><div class="collection__list">{{{minis lists.topRated ranked=true}}}</div></div>
+      <div class="collection"><h3 class="collection__title">{{t "home.trending"}}<a href="{{root}}shop.html?sort=popular">{{t "common.viewAll"}}</a></h3><div class="collection__list">{{{minis lists.trending ranked=true}}}</div></div>
+      <div class="collection"><h3 class="collection__title">{{t "home.topDiscounts"}}<a href="{{root}}shop.html?sort=discount">{{t "common.viewAll"}}</a></h3><div class="collection__list">{{{minis lists.topDiscount ranked=true}}}</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CATEGORY TILES ============ -->
+<section class="section section--flush-top" aria-label="{{t "footer.categories"}}">
+  <div class="container">
+    <div class="promo-grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
+      <a class="category-tile" href="{{root}}shop.html?cat=digital" data-reveal><img src="{{img "categories/tile-digital.webp"}}" width="800" height="600" alt="" loading="lazy"><span class="category-tile__body"><span class="category-tile__name">{{categories.0.name}}</span><span class="category-tile__count">{{num categories.0.count}} {{t "common.products"}}</span><span class="category-tile__link">{{t "common.viewAll"}} {{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</span></span></a>
+      <a class="category-tile" href="{{root}}shop.html?cat=fashion" data-reveal style="--reveal-delay:80ms"><img src="{{img "categories/tile-fashion.webp"}}" width="800" height="600" alt="" loading="lazy"><span class="category-tile__body"><span class="category-tile__name">{{categories.1.name}}</span><span class="category-tile__count">{{num categories.1.count}} {{t "common.products"}}</span><span class="category-tile__link">{{t "common.viewAll"}} {{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</span></span></a>
+      <a class="category-tile" href="{{root}}shop.html?cat=home" data-reveal style="--reveal-delay:160ms"><img src="{{img "categories/tile-home.webp"}}" width="800" height="600" alt="" loading="lazy"><span class="category-tile__body"><span class="category-tile__name">{{categories.2.name}}</span><span class="category-tile__count">{{num categories.2.count}} {{t "common.products"}}</span><span class="category-tile__link">{{t "common.viewAll"}} {{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</span></span></a>
+      <a class="category-tile" href="{{root}}shop.html?cat=beauty" data-reveal style="--reveal-delay:240ms"><img src="{{img "categories/tile-beauty.webp"}}" width="800" height="600" alt="" loading="lazy"><span class="category-tile__body"><span class="category-tile__name">{{categories.3.name}}</span><span class="category-tile__count">{{num categories.3.count}} {{t "common.products"}}</span><span class="category-tile__link">{{t "common.viewAll"}} {{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</span></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BRANDS ============ -->
+<section class="section section--sm brand-strip" aria-labelledby="sec-brands">
+  <div class="container">
+    <div class="section-head section-head--center" style="margin-block-end:var(--space-5)">
+      <div><h2 class="section-head__title" id="sec-brands" style="font-size:var(--fs-xl)">{{t "home.brandsTitle"}}</h2><p class="section-head__sub">{{t "home.brandsSub"}}</p></div>
+    </div>
+    <div class="swiper" data-swiper="brands">
+      <div class="swiper-wrapper">
+        {{#each brands}}<div class="swiper-slide" style="inline-size:auto"><a class="brand-logo" href="{{root}}shop.html?brand={{this.slug}}" aria-label="{{this.name}}"><span aria-hidden="true">{{this.name}}</span></a></div>{{/each}}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="stats-band" aria-label="{{t "home.reviewsSub"}}">
+  <div class="container">
+    <div class="stats-band__grid">
+      <div class="stat-big" data-reveal><span class="stat-big__value">{{t "home.stat1"}}</span><span class="stat-big__label">{{t "home.stat1Label"}}</span></div>
+      <div class="stat-big" data-reveal style="--reveal-delay:80ms"><span class="stat-big__value">{{t "home.stat2"}}</span><span class="stat-big__label">{{t "home.stat2Label"}}</span></div>
+      <div class="stat-big" data-reveal style="--reveal-delay:160ms"><span class="stat-big__value">{{t "home.stat3"}}</span><span class="stat-big__label">{{t "home.stat3Label"}}</span></div>
+      <div class="stat-big" data-reveal style="--reveal-delay:240ms"><span class="stat-big__value">{{t "home.stat4"}}</span><span class="stat-big__label">{{t "home.stat4Label"}}</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="section bg-surface" aria-labelledby="sec-reviews">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <div><h2 class="section-head__title" id="sec-reviews">{{t "home.reviewsTitle"}}</h2><p class="section-head__sub">{{t "home.reviewsSub"}}</p></div>
+      <div class="section-head__aside"><div class="carousel-nav"><button type="button" class="carousel-nav__btn" data-carousel-prev="reviews" aria-label="{{t "common.prev"}}">{{icon "chevron-right" size="xs" class="icon--flip-ltr"}}</button><button type="button" class="carousel-nav__btn" data-carousel-next="reviews" aria-label="{{t "common.next"}}">{{icon "chevron-left" size="xs" class="icon--flip-ltr"}}</button></div></div>
+    </div>
+    <div class="swiper" data-swiper="reviews" data-carousel-id="reviews" data-reveal>
+      <div class="swiper-wrapper">
+        {{#each testimonials}}
+        <div class="swiper-slide">
+          <article class="review-card">
+            {{{rating this.rating showValue=false}}}
+            <p class="review-card__text">{{this.text}}</p>
+            <div class="review-card__author">
+              <span class="avatar" aria-hidden="true" style="display:grid;place-items:center;background:var(--color-gray-900);color:var(--color-primary);font-weight:700;font-size:1.1rem">{{this.name.0}}</span>
+              <div><div class="review-card__name">{{this.name}}</div><div class="review-card__meta">{{this.role}}</div></div>
+            </div>
+            {{#if this.product}}<a class="review-card__product" href="{{root}}product/{{this.product.slug}}.html"><img src="{{root}}assets/img/{{this.product.image}}" width="32" height="32" alt="" loading="lazy"><span class="truncate">{{this.product.name}}</span><span class="review-card__verified">{{icon "checkmark-circle" size="xs"}}{{t "common.verified"}}</span></a>{{/if}}
+          </article>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BLOG ============ -->
+<section class="section home-blog" aria-labelledby="sec-blog">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <div><h2 class="section-head__title" id="sec-blog">{{t "home.blogTitle"}}</h2><p class="section-head__sub">{{t "home.blogSub"}}</p></div>
+      <div class="section-head__aside"><a class="link--arrow" href="{{root}}blog.html">{{t "home.blogCta"}}{{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</a></div>
+    </div>
+    <div class="row g-4">
+      {{#each homePosts}}
+      <div class="col-md-6 col-lg-4" data-reveal style="--reveal-delay:{{@index}}00ms">
+        <article class="post-card">
+          <a class="post-card__media" href="{{root}}blog/{{this.slug}}.html" tabindex="-1" aria-hidden="true"><img src="{{root}}assets/img/{{this.image}}" width="800" height="500" alt="" loading="lazy" decoding="async"><span class="badge badge--discount post-card__cat">{{this.category.name}}</span></a>
+          <div class="post-card__body">
+            <div class="post-card__meta"><span>{{icon "calendar-full" size="xs"}}{{this.dateLabel}}</span><span>{{icon "clock3" size="xs"}}{{t "blog.readTime" n=this.readTime}}</span></div>
+            <h3 class="post-card__title"><a href="{{root}}blog/{{this.slug}}.html">{{this.title}}</a></h3>
+            <p class="post-card__excerpt">{{this.excerpt}}</p>
+            <div class="post-card__footer"><span class="post-card__author">{{icon "user" size="xs"}}{{this.author}}</span><a class="link--arrow small" href="{{root}}blog/{{this.slug}}.html">{{t "common.readMore"}}{{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</a></div>
+          </div>
+        </article>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<!-- ============ NEWSLETTER ============ -->
+<section class="section section--flush-top" aria-labelledby="sec-newsletter">
+  <div class="container">
+    <div class="newsletter" data-reveal>
+      <div class="newsletter__inner">
+        <div>
+          <span class="newsletter__icon">{{icon "envelope" size="lg"}}</span>
+          <h2 class="newsletter__title" id="sec-newsletter">{{t "footer.newsletterTitle"}}</h2>
+          <p class="newsletter__text">{{t "footer.newsletterText"}} {{t "home.ctaText"}}</p>
+        </div>
+        <form class="newsletter__form" data-newsletter novalidate>
+          <div class="form-group">
+            <label class="visually-hidden" for="home-newsletter-email">{{t "footer.newsletterPlaceholder"}}</label>
+            <div class="input-group">
+              <input id="home-newsletter-email" class="form-control" type="email" name="email" placeholder="{{t "footer.newsletterPlaceholder"}}" autocomplete="email" required dir="ltr">
+              <button type="submit" class="btn btn--primary">{{t "footer.subscribe"}}{{icon "paper-plane" size="xs"}}</button>
+            </div>
+            <span class="form-error" role="alert"></span>
+          </div>
+          <p class="newsletter__note">{{{t "auth.terms"}}}</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

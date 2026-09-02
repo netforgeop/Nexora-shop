@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1001,
+    "slug": "headphones-noise-cancelling",
+    "sku": "NX-DG-1001",
+    "name": { "fa": "هدفون بی‌سیم نویزکنسلینگ سونیکس مدل Aura NC", "en": "Sonix Aura NC Wireless Noise-Cancelling Headphones" },
+    "category": "digital", "subcategory": "audio", "brand": "sonix",
+    "price": 4850000, "oldPrice": 5990000,
+    "rating": 4.7, "reviewCount": 312, "sold": 1840, "views": 25400,
+    "stock": 14, "maxQty": 5,
+    "flags": { "featured": true, "flash": true, "new": true, "bestseller": true, "hero": true },
+    "colors": [ { "name": { "fa": "مشکی", "en": "Black" }, "hex": "#1a1a1a" }, { "name": { "fa": "نقره‌ای", "en": "Silver" }, "hex": "#c9c9c9" }, { "name": { "fa": "سرمه‌ای", "en": "Navy" }, "hex": "#1f2a44" } ],
+    "sizes": [],
+    "short": { "fa": "حذف فعال نویز هیبریدی، ۴۰ ساعت شارژدهی، درایور ۴۰ میلی‌متری و اتصال چنددستگاهی.", "en": "Hybrid active noise cancelling, 40-hour battery, 40 mm drivers and multipoint connection." },
+    "description": {
+      "fa": "هدفون Aura NC نسل جدید هدفون‌های بی‌سیم سونیکس است که با سیستم حذف نویز هیبریدی و چهار میکروفون، تا ۹۵ درصد از صداهای محیط را حذف می‌کند. درایورهای ۴۰ میلی‌متری با دیافراگم کامپوزیت، صدایی گرم و بیس کنترل‌شده ارائه می‌دهند و حالت شفافیت به شما اجازه می‌دهد بدون برداشتن هدفون با اطرافیان صحبت کنید.\n\nباتری این هدفون تا ۴۰ ساعت پخش موسیقی با نویزکنسلینگ روشن را پشتیبانی می‌کند و تنها ۱۰ دقیقه شارژ سریع، ۵ ساعت پخش را فراهم می‌سازد. اتصال هم‌زمان به دو دستگاه، کنترل لمسی، تشخیص برداشتن هدفون و اپلیکیشن اختصاصی برای تنظیم اکولایزر از دیگر امکانات آن است.",
+      "en": "Aura NC is the newest generation of Sonix wireless headphones. Its hybrid noise-cancelling system with four microphones removes up to 95% of ambient sound, while 40 mm composite drivers deliver a warm signature with controlled bass. Transparency mode lets you talk to people without taking the headphones off.\n\nThe battery lasts up to 40 hours with ANC on, and a 10-minute quick charge provides 5 hours of playback. Multipoint connection to two devices, touch controls, wear detection and a companion app with a custom equaliser round out the package."
+    },
+    "highlights": { "fa": ["حذف نویز هیبریدی با ۴ میکروفون", "۴۰ ساعت شارژدهی با ANC روشن", "اتصال هم‌زمان به دو دستگاه", "شارژ سریع: ۱۰ دقیقه = ۵ ساعت"], "en": ["Hybrid ANC with 4 microphones", "40-hour battery with ANC on", "Multipoint: two devices at once", "Quick charge: 10 min = 5 hours"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات کلی", "rows": [["نوع اتصال", "بلوتوث ۵.۳، کابل ۳.۵ میلی‌متری"], ["درایور", "۴۰ میلی‌متری دینامیک"], ["پاسخ فرکانسی", "۲۰ هرتز تا ۲۰ کیلوهرتز"], ["وزن", "۲۵۴ گرم"]] }, { "group": "باتری", "rows": [["مدت پخش", "۴۰ ساعت (ANC روشن)"], ["زمان شارژ کامل", "۲ ساعت"], ["پورت شارژ", "USB-C"]] } ],
+      "en": [ { "group": "General", "rows": [["Connectivity", "Bluetooth 5.3, 3.5 mm cable"], ["Driver", "40 mm dynamic"], ["Frequency response", "20 Hz – 20 kHz"], ["Weight", "254 g"]] }, { "group": "Battery", "rows": [["Playback", "40 hours (ANC on)"], ["Full charge", "2 hours"], ["Charging port", "USB-C"]] } ]
+    },
+    "tags": { "fa": ["هدفون", "بلوتوث", "نویزکنسلینگ"], "en": ["headphones", "bluetooth", "noise cancelling"] },
+    "createdAt": "2026-08-24"
+  },
+  {
+    "id": 1002,
+    "slug": "smartwatch-pro",
+    "sku": "NX-DG-1002",
+    "name": { "fa": "ساعت هوشمند پالس مدل Watch Pro 2", "en": "Pulse Watch Pro 2 Smartwatch" },
+    "category": "digital", "subcategory": "wearable", "brand": "pulse",
+    "price": 6200000, "oldPrice": 6900000,
+    "rating": 4.5, "reviewCount": 188, "sold": 960, "views": 18300,
+    "stock": 32, "maxQty": 3,
+    "flags": { "featured": true, "flash": false, "new": true, "bestseller": false },
+    "colors": [ { "name": { "fa": "مشکی", "en": "Black" }, "hex": "#111111" }, { "name": { "fa": "بژ", "en": "Beige" }, "hex": "#d9c7a7" } ],
+    "sizes": [ { "value": "41", "label": "41mm" }, { "value": "45", "label": "45mm" } ],
+    "short": { "fa": "نمایشگر AMOLED همیشه‌روشن، سنجش ضربان و اکسیژن خون، GPS دوبانده و ۱۰ روز شارژدهی.", "en": "Always-on AMOLED display, heart-rate and SpO2 tracking, dual-band GPS and 10-day battery life." },
+    "description": {
+      "fa": "Watch Pro 2 با بدنه آلومینیومی سبک و نمایشگر AMOLED ۱.۴۳ اینچی با روشنایی ۱۰۰۰ نیت، در نور مستقیم آفتاب هم کاملاً خوانا است. سنسور نوری نسل جدید، ضربان قلب، اکسیژن خون، استرس و کیفیت خواب را به‌صورت ۲۴ ساعته پایش می‌کند و بیش از ۱۰۰ حالت ورزشی را می‌شناسد.\n\nGPS دوبانده مسیرها را با دقت بالا ثبت می‌کند و مقاومت ۵ اتمسفر اجازه شنا با ساعت را می‌دهد. باتری ۱۰ روزه در استفاده معمولی و پشتیبانی از تماس بلوتوثی، این ساعت را به همراهی کامل تبدیل کرده است.",
+      "en": "Watch Pro 2 pairs a lightweight aluminium case with a 1.43-inch AMOLED display peaking at 1000 nits, so it stays readable in direct sunlight. The new-generation optical sensor tracks heart rate, SpO2, stress and sleep quality around the clock and recognises more than 100 workout modes.\n\nDual-band GPS records routes precisely and 5 ATM water resistance means you can swim with it. A 10-day battery in typical use and Bluetooth calling make it a complete daily companion."
+    },
+    "highlights": { "fa": ["نمایشگر AMOLED ۱.۴۳ اینچی ۱۰۰۰ نیت", "GPS دوبانده با دقت بالا", "پایش ۲۴ ساعته سلامت", "۱۰ روز شارژدهی"], "en": ["1.43-inch 1000-nit AMOLED", "Precise dual-band GPS", "24/7 health monitoring", "10-day battery life"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات کلی", "rows": [["نمایشگر", "AMOLED ۱.۴۳ اینچ، ۴۶۶×۴۶۶"], ["مقاومت", "۵ اتمسفر"], ["سنسورها", "ضربان قلب، SpO2، شتاب‌سنج، ژیروسکوپ، فشارسنج"], ["وزن", "۳۸ گرم بدون بند"]] }, { "group": "باتری و اتصال", "rows": [["باتری", "۴۸۰ میلی‌آمپرساعت، ۱۰ روز"], ["اتصال", "بلوتوث ۵.۲، GPS دوبانده، NFC"]] } ],
+      "en": [ { "group": "General", "rows": [["Display", "1.43-inch AMOLED, 466×466"], ["Water resistance", "5 ATM"], ["Sensors", "Heart rate, SpO2, accelerometer, gyroscope, barometer"], ["Weight", "38 g without strap"]] }, { "group": "Battery & connectivity", "rows": [["Battery", "480 mAh, 10 days"], ["Connectivity", "Bluetooth 5.2, dual-band GPS, NFC"]] } ]
+    },
+    "tags": { "fa": ["ساعت هوشمند", "پوشیدنی"], "en": ["smartwatch", "wearable"] },
+    "createdAt": "2026-08-18"
+  },
+  {
+    "id": 1003,
+    "slug": "ultrabook-14",
+    "sku": "NX-DG-1003",
+    "name": { "fa": "لپ‌تاپ ۱۴ اینچی نوا مدل Air 14 - Core Ultra 7 - 16GB - 1TB", "en": "Nova Air 14 Laptop - Core Ultra 7 - 16GB - 1TB" },
+    "category": "digital", "subcategory": "laptop", "brand": "nova",
+    "price": 48500000, "oldPrice": 52000000,
+    "rating": 4.8, "reviewCount": 96, "sold": 240, "views": 30100,
+    "stock": 6, "maxQty": 2,
+    "flags": { "featured": true, "flash": false, "new": false, "bestseller": true },
+    "colors": [ { "name": { "fa": "نقره‌ای", "en": "Silver" }, "hex": "#d4d4d4" }, { "name": { "fa": "خاکستری", "en": "Space grey" }, "hex": "#5b5b5f" } ],
+    "sizes": [],
+    "short": { "fa": "بدنه ۱.۲ کیلوگرمی، نمایشگر 2.8K OLED، پردازنده Core Ultra 7 و ۱۸ ساعت شارژدهی.", "en": "1.2 kg chassis, 2.8K OLED display, Core Ultra 7 processor and 18-hour battery life." },
+    "description": {
+      "fa": "Nova Air 14 برای کسانی طراحی شده که قدرت و قابلیت حمل را با هم می‌خواهند. بدنه یک‌تکه آلومینیومی با وزن تنها ۱.۲ کیلوگرم، نمایشگر OLED با وضوح 2.8K و نرخ نوسازی ۹۰ هرتز که ۱۰۰ درصد فضای رنگی DCI-P3 را پوشش می‌دهد و پردازنده Core Ultra 7 با واحد پردازش هوش مصنوعی اختصاصی.\n\n۱۶ گیگابایت حافظه LPDDR5X و حافظه ذخیره‌سازی ۱ ترابایتی NVMe، اجرای روان سنگین‌ترین کارهای روزمره را تضمین می‌کند. کیبورد با سفر کلید ۱.۵ میلی‌متر و نور پس‌زمینه، تاچ‌پد شیشه‌ای بزرگ و باتری ۷۵ وات‌ساعتی با ۱۸ ساعت شارژدهی، آن را به انتخابی ایده‌آل برای کار در حرکت تبدیل کرده است.",
+      "en": "Nova Air 14 is built for people who want power and portability at once: a unibody aluminium chassis weighing only 1.2 kg, a 2.8K OLED display at 90 Hz covering 100% of DCI-P3, and a Core Ultra 7 processor with a dedicated AI engine.\n\n16 GB of LPDDR5X memory and a 1 TB NVMe drive keep the heaviest everyday workloads smooth. A backlit keyboard with 1.5 mm key travel, a large glass trackpad and a 75 Wh battery rated for 18 hours make it an ideal choice for working on the move."
+    },
+    "highlights": { "fa": ["نمایشگر OLED 2.8K با ۹۰ هرتز", "پردازنده Core Ultra 7 با NPU", "وزن تنها ۱.۲ کیلوگرم", "۱۸ ساعت شارژدهی"], "en": ["2.8K OLED display at 90 Hz", "Core Ultra 7 with NPU", "Only 1.2 kg", "18-hour battery life"] },
+    "specs": {
+      "fa": [ { "group": "پردازنده و حافظه", "rows": [["پردازنده", "Intel Core Ultra 7 155H"], ["حافظه رم", "۱۶ گیگابایت LPDDR5X"], ["حافظه داخلی", "۱ ترابایت NVMe SSD"], ["گرافیک", "Intel Arc"]] }, { "group": "نمایشگر و بدنه", "rows": [["نمایشگر", "۱۴ اینچ OLED 2880×1800، ۹۰ هرتز"], ["وزن", "۱.۲ کیلوگرم"], ["پورت‌ها", "۲× Thunderbolt 4، USB-A، HDMI 2.1، جک صدا"], ["باتری", "۷۵ وات‌ساعت"]] } ],
+      "en": [ { "group": "Processor & memory", "rows": [["Processor", "Intel Core Ultra 7 155H"], ["Memory", "16 GB LPDDR5X"], ["Storage", "1 TB NVMe SSD"], ["Graphics", "Intel Arc"]] }, { "group": "Display & body", "rows": [["Display", "14-inch OLED 2880×1800, 90 Hz"], ["Weight", "1.2 kg"], ["Ports", "2× Thunderbolt 4, USB-A, HDMI 2.1, audio jack"], ["Battery", "75 Wh"]] } ]
+    },
+    "tags": { "fa": ["لپ‌تاپ", "اولترابوک"], "en": ["laptop", "ultrabook"] },
+    "createdAt": "2026-07-02"
+  },
+  {
+    "id": 1004,
+    "slug": "bluetooth-speaker",
+    "sku": "NX-DG-1004",
+    "name": { "fa": "اسپیکر بلوتوثی قابل حمل سونیکس مدل Boom Mini", "en": "Sonix Boom Mini Portable Bluetooth Speaker" },
+    "category": "digital", "subcategory": "audio", "brand": "sonix",
+    "price": 2150000, "oldPrice": 2690000,
+    "rating": 4.4, "reviewCount": 421, "sold": 3120, "views": 22000,
+    "stock": 58, "maxQty": 5,
+    "flags": { "featured": false, "flash": true, "new": false, "bestseller": true },
+    "colors": [ { "name": { "fa": "خاکستری", "en": "Grey" }, "hex": "#4a4a4a" }, { "name": { "fa": "زرد", "en": "Yellow" }, "hex": "#f6d014" }, { "name": { "fa": "سبز", "en": "Green" }, "hex": "#3f6b4c" } ],
+    "sizes": [],
+    "short": { "fa": "صدای ۳۶۰ درجه، ضدآب IP67، ۲۰ ساعت پخش و قابلیت جفت‌شدن استریو.", "en": "360° sound, IP67 waterproof, 20 hours of playback and stereo pairing." },
+    "description": {
+      "fa": "Boom Mini اسپیکری جمع‌وجور با صدای بزرگ است. دو درایور تمام‌رنج و رادیاتور بیس غیرفعال، صدایی ۳۶۰ درجه با بیس شگفت‌انگیز نسبت به ابعادش تولید می‌کنند. بدنه پارچه‌ای مقاوم با استاندارد IP67 در برابر آب و گردوغبار محافظت شده و حتی روی آب شناور می‌ماند.\n\nباتری ۲۰ ساعته، شارژ USB-C و قابلیت PartyLink برای اتصال بیش از ۱۰۰ اسپیکر به یکدیگر، آن را برای مهمانی، سفر و کمپینگ ایده‌آل می‌کند.",
+      "en": "Boom Mini is a compact speaker with a big voice. Two full-range drivers and a passive bass radiator produce 360° sound with surprising low end for its size. The rugged fabric body is IP67 rated against water and dust and even floats.\n\nA 20-hour battery, USB-C charging and PartyLink to connect 100+ speakers make it ideal for parties, travel and camping."
+    },
+    "highlights": { "fa": ["صدای ۳۶۰ درجه با بیس قدرتمند", "ضدآب و ضدغبار IP67", "۲۰ ساعت پخش موسیقی", "اتصال استریو دو اسپیکر"], "en": ["360° sound with punchy bass", "IP67 water and dust proof", "20 hours of playback", "Stereo pairing"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات کلی", "rows": [["توان خروجی", "۲۰ وات"], ["اتصال", "بلوتوث ۵.۳، برد ۳۰ متر"], ["مقاومت", "IP67"], ["باتری", "۲۰ ساعت، شارژ ۳ ساعته USB-C"], ["وزن", "۵۴۰ گرم"]] } ],
+      "en": [ { "group": "General", "rows": [["Output power", "20 W"], ["Connectivity", "Bluetooth 5.3, 30 m range"], ["Rating", "IP67"], ["Battery", "20 hours, 3-hour USB-C charge"], ["Weight", "540 g"]] } ]
+    },
+    "tags": { "fa": ["اسپیکر", "بلوتوث"], "en": ["speaker", "bluetooth"] },
+    "createdAt": "2026-05-11"
+  },
+  {
+    "id": 1005,
+    "slug": "smartphone-x12",
+    "sku": "NX-DG-1005",
+    "name": { "fa": "گوشی موبایل نوا مدل X12 - ظرفیت ۲۵۶ گیگابایت - رم ۱۲ گیگابایت", "en": "Nova X12 Smartphone - 256GB - 12GB RAM" },
+    "category": "digital", "subcategory": "mobile", "brand": "nova",
+    "price": 32900000, "oldPrice": 35500000,
+    "rating": 4.6, "reviewCount": 540, "sold": 2210, "views": 61200,
+    "stock": 21, "maxQty": 2,
+    "flags": { "featured": true, "flash": true, "new": true, "bestseller": true },
+    "colors": [ { "name": { "fa": "گرافیتی", "en": "Graphite" }, "hex": "#2f3237" }, { "name": { "fa": "آبی یخی", "en": "Ice blue" }, "hex": "#b7d3e6" }, { "name": { "fa": "کرم", "en": "Cream" }, "hex": "#efe6d2" } ],
+    "sizes": [ { "value": "256", "label": "256GB" }, { "value": "512", "label": "512GB" } ],
+    "short": { "fa": "دوربین سه‌گانه ۵۰ مگاپیکسلی، نمایشگر ۱۲۰ هرتز LTPO، باتری ۵۰۰۰ و شارژ ۸۰ واتی.", "en": "50 MP triple camera, 120 Hz LTPO display, 5000 mAh battery and 80 W charging." },
+    "description": {
+      "fa": "Nova X12 پرچمدار جدید نوا با نمایشگر ۶.۷ اینچی LTPO AMOLED و نرخ نوسازی تطبیقی ۱ تا ۱۲۰ هرتز است که تجربه‌ای روان و کم‌مصرف ارائه می‌دهد. دوربین اصلی ۵۰ مگاپیکسلی با سنسور یک‌اینچی، لنز اولتراواید و تله‌فوتوی پریسکوپی با زوم اپتیکال ۵ برابر، عکاسی حرفه‌ای را در هر شرایط نوری ممکن می‌کند.\n\nپردازنده پرچمدار ۴ نانومتری با ۱۲ گیگابایت رم، باتری ۵۰۰۰ میلی‌آمپرساعتی با شارژ سریع ۸۰ واتی سیمی و ۵۰ واتی بی‌سیم، مقاومت IP68 و ۵ سال به‌روزرسانی نرم‌افزاری از مهم‌ترین ویژگی‌های آن است.",
+      "en": "Nova X12 is Nova's new flagship with a 6.7-inch LTPO AMOLED display and a 1–120 Hz adaptive refresh rate for a smooth, efficient experience. The 50 MP main camera with a one-inch sensor, an ultra-wide lens and a periscope telephoto with 5× optical zoom enable professional photography in any light.\n\nA 4 nm flagship chipset with 12 GB of RAM, a 5000 mAh battery with 80 W wired and 50 W wireless charging, IP68 protection and five years of software updates complete the package."
+    },
+    "highlights": { "fa": ["سنسور یک‌اینچی ۵۰ مگاپیکسلی", "نمایشگر LTPO ۱۲۰ هرتز", "شارژ سریع ۸۰ واتی", "۵ سال به‌روزرسانی"], "en": ["50 MP one-inch sensor", "120 Hz LTPO display", "80 W fast charging", "5 years of updates"] },
+    "specs": {
+      "fa": [ { "group": "نمایشگر و سخت‌افزار", "rows": [["نمایشگر", "۶.۷ اینچ LTPO AMOLED، ۱ تا ۱۲۰ هرتز"], ["پردازنده", "پرچمدار ۴ نانومتری هشت‌هسته‌ای"], ["حافظه", "۲۵۶ گیگابایت UFS 4.0 / ۱۲ گیگابایت رم"], ["مقاومت", "IP68"]] }, { "group": "دوربین و باتری", "rows": [["دوربین اصلی", "۵۰ + ۵۰ + ۵۰ مگاپیکسل"], ["دوربین سلفی", "۳۲ مگاپیکسل"], ["باتری", "۵۰۰۰ میلی‌آمپرساعت، شارژ ۸۰ وات"]] } ],
+      "en": [ { "group": "Display & hardware", "rows": [["Display", "6.7-inch LTPO AMOLED, 1–120 Hz"], ["Processor", "4 nm octa-core flagship"], ["Memory", "256 GB UFS 4.0 / 12 GB RAM"], ["Rating", "IP68"]] }, { "group": "Camera & battery", "rows": [["Rear cameras", "50 + 50 + 50 MP"], ["Front camera", "32 MP"], ["Battery", "5000 mAh, 80 W charging"]] } ]
+    },
+    "tags": { "fa": ["گوشی", "موبایل", "پرچمدار"], "en": ["phone", "smartphone", "flagship"] },
+    "createdAt": "2026-08-27"
+  },
+  {
+    "id": 1006,
+    "slug": "wireless-earbuds",
+    "sku": "NX-DG-1006",
+    "name": { "fa": "هندزفری بی‌سیم سونیکس مدل Pods Air", "en": "Sonix Pods Air True Wireless Earbuds" },
+    "category": "digital", "subcategory": "audio", "brand": "sonix",
+    "price": 1890000, "oldPrice": 2490000,
+    "rating": 4.3, "reviewCount": 764, "sold": 5230, "views": 48000,
+    "stock": 120, "maxQty": 5,
+    "flags": { "featured": true, "flash": true, "new": false, "bestseller": true },
+    "colors": [ { "name": { "fa": "سفید", "en": "White" }, "hex": "#f4f4f4" }, { "name": { "fa": "مشکی", "en": "Black" }, "hex": "#111111" } ],
+    "sizes": [],
+    "short": { "fa": "حذف نویز فعال، ۳۰ ساعت شارژ با کیس، مقاومت IPX5 و اتصال کم‌تأخیر.", "en": "Active noise cancelling, 30 hours with the case, IPX5 rating and low-latency connection." },
+    "description": {
+      "fa": "Pods Air با طراحی سبک ۴.۲ گرمی و نوک سیلیکونی در سه سایز، ساعت‌ها بدون خستگی در گوش می‌ماند. حذف نویز فعال تا ۳۵ دسی‌بل صداهای مزاحم را کم می‌کند و شش میکروفون با الگوریتم کاهش نویز باد، کیفیت مکالمه را در محیط شلوغ حفظ می‌کنند.\n\nهر ایربادز ۷ ساعت و همراه کیس تا ۳۰ ساعت پخش دارد. حالت بازی با تأخیر ۶۰ میلی‌ثانیه، شارژ بی‌سیم کیس و کنترل لمسی قابل تنظیم، آن را به یکی از پرفروش‌ترین‌های نکسورا تبدیل کرده است.",
+      "en": "Pods Air weigh only 4.2 g each and ship with silicone tips in three sizes for hours of fatigue-free wear. Active noise cancelling reduces distractions by up to 35 dB, while six microphones with wind-noise reduction keep calls clear in busy places.\n\nEach bud lasts 7 hours, up to 30 hours with the case. A 60 ms game mode, wireless case charging and customisable touch controls make it one of Nexora's best sellers."
+    },
+    "highlights": { "fa": ["حذف نویز فعال تا ۳۵ دسی‌بل", "۳۰ ساعت شارژدهی با کیس", "وزن ۴.۲ گرم هر گوشی", "حالت بازی کم‌تأخیر"], "en": ["ANC up to 35 dB", "30 hours with the case", "4.2 g per bud", "Low-latency game mode"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات کلی", "rows": [["اتصال", "بلوتوث ۵.۳، کدک AAC/LDAC"], ["درایور", "۱۱ میلی‌متری"], ["مقاومت", "IPX5"], ["شارژدهی", "۷ ساعت + ۲۳ ساعت با کیس"], ["شارژ", "USB-C و بی‌سیم"]] } ],
+      "en": [ { "group": "General", "rows": [["Connectivity", "Bluetooth 5.3, AAC/LDAC"], ["Driver", "11 mm"], ["Rating", "IPX5"], ["Battery", "7 h + 23 h with case"], ["Charging", "USB-C and wireless"]] } ]
+    },
+    "tags": { "fa": ["ایربادز", "هندزفری"], "en": ["earbuds", "true wireless"] },
+    "createdAt": "2026-04-15"
+  },
+  {
+    "id": 1007,
+    "slug": "mechanical-keyboard",
+    "sku": "NX-DG-1007",
+    "name": { "fa": "کیبورد مکانیکی بی‌سیم کی‌استون مدل K75", "en": "Keystone K75 Wireless Mechanical Keyboard" },
+    "category": "digital", "subcategory": "peripherals", "brand": "keystone",
+    "price": 3450000, "oldPrice": null,
+    "rating": 4.9, "reviewCount": 73, "sold": 310, "views": 9400,
+    "stock": 17, "maxQty": 3,
+    "flags": { "featured": false, "flash": false, "new": true, "bestseller": false },
+    "colors": [ { "name": { "fa": "خاکستری/کرم", "en": "Grey / cream" }, "hex": "#6f6f6f" } ],
+    "sizes": [],
+    "short": { "fa": "چیدمان ۷۵٪، سوییچ‌های هات‌سواپ، بدنه آلومینیومی، اتصال سه‌حالته و نور RGB.", "en": "75% layout, hot-swappable switches, aluminium case, tri-mode connection and RGB lighting." },
+    "description": {
+      "fa": "K75 برای کسانی ساخته شده که از تایپ لذت می‌برند. ساختار گسکت‌مونت با فوم صدا‌گیر چندلایه، صدایی عمیق و یکنواخت ایجاد می‌کند و سوییچ‌های خطی پیش‌روغن‌کاری‌شده با قابلیت تعویض بدون لحیم، شخصی‌سازی را ساده می‌کنند.\n\nاتصال سه‌حالته (بلوتوث، گیرنده ۲.۴ گیگاهرتز و کابل)، باتری ۴۰۰۰ میلی‌آمپرساعتی، کی‌کپ‌های PBT دوشات و نرم‌افزار متن‌باز برای تعریف ماکرو، آن را به ابزاری حرفه‌ای برای کار و بازی تبدیل کرده است.",
+      "en": "K75 is built for people who enjoy typing. A gasket-mount structure with multi-layer dampening foam produces a deep, uniform sound, and pre-lubed linear switches that swap without soldering keep customisation simple.\n\nTri-mode connectivity (Bluetooth, 2.4 GHz dongle and cable), a 4000 mAh battery, double-shot PBT keycaps and open-source macro software make it a professional tool for work and play."
+    },
+    "highlights": { "fa": ["ساختار گسکت‌مونت با فوم صداگیر", "سوییچ‌های هات‌سواپ", "اتصال سه‌حالته", "کی‌کپ PBT دوشات"], "en": ["Gasket mount with dampening foam", "Hot-swappable switches", "Tri-mode connectivity", "Double-shot PBT keycaps"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات کلی", "rows": [["چیدمان", "۷۵٪ (۸۲ کلید)"], ["سوییچ", "خطی ۴۵ گرم، هات‌سواپ"], ["اتصال", "بلوتوث ۵.۱، ۲.۴ گیگاهرتز، USB-C"], ["باتری", "۴۰۰۰ میلی‌آمپرساعت"], ["بدنه", "آلومینیوم CNC"]] } ],
+      "en": [ { "group": "General", "rows": [["Layout", "75% (82 keys)"], ["Switches", "45 g linear, hot-swappable"], ["Connectivity", "Bluetooth 5.1, 2.4 GHz, USB-C"], ["Battery", "4000 mAh"], ["Case", "CNC aluminium"]] } ]
+    },
+    "tags": { "fa": ["کیبورد", "مکانیکی"], "en": ["keyboard", "mechanical"] },
+    "createdAt": "2026-08-30"
+  },
+  {
+    "id": 1008,
+    "slug": "mirrorless-camera",
+    "sku": "NX-DG-1008",
+    "name": { "fa": "دوربین بدون آینه لومیس مدل M50 به همراه لنز ۳۵ میلی‌متری", "en": "Lumis M50 Mirrorless Camera with 35mm Lens" },
+    "category": "digital", "subcategory": "camera", "brand": "lumis",
+    "price": 41000000, "oldPrice": 44900000,
+    "rating": 4.8, "reviewCount": 58, "sold": 130, "views": 15600,
+    "stock": 4, "maxQty": 1,
+    "flags": { "featured": true, "flash": false, "new": false, "bestseller": false },
+    "colors": [ { "name": { "fa": "مشکی", "en": "Black" }, "hex": "#141414" } ],
+    "sizes": [],
+    "short": { "fa": "سنسور فول‌فریم ۲۴ مگاپیکسلی، فیلم‌برداری 4K 60fps، لرزشگیر ۵ محوره و فوکوس هوشمند.", "en": "24 MP full-frame sensor, 4K 60fps video, 5-axis stabilisation and subject-detection autofocus." },
+    "description": {
+      "fa": "Lumis M50 دوربینی فول‌فریم برای عکاسان و فیلم‌سازان است. سنسور ۲۴ مگاپیکسلی BSI با محدوده دینامیکی ۱۴ استاپ و حساسیت تا ISO 102400، در نور کم عملکردی درخشان دارد. سیستم فوکوس هیبریدی با ۷۵۹ نقطه و تشخیص چهره، چشم، حیوان و خودرو، سوژه را با اطمینان دنبال می‌کند.\n\nلرزشگیر ۵ محوره درون‌بدنه تا ۷ استاپ، ضبط 4K 60fps با 10 بیت 4:2:2، نمایشگر لمسی چرخان و دو اسلات کارت حافظه، این دوربین را برای کار حرفه‌ای آماده کرده است. لنز ۳۵ میلی‌متری f/1.8 در بسته موجود است.",
+      "en": "Lumis M50 is a full-frame camera for photographers and filmmakers. Its 24 MP BSI sensor offers 14 stops of dynamic range and sensitivity up to ISO 102400 for excellent low-light performance. A 759-point hybrid AF system detects faces, eyes, animals and vehicles and tracks them confidently.\n\nIn-body 5-axis stabilisation up to 7 stops, 4K 60fps 10-bit 4:2:2 recording, a vari-angle touchscreen and dual card slots make it ready for professional work. A 35 mm f/1.8 lens is included in the kit."
+    },
+    "highlights": { "fa": ["سنسور فول‌فریم ۲۴ مگاپیکسلی", "فوکوس با ۷۵۹ نقطه و تشخیص سوژه", "لرزشگیر ۵ محوره تا ۷ استاپ", "4K 60fps 10 بیت"], "en": ["24 MP full-frame sensor", "759-point AF with subject detection", "5-axis IBIS up to 7 stops", "4K 60fps 10-bit"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات کلی", "rows": [["سنسور", "فول‌فریم ۲۴.۲ مگاپیکسل BSI"], ["حساسیت", "ISO 100–51200 (تا 102400)"], ["فوکوس", "هیبریدی ۷۵۹ نقطه"], ["ویدئو", "4K 60fps 10-bit 4:2:2"], ["نمایشگر", "۳ اینچ لمسی چرخان"], ["وزن", "۶۵۰ گرم با باتری"]] } ],
+      "en": [ { "group": "General", "rows": [["Sensor", "24.2 MP full-frame BSI"], ["ISO", "100–51200 (exp. 102400)"], ["Autofocus", "759-point hybrid"], ["Video", "4K 60fps 10-bit 4:2:2"], ["Screen", "3-inch vari-angle touchscreen"], ["Weight", "650 g with battery"]] } ]
+    },
+    "tags": { "fa": ["دوربین", "بدون آینه"], "en": ["camera", "mirrorless"] },
+    "createdAt": "2026-03-20"
+  },
+  {
+    "id": 2001,
+    "slug": "leather-sneakers-white",
+    "sku": "NX-FS-2001",
+    "name": { "fa": "کفش اسنیکر چرم طبیعی اوربانو مدل Court سفید", "en": "Urbano Court White Leather Sneakers" },
+    "category": "fashion", "subcategory": "shoes", "brand": "urbano",
+    "price": 2480000, "oldPrice": 3100000,
+    "rating": 4.6, "reviewCount": 205, "sold": 1420, "views": 19800,
+    "stock": 45, "maxQty": 3,
+    "flags": { "featured": true, "flash": true, "new": false, "bestseller": true },
+    "colors": [ { "name": { "fa": "سفید", "en": "White" }, "hex": "#f7f7f7" }, { "name": { "fa": "مشکی", "en": "Black" }, "hex": "#111111" } ],
+    "sizes": [ { "value": "38", "label": "38" }, { "value": "39", "label": "39" }, { "value": "40", "label": "40" }, { "value": "41", "label": "41" }, { "value": "42", "label": "42" }, { "value": "43", "label": "43", "disabled": true }, { "value": "44", "label": "44" } ],
+    "short": { "fa": "چرم گاوی تمام‌دانه، آستر چرمی، زیره لاستیکی دوخته‌شده و طراحی مینیمال بی‌زمان.", "en": "Full-grain calf leather, leather lining, stitched rubber sole and a timeless minimal design." },
+    "description": {
+      "fa": "Court اسنیکری کلاسیک با رویه چرم گاوی تمام‌دانه است که با گذر زمان زیباتر می‌شود. آستر و کفی داخلی از چرم طبیعی انتخاب شده تا پا نفس بکشد و زیره لاستیکی با دوخت بلیک، دوام و امکان تعویض را تضمین می‌کند.\n\nطراحی مینیمال بدون لوگوی بزرگ، آن را با هر استایلی از شلوار جین تا کت‌وشلوار هماهنگ می‌کند. سایز این کفش استاندارد است؛ در صورت پهن بودن پا یک سایز بزرگ‌تر انتخاب کنید.",
+      "en": "Court is a classic sneaker with a full-grain calf leather upper that only gets better with age. The lining and insole are natural leather so your feet can breathe, and the Blake-stitched rubber sole guarantees durability and resoling.\n\nA minimal design without oversized logos pairs with anything from jeans to a suit. The fit is true to size; go one size up if you have wide feet."
+    },
+    "highlights": { "fa": ["چرم گاوی تمام‌دانه", "آستر و کفی چرم طبیعی", "زیره دوخته‌شده قابل تعویض", "ساخت دست"], "en": ["Full-grain calf leather", "Leather lining and insole", "Stitched, resoleable outsole", "Handcrafted"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["جنس رویه", "چرم طبیعی گاوی"], ["جنس آستر", "چرم طبیعی"], ["جنس زیره", "لاستیک طبیعی"], ["نوع بستن", "بند"], ["کشور سازنده", "ایران"]] } ],
+      "en": [ { "group": "Details", "rows": [["Upper", "Natural calf leather"], ["Lining", "Natural leather"], ["Sole", "Natural rubber"], ["Closure", "Laces"], ["Made in", "Iran"]] } ]
+    },
+    "tags": { "fa": ["کفش", "اسنیکر", "چرم"], "en": ["shoes", "sneakers", "leather"] },
+    "createdAt": "2026-06-05"
+  },
+  {
+    "id": 2002,
+    "slug": "leather-handbag-tan",
+    "sku": "NX-FS-2002",
+    "name": { "fa": "کیف دستی چرم زنانه ولورا مدل Milano عسلی", "en": "Velora Milano Tan Leather Handbag" },
+    "category": "fashion", "subcategory": "bags", "brand": "velora",
+    "price": 3950000, "oldPrice": 4600000,
+    "rating": 4.8, "reviewCount": 142, "sold": 680, "views": 14200,
+    "stock": 9, "maxQty": 2,
+    "flags": { "featured": true, "flash": false, "new": true, "bestseller": false, "hero": true },
+    "colors": [ { "name": { "fa": "عسلی", "en": "Tan" }, "hex": "#b5651d" }, { "name": { "fa": "مشکی", "en": "Black" }, "hex": "#141414" }, { "name": { "fa": "زرشکی", "en": "Burgundy" }, "hex": "#6e1c2a" } ],
+    "sizes": [],
+    "short": { "fa": "چرم طبیعی با یراق‌آلات طلایی، بند بلند جداشدنی و آستر سوئدی با سه جیب داخلی.", "en": "Natural leather with gold hardware, detachable long strap and suede lining with three inner pockets." },
+    "description": {
+      "fa": "Milano کیفی ساختاریافته با خطوطی تمیز است که هم به‌عنوان کیف دستی و هم با بند بلند به‌صورت کراس‌بادی استفاده می‌شود. چرم طبیعی با پرداخت نیمه‌براق و یراق‌آلات طلایی ضدخش، ظاهری لوکس و ماندگار ایجاد می‌کنند.\n\nفضای داخلی با آستر سوئدی، جای تبلت ۱۱ اینچی، دو جیب باز و یک جیب زیپ‌دار دارد. قفل مغناطیسی زیر درپوش، دسترسی سریع و امنیت را با هم فراهم می‌کند.",
+      "en": "Milano is a structured bag with clean lines that works as a top-handle or, with the long strap, as a crossbody. Natural leather with a semi-gloss finish and scratch-resistant gold hardware give it a luxurious, lasting look.\n\nThe suede-lined interior fits an 11-inch tablet and has two open pockets and one zipped pocket. A magnetic lock under the flap combines quick access with security."
+    },
+    "highlights": { "fa": ["چرم طبیعی با پرداخت نیمه‌براق", "یراق‌آلات طلایی ضدخش", "بند بلند جداشدنی", "جای تبلت ۱۱ اینچی"], "en": ["Natural semi-gloss leather", "Scratch-resistant gold hardware", "Detachable long strap", "Fits an 11-inch tablet"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["جنس", "چرم طبیعی گاوی"], ["ابعاد", "۲۸ × ۲۰ × ۱۱ سانتی‌متر"], ["آستر", "سوئد"], ["نوع بستن", "قفل مغناطیسی"], ["وزن", "۷۲۰ گرم"]] } ],
+      "en": [ { "group": "Details", "rows": [["Material", "Natural calf leather"], ["Dimensions", "28 × 20 × 11 cm"], ["Lining", "Suede"], ["Closure", "Magnetic lock"], ["Weight", "720 g"]] } ]
+    },
+    "tags": { "fa": ["کیف", "چرم", "زنانه"], "en": ["bag", "leather", "women"] },
+    "createdAt": "2026-08-21"
+  },
+  {
+    "id": 2003,
+    "slug": "denim-jacket",
+    "sku": "NX-FS-2003",
+    "name": { "fa": "کت جین مردانه اوربانو مدل Classic Denim آبی", "en": "Urbano Classic Denim Jacket - Mid Blue" },
+    "category": "fashion", "subcategory": "men", "brand": "urbano",
+    "price": 1750000, "oldPrice": null,
+    "rating": 4.4, "reviewCount": 88, "sold": 520, "views": 8800,
+    "stock": 27, "maxQty": 3,
+    "flags": { "featured": false, "flash": false, "new": true, "bestseller": false },
+    "colors": [ { "name": { "fa": "آبی", "en": "Mid blue" }, "hex": "#3b6ea5" }, { "name": { "fa": "مشکی", "en": "Black" }, "hex": "#1c1c1c" } ],
+    "sizes": [ { "value": "S", "label": "S" }, { "value": "M", "label": "M" }, { "value": "L", "label": "L" }, { "value": "XL", "label": "XL" }, { "value": "XXL", "label": "XXL", "disabled": true } ],
+    "short": { "fa": "جین ۱۲ اونس ۱۰۰٪ پنبه، دکمه‌های فلزی، دو جیب سینه و فیت رگولار.", "en": "12 oz 100% cotton denim, metal buttons, two chest pockets and a regular fit." },
+    "description": {
+      "fa": "کت جین Classic با پارچه ۱۲ اونس ۱۰۰٪ پنبه، بعد از چند بار پوشیدن با بدن شما فرم می‌گیرد و شسته‌شدگی طبیعی و زیبایی پیدا می‌کند. دکمه‌های فلزی برنجی، دوخت دوبل و جیب‌های سینه با درپوش از جزئیات کلاسیک این مدل هستند.\n\nفیت رگولار امکان لایه‌پوشی روی هودی یا پیراهن را می‌دهد. برای حفظ رنگ، شست‌وشو با آب سرد و پشت‌ورو توصیه می‌شود.",
+      "en": "The Classic denim jacket is cut from 12 oz 100% cotton denim that moulds to your body after a few wears and develops a beautiful natural fade. Brass metal buttons, double stitching and flap chest pockets are its classic details.\n\nThe regular fit leaves room to layer over a hoodie or shirt. Wash inside out in cold water to preserve the colour."
+    },
+    "highlights": { "fa": ["جین ۱۲ اونس ۱۰۰٪ پنبه", "دکمه‌های فلزی برنجی", "فیت رگولار برای لایه‌پوشی", "دوخت دوبل مقاوم"], "en": ["12 oz 100% cotton denim", "Brass metal buttons", "Regular fit for layering", "Durable double stitching"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["جنس", "۱۰۰٪ پنبه"], ["وزن پارچه", "۱۲ اونس"], ["فیت", "رگولار"], ["نوع بستن", "دکمه"], ["نحوه شست‌وشو", "ماشین لباسشویی، آب سرد"]] } ],
+      "en": [ { "group": "Details", "rows": [["Material", "100% cotton"], ["Fabric weight", "12 oz"], ["Fit", "Regular"], ["Closure", "Buttons"], ["Care", "Machine wash cold"]] } ]
+    },
+    "tags": { "fa": ["کت", "جین", "مردانه"], "en": ["jacket", "denim", "men"] },
+    "createdAt": "2026-08-26"
+  },
+  {
+    "id": 2004,
+    "slug": "wayfarer-sunglasses",
+    "sku": "NX-FS-2004",
+    "name": { "fa": "عینک آفتابی اپتیک مدل Wayfarer با لنز پلاریزه", "en": "Optiq Wayfarer Polarised Sunglasses" },
+    "category": "fashion", "subcategory": "eyewear", "brand": "optiq",
+    "price": 980000, "oldPrice": 1350000,
+    "rating": 4.5, "reviewCount": 233, "sold": 1780, "views": 12100,
+    "stock": 64, "maxQty": 4,
+    "flags": { "featured": false, "flash": true, "new": false, "bestseller": true },
+    "colors": [ { "name": { "fa": "مشکی", "en": "Black" }, "hex": "#111111" }, { "name": { "fa": "قهوه‌ای هاوانا", "en": "Havana" }, "hex": "#6b4423" } ],
+    "sizes": [],
+    "short": { "fa": "فریم استات دست‌ساز، لنز پلاریزه UV400، لولای فلزی ۵ پین و کاور چرمی.", "en": "Handmade acetate frame, UV400 polarised lenses, 5-barrel metal hinges and a leather case." },
+    "description": {
+      "fa": "Wayfarer طرحی است که هیچ‌وقت از مد نمی‌افتد. فریم استات دست‌ساز با پرداخت براق، لولاهای فلزی ۵ پین برای دوام و لنزهای پلاریزه UV400 که انعکاس‌های مزاحم را حذف و از چشم در برابر اشعه فرابنفش محافظت می‌کنند.\n\nعرض فریم ۱۴۵ میلی‌متر برای اکثر صورت‌ها مناسب است. کاور چرمی و دستمال میکروفایبر همراه محصول ارسال می‌شود.",
+      "en": "The Wayfarer is a shape that never goes out of style. A handmade acetate frame with a gloss finish, 5-barrel metal hinges for durability and UV400 polarised lenses that cut glare and protect your eyes from ultraviolet rays.\n\nThe 145 mm frame width suits most faces. A leather case and microfibre cloth are included."
+    },
+    "highlights": { "fa": ["لنز پلاریزه UV400", "فریم استات دست‌ساز", "لولای ۵ پین فلزی", "کاور چرمی همراه"], "en": ["UV400 polarised lenses", "Handmade acetate frame", "5-barrel metal hinges", "Leather case included"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["جنس فریم", "استات"], ["جنس لنز", "پلی‌کربنات پلاریزه"], ["محافظت", "UV400"], ["عرض فریم", "۱۴۵ میلی‌متر"], ["عرض لنز", "۵۲ میلی‌متر"]] } ],
+      "en": [ { "group": "Details", "rows": [["Frame", "Acetate"], ["Lens", "Polarised polycarbonate"], ["Protection", "UV400"], ["Frame width", "145 mm"], ["Lens width", "52 mm"]] } ]
+    },
+    "tags": { "fa": ["عینک", "آفتابی"], "en": ["sunglasses", "eyewear"] },
+    "createdAt": "2026-05-30"
+  },
+  {
+    "id": 2005,
+    "slug": "classic-leather-watch",
+    "sku": "NX-FS-2005",
+    "name": { "fa": "ساعت مچی مردانه تمپو مدل Heritage 40 بند چرم", "en": "Tempo Heritage 40 Leather Strap Watch" },
+    "category": "fashion", "subcategory": "watches", "brand": "tempo",
+    "price": 4200000, "oldPrice": 4900000,
+    "rating": 4.7, "reviewCount": 119, "sold": 430, "views": 11000,
+    "stock": 12, "maxQty": 2,
+    "flags": { "featured": true, "flash": false, "new": true, "bestseller": false },
+    "colors": [ { "name": { "fa": "قهوه‌ای", "en": "Brown" }, "hex": "#5a3a22" }, { "name": { "fa": "مشکی", "en": "Black" }, "hex": "#1a1a1a" } ],
+    "sizes": [],
+    "short": { "fa": "موتور کوارتز ژاپنی، شیشه سافایر، قاب استیل ۴۰ میلی‌متری و بند چرم طبیعی.", "en": "Japanese quartz movement, sapphire crystal, 40 mm steel case and natural leather strap." },
+    "description": {
+      "fa": "Heritage 40 ساعتی کلاسیک با صفحه سفید مینیمال، عقربه‌های شمشیری آبی‌شده و پنجره تاریخ در موقعیت ۳ است. قاب ۴۰ میلی‌متری از استیل ۳۱۶L و شیشه سافایر ضدخش، آن را برای استفاده روزمره چند‌ساله آماده کرده است.\n\nموتور کوارتز ژاپنی با دقت ±۱۵ ثانیه در ماه و باتری سه‌ساله، نگهداری را به حداقل می‌رساند. بند چرم طبیعی با قفل سریع‌باز‌شو به‌سادگی قابل تعویض است.",
+      "en": "Heritage 40 is a classic watch with a minimal white dial, blued sword hands and a date window at 3 o'clock. The 40 mm 316L steel case and scratch-resistant sapphire crystal are ready for years of daily wear.\n\nA Japanese quartz movement accurate to ±15 seconds a month with a three-year battery keeps maintenance minimal. The natural leather strap has quick-release pins for easy swapping."
+    },
+    "highlights": { "fa": ["شیشه سافایر ضدخش", "قاب استیل ۳۱۶L", "موتور کوارتز ژاپنی", "بند سریع‌باز‌شو"], "en": ["Scratch-resistant sapphire", "316L steel case", "Japanese quartz movement", "Quick-release strap"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["موتور", "کوارتز ژاپنی"], ["قطر قاب", "۴۰ میلی‌متر"], ["ضخامت", "۸.۵ میلی‌متر"], ["شیشه", "سافایر"], ["مقاومت در برابر آب", "۵ اتمسفر"], ["بند", "چرم طبیعی ۲۰ میلی‌متر"]] } ],
+      "en": [ { "group": "Details", "rows": [["Movement", "Japanese quartz"], ["Case diameter", "40 mm"], ["Thickness", "8.5 mm"], ["Crystal", "Sapphire"], ["Water resistance", "5 ATM"], ["Strap", "20 mm natural leather"]] } ]
+    },
+    "tags": { "fa": ["ساعت", "مردانه", "کلاسیک"], "en": ["watch", "men", "classic"] },
+    "createdAt": "2026-08-19"
+  },
+  {
+    "id": 2006,
+    "slug": "wool-overcoat-camel",
+    "sku": "NX-FS-2006",
+    "name": { "fa": "پالتو پشمی زنانه ولورا مدل Camel Coat", "en": "Velora Camel Wool Overcoat" },
+    "category": "fashion", "subcategory": "women", "brand": "velora",
+    "price": 5600000, "oldPrice": 6900000,
+    "rating": 4.6, "reviewCount": 64, "sold": 210, "views": 7600,
+    "stock": 3, "maxQty": 2,
+    "flags": { "featured": false, "flash": false, "new": true, "bestseller": false },
+    "colors": [ { "name": { "fa": "شتری", "en": "Camel" }, "hex": "#c19a6b" }, { "name": { "fa": "خاکستری", "en": "Grey" }, "hex": "#8a8a8a" } ],
+    "sizes": [ { "value": "S", "label": "S" }, { "value": "M", "label": "M" }, { "value": "L", "label": "L" }, { "value": "XL", "label": "XL" } ],
+    "short": { "fa": "۷۰٪ پشم و ۲۰٪ کشمیر، یقه انگلیسی، آستر ویسکوز و برش راسته تا زیر زانو.", "en": "70% wool and 20% cashmere, notch lapel, viscose lining and a straight cut to below the knee." },
+    "description": {
+      "fa": "Camel Coat پالتویی است که هر پاییز و زمستان به آن بازخواهید گشت. ترکیب ۷۰٪ پشم و ۲۰٪ کشمیر، گرمای عالی با وزن کم فراهم می‌کند و پارچه دو‌رو، سطحی نرم و بدون پرز دارد.\n\nبرش راسته با شانه‌های نرم، یقه انگلیسی و دو دکمه شاخی، ظاهری آراسته می‌سازد. جیب‌های مورب با درپوش و آستر ویسکوز نفس‌گیر، راحتی روزانه را کامل می‌کنند. فقط خشک‌شویی.",
+      "en": "The Camel Coat is one you'll return to every autumn and winter. A 70% wool and 20% cashmere blend delivers excellent warmth at low weight, and the double-faced fabric has a soft, pill-free surface.\n\nA straight cut with soft shoulders, a notch lapel and two horn buttons create a polished look. Slanted flap pockets and a breathable viscose lining complete everyday comfort. Dry clean only."
+    },
+    "highlights": { "fa": ["۷۰٪ پشم و ۲۰٪ کشمیر", "پارچه دو‌رو بدون پرز", "دکمه‌های شاخی", "برش راسته زیر زانو"], "en": ["70% wool, 20% cashmere", "Double-faced, pill-free fabric", "Horn buttons", "Straight cut below the knee"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["جنس", "۷۰٪ پشم، ۲۰٪ کشمیر، ۱۰٪ پلی‌آمید"], ["آستر", "ویسکوز"], ["قد", "۱۰۵ سانتی‌متر (سایز M)"], ["نوع بستن", "دکمه"], ["نحوه شست‌وشو", "فقط خشک‌شویی"]] } ],
+      "en": [ { "group": "Details", "rows": [["Material", "70% wool, 20% cashmere, 10% polyamide"], ["Lining", "Viscose"], ["Length", "105 cm (size M)"], ["Closure", "Buttons"], ["Care", "Dry clean only"]] } ]
+    },
+    "tags": { "fa": ["پالتو", "زنانه", "پشمی"], "en": ["coat", "women", "wool"] },
+    "createdAt": "2026-08-28"
+  },
+  {
+    "id": 2007,
+    "slug": "cotton-hoodie-grey",
+    "sku": "NX-FS-2007",
+    "name": { "fa": "هودی نخی اوربانو مدل Essential خاکستری", "en": "Urbano Essential Cotton Hoodie - Charcoal" },
+    "category": "fashion", "subcategory": "men", "brand": "urbano",
+    "price": 890000, "oldPrice": 1190000,
+    "rating": 4.3, "reviewCount": 316, "sold": 2640, "views": 16700,
+    "stock": 80, "maxQty": 5,
+    "flags": { "featured": false, "flash": true, "new": false, "bestseller": true },
+    "colors": [ { "name": { "fa": "خاکستری", "en": "Charcoal" }, "hex": "#4b4b4b" }, { "name": { "fa": "مشکی", "en": "Black" }, "hex": "#111111" }, { "name": { "fa": "کرم", "en": "Cream" }, "hex": "#e9e2d0" } ],
+    "sizes": [ { "value": "S", "label": "S" }, { "value": "M", "label": "M" }, { "value": "L", "label": "L" }, { "value": "XL", "label": "XL" }, { "value": "XXL", "label": "XXL" } ],
+    "short": { "fa": "دورس ۴۰۰ گرمی پنبه شانه‌شده، فیت ریلکس، کلاه دولایه و جیب کانگورویی.", "en": "400 gsm combed cotton fleece, relaxed fit, double-layer hood and kangaroo pocket." },
+    "description": {
+      "fa": "هودی Essential از دورس سنگین ۴۰۰ گرمی با پنبه شانه‌شده دوخته شده که هم گرم است و هم بعد از ده‌ها بار شست‌وشو فرم خود را حفظ می‌کند. فیت ریلکس با شانه افتاده و سرآستین‌های کشباف، راحتی روزمره را تضمین می‌کند.\n\nکلاه دولایه بدون بند، جیب کانگورویی و دوخت‌های تقویت‌شده در نقاط پرفشار از جزئیات این محصول هستند. برای فیت اورسایز یک سایز بزرگ‌تر انتخاب کنید.",
+      "en": "The Essential hoodie is sewn from heavy 400 gsm combed-cotton fleece that is warm and keeps its shape after dozens of washes. A relaxed fit with dropped shoulders and ribbed cuffs guarantees everyday comfort.\n\nA double-layer hood without drawstrings, a kangaroo pocket and reinforced stitching at stress points are its details. Size up for an oversized fit."
+    },
+    "highlights": { "fa": ["دورس سنگین ۴۰۰ گرمی", "پنبه شانه‌شده ضد پرز", "فیت ریلکس", "کلاه دولایه"], "en": ["Heavy 400 gsm fleece", "Pill-resistant combed cotton", "Relaxed fit", "Double-layer hood"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["جنس", "۸۰٪ پنبه، ۲۰٪ پلی‌استر"], ["وزن پارچه", "۴۰۰ گرم"], ["فیت", "ریلکس"], ["نحوه شست‌وشو", "ماشین لباسشویی ۳۰ درجه"]] } ],
+      "en": [ { "group": "Details", "rows": [["Material", "80% cotton, 20% polyester"], ["Fabric weight", "400 gsm"], ["Fit", "Relaxed"], ["Care", "Machine wash at 30°C"]] } ]
+    },
+    "tags": { "fa": ["هودی", "سویشرت"], "en": ["hoodie", "sweatshirt"] },
+    "createdAt": "2026-02-14"
+  },
+  {
+    "id": 2008,
+    "slug": "leather-belt-black",
+    "sku": "NX-FS-2008",
+    "name": { "fa": "کمربند چرم طبیعی تمپو با سگک استیل مشکی", "en": "Tempo Natural Leather Belt with Steel Buckle - Black" },
+    "category": "fashion", "subcategory": "accessories", "brand": "tempo",
+    "price": 650000, "oldPrice": null,
+    "rating": 4.5, "reviewCount": 97, "sold": 890, "views": 5400,
+    "stock": 36, "maxQty": 3,
+    "flags": { "featured": false, "flash": false, "new": false, "bestseller": false },
+    "colors": [ { "name": { "fa": "مشکی", "en": "Black" }, "hex": "#111111" }, { "name": { "fa": "قهوه‌ای", "en": "Brown" }, "hex": "#5a3a22" } ],
+    "sizes": [ { "value": "90", "label": "90" }, { "value": "95", "label": "95" }, { "value": "100", "label": "100" }, { "value": "105", "label": "105" }, { "value": "110", "label": "110" } ],
+    "short": { "fa": "چرم گاوی تمام‌دانه ۳.۵ میلی‌متری، سگک استیل ضدزنگ و عرض ۳.۵ سانتی‌متر.", "en": "3.5 mm full-grain leather, stainless steel buckle and 3.5 cm width." },
+    "description": {
+      "fa": "کمربندی ساده و بادوام از یک تکه چرم گاوی تمام‌دانه به ضخامت ۳.۵ میلی‌متر که بدون لایه‌چسبانی ساخته شده و سال‌ها عمر می‌کند. سگک استیل ضدزنگ با پرداخت مات و پیچ قابل باز‌شدن، تعویض سگک را ممکن می‌کند.\n\nعرض ۳.۵ سانتی‌متر هم برای شلوار جین و هم برای شلوار پارچه‌ای مناسب است. سایز کمربند را برابر با سایز کمر شلوار خود انتخاب کنید.",
+      "en": "A simple, durable belt cut from a single piece of 3.5 mm full-grain leather without laminated layers, built to last for years. The matte stainless steel buckle is attached with a screw so it can be swapped.\n\nThe 3.5 cm width suits both jeans and dress trousers. Choose the belt size equal to your trouser waist."
+    },
+    "highlights": { "fa": ["چرم تک‌لایه تمام‌دانه", "سگک استیل قابل تعویض", "مناسب جین و رسمی"], "en": ["Single-layer full-grain leather", "Interchangeable steel buckle", "Suits casual and formal"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["جنس", "چرم طبیعی گاوی"], ["ضخامت", "۳.۵ میلی‌متر"], ["عرض", "۳.۵ سانتی‌متر"], ["سگک", "استیل ضدزنگ"]] } ],
+      "en": [ { "group": "Details", "rows": [["Material", "Natural calf leather"], ["Thickness", "3.5 mm"], ["Width", "3.5 cm"], ["Buckle", "Stainless steel"]] } ]
+    },
+    "tags": { "fa": ["کمربند", "چرم"], "en": ["belt", "leather"] },
+    "createdAt": "2026-01-20"
+  },
+  {
+    "id": 3001,
+    "slug": "arc-floor-lamp",
+    "sku": "NX-HM-3001",
+    "name": { "fa": "چراغ ایستاده کمانی لومو مدل Arc مشکی", "en": "Lumo Arc Floor Lamp - Matte Black" },
+    "category": "home", "subcategory": "lighting", "brand": "lumo",
+    "price": 3300000, "oldPrice": 3900000,
+    "rating": 4.7, "reviewCount": 84, "sold": 390, "views": 9900,
+    "stock": 15, "maxQty": 2,
+    "flags": { "featured": true, "flash": false, "new": false, "bestseller": false, "hero": true },
+    "colors": [ { "name": { "fa": "مشکی", "en": "Matte black" }, "hex": "#1a1a1a" }, { "name": { "fa": "طلایی", "en": "Brass" }, "hex": "#b8973f" } ],
+    "sizes": [],
+    "short": { "fa": "ارتفاع ۲۰۵ سانتی‌متر، پایه مرمر، سرپیچ E27 و کلید پایی با دیمر.", "en": "205 cm tall, marble base, E27 socket and a foot dimmer switch." },
+    "description": {
+      "fa": "چراغ Arc با قوس بلند و کلاهک فلزی، نور را دقیقاً بالای مبل یا میز می‌رساند بدون آن‌که به سقف نیاز باشد. بدنه فولادی با رنگ پودری مات و پایه مرمر طبیعی ۹ کیلوگرمی، ایستایی کامل را تضمین می‌کند.\n\nسرپیچ E27 با هر لامپ LED سازگار است و کلید پایی با دیمر، تنظیم نور از گرم و ملایم تا روشن برای مطالعه را ساده می‌کند. لامپ ۱۲ وات LED در بسته موجود است.",
+      "en": "The Arc lamp's long curve and metal shade place light exactly over your sofa or table without any ceiling work. The matte powder-coated steel body and a 9 kg natural marble base guarantee stability.\n\nThe E27 socket works with any LED bulb, and the foot dimmer makes it easy to go from a warm glow to bright reading light. A 12 W LED bulb is included."
+    },
+    "highlights": { "fa": ["پایه مرمر طبیعی ۹ کیلوگرمی", "کلید پایی با دیمر", "سازگار با هر لامپ E27", "ارتفاع ۲۰۵ سانتی‌متر"], "en": ["9 kg natural marble base", "Foot dimmer switch", "Works with any E27 bulb", "205 cm tall"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["ارتفاع", "۲۰۵ سانتی‌متر"], ["طول قوس", "۱۷۰ سانتی‌متر"], ["جنس بدنه", "فولاد با رنگ پودری"], ["جنس پایه", "مرمر طبیعی"], ["سرپیچ", "E27، حداکثر ۶۰ وات"], ["طول کابل", "۲ متر"]] } ],
+      "en": [ { "group": "Details", "rows": [["Height", "205 cm"], ["Arc reach", "170 cm"], ["Body", "Powder-coated steel"], ["Base", "Natural marble"], ["Socket", "E27, max 60 W"], ["Cable length", "2 m"]] } ]
+    },
+    "tags": { "fa": ["چراغ", "روشنایی", "دکور"], "en": ["lamp", "lighting", "decor"] },
+    "createdAt": "2026-06-22"
+  },
+  {
+    "id": 3002,
+    "slug": "drip-coffee-maker",
+    "sku": "NX-HM-3002",
+    "name": { "fa": "قهوه‌ساز بروا مدل Drip 12 استیل", "en": "Brewa Drip 12 Stainless Steel Coffee Maker" },
+    "category": "home", "subcategory": "kitchen", "brand": "brewa",
+    "price": 2750000, "oldPrice": 3150000,
+    "rating": 4.5, "reviewCount": 171, "sold": 720, "views": 13400,
+    "stock": 22, "maxQty": 2,
+    "flags": { "featured": false, "flash": true, "new": false, "bestseller": true },
+    "colors": [ { "name": { "fa": "استیل", "en": "Stainless" }, "hex": "#b9bcc0" } ],
+    "sizes": [],
+    "short": { "fa": "ظرفیت ۱۲ فنجان، دمای دم‌آوری ۹۲ تا ۹۶ درجه، تایمر ۲۴ ساعته و صفحه گرم‌نگهدار.", "en": "12-cup capacity, 92–96°C brewing temperature, 24-hour timer and a warming plate." },
+    "description": {
+      "fa": "Drip 12 قهوه‌سازی است که استانداردهای دم‌آوری تخصصی را به آشپزخانه می‌آورد. المنت ۱۴۰۰ واتی آب را در محدوده ایده‌آل ۹۲ تا ۹۶ درجه نگه می‌دارد و دوش‌سر پهن، همه قهوه را یکنواخت خیس می‌کند.\n\nتایمر ۲۴ ساعته اجازه می‌دهد صبح با عطر قهوه بیدار شوید. مخزن جداشدنی، فیلتر دائمی و صفحه گرم‌نگهدار با خاموشی خودکار بعد از ۴۰ دقیقه، استفاده روزانه را آسان می‌کند.",
+      "en": "Drip 12 brings specialty brewing standards to your kitchen. A 1400 W element keeps the water in the ideal 92–96°C range and a wide shower head saturates the grounds evenly.\n\nA 24-hour timer lets you wake up to the smell of coffee. A removable reservoir, permanent filter and warming plate with auto shut-off after 40 minutes make daily use easy."
+    },
+    "highlights": { "fa": ["دمای دم‌آوری استاندارد SCA", "تایمر ۲۴ ساعته", "فیلتر دائمی و مخزن جداشدنی", "خاموشی خودکار"], "en": ["SCA-standard brew temperature", "24-hour timer", "Permanent filter, removable tank", "Auto shut-off"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["توان", "۱۴۰۰ وات"], ["ظرفیت", "۱.۸ لیتر (۱۲ فنجان)"], ["جنس بدنه", "استیل ضدزنگ"], ["فیلتر", "دائمی فلزی"], ["ابعاد", "۳۵ × ۲۲ × ۳۲ سانتی‌متر"]] } ],
+      "en": [ { "group": "Details", "rows": [["Power", "1400 W"], ["Capacity", "1.8 L (12 cups)"], ["Body", "Stainless steel"], ["Filter", "Permanent metal"], ["Dimensions", "35 × 22 × 32 cm"]] } ]
+    },
+    "tags": { "fa": ["قهوه‌ساز", "آشپزخانه"], "en": ["coffee maker", "kitchen"] },
+    "createdAt": "2026-04-02"
+  },
+  {
+    "id": 3003,
+    "slug": "velvet-armchair-mustard",
+    "sku": "NX-HM-3003",
+    "name": { "fa": "مبل تک‌نفره کاسا مدل Nordic پارچه خردلی", "en": "Casa Nordic Armchair - Mustard Fabric" },
+    "category": "home", "subcategory": "furniture", "brand": "casa",
+    "price": 9800000, "oldPrice": 12500000,
+    "rating": 4.8, "reviewCount": 47, "sold": 150, "views": 8200,
+    "stock": 5, "maxQty": 2,
+    "flags": { "featured": true, "flash": true, "new": false, "bestseller": false },
+    "colors": [ { "name": { "fa": "خردلی", "en": "Mustard" }, "hex": "#d7a21a" }, { "name": { "fa": "طوسی", "en": "Grey" }, "hex": "#8d8d8d" }, { "name": { "fa": "سبز", "en": "Forest green" }, "hex": "#2f5d47" } ],
+    "sizes": [],
+    "short": { "fa": "کلاف چوب راش، اسفنج سرد ۳۵ کیلویی، پارچه مخمل ضدلک و پایه‌های چوبی گردو.", "en": "Beech frame, 35 kg cold-cure foam, stain-resistant velvet and walnut wood legs." },
+    "description": {
+      "fa": "مبل Nordic با الهام از طراحی اسکاندیناویایی دهه ۶۰، خطوطی ساده و نشیمنی عمیق و راحت دارد. کلاف از چوب راش خشک‌شده و اسفنج سرد با چگالی ۳۵ کیلوگرم، فرم خود را سال‌ها حفظ می‌کند.\n\nپارچه مخمل با پوشش ضدلک به‌سادگی با دستمال مرطوب تمیز می‌شود و پایه‌های چوب گردو با رنگ روغنی، گرمای طبیعی به فضا می‌بخشند. مونتاژ فقط شامل پیچ‌کردن پایه‌ها است.",
+      "en": "Inspired by 1960s Scandinavian design, the Nordic armchair has simple lines and a deep, comfortable seat. The kiln-dried beech frame and 35 kg density cold-cure foam keep their shape for years.\n\nThe velvet upholstery has a stain-resistant coating that wipes clean with a damp cloth, and oiled walnut legs add natural warmth. Assembly is just screwing on the legs."
+    },
+    "highlights": { "fa": ["کلاف چوب راش خشک‌شده", "اسفنج سرد ۳۵ کیلویی", "پارچه ضدلک", "۵ سال گارانتی کلاف"], "en": ["Kiln-dried beech frame", "35 kg cold-cure foam", "Stain-resistant fabric", "5-year frame warranty"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["ابعاد", "۷۶ × ۸۲ × ۸۵ سانتی‌متر (عرض × عمق × ارتفاع)"], ["ارتفاع نشیمن", "۴۴ سانتی‌متر"], ["کلاف", "چوب راش"], ["پارچه", "مخمل پلی‌استر ضدلک"], ["پایه", "چوب گردو"], ["وزن", "۱۸ کیلوگرم"]] } ],
+      "en": [ { "group": "Details", "rows": [["Dimensions", "76 × 82 × 85 cm (W × D × H)"], ["Seat height", "44 cm"], ["Frame", "Beech wood"], ["Fabric", "Stain-resistant polyester velvet"], ["Legs", "Walnut"], ["Weight", "18 kg"]] } ]
+    },
+    "tags": { "fa": ["مبل", "صندلی", "دکوراسیون"], "en": ["armchair", "furniture", "decor"] },
+    "createdAt": "2026-05-18"
+  },
+  {
+    "id": 3004,
+    "slug": "ceramic-vase-set",
+    "sku": "NX-HM-3004",
+    "name": { "fa": "ست گلدان سرامیکی سه‌تایی کاسا مدل Trio سفید", "en": "Casa Trio Ceramic Vase Set - White" },
+    "category": "home", "subcategory": "decor", "brand": "casa",
+    "price": 720000, "oldPrice": 950000,
+    "rating": 4.4, "reviewCount": 132, "sold": 1100, "views": 7100,
+    "stock": 40, "maxQty": 4,
+    "flags": { "featured": false, "flash": false, "new": true, "bestseller": false },
+    "colors": [ { "name": { "fa": "سفید", "en": "White" }, "hex": "#f5f5f5" }, { "name": { "fa": "کرم", "en": "Sand" }, "hex": "#e4d8c3" } ],
+    "sizes": [],
+    "short": { "fa": "سه گلدان سرامیکی دست‌ساز با لعاب مات در ارتفاع‌های ۱۲، ۱۸ و ۲۴ سانتی‌متر.", "en": "Three handmade ceramic vases with a matte glaze, 12, 18 and 24 cm tall." },
+    "description": {
+      "fa": "ست Trio سه گلدان با فرم‌های ارگانیک و لعاب مات است که کنار هم یا جداگانه، هر گوشه‌ای را زنده می‌کنند. هر گلدان به‌صورت دستی قالب‌گیری و در ۱۲۰۰ درجه پخته شده، بنابراین تفاوت‌های جزئی نشانه اصالت است.\n\nداخل گلدان‌ها لعاب‌خورده و ضدآب است و برای گل طبیعی هم مناسب‌اند. بسته‌بندی مقاوم برای ارسال ایمن طراحی شده است.",
+      "en": "The Trio set is three vases with organic forms and a matte glaze that bring any corner to life together or apart. Each vase is hand-formed and fired at 1200°C, so small variations are a mark of authenticity.\n\nThe interiors are glazed and watertight, so they suit fresh flowers too. Sturdy packaging is designed for safe shipping."
+    },
+    "highlights": { "fa": ["سرامیک دست‌ساز", "لعاب مات ضدآب داخلی", "سه ارتفاع مکمل"], "en": ["Handmade ceramic", "Matte glaze, watertight interior", "Three complementary heights"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["جنس", "سرامیک"], ["ارتفاع", "۱۲ / ۱۸ / ۲۴ سانتی‌متر"], ["پرداخت", "لعاب مات"], ["ضدآب", "بله"]] } ],
+      "en": [ { "group": "Details", "rows": [["Material", "Ceramic"], ["Heights", "12 / 18 / 24 cm"], ["Finish", "Matte glaze"], ["Watertight", "Yes"]] } ]
+    },
+    "tags": { "fa": ["گلدان", "دکور"], "en": ["vase", "decor"] },
+    "createdAt": "2026-08-25"
+  },
+  {
+    "id": 4001,
+    "slug": "amber-perfume",
+    "sku": "NX-BT-4001",
+    "name": { "fa": "ادوپرفیوم اسنزا مدل Amber Noir حجم ۱۰۰ میلی‌لیتر", "en": "Essenza Amber Noir Eau de Parfum 100ml" },
+    "category": "beauty", "subcategory": "fragrance", "brand": "essenza",
+    "price": 2900000, "oldPrice": 3400000,
+    "rating": 4.7, "reviewCount": 258, "sold": 1320, "views": 17300,
+    "stock": 28, "maxQty": 3,
+    "flags": { "featured": true, "flash": false, "new": false, "bestseller": true },
+    "colors": [],
+    "sizes": [ { "value": "50", "label": "50ml" }, { "value": "100", "label": "100ml" } ],
+    "short": { "fa": "رایحه گرم شرقی با نت‌های عنبر، وانیل و چوب صندل؛ ماندگاری ۸ تا ۱۰ ساعت.", "en": "A warm oriental scent with amber, vanilla and sandalwood; 8–10 hours of longevity." },
+    "description": {
+      "fa": "Amber Noir عطری گرم و پرابهت برای شب‌های پاییز و زمستان است. رایحه با فلفل صورتی و برگاموت آغاز می‌شود، در قلب به زعفران و گل رز می‌رسد و در پایه با عنبر، وانیل و چوب صندل ماندگار می‌شود.\n\nغلظت ادوپرفیوم با ۲۰٪ اسانس، ماندگاری ۸ تا ۱۰ ساعته و پخش بوی متعادل دارد. بطری شیشه‌ای کهربایی با درپوش مغناطیسی، در جعبه مقوایی سخت ارسال می‌شود.",
+      "en": "Amber Noir is a warm, commanding scent for autumn and winter nights. It opens with pink pepper and bergamot, moves to saffron and rose in the heart and settles into amber, vanilla and sandalwood in the base.\n\nAt eau de parfum concentration with 20% essence it lasts 8–10 hours with balanced projection. The amber glass bottle with magnetic cap ships in a rigid box."
+    },
+    "highlights": { "fa": ["غلظت ادوپرفیوم ۲۰٪", "ماندگاری ۸ تا ۱۰ ساعت", "نت‌های عنبر، وانیل و صندل", "بطری با درپوش مغناطیسی"], "en": ["20% eau de parfum concentration", "8–10 hours longevity", "Amber, vanilla and sandalwood", "Magnetic-cap bottle"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["نوع", "ادوپرفیوم"], ["حجم", "۱۰۰ میلی‌لیتر"], ["نت آغازین", "فلفل صورتی، برگاموت"], ["نت میانی", "زعفران، رز"], ["نت پایانی", "عنبر، وانیل، چوب صندل"], ["مناسب", "زنانه و مردانه"]] } ],
+      "en": [ { "group": "Details", "rows": [["Type", "Eau de parfum"], ["Volume", "100 ml"], ["Top notes", "Pink pepper, bergamot"], ["Heart notes", "Saffron, rose"], ["Base notes", "Amber, vanilla, sandalwood"], ["Gender", "Unisex"]] } ]
+    },
+    "tags": { "fa": ["عطر", "ادکلن"], "en": ["perfume", "fragrance"] },
+    "createdAt": "2026-03-08"
+  },
+  {
+    "id": 4002,
+    "slug": "hydrating-face-cream",
+    "sku": "NX-BT-4002",
+    "name": { "fa": "کرم آبرسان صورت درمالیس مدل Hydra+ حجم ۵۰ میلی‌لیتر", "en": "Dermalis Hydra+ Hydrating Face Cream 50ml" },
+    "category": "beauty", "subcategory": "skincare", "brand": "dermalis",
+    "price": 640000, "oldPrice": 780000,
+    "rating": 4.6, "reviewCount": 489, "sold": 4100, "views": 21000,
+    "stock": 150, "maxQty": 5,
+    "flags": { "featured": false, "flash": true, "new": false, "bestseller": true },
+    "colors": [],
+    "sizes": [],
+    "short": { "fa": "هیالورونیک اسید سه‌وزنی، سرامید و نیاسینامید؛ بدون عطر و مناسب پوست حساس.", "en": "Triple-weight hyaluronic acid, ceramides and niacinamide; fragrance-free and suitable for sensitive skin." },
+    "description": {
+      "fa": "Hydra+ کرمی سبک با بافت ژل‌کرم است که با سه وزن مولکولی هیالورونیک اسید، رطوبت را در لایه‌های مختلف پوست ذخیره می‌کند. سرامیدها سد دفاعی پوست را ترمیم و نیاسینامید ۴٪ منافذ و قرمزی را کاهش می‌دهد.\n\nفرمول بدون عطر، بدون الکل و غیرکومدون‌زا برای همه انواع پوست حتی پوست حساس و مستعد آکنه مناسب است. صبح و شب روی پوست تمیز استفاده کنید.",
+      "en": "Hydra+ is a lightweight gel-cream that stores moisture in different skin layers with three molecular weights of hyaluronic acid. Ceramides repair the skin barrier and 4% niacinamide reduces pores and redness.\n\nThe fragrance-free, alcohol-free, non-comedogenic formula suits all skin types including sensitive and acne-prone skin. Apply morning and night on clean skin."
+    },
+    "highlights": { "fa": ["هیالورونیک اسید سه‌وزنی", "نیاسینامید ۴٪ و سرامید", "بدون عطر و الکل", "غیرکومدون‌زا"], "en": ["Triple-weight hyaluronic acid", "4% niacinamide and ceramides", "Fragrance and alcohol free", "Non-comedogenic"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["حجم", "۵۰ میلی‌لیتر"], ["نوع پوست", "همه انواع پوست"], ["ترکیبات کلیدی", "هیالورونیک اسید، سرامید، نیاسینامید"], ["بافت", "ژل‌کرم"], ["زمان مصرف", "صبح و شب"]] } ],
+      "en": [ { "group": "Details", "rows": [["Volume", "50 ml"], ["Skin type", "All skin types"], ["Key ingredients", "Hyaluronic acid, ceramides, niacinamide"], ["Texture", "Gel-cream"], ["Usage", "Morning and night"]] } ]
+    },
+    "tags": { "fa": ["کرم", "مراقبت پوست", "آبرسان"], "en": ["cream", "skincare", "moisturiser"] },
+    "createdAt": "2026-02-27"
+  },
+  {
+    "id": 4003,
+    "slug": "pro-hair-dryer",
+    "sku": "NX-BT-4003",
+    "name": { "fa": "سشوار حرفه‌ای آیونیا مدل Pro 2200", "en": "Ionia Pro 2200 Professional Hair Dryer" },
+    "category": "beauty", "subcategory": "haircare", "brand": "ionia",
+    "price": 1950000, "oldPrice": 2400000,
+    "rating": 4.5, "reviewCount": 203, "sold": 980, "views": 10900,
+    "stock": 19, "maxQty": 2,
+    "flags": { "featured": false, "flash": false, "new": false, "bestseller": false },
+    "colors": [ { "name": { "fa": "مشکی", "en": "Black" }, "hex": "#111111" } ],
+    "sizes": [],
+    "short": { "fa": "موتور AC حرفه‌ای ۲۲۰۰ وات، فناوری یون منفی، سه درجه حرارت و دو سرعت.", "en": "2200 W professional AC motor, negative ion technology, three heat and two speed settings." },
+    "description": {
+      "fa": "Pro 2200 سشواری آرایشگاهی برای استفاده خانگی است. موتور AC با عمر ۲۰۰۰ ساعت و جریان هوای ۱۱۰ کیلومتر بر ساعت، موها را سریع خشک می‌کند و مولد یون منفی، وز و الکتریسیته ساکن را از بین می‌برد.\n\nسه درجه حرارت، دو سرعت و دکمه هوای سرد برای تثبیت حالت، همراه با دو نازل متمرکزکننده و دیفیوزر، برای هر نوع مو مناسب است. کابل ۳ متری چرخان و فیلتر جداشدنی، استفاده و نگهداری را آسان می‌کنند.",
+      "en": "Pro 2200 is a salon dryer for home use. A 2000-hour AC motor with 110 km/h airflow dries hair fast, while the negative ion generator eliminates frizz and static.\n\nThree heat settings, two speeds and a cool-shot button, together with two concentrator nozzles and a diffuser, suit every hair type. A 3 m swivel cord and removable filter keep use and maintenance easy."
+    },
+    "highlights": { "fa": ["موتور AC با عمر ۲۰۰۰ ساعت", "فناوری یون منفی ضد وز", "دیفیوزر و دو نازل", "کابل ۳ متری چرخان"], "en": ["2000-hour AC motor", "Anti-frizz negative ions", "Diffuser and two nozzles", "3 m swivel cord"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["توان", "۲۲۰۰ وات"], ["موتور", "AC حرفه‌ای"], ["تنظیمات", "۳ حرارت، ۲ سرعت، هوای سرد"], ["لوازم همراه", "۲ نازل، دیفیوزر"], ["وزن", "۵۹۰ گرم"]] } ],
+      "en": [ { "group": "Details", "rows": [["Power", "2200 W"], ["Motor", "Professional AC"], ["Settings", "3 heat, 2 speed, cool shot"], ["Accessories", "2 nozzles, diffuser"], ["Weight", "590 g"]] } ]
+    },
+    "tags": { "fa": ["سشوار", "مو"], "en": ["hair dryer", "hair"] },
+    "createdAt": "2026-01-12"
+  },
+  {
+    "id": 4004,
+    "slug": "serum-set",
+    "sku": "NX-BT-4004",
+    "name": { "fa": "پک سرم سه‌تایی درمالیس مدل Glow Trio", "en": "Dermalis Glow Trio Serum Set" },
+    "category": "beauty", "subcategory": "skincare", "brand": "dermalis",
+    "price": 1180000, "oldPrice": 1490000,
+    "rating": 4.8, "reviewCount": 176, "sold": 860, "views": 9300,
+    "stock": 33, "maxQty": 3,
+    "flags": { "featured": true, "flash": false, "new": true, "bestseller": false },
+    "colors": [],
+    "sizes": [],
+    "short": { "fa": "سه سرم ۳۰ میلی‌لیتری ویتامین C، هیالورونیک اسید و رتینول برای روتین کامل روز و شب.", "en": "Three 30 ml serums — vitamin C, hyaluronic acid and retinol — for a complete day and night routine." },
+    "description": {
+      "fa": "Glow Trio روتین کامل درخشندگی پوست را در یک بسته ارائه می‌دهد: سرم ویتامین C ۱۵٪ برای صبح و روشن‌کنندگی، سرم هیالورونیک اسید ۲٪ برای آبرسانی عمیق در هر زمان و سرم رتینول ۰.۳٪ کپسوله‌شده برای شب و کاهش خطوط ریز.\n\nهر سه محصول در بطری‌های شیشه‌ای تیره با قطره‌چکان عرضه می‌شوند و فرمول‌های ملایم آن‌ها برای شروع روتین ضدپیری نیز مناسب است. راهنمای مصرف در جعبه موجود است.",
+      "en": "Glow Trio delivers a complete radiance routine in one box: a 15% vitamin C serum for brightening in the morning, a 2% hyaluronic acid serum for deep hydration any time, and a 0.3% encapsulated retinol serum for night-time fine-line reduction.\n\nAll three come in dark glass dropper bottles, and the gentle formulas are suitable for starting an anti-ageing routine. A usage guide is included."
+    },
+    "highlights": { "fa": ["ویتامین C ۱۵٪ پایدار", "هیالورونیک اسید ۲٪", "رتینول ۰.۳٪ کپسوله", "بطری شیشه‌ای تیره"], "en": ["Stable 15% vitamin C", "2% hyaluronic acid", "0.3% encapsulated retinol", "Dark glass bottles"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["محتویات", "۳ × ۳۰ میلی‌لیتر"], ["نوع پوست", "همه انواع پوست"], ["زمان مصرف", "صبح (ویتامین C)، شب (رتینول)"], ["بدون", "پارابن، عطر، رنگ"]] } ],
+      "en": [ { "group": "Details", "rows": [["Contents", "3 × 30 ml"], ["Skin type", "All skin types"], ["Usage", "Morning (vitamin C), night (retinol)"], ["Free from", "Parabens, fragrance, dyes"]] } ]
+    },
+    "tags": { "fa": ["سرم", "مراقبت پوست"], "en": ["serum", "skincare"] },
+    "createdAt": "2026-08-22"
+  },
+  {
+    "id": 5001,
+    "slug": "running-shoes-neon",
+    "sku": "NX-SP-5001",
+    "name": { "fa": "کفش دویدن استراید مدل Velocity 3 زرد نئونی", "en": "Stride Velocity 3 Running Shoes - Neon Yellow" },
+    "category": "sport", "subcategory": "sport-shoes", "brand": "stride",
+    "price": 3150000, "oldPrice": 3900000,
+    "rating": 4.6, "reviewCount": 154, "sold": 760, "views": 12800,
+    "stock": 26, "maxQty": 3,
+    "flags": { "featured": true, "flash": true, "new": true, "bestseller": false },
+    "colors": [ { "name": { "fa": "زرد نئونی", "en": "Neon yellow" }, "hex": "#e6f22b" }, { "name": { "fa": "مشکی", "en": "Black" }, "hex": "#111111" }, { "name": { "fa": "سفید", "en": "White" }, "hex": "#f5f5f5" } ],
+    "sizes": [ { "value": "39", "label": "39" }, { "value": "40", "label": "40" }, { "value": "41", "label": "41" }, { "value": "42", "label": "42" }, { "value": "43", "label": "43" }, { "value": "44", "label": "44" }, { "value": "45", "label": "45", "disabled": true } ],
+    "short": { "fa": "فوم واکنشی PEBA، صفحه کربنی، رویه مش مهندسی‌شده و وزن ۲۲۰ گرم.", "en": "Responsive PEBA foam, carbon plate, engineered mesh upper and a 220 g weight." },
+    "description": {
+      "fa": "Velocity 3 برای روزهای تمرین سریع و مسابقه طراحی شده است. میان‌زیره فوم PEBA با بازگشت انرژی ۸۵٪ و صفحه کربنی تمام‌قد، هر گام را به جلو هل می‌دهد و رویه مش مهندسی‌شده بدون درز، تهویه و فیت دقیق را فراهم می‌کند.\n\nزیره لاستیکی با الگوی چندجهته روی آسفالت خیس هم چسبندگی دارد و وزن تنها ۲۲۰ گرم (سایز ۴۲) خستگی را در مسافت‌های طولانی کم می‌کند. اختلاف پاشنه تا پنجه ۸ میلی‌متر است.",
+      "en": "Velocity 3 is built for fast training days and race day. A PEBA foam midsole with 85% energy return and a full-length carbon plate push every stride forward, while the seamless engineered mesh upper gives ventilation and a precise fit.\n\nThe multi-directional rubber outsole grips even on wet asphalt, and at only 220 g (size 42) it reduces fatigue over long distances. Heel-to-toe drop is 8 mm."
+    },
+    "highlights": { "fa": ["فوم PEBA با بازگشت انرژی ۸۵٪", "صفحه کربنی تمام‌قد", "وزن ۲۲۰ گرم", "زیره چسبنده روی سطح خیس"], "en": ["PEBA foam, 85% energy return", "Full-length carbon plate", "220 g weight", "Wet-grip outsole"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["نوع", "دویدن جاده / مسابقه"], ["میان‌زیره", "فوم PEBA + صفحه کربن"], ["اختلاف پاشنه", "۸ میلی‌متر"], ["وزن", "۲۲۰ گرم (سایز ۴۲)"], ["رویه", "مش مهندسی‌شده"]] } ],
+      "en": [ { "group": "Details", "rows": [["Type", "Road running / racing"], ["Midsole", "PEBA foam + carbon plate"], ["Drop", "8 mm"], ["Weight", "220 g (size 42)"], ["Upper", "Engineered mesh"]] } ]
+    },
+    "tags": { "fa": ["کفش دویدن", "ورزشی"], "en": ["running shoes", "sports"] },
+    "createdAt": "2026-08-23"
+  },
+  {
+    "id": 5002,
+    "slug": "yoga-mat-black",
+    "sku": "NX-SP-5002",
+    "name": { "fa": "مت یوگا زنفیت مدل Pro ضخامت ۶ میلی‌متر مشکی", "en": "Zenfit Pro Yoga Mat 6mm - Black" },
+    "category": "sport", "subcategory": "yoga", "brand": "zenfit",
+    "price": 560000, "oldPrice": 690000,
+    "rating": 4.5, "reviewCount": 268, "sold": 2300, "views": 9700,
+    "stock": 70, "maxQty": 4,
+    "flags": { "featured": false, "flash": false, "new": false, "bestseller": true },
+    "colors": [ { "name": { "fa": "مشکی", "en": "Black" }, "hex": "#111111" }, { "name": { "fa": "سبز", "en": "Sage" }, "hex": "#7f9a7d" }, { "name": { "fa": "زرد", "en": "Yellow" }, "hex": "#f6d014" } ],
+    "sizes": [],
+    "short": { "fa": "لاستیک طبیعی با رویه پلی‌اورتان ضدلغزش، ضخامت ۶ میلی‌متر، ابعاد ۱۸۳ × ۶۸ و بند حمل.", "en": "Natural rubber with a non-slip polyurethane top, 6 mm thick, 183 × 68 cm with a carry strap." },
+    "description": {
+      "fa": "مت Pro با لایه زیرین لاستیک طبیعی و رویه پلی‌اورتان، حتی با دست‌های عرق‌کرده هم سر نمی‌خورد و برای یوگای گرم مناسب است. ضخامت ۶ میلی‌متر تعادل خوبی بین حمایت مفاصل و ثبات در حرکات ایستاده ایجاد می‌کند.\n\nخطوط راهنمای تراز حکاکی‌شده روی سطح، به قرارگیری صحیح دست و پا کمک می‌کند. بدون PVC و مواد سمی، همراه با بند حمل پارچه‌ای ارسال می‌شود.",
+      "en": "The Pro mat's natural rubber base and polyurethane top stay grippy even with sweaty hands, making it ideal for hot yoga. The 6 mm thickness balances joint support with stability in standing poses.\n\nEtched alignment lines help position hands and feet correctly. PVC-free and non-toxic, it ships with a fabric carry strap."
+    },
+    "highlights": { "fa": ["رویه پلی‌اورتان ضدلغزش", "لاستیک طبیعی بدون PVC", "خطوط راهنمای تراز", "بند حمل همراه"], "en": ["Non-slip polyurethane top", "PVC-free natural rubber", "Alignment guide lines", "Carry strap included"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["ابعاد", "۱۸۳ × ۶۸ سانتی‌متر"], ["ضخامت", "۶ میلی‌متر"], ["جنس", "لاستیک طبیعی + پلی‌اورتان"], ["وزن", "۲.۵ کیلوگرم"]] } ],
+      "en": [ { "group": "Details", "rows": [["Dimensions", "183 × 68 cm"], ["Thickness", "6 mm"], ["Material", "Natural rubber + polyurethane"], ["Weight", "2.5 kg"]] } ]
+    },
+    "tags": { "fa": ["یوگا", "مت"], "en": ["yoga", "mat"] },
+    "createdAt": "2026-03-30"
+  },
+  {
+    "id": 5003,
+    "slug": "hex-dumbbells",
+    "sku": "NX-SP-5003",
+    "name": { "fa": "دمبل شش‌ضلعی روکش لاستیکی زنفیت جفت ۱۰ کیلوگرمی", "en": "Zenfit Rubber Hex Dumbbells - 10 kg Pair" },
+    "category": "sport", "subcategory": "fitness", "brand": "zenfit",
+    "price": 1450000, "oldPrice": null,
+    "rating": 4.7, "reviewCount": 91, "sold": 410, "views": 6100,
+    "stock": 0, "maxQty": 2,
+    "flags": { "featured": false, "flash": false, "new": false, "bestseller": false },
+    "colors": [ { "name": { "fa": "مشکی", "en": "Black" }, "hex": "#111111" } ],
+    "sizes": [ { "value": "5", "label": "5kg" }, { "value": "10", "label": "10kg" }, { "value": "15", "label": "15kg" }, { "value": "20", "label": "20kg" } ],
+    "short": { "fa": "هسته چدنی با روکش لاستیک بی‌بو، سر شش‌ضلعی ضدغلتش و دسته کروم آج‌دار.", "en": "Cast-iron core with odourless rubber coating, anti-roll hex heads and a knurled chrome handle." },
+    "description": {
+      "fa": "دمبل‌های Hex زنفیت با هسته چدنی یک‌تکه و روکش لاستیکی ضخیم، هم کف زمین را محافظت می‌کنند و هم صدای برخورد را کاهش می‌دهند. سر شش‌ضلعی مانع غلتیدن می‌شود و برای حرکاتی مانند رنگ‌رو و برپی، پایه‌ای پایدار است.\n\nدسته کروم با آج متوسط، گرفتن مطمئن بدون آسیب به کف دست را فراهم می‌کند. وزن هر دمبل با دقت ±۲٪ کالیبره شده است.",
+      "en": "Zenfit Hex dumbbells have a one-piece cast-iron core with a thick rubber coating that protects floors and reduces noise. The hexagonal heads stop rolling and provide a stable base for renegade rows and burpees.\n\nThe medium-knurl chrome handle gives a secure grip without tearing your palms. Each dumbbell is calibrated to ±2%."
+    },
+    "highlights": { "fa": ["هسته چدنی یک‌تکه", "روکش لاستیکی بی‌بو", "سر شش‌ضلعی ضدغلتش", "کالیبره با دقت ±۲٪"], "en": ["One-piece cast-iron core", "Odourless rubber coating", "Anti-roll hex heads", "Calibrated to ±2%"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["وزن", "۲ × ۱۰ کیلوگرم"], ["جنس", "چدن با روکش لاستیک"], ["دسته", "کروم آج‌دار ۳۲ میلی‌متر"], ["تعداد", "جفت"]] } ],
+      "en": [ { "group": "Details", "rows": [["Weight", "2 × 10 kg"], ["Material", "Rubber-coated cast iron"], ["Handle", "32 mm knurled chrome"], ["Quantity", "Pair"]] } ]
+    },
+    "tags": { "fa": ["دمبل", "بدنسازی"], "en": ["dumbbells", "fitness"] },
+    "createdAt": "2025-12-05"
+  },
+  {
+    "id": 5004,
+    "slug": "hiking-backpack",
+    "sku": "NX-SP-5004",
+    "name": { "fa": "کوله‌پشتی کوهنوردی تریلیکس ۴۵ لیتری", "en": "Trailix 45L Hiking Backpack" },
+    "category": "sport", "subcategory": "camping", "brand": "trailix",
+    "price": 2300000, "oldPrice": 2850000,
+    "rating": 4.6, "reviewCount": 112, "sold": 530, "views": 8900,
+    "stock": 18, "maxQty": 2,
+    "flags": { "featured": true, "flash": true, "new": false, "bestseller": false },
+    "colors": [ { "name": { "fa": "خاکستری/زرد", "en": "Grey / yellow" }, "hex": "#4d4d4d" }, { "name": { "fa": "سبز", "en": "Olive" }, "hex": "#556b2f" } ],
+    "sizes": [],
+    "short": { "fa": "پارچه ریپ‌استاپ ۴۲۰D، سیستم پشتی تهویه‌دار، کاور بارانی و وزن ۱.۴ کیلوگرم.", "en": "420D ripstop fabric, ventilated back system, rain cover and a 1.4 kg weight." },
+    "description": {
+      "fa": "کوله ۴۵ لیتری Trailix برای کوهنوردی‌های یک تا سه روزه طراحی شده است. پارچه ریپ‌استاپ ۴۲۰D با پوشش ضدآب، سیستم پشتی با شبکه تهویه و کمربند بالشتک‌دار، وزن را به‌درستی روی لگن منتقل می‌کند.\n\nدسترسی از بالا و جلو، جیب‌های کناری کشی، جای بطری آب، بند نگه‌دارنده باتوم و کاور بارانی مخفی در کف کوله، همه‌چیز را در دسترس نگه می‌دارد. وزن خالی تنها ۱.۴ کیلوگرم است.",
+      "en": "The Trailix 45L is designed for one- to three-day hikes. Water-repellent 420D ripstop fabric, a ventilated mesh back system and a padded hip belt transfer weight properly onto your hips.\n\nTop and front access, stretch side pockets, a hydration sleeve, trekking-pole holders and a rain cover hidden in the base keep everything within reach. Empty weight is only 1.4 kg."
+    },
+    "highlights": { "fa": ["پارچه ریپ‌استاپ ۴۲۰D ضدآب", "پشتی تهویه‌دار با کمربند بالشتکی", "دسترسی از بالا و جلو", "کاور بارانی همراه"], "en": ["Water-repellent 420D ripstop", "Ventilated back, padded hip belt", "Top and front access", "Rain cover included"] },
+    "specs": {
+      "fa": [ { "group": "مشخصات", "rows": [["حجم", "۴۵ لیتر"], ["جنس", "ریپ‌استاپ ۴۲۰D"], ["وزن", "۱.۴ کیلوگرم"], ["ابعاد", "۶۵ × ۳۲ × ۲۵ سانتی‌متر"], ["جای بطری آب", "تا ۳ لیتر"]] } ],
+      "en": [ { "group": "Details", "rows": [["Volume", "45 L"], ["Material", "420D ripstop"], ["Weight", "1.4 kg"], ["Dimensions", "65 × 32 × 25 cm"], ["Hydration sleeve", "Up to 3 L"]] } ]
+    },
+    "tags": { "fa": ["کوله‌پشتی", "کوهنوردی"], "en": ["backpack", "hiking"] },
+    "createdAt": "2026-06-14"
+  }
+]

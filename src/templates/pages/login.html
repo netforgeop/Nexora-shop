@@ -1,0 +1,42 @@
+<section class="auth">
+  <div class="auth__visual">
+    <img src="{{img "banners/auth-visual.webp"}}" width="800" height="597" alt="" decoding="async">
+    <div class="auth__visual-body">
+      <h2 class="auth__visual-title">{{t "auth.visualTitle"}}</h2>
+      <ul class="auth__visual-list">
+        <li>{{icon "checkmark-circle" size="sm"}}{{t "auth.visualItem1"}}</li>
+        <li>{{icon "checkmark-circle" size="sm"}}{{t "auth.visualItem2"}}</li>
+        <li>{{icon "checkmark-circle" size="sm"}}{{t "auth.visualItem3"}}</li>
+        <li>{{icon "checkmark-circle" size="sm"}}{{t "auth.visualItem4"}}</li>
+      </ul>
+    </div>
+  </div>
+  <div class="auth__form-wrap">
+    <form class="auth-card" data-auth-form="login" novalidate>
+      <div class="auth-card__head">
+        <h1 class="auth-card__title">{{t "auth.loginTitle"}}</h1>
+        <p class="auth-card__sub">{{t "auth.loginSub"}} <a href="{{root}}register.html">{{t "auth.registerLink"}}</a></p>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="login-id">{{t "auth.identifier"}} <span class="req">*</span></label>
+        <div class="input-icon"><span class="icon icon--sm linear-icon-user" aria-hidden="true"></span><input id="login-id" class="form-control" name="identifier" autocomplete="username" placeholder="{{t "auth.identifierPlaceholder"}}" required data-validate="identifier" dir="ltr"></div>
+        <span class="form-error" role="alert"></span>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="login-pass">{{t "auth.password"}} <span class="req">*</span></label>
+        <div class="input-icon" style="position:relative"><span class="icon icon--sm linear-icon-lock" aria-hidden="true"></span><input id="login-pass" class="form-control" name="password" type="password" autocomplete="current-password" required data-minlength="6" dir="ltr" style="padding-inline-end:52px"><button type="button" class="icon-btn icon-btn--ghost input-action" data-toggle-password aria-label="{{t "auth.showPassword"}}" aria-pressed="false" style="inline-size:36px;block-size:36px">{{icon "eye" size="sm"}}</button></div>
+        <span class="form-error" role="alert"></span>
+      </div>
+      <div class="auth-card__row">
+        <label class="check"><input class="check__input" type="checkbox" name="remember" checked><span class="check__box"></span><span class="check__label">{{t "auth.remember"}}</span></label>
+        <a href="{{root}}forgot-password.html">{{t "auth.forgot"}}</a>
+      </div>
+      <button type="submit" class="btn btn--primary btn--lg btn--block">{{t "auth.login"}}</button>
+      <div class="divider--text">{{t "auth.orContinue"}}</div>
+      <div class="auth-card__social">
+        <button type="button" class="btn btn--outline" data-social-login="google"><span class="ltr fw-bold" aria-hidden="true">G</span>{{t "auth.google"}}</button>
+        <button type="button" class="btn btn--outline" data-social-login="apple">{{icon "apple" size="sm"}}{{t "auth.apple"}}</button>
+      </div>
+    </form>
+  </div>
+</section>

@@ -1,0 +1,49 @@
+<section class="section section--sm" data-account-page data-addresses-page>
+  <div class="container">
+    <div class="with-sidebar">
+      <aside class="with-sidebar__aside">{{> account-nav}}</aside>
+      <div>
+        <div class="account-panel">
+          <div class="account-panel__head">
+            <h1 class="account-panel__title">{{t "account.addresses"}}</h1>
+            <button type="button" class="btn btn--primary btn--sm" data-address-add>{{icon "plus" size="xs"}}{{t "account.addAddress"}}</button>
+          </div>
+          <div class="address-grid" data-address-list>
+            <article class="address-card is-default" data-address>
+              <div class="address-card__title">{{icon "home" size="xs"}}<span data-address-title>{{#if lang == "fa"}}خانه{{else}}Home{{/if}}</span> <span class="badge badge--discount">{{t "account.default"}}</span></div>
+              <p class="address-card__text" data-address-text>{{t "footer.address"}}</p>
+              <div class="address-card__meta"><span data-address-receiver>{{t "account.userName"}}</span> · <span class="ltr" data-address-phone>{{t "account.userPhone"}}</span> · <span class="ltr">1968934511</span></div>
+              <div class="address-card__actions"><button type="button" data-address-edit>{{icon "pencil" size="xs"}}{{t "common.edit"}}</button><button type="button" data-address-delete>{{icon "trash2" size="xs"}}{{t "common.delete"}}</button></div>
+            </article>
+            <article class="address-card" data-address>
+              <div class="address-card__title">{{icon "briefcase" size="xs"}}<span data-address-title>{{#if lang == "fa"}}محل کار{{else}}Work{{/if}}</span></div>
+              <p class="address-card__text" data-address-text>{{#if lang == "fa"}}تهران، خیابان شریعتی، نرسیده به سه‌راه طالقانی، پلاک ۴۵۲، طبقه ۳، واحد ۹{{else}}450 Mission Street, Suite 900, San Francisco, CA 94105{{/if}}</p>
+              <div class="address-card__meta"><span data-address-receiver>{{t "account.userName"}}</span> · <span class="ltr" data-address-phone>{{t "account.userPhone"}}</span> · <span class="ltr">1561737713</span></div>
+              <div class="address-card__actions"><button type="button" data-address-edit>{{icon "pencil" size="xs"}}{{t "common.edit"}}</button><button type="button" data-address-default>{{icon "check" size="xs"}}{{t "account.setDefault"}}</button><button type="button" data-address-delete>{{icon "trash2" size="xs"}}{{t "common.delete"}}</button></div>
+            </article>
+            <button type="button" class="address-card address-card--add" data-address-add>{{icon "plus-circle" size="lg"}}<span>{{t "account.addAddress"}}</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<dialog class="modal modal--sm" data-address-modal aria-labelledby="address-modal-title">
+  <button type="button" class="icon-btn icon-btn--light modal__close" data-modal-close aria-label="{{t "common.close"}}">{{icon "cross"}}</button>
+  <form class="modal__body" data-address-form novalidate style="padding:var(--space-7)">
+    <h2 class="h4" id="address-modal-title" style="margin-block-end:var(--space-5)" data-address-modal-title>{{t "account.addAddress"}}</h2>
+    <div class="form-group"><label class="form-label" for="ad-title">{{t "account.addressTitle"}} <span class="req">*</span></label><input id="ad-title" class="form-control" name="title" placeholder="{{t "account.addressTitlePlaceholder"}}" required data-minlength="2"><span class="form-error" role="alert"></span></div>
+    <div class="form-row" style="margin-block-start:var(--space-4)">
+      <div class="form-group"><label class="form-label" for="ad-receiver">{{t "account.receiver"}} <span class="req">*</span></label><input id="ad-receiver" class="form-control" name="receiver" required data-minlength="3"><span class="form-error" role="alert"></span></div>
+      <div class="form-group"><label class="form-label" for="ad-phone">{{t "checkout.phone"}} <span class="req">*</span></label><input id="ad-phone" class="form-control" name="phone" type="tel" inputmode="tel" required data-validate="phone" dir="ltr"><span class="form-error" role="alert"></span></div>
+    </div>
+    <div class="form-row" style="margin-block-start:var(--space-4)">
+      <div class="form-group"><label class="form-label" for="ad-city">{{t "checkout.city"}} <span class="req">*</span></label><input id="ad-city" class="form-control" name="city" required data-minlength="2"><span class="form-error" role="alert"></span></div>
+      <div class="form-group"><label class="form-label" for="ad-postal">{{t "checkout.postalCode"}} <span class="req">*</span></label><input id="ad-postal" class="form-control" name="postal" inputmode="numeric" required data-validate="postal" dir="ltr"><span class="form-error" role="alert"></span></div>
+    </div>
+    <div class="form-group" style="margin-block-start:var(--space-4)"><label class="form-label" for="ad-address">{{t "checkout.address"}} <span class="req">*</span></label><textarea id="ad-address" class="form-control" name="address" rows="3" required data-minlength="10"></textarea><span class="form-error" role="alert"></span></div>
+    <div class="form-group" style="margin-block-start:var(--space-4)"><label class="check"><input class="check__input" type="checkbox" name="default"><span class="check__box"></span><span class="check__label">{{t "account.setDefault"}}</span></label></div>
+    <div class="cluster" style="margin-block-start:var(--space-6)"><button type="submit" class="btn btn--primary">{{t "common.save"}}</button><button type="button" class="btn btn--ghost" data-modal-close>{{t "common.cancel"}}</button></div>
+  </form>
+</dialog>

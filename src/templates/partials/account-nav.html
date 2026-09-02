@@ -1,0 +1,15 @@
+<nav class="account-nav" aria-label="{{t "account.title"}}">
+  <div class="account-nav__user">
+    <span class="avatar" style="display:grid;place-items:center;background:var(--color-gray-900);color:var(--color-primary);font-weight:700;font-size:1.2rem" aria-hidden="true" data-user-initial>{{#if lang == "fa"}}س{{else}}S{{/if}}</span>
+    <div style="min-inline-size:0"><div class="account-nav__name" data-user-name>{{t "account.userName"}}</div><div class="account-nav__email truncate" data-user-email>{{t "account.userEmail"}}</div></div>
+  </div>
+  <ul class="account-nav__list">
+    <li><a class="account-nav__link{{#if page.account == "dashboard"}} is-active{{/if}}" href="{{root}}account.html"{{#if page.account == "dashboard"}} aria-current="page"{{/if}}>{{icon "home" size="sm"}}{{t "account.dashboard"}}</a></li>
+    <li><a class="account-nav__link{{#if page.account == "orders"}} is-active{{/if}}" href="{{root}}account-orders.html"{{#if page.account == "orders"}} aria-current="page"{{/if}}>{{icon "box" size="sm"}}{{t "account.orders"}}<span class="badge badge--soft">{{digits 6}}</span></a></li>
+    <li><a class="account-nav__link{{#if page.account == "wishlist"}} is-active{{/if}}" href="{{root}}account-wishlist.html"{{#if page.account == "wishlist"}} aria-current="page"{{/if}}>{{icon "heart" size="sm"}}{{t "account.wishlist"}}<span class="badge badge--soft" data-count="wishlist">0</span></a></li>
+    <li><a class="account-nav__link{{#if page.account == "addresses"}} is-active{{/if}}" href="{{root}}account-addresses.html"{{#if page.account == "addresses"}} aria-current="page"{{/if}}>{{icon "map-marker" size="sm"}}{{t "account.addresses"}}</a></li>
+    <li><a class="account-nav__link{{#if page.account == "profile"}} is-active{{/if}}" href="{{root}}account-profile.html"{{#if page.account == "profile"}} aria-current="page"{{/if}}>{{icon "user" size="sm"}}{{t "account.profile"}}</a></li>
+    <li><a class="account-nav__link" href="{{root}}account-orders.html#reviews">{{icon "star" size="sm"}}{{t "account.reviews"}}</a></li>
+    <li><button type="button" class="account-nav__link account-nav__link--danger" style="inline-size:100%" data-logout>{{icon "exit" size="sm"}}{{t "account.logout"}}</button></li>
+  </ul>
+</nav>

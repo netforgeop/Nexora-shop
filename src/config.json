@@ -1,0 +1,25 @@
+{
+  "site": {
+    "name": "Nexora",
+    "domain": "https://nexora.shop",
+    "themeColor": "#f6d014",
+    "compareLimit": 4,
+    "recentLimit": 8,
+    "perPage": 12,
+    "coupons": { "NEXORA10": { "type": "percent", "value": 10 }, "WELCOME": { "type": "percent", "value": 5 } }
+  },
+  "locales": {
+    "fa": {
+      "currency": { "code": "IRT", "symbol": "تومان", "rate": 1, "position": "after", "decimals": 0 },
+      "freeShipping": 2000000,
+      "taxRate": 0.1,
+      "shippingRates": { "post": 65000, "tipax": 95000, "courier": 120000 }
+    },
+    "en": {
+      "currency": { "code": "USD", "symbol": "$", "rate": 0.00005, "position": "before", "decimals": 0 },
+      "freeShipping": 2000000,
+      "taxRate": 0.0825,
+      "shippingRates": { "post": 65000, "tipax": 95000, "courier": 120000 }
+    }
+  }
+}

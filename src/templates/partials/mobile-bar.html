@@ -1,0 +1,9 @@
+{{#unless page.minimal}}
+<nav class="mobile-bar" aria-label="{{t "mobileNav.quickAccess"}}">
+  <a class="mobile-bar__item{{#if page.id == "home"}} is-active{{/if}}" href="{{root}}index.html">{{icon "home" size="sm"}}<span>{{t "mobileNav.home"}}</span></a>
+  <a class="mobile-bar__item{{#if page.nav == "shop"}} is-active{{/if}}" href="{{root}}shop.html">{{icon "grid" size="sm"}}<span>{{t "mobileNav.shop"}}</span></a>
+  <a class="mobile-bar__item{{#if page.id == "cart"}} is-active{{/if}}" href="{{root}}cart.html">{{icon "cart" size="sm"}}<span class="icon-btn__badge" data-count="cart">0</span><span>{{t "mobileNav.cart"}}</span></a>
+  <a class="mobile-bar__item{{#if page.id == "wishlist"}} is-active{{/if}}" href="{{root}}wishlist.html">{{icon "heart" size="sm"}}<span class="icon-btn__badge" data-count="wishlist">0</span><span>{{t "mobileNav.wishlist"}}</span></a>
+  <a class="mobile-bar__item{{#if page.account}} is-active{{/if}}" href="{{root}}account.html" data-auth-link>{{icon "user" size="sm"}}<span>{{t "mobileNav.account"}}</span></a>
+</nav>
+{{/unless}}

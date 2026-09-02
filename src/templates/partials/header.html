@@ -1,0 +1,177 @@
+<header class="site-header" id="site-header" data-header>
+  <!-- Announcement bar -->
+  <div class="announcement" id="announcement" data-announcement>
+    <div class="container">
+      <div class="announcement__inner">
+        {{icon "truck" size="sm"}}
+        <p>{{t "header.announcement"}} <a class="announcement__link" href="{{root}}faq.html#shipping">{{t "header.announcementCta"}}</a></p>
+      </div>
+      <button type="button" class="announcement__close" data-announcement-close aria-label="{{t "header.dismiss"}}">{{icon "cross" size="xs"}}</button>
+    </div>
+  </div>
+
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar__inner">
+        <ul class="topbar__list">
+          <li class="topbar__item">{{icon "headset" size="xs"}}<span>{{t "header.support"}}</span> <a class="topbar__link ltr" href="tel:+982191008800">{{t "header.phone"}}</a></li>
+          <li class="topbar__sep" aria-hidden="true"></li>
+          <li class="topbar__item"><a class="topbar__link" href="{{root}}account-orders.html">{{icon "map-marker" size="xs"}}{{t "nav.trackOrder"}}</a></li>
+          <li class="topbar__sep" aria-hidden="true"></li>
+          <li class="topbar__item"><a class="topbar__link" href="{{root}}contact.html">{{icon "bubble" size="xs"}}{{t "nav.contact"}}</a></li>
+        </ul>
+        <ul class="topbar__list">
+          <li class="topbar__item"><a class="topbar__link" href="{{root}}faq.html">{{t "nav.faq"}}</a></li>
+          <li class="topbar__sep" aria-hidden="true"></li>
+          <li class="topbar__item">
+            <a class="lang-switch" href="{{otherLangHref}}" hreflang="{{otherLang}}" lang="{{otherLang}}" data-lang-switch title="{{t "header.switchLang"}}">
+              {{#if lang == "fa"}}{{svg "i-flag-en"}}{{else}}{{svg "i-flag-ir"}}{{/if}}
+              <span>{{L.meta.otherLang}}</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main bar: logo / search / actions -->
+  <div class="header-main">
+    <div class="container">
+      <div class="header-main__inner">
+        <button type="button" class="icon-btn header-menu-btn" data-drawer-open="drawer-menu" aria-label="{{t "header.openMenu"}}" aria-controls="drawer-menu" aria-expanded="false">{{icon "menu"}}</button>
+
+        <a class="brand" href="{{root}}index.html" aria-label="{{L.meta.siteName}} – {{L.meta.tagline}}">
+          <span class="brand__mark">{{svg "i-logo"}}</span>
+          <span class="brand__text"><span>{{L.meta.siteNameLatin}}</span><span class="brand__tag">{{L.meta.tagline}}</span></span>
+        </a>
+
+        <div class="search" data-search>
+          <form class="search__form" role="search" action="{{root}}search.html" method="get">
+            <label class="search__category">
+              <span class="visually-hidden">{{t "header.searchIn"}}</span>
+              <select name="cat" data-search-cat>
+                <option value="">{{t "header.allCats"}}</option>
+                {{#each categories}}<option value="{{this.slug}}">{{this.name}}</option>{{/each}}
+              </select>
+            </label>
+            <label for="site-search" class="visually-hidden">{{t "header.searchLabel"}}</label>
+            <input id="site-search" class="search__input" type="search" name="q" placeholder="{{t "header.searchPlaceholder"}}" autocomplete="off" spellcheck="false" aria-autocomplete="list" aria-controls="search-suggest" aria-expanded="false" data-search-input>
+            <button type="submit" class="search__submit" aria-label="{{t "header.search"}}">{{icon "magnifier" size="sm"}}</button>
+          </form>
+          <div class="search__suggest" id="search-suggest" role="listbox" data-search-suggest></div>
+        </div>
+
+        <div class="header-actions">
+          <a class="header-action header-action--account" href="{{root}}login.html" data-auth-link>
+            <span class="header-action__icon">{{icon "user"}}</span>
+            <span class="header-action__text"><span class="header-action__label">{{t "header.myAccount"}}</span><span class="header-action__value" data-auth-label>{{t "header.login"}}</span></span>
+          </a>
+          <a class="header-action header-action--compare icon-btn" href="{{root}}compare.html" aria-label="{{t "header.compare"}}">
+            <span class="header-action__icon">{{icon "compare"}}<span class="icon-btn__badge" data-count="compare">0</span></span>
+          </a>
+          <a class="header-action header-action--wishlist icon-btn" href="{{root}}wishlist.html" aria-label="{{t "header.wishlist"}}">
+            <span class="header-action__icon">{{icon "heart"}}<span class="icon-btn__badge" data-count="wishlist">0</span></span>
+          </a>
+          <div class="header-action--cart-wrap" data-mini-cart-wrap>
+            <a class="header-action header-action--cart" href="{{root}}cart.html" aria-label="{{t "header.cart"}}" data-mini-cart-toggle aria-haspopup="true" aria-expanded="false" aria-controls="mini-cart">
+              <span class="header-action__icon">{{icon "cart"}}<span class="icon-btn__badge" data-count="cart">0</span></span>
+              <span class="header-action__text"><span class="header-action__label">{{t "header.cart"}}</span><span class="header-action__value" data-cart-total>{{t "header.cartEmptyShort"}}</span></span>
+            </a>
+            <div class="mini-cart" id="mini-cart" data-mini-cart aria-label="{{t "header.miniCartTitle"}}">
+              <div class="mini-cart__head"><span>{{t "header.miniCartTitle"}}</span><span class="text-muted small" data-mini-cart-count></span></div>
+              <div class="mini-cart__list scroll-thin" data-mini-cart-list></div>
+              <div class="mini-cart__foot" data-mini-cart-foot hidden>
+                <div class="mini-cart__total"><span>{{t "header.subtotal"}}</span><span class="num" data-mini-cart-subtotal></span></div>
+                <div class="mini-cart__actions"><a class="btn btn--outline btn--sm" href="{{root}}cart.html">{{t "header.viewCart"}}</a><a class="btn btn--primary btn--sm" href="{{root}}checkout.html">{{t "header.checkout"}}</a></div>
+              </div>
+              <div class="mini-cart__empty" data-mini-cart-empty>{{icon "cart-empty" size="xl"}}<span>{{t "header.miniCartEmpty"}}</span><a class="btn btn--dark btn--sm" href="{{root}}shop.html">{{t "common.goToShop"}}</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation bar -->
+  <nav class="header-nav" aria-label="{{t "header.menu"}}">
+    <div class="container">
+      <div class="header-nav__inner">
+        <div class="cat-menu" data-cat-menu>
+          <button type="button" class="cat-menu__trigger" aria-expanded="false" aria-controls="cat-menu-panel" data-cat-menu-trigger>
+            {{icon "menu" size="sm"}}<span>{{t "header.categoriesBtn"}}</span>{{icon "chevron-down" size="xs" class="nav__caret"}}
+          </button>
+          <div class="cat-menu__panel" id="cat-menu-panel">
+            <ul class="cat-menu__list">
+              {{#each categories}}
+              <li class="cat-menu__item">
+                <a class="cat-menu__link" href="{{root}}shop.html?cat={{this.slug}}">{{icon this.icon size="sm"}}<span>{{this.name}}</span>{{icon "chevron-down" size="xs" class="nav__caret"}}</a>
+                <div class="megamenu">
+                  <div class="megamenu__col">
+                    <div class="megamenu__heading">{{this.name}}</div>
+                    {{#each this.children}}<a class="megamenu__link" href="{{root}}shop.html?cat={{this.slug}}">{{this.name}}</a>{{/each}}
+                    <a class="megamenu__link fw-medium text-primary" href="{{root}}shop.html?cat={{this.slug}}">{{t "nav.viewAllIn"}} {{this.name}}</a>
+                  </div>
+                  <div class="megamenu__col">
+                    <div class="megamenu__heading">{{t "nav.brands"}}</div>
+                    {{#each this.brands}}<a class="megamenu__link" href="{{root}}shop.html?brand={{this.slug}}">{{this.name}}</a>{{/each}}
+                    <a class="megamenu__link" href="{{root}}shop.html?cat={{this.slug}}&discount=1">{{t "header.hotDeals"}}</a>
+                    <a class="megamenu__link" href="{{root}}shop.html?cat={{this.slug}}&sort=newest">{{t "nav.newArrivals"}}</a>
+                    <a class="megamenu__link" href="{{root}}shop.html?cat={{this.slug}}&sort=best">{{t "nav.bestSellers"}}</a>
+                  </div>
+                  <div class="megamenu__col">
+                    <div class="megamenu__heading">{{t "nav.bestSellers"}}</div>
+                    {{#each this.topProducts}}
+                    <a class="megamenu__link truncate" href="{{root}}product/{{this.slug}}.html">{{this.name}}</a>
+                    {{/each}}
+                  </div>
+                  {{#if this.promo}}
+                  <a class="megamenu__promo" href="{{root}}{{this.promo.href}}">
+                    <img src="{{root}}assets/img/{{this.promo.image}}" alt="" loading="lazy" width="220" height="220">
+                    <span class="megamenu__promo-body"><span class="badge badge--discount">{{this.promo.badge}}</span><span class="megamenu__promo-title">{{this.promo.title}}</span></span>
+                  </a>
+                  {{/if}}
+                </div>
+              </li>
+              {{/each}}
+              <li class="cat-menu__item"><a class="cat-menu__link cat-menu__link--all" href="{{root}}shop.html">{{icon "grid" size="sm"}}<span>{{t "nav.allCategories"}}</span></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <ul class="nav">
+          <li class="nav__item{{#if page.nav == "home"}} is-active{{/if}}"><a class="nav__link" href="{{root}}index.html"{{#if page.nav == "home"}} aria-current="page"{{/if}}>{{t "nav.home"}}</a></li>
+          <li class="nav__item{{#if page.nav == "shop"}} is-active{{/if}}" data-nav-dropdown>
+            <a class="nav__link" href="{{root}}shop.html" aria-haspopup="true" aria-expanded="false">{{t "nav.shop"}}{{icon "chevron-down" size="xs" class="nav__caret"}}</a>
+            <div class="dropdown">
+              <a class="dropdown__link" href="{{root}}shop.html">{{icon "grid" size="xs"}}{{t "shop.heading"}}</a>
+              <a class="dropdown__link" href="{{root}}shop.html?sort=newest">{{icon "rocket" size="xs"}}{{t "nav.newArrivals"}}<span class="badge badge--new">{{t "common.new"}}</span></a>
+              <a class="dropdown__link" href="{{root}}shop.html?sort=best">{{icon "trophy" size="xs"}}{{t "nav.bestSellers"}}</a>
+              <a class="dropdown__link" href="{{root}}shop.html?discount=1">{{icon "percent" size="xs"}}{{t "nav.flash"}}<span class="badge badge--sale">%</span></a>
+              <a class="dropdown__link" href="{{root}}compare.html">{{icon "compare" size="xs"}}{{t "nav.compare"}}</a>
+            </div>
+          </li>
+          <li class="nav__item"><a class="nav__link nav__link--hot" href="{{root}}shop.html?discount=1">{{icon "alarm-ringing" size="xs"}}{{t "nav.flash"}}</a></li>
+          <li class="nav__item{{#if page.nav == "blog"}} is-active{{/if}}"><a class="nav__link" href="{{root}}blog.html"{{#if page.nav == "blog"}} aria-current="page"{{/if}}>{{t "nav.blog"}}</a></li>
+          <li class="nav__item" data-nav-dropdown>
+            <a class="nav__link" href="{{root}}about.html" aria-haspopup="true" aria-expanded="false">{{t "nav.pages"}}{{icon "chevron-down" size="xs" class="nav__caret"}}</a>
+            <div class="dropdown">
+              <a class="dropdown__link" href="{{root}}about.html">{{t "nav.about"}}</a>
+              <a class="dropdown__link" href="{{root}}contact.html">{{t "nav.contact"}}</a>
+              <a class="dropdown__link" href="{{root}}faq.html">{{t "nav.faq"}}</a>
+              <a class="dropdown__link" href="{{root}}terms.html">{{t "nav.terms"}}</a>
+              <a class="dropdown__link" href="{{root}}account.html">{{t "nav.account"}}</a>
+              <a class="dropdown__link" href="{{root}}404.html">404</a>
+            </div>
+          </li>
+          <li class="nav__item{{#if page.nav == "contact"}} is-active{{/if}}"><a class="nav__link" href="{{root}}contact.html">{{t "nav.contact"}}</a></li>
+        </ul>
+
+        <div class="header-nav__aside">
+          <a href="{{root}}faq.html#shipping">{{icon "truck" size="sm"}}<span>{{t "header.freeShipping"}}</span></a>
+          <a href="{{root}}faq.html#authentic">{{icon "shield-check" size="sm"}}<span>{{t "header.authentic"}}</span></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

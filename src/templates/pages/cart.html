@@ -1,0 +1,61 @@
+<section class="section section--sm" data-cart-page>
+  <div class="container">
+    <div class="page-head__inner" style="margin-block-end:var(--space-6)">
+      <h1 class="h3">{{icon "cart" size="md"}} {{t "cart.heading"}} <span class="text-muted small fw-medium" data-cart-count-label></span></h1>
+      <button type="button" class="btn btn--ghost btn--sm text-danger" data-cart-clear hidden>{{icon "trash2" size="xs"}}{{t "cart.clear"}}</button>
+    </div>
+
+    <div data-cart-filled hidden>
+      <div class="cart-layout">
+        <div>
+          <div class="alert alert--success" data-cart-savings hidden>{{icon "percent" size="sm"}}<span data-cart-savings-text></span></div>
+          <div class="cart-table">
+            <div class="cart-table__head" style="display:none"></div>
+            <div data-cart-items></div>
+          </div>
+          <div class="cart-tools">
+            <form class="coupon" data-coupon-form novalidate>
+              <label class="visually-hidden" for="coupon-code">{{t "cart.coupon"}}</label>
+              <div class="input-icon" style="flex:1"><span class="icon icon--sm linear-icon-tag" aria-hidden="true"></span><input id="coupon-code" class="form-control" name="code" placeholder="{{t "cart.couponPlaceholder"}}" autocomplete="off" dir="ltr" style="text-transform:uppercase"></div>
+              <button type="submit" class="btn btn--dark">{{t "cart.applyCoupon"}}</button>
+            </form>
+            <a class="btn btn--outline" href="{{root}}shop.html">{{icon "arrow-right" size="xs" class="icon--flip-ltr"}}{{t "cart.continue"}}</a>
+          </div>
+          <p class="form-hint" style="margin-block-start:calc(var(--space-4) * -1)">{{t "cart.couponHint"}} <span data-coupon-applied></span></p>
+        </div>
+
+        <aside class="cart-layout__aside">
+          <div class="summary">
+            <h2 class="summary__title">{{t "cart.summary"}}</h2>
+            <div class="summary__shipping-progress" data-shipping-progress>
+              <span data-shipping-progress-text></span>
+              <div class="product-card__progress"><div class="product-card__progress-fill" data-shipping-progress-fill style="inline-size:0"></div></div>
+            </div>
+            <div class="summary__rows">
+              <div class="summary__row"><span>{{t "cart.subtotal"}} (<span data-summary-count></span>)</span><span class="num" data-summary-subtotal></span></div>
+              <div class="summary__row summary__row--discount" data-summary-discount-row hidden><span>{{t "cart.discount"}}</span><span class="num" data-summary-discount></span></div>
+              <div class="summary__row summary__row--discount" data-summary-coupon-row hidden><span>{{t "cart.couponDiscount"}} (<span data-summary-coupon-code></span>)<button type="button" class="icon-btn icon-btn--ghost" style="inline-size:24px;block-size:24px;vertical-align:middle" data-coupon-remove aria-label="{{t "common.remove"}}">{{icon "cross" size="xs"}}</button></span><span class="num" data-summary-coupon></span></div>
+              <div class="summary__row"><span>{{t "cart.shipping"}}</span><span class="num" data-summary-shipping></span></div>
+              <div class="summary__row"><span>{{t "cart.tax"}}</span><span class="num" data-summary-tax></span></div>
+            </div>
+            <div class="summary__total"><span>{{t "cart.grandTotal"}}</span><span class="num" data-summary-total></span></div>
+            <a class="btn btn--primary btn--lg btn--block" href="{{root}}checkout.html">{{t "cart.checkout"}}{{icon "arrow-left" size="xs" class="icon--flip-ltr"}}</a>
+            <div class="summary__secure">{{icon "lock" size="xs"}}{{t "cart.secure"}}</div>
+            <div class="summary__payments">{{svg "i-shaparak"}}{{svg "i-visa"}}{{svg "i-mastercard"}}</div>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <div data-cart-empty hidden>
+      {{{empty iconName="cart-empty" title=L.cart.empty text=L.cart.emptyText cta=L.common.goToShop href=shopHref}}}
+    </div>
+  </div>
+</section>
+
+<section class="section bg-surface" aria-labelledby="sec-cart-suggest">
+  <div class="container">
+    <div class="section-head"><div><h2 class="section-head__title" id="sec-cart-suggest">{{t "cart.youMayLike"}}</h2></div><div class="section-head__aside"><div class="carousel-nav"><button type="button" class="carousel-nav__btn" data-carousel-prev="suggest" aria-label="{{t "common.prev"}}">{{icon "chevron-right" size="xs" class="icon--flip-ltr"}}</button><button type="button" class="carousel-nav__btn" data-carousel-next="suggest" aria-label="{{t "common.next"}}">{{icon "chevron-left" size="xs" class="icon--flip-ltr"}}</button></div></div></div>
+    <div class="product-carousel"><div class="swiper" data-swiper="products" data-carousel-id="suggest"><div class="swiper-wrapper">{{{slides lists.best}}}</div></div></div>
+  </div>
+</section>

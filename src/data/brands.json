@@ -1,0 +1,21 @@
+[
+  { "slug": "sonix", "name": "Sonix", "category": "digital" },
+  { "slug": "nova", "name": "Nova", "category": "digital" },
+  { "slug": "aero", "name": "Aero", "category": "digital" },
+  { "slug": "pulse", "name": "Pulse", "category": "digital" },
+  { "slug": "lumis", "name": "Lumis", "category": "digital" },
+  { "slug": "keystone", "name": "Keystone", "category": "digital" },
+  { "slug": "urbano", "name": "Urbano", "category": "fashion" },
+  { "slug": "velora", "name": "Velora", "category": "fashion" },
+  { "slug": "tempo", "name": "Tempo", "category": "fashion" },
+  { "slug": "optiq", "name": "Optiq", "category": "fashion" },
+  { "slug": "casa", "name": "Casa", "category": "home" },
+  { "slug": "lumo", "name": "Lumo", "category": "home" },
+  { "slug": "brewa", "name": "Brewa", "category": "home" },
+  { "slug": "essenza", "name": "Essenza", "category": "beauty" },
+  { "slug": "dermalis", "name": "Dermalis", "category": "beauty" },
+  { "slug": "ionia", "name": "Ionia", "category": "beauty" },
+  { "slug": "stride", "name": "Stride", "category": "sport" },
+  { "slug": "zenfit", "name": "Zenfit", "category": "sport" },
+  { "slug": "trailix", "name": "Trailix", "category": "sport" }
+]
