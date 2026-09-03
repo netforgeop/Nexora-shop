@@ -1,0 +1,474 @@
+[
+  {
+    "slug": "digital",
+    "name": {
+      "fa": "کالای دیجیتال",
+      "en": "Electronics"
+    },
+    "icon": "smartphone",
+    "image": "categories/digital.webp",
+    "tile": "categories/tile-digital.webp",
+    "promo": {
+      "image": "banners/tile-earbuds.webp",
+      "title": {
+        "fa": "ایربادهای بی‌سیم تا ۲۵٪ تخفیف",
+        "en": "Wireless earbuds up to 25% off"
+      },
+      "badge": {
+        "fa": "پیشنهاد ویژه",
+        "en": "Special offer"
+      },
+      "href": "product/wireless-earbuds.html"
+    },
+    "children": [
+      {
+        "slug": "mobile",
+        "name": {
+          "fa": "گوشی موبایل",
+          "en": "Mobile phones"
+        }
+      },
+      {
+        "slug": "laptop",
+        "name": {
+          "fa": "لپ‌تاپ و کامپیوتر",
+          "en": "Laptops & computers"
+        }
+      },
+      {
+        "slug": "audio",
+        "name": {
+          "fa": "صوتی و هدفون",
+          "en": "Audio & headphones"
+        }
+      },
+      {
+        "slug": "camera",
+        "name": {
+          "fa": "دوربین عکاسی",
+          "en": "Cameras"
+        }
+      },
+      {
+        "slug": "wearable",
+        "name": {
+          "fa": "گجت‌های پوشیدنی",
+          "en": "Wearables"
+        }
+      },
+      {
+        "slug": "peripherals",
+        "name": {
+          "fa": "لوازم جانبی کامپیوتر",
+          "en": "Computer accessories"
+        }
+      },
+      {
+        "slug": "tablet",
+        "name": {
+          "fa": "تبلت و کتاب‌خوان",
+          "en": "Tablets & e-readers"
+        }
+      },
+      {
+        "slug": "gaming",
+        "name": {
+          "fa": "کنسول و بازی",
+          "en": "Gaming"
+        }
+      },
+      {
+        "slug": "tv",
+        "name": {
+          "fa": "تلویزیون",
+          "en": "TVs"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "fashion",
+    "name": {
+      "fa": "مد و پوشاک",
+      "en": "Fashion"
+    },
+    "icon": "shirt",
+    "image": "categories/fashion.webp",
+    "tile": "categories/tile-fashion.webp",
+    "promo": {
+      "image": "banners/tile-watch.webp",
+      "title": {
+        "fa": "کالکشن ساعت‌های کلاسیک",
+        "en": "The classic watch collection"
+      },
+      "badge": {
+        "fa": "جدید",
+        "en": "New"
+      },
+      "href": "product/classic-leather-watch.html"
+    },
+    "children": [
+      {
+        "slug": "women",
+        "name": {
+          "fa": "پوشاک زنانه",
+          "en": "Women's clothing"
+        }
+      },
+      {
+        "slug": "men",
+        "name": {
+          "fa": "پوشاک مردانه",
+          "en": "Men's clothing"
+        }
+      },
+      {
+        "slug": "shoes",
+        "name": {
+          "fa": "کفش",
+          "en": "Shoes"
+        }
+      },
+      {
+        "slug": "bags",
+        "name": {
+          "fa": "کیف و کوله",
+          "en": "Bags"
+        }
+      },
+      {
+        "slug": "watches",
+        "name": {
+          "fa": "ساعت مچی",
+          "en": "Watches"
+        }
+      },
+      {
+        "slug": "eyewear",
+        "name": {
+          "fa": "عینک",
+          "en": "Eyewear"
+        }
+      },
+      {
+        "slug": "accessories",
+        "name": {
+          "fa": "اکسسوری",
+          "en": "Accessories"
+        }
+      },
+      {
+        "slug": "kids-fashion",
+        "name": {
+          "fa": "پوشاک بچگانه",
+          "en": "Kids' clothing"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "home",
+    "name": {
+      "fa": "خانه و آشپزخانه",
+      "en": "Home & Kitchen"
+    },
+    "icon": "lamp",
+    "image": "categories/home.webp",
+    "tile": "categories/tile-home.webp",
+    "promo": {
+      "image": "banners/promo-home.webp",
+      "title": {
+        "fa": "دکوراسیون مینیمال تا ۳۰٪ تخفیف",
+        "en": "Minimal décor up to 30% off"
+      },
+      "badge": {
+        "fa": "تخفیف",
+        "en": "Sale"
+      },
+      "href": "shop.html?cat=home&discount=1"
+    },
+    "children": [
+      {
+        "slug": "furniture",
+        "name": {
+          "fa": "مبلمان",
+          "en": "Furniture"
+        }
+      },
+      {
+        "slug": "lighting",
+        "name": {
+          "fa": "روشنایی",
+          "en": "Lighting"
+        }
+      },
+      {
+        "slug": "kitchen",
+        "name": {
+          "fa": "لوازم آشپزخانه",
+          "en": "Kitchen appliances"
+        }
+      },
+      {
+        "slug": "decor",
+        "name": {
+          "fa": "دکوراتیو",
+          "en": "Décor"
+        }
+      },
+      {
+        "slug": "bedding",
+        "name": {
+          "fa": "کالای خواب",
+          "en": "Bedding"
+        }
+      },
+      {
+        "slug": "storage",
+        "name": {
+          "fa": "نظم‌دهنده",
+          "en": "Storage & organisation"
+        }
+      },
+      {
+        "slug": "garden",
+        "name": {
+          "fa": "باغبانی",
+          "en": "Garden"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "beauty",
+    "name": {
+      "fa": "زیبایی و سلامت",
+      "en": "Beauty & Health"
+    },
+    "icon": "leaf",
+    "image": "categories/beauty.webp",
+    "tile": "categories/tile-beauty.webp",
+    "promo": {
+      "image": "banners/promo-beauty.webp",
+      "title": {
+        "fa": "مراقبت پوست با برندهای اورجینال",
+        "en": "Skincare from original brands"
+      },
+      "badge": {
+        "fa": "اورجینال",
+        "en": "Original"
+      },
+      "href": "shop.html?cat=beauty"
+    },
+    "children": [
+      {
+        "slug": "skincare",
+        "name": {
+          "fa": "مراقبت پوست",
+          "en": "Skincare"
+        }
+      },
+      {
+        "slug": "fragrance",
+        "name": {
+          "fa": "عطر و ادکلن",
+          "en": "Fragrance"
+        }
+      },
+      {
+        "slug": "haircare",
+        "name": {
+          "fa": "مراقبت مو",
+          "en": "Hair care"
+        }
+      },
+      {
+        "slug": "makeup",
+        "name": {
+          "fa": "آرایشی",
+          "en": "Makeup"
+        }
+      },
+      {
+        "slug": "personal-care",
+        "name": {
+          "fa": "بهداشت شخصی",
+          "en": "Personal care"
+        }
+      },
+      {
+        "slug": "health",
+        "name": {
+          "fa": "سلامت و تناسب",
+          "en": "Health & wellness"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "sport",
+    "name": {
+      "fa": "ورزش و سفر",
+      "en": "Sports & Outdoors"
+    },
+    "icon": "dumbbell",
+    "image": "categories/sport.webp",
+    "tile": "categories/tile-sport.webp",
+    "promo": {
+      "image": "categories/sport.webp",
+      "title": {
+        "fa": "کفش‌های دویدن فصل جدید",
+        "en": "New season running shoes"
+      },
+      "badge": {
+        "fa": "داغ",
+        "en": "Hot"
+      },
+      "href": "product/running-shoes-neon.html"
+    },
+    "children": [
+      {
+        "slug": "sport-shoes",
+        "name": {
+          "fa": "کفش ورزشی",
+          "en": "Athletic shoes"
+        }
+      },
+      {
+        "slug": "fitness",
+        "name": {
+          "fa": "تجهیزات بدنسازی",
+          "en": "Fitness equipment"
+        }
+      },
+      {
+        "slug": "yoga",
+        "name": {
+          "fa": "یوگا و پیلاتس",
+          "en": "Yoga & pilates"
+        }
+      },
+      {
+        "slug": "camping",
+        "name": {
+          "fa": "کمپینگ و کوهنوردی",
+          "en": "Camping & hiking"
+        }
+      },
+      {
+        "slug": "sportswear",
+        "name": {
+          "fa": "پوشاک ورزشی",
+          "en": "Sportswear"
+        }
+      },
+      {
+        "slug": "cycling",
+        "name": {
+          "fa": "دوچرخه‌سواری",
+          "en": "Cycling"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "books",
+    "name": {
+      "fa": "کتاب و لوازم تحریر",
+      "en": "Books & Stationery"
+    },
+    "icon": "book",
+    "children": [
+      {
+        "slug": "books-fiction",
+        "name": {
+          "fa": "ادبیات و رمان",
+          "en": "Fiction"
+        }
+      },
+      {
+        "slug": "books-business",
+        "name": {
+          "fa": "کسب‌وکار و موفقیت",
+          "en": "Business"
+        }
+      },
+      {
+        "slug": "books-kids",
+        "name": {
+          "fa": "کودک و نوجوان",
+          "en": "Children's books"
+        }
+      },
+      {
+        "slug": "stationery",
+        "name": {
+          "fa": "لوازم تحریر",
+          "en": "Stationery"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "toys",
+    "name": {
+      "fa": "اسباب‌بازی و کودک",
+      "en": "Toys & Kids"
+    },
+    "icon": "baby-bottle",
+    "children": [
+      {
+        "slug": "toys-educational",
+        "name": {
+          "fa": "اسباب‌بازی آموزشی",
+          "en": "Educational toys"
+        }
+      },
+      {
+        "slug": "toys-outdoor",
+        "name": {
+          "fa": "بازی‌های فضای باز",
+          "en": "Outdoor play"
+        }
+      },
+      {
+        "slug": "baby-care",
+        "name": {
+          "fa": "مراقبت از نوزاد",
+          "en": "Baby care"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "tools",
+    "name": {
+      "fa": "ابزار و تجهیزات",
+      "en": "Tools & Hardware"
+    },
+    "icon": "hammer",
+    "children": [
+      {
+        "slug": "power-tools",
+        "name": {
+          "fa": "ابزار برقی",
+          "en": "Power tools"
+        }
+      },
+      {
+        "slug": "hand-tools",
+        "name": {
+          "fa": "ابزار دستی",
+          "en": "Hand tools"
+        }
+      },
+      {
+        "slug": "safety",
+        "name": {
+          "fa": "ایمنی و حفاظت",
+          "en": "Safety"
+        }
+      }
+    ]
+  }
+]

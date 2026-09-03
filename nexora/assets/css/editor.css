@@ -1,0 +1,25 @@
+/* Nexora block-editor styles: keeps the writing canvas close to the front-end. */
+@import url("fonts.css");
+:root {
+	--theme-primary: #f6d014;
+	--theme-text: #222;
+	--theme-text-muted: #6b7280;
+	--theme-border: #e5e7eb;
+	--theme-surface-2: #f7f7f7;
+}
+.editor-styles-wrapper { font-family: "primary-font", "IRANYekan", "Segoe UI", Tahoma, system-ui, sans-serif; font-size: 15px; line-height: 1.9; color: var(--theme-text); }
+.editor-styles-wrapper .wp-block { max-width: 780px; }
+.editor-styles-wrapper .wp-block[data-align="wide"] { max-width: 1100px; }
+.editor-styles-wrapper .wp-block[data-align="full"] { max-width: none; }
+.editor-styles-wrapper h1, .editor-styles-wrapper h2, .editor-styles-wrapper h3, .editor-styles-wrapper h4 { font-family: "secondary-font", "primary-font", system-ui, sans-serif; font-weight: 800; line-height: 1.35; color: var(--theme-text); }
+.editor-styles-wrapper .editor-post-title__input { font-family: "secondary-font", "primary-font", system-ui, sans-serif; font-weight: 800; }
+.editor-styles-wrapper h2 { font-size: 1.6em; } .editor-styles-wrapper h3 { font-size: 1.3em; } .editor-styles-wrapper h4 { font-size: 1.1em; }
+.editor-styles-wrapper a { color: #a08600; }
+.editor-styles-wrapper blockquote, .editor-styles-wrapper .wp-block-quote { border-inline-start: 4px solid var(--theme-primary); background: var(--theme-surface-2); padding: 1rem 1.25rem; border-radius: 6px; margin-inline: 0; }
+.editor-styles-wrapper .wp-block-button__link { background: var(--theme-primary); color: #111; border-radius: 4px; font-weight: 600; }
+.editor-styles-wrapper .wp-block-image img, .editor-styles-wrapper .wp-block-gallery img { border-radius: 6px; }
+.editor-styles-wrapper .wp-block-table td, .editor-styles-wrapper .wp-block-table th { border: 1px solid var(--theme-border); padding: .6rem .8rem; }
+.editor-styles-wrapper .wp-block-separator { border-color: var(--theme-border); }
+.editor-styles-wrapper code { background: var(--theme-surface-2); padding: .1em .4em; border-radius: 3px; direction: ltr; unicode-bidi: embed; }
+.editor-styles-wrapper .wp-block-code { background: #0f172a; color: #e2e8f0; border-radius: 6px; direction: ltr; text-align: left; }
+.editor-styles-wrapper figcaption { color: var(--theme-text-muted); text-align: center; font-size: .85em; }

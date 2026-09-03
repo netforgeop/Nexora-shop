@@ -1,0 +1,24 @@
+/*
+Theme Name: Nexora
+Theme URI: https://avirad.ir/
+Author: AVIRAD
+Author URI: https://avirad.ir/
+Description: Nexora is a premium, RTL-first multi-category WooCommerce theme with a component-based homepage, a native theme dashboard, colour presets, setup wizard, plugin checker, demo importer and built-in tutorials. No page-builder required.
+Version: 1.0.0
+Requires at least: 6.4
+Tested up to: 6.8
+Requires PHP: 8.0
+WC requires at least: 8.0
+WC tested up to: 9.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: nexora
+Domain Path: /languages
+Tags: e-commerce, rtl-language-support, custom-colors, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, block-styles, wide-blocks, one-column, two-columns, right-sidebar, left-sidebar
+
+Nexora WordPress Theme, (C) 2026 AVIRAD (https://avirad.ir).
+Nexora is distributed under the terms of the GNU GPL.
+
+This file only holds the theme header. All styles are enqueued from /assets/css
+(see inc/enqueue.php) so that the browser only downloads what a page needs.
+*/

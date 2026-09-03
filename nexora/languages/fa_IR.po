@@ -1,0 +1,5525 @@
+# Nexora WordPress theme.
+# Copyright (C) 2026 Nexora
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Nexora 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/netforgeop/Nexora-shop/issues\n"
+"POT-Creation-Date: 2026-09-03 11:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-09-03 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1) ? 0 : 1;\n"
+"X-Generator: nexora-makepot\n"
+"X-Domain: nexora\n"
+
+#: 404.php:15 inc/helpers/breadcrumb.php:81
+msgid "Page not found"
+msgstr "صفحه پیدا نشد"
+
+#: 404.php:19 404.php:22 inc/setup.php:96 search.php:20 search.php:23 template-parts/header/search.php:32
+msgid "Search"
+msgstr "جستجو"
+
+#: 404.php:20 inc/admin/presets.php:156
+msgid "Search products…"
+msgstr "جستجوی محصولات…"
+
+#: 404.php:27 woocommerce/checkout/thankyou.php:45 woocommerce/checkout/thankyou.php:57
+msgid "Back to home"
+msgstr "بازگشت به خانه"
+
+#: 404.php:28 page-templates/compare.php:30 page-templates/wishlist.php:35 search.php:53 template-parts/footer/drawers.php:106 template-parts/header/mini-cart.php:62
+msgid "Go to shop"
+msgstr "رفتن به فروشگاه"
+
+#: 404.php:29 page-templates/faq.php:62
+msgid "Contact support"
+msgstr "تماس با پشتیبانی"
+
+#: archive.php:33
+msgid "Nothing found"
+msgstr "چیزی پیدا نشد"
+
+#: archive.php:33
+msgid "There are no posts in this archive yet."
+msgstr "هنوز نوشته‌ای در این بایگانی وجود ندارد."
+
+#: comments.php:16 comments.php:22
+msgid "Comments"
+msgstr "دیدگاه‌ها"
+
+#: comments.php:20
+msgid "Older"
+msgstr "قدیمی‌تر"
+
+#: comments.php:20
+msgid "Newer"
+msgstr "جدیدتر"
+
+#: comments.php:26
+msgid "Comments are closed."
+msgstr "دیدگاه‌ها بسته شده‌اند."
+
+#: comments.php:36
+msgid "Leave a comment"
+msgstr "ثبت دیدگاه"
+
+#: comments.php:37 woocommerce/single-product-reviews.php:52
+msgid "Reply to %s"
+msgstr "پاسخ به %s"
+
+#: comments.php:44
+msgid "Post comment"
+msgstr "ارسال دیدگاه"
+
+#: comments.php:46
+msgid "Logged in as %1$s. <a href=\"%2$s\">Log out?</a>"
+msgstr "وارد شده با نام %1$s. <a href=\"%2$s\">خروج؟</a>"
+
+#: comments.php:48 inc/ajax/front.php:142 inc/helpers/schema.php:517 inc/helpers/schema.php:567 inc/setup.php:128 page-templates/contact.php:59
+msgid "Name"
+msgstr "نام"
+
+#: comments.php:49
+msgid "Email (not published)"
+msgstr "ایمیل (منتشر نمی‌شود)"
+
+#: comments.php:50 inc/setup.php:133
+msgid "Save my name and email for next time."
+msgstr "نام و ایمیل من را برای دفعه بعد ذخیره کن."
+
+#: comments.php:52 inc/setup.php:127
+msgid "Comment"
+msgstr "دیدگاه"
+
+#: footer.php:21
+msgid "Back to top"
+msgstr "بازگشت به بالا"
+
+#: header.php:19
+msgid "Skip to content"
+msgstr "پرش به محتوا"
+
+#: inc/acf.php:28
+msgid "Nexora — Product extras"
+msgstr "نکسورا — اطلاعات تکمیلی محصول"
+
+#: inc/acf.php:32 template-parts/home/hero.php:17 woocommerce/content-single-product.php:66 woocommerce/single-product/tabs/description.php:32
+msgid "Highlights"
+msgstr "ویژگی‌های برجسته"
+
+#: inc/acf.php:36
+msgid "One highlight per line. Shown as a bullet list beside the product gallery (max 6)."
+msgstr "هر ویژگی در یک خط. به‌صورت فهرست کنار گالری محصول نمایش داده می‌شود (حداکثر ۶ مورد)."
+
+#: inc/acf.php:40
+msgid "Custom badge"
+msgstr "نشان سفارشی"
+
+#: inc/acf.php:44
+msgid "Short label such as \"Best seller\". Leave empty to hide."
+msgstr "برچسب کوتاه مثل «پرفروش». برای پنهان‌کردن خالی بگذارید."
+
+#: inc/acf.php:48
+msgid "Video URL"
+msgstr "آدرس ویدیو"
+
+#: inc/acf.php:51
+msgid "YouTube / Aparat / MP4 link — appears as the last gallery slide."
+msgstr "لینک یوتیوب / آپارات / MP4 — به‌عنوان آخرین اسلاید گالری نمایش داده می‌شود."
+
+#: inc/acf.php:55
+msgid "Size guide"
+msgstr "راهنمای سایز"
+
+#: inc/acf.php:60
+msgid "Optional table shown in a modal via the \"Size guide\" link."
+msgstr "جدول اختیاری که از طریق لینک «راهنمای سایز» در پنجره باز می‌شود."
+
+#: inc/acf.php:71
+msgid "Nexora — Page banner"
+msgstr "نکسورا — بنر صفحه"
+
+#: inc/acf.php:75
+msgid "Hide page title"
+msgstr "پنهان‌کردن عنوان صفحه"
+
+#: inc/acf.php:82 inc/helpers/schema.php:421 inc/helpers/schema.php:476 inc/helpers/schema.php:501 inc/helpers/schema.php:551 inc/helpers/schema.php:581
+msgid "Subtitle"
+msgstr "زیرعنوان"
+
+#: inc/acf.php:88
+msgid "Banner image"
+msgstr "تصویر بنر"
+
+#: inc/acf.php:103
+msgid "Nexora — Post extras"
+msgstr "نکسورا — اطلاعات تکمیلی نوشته"
+
+#: inc/acf.php:107
+msgid "Featured video URL"
+msgstr "آدرس ویدیوی شاخص"
+
+#: inc/acf.php:113
+msgid "Mark as editor’s pick"
+msgstr "انتخاب سردبیر"
+
+#: inc/admin/activation.php:17 inc/enqueue.php:108 inc/woocommerce/account.php:42 inc/woocommerce/hooks.php:88 template-parts/footer/drawers.php:58 template-parts/footer/mobile-bar.php:20
+msgid "Wishlist"
+msgstr ""
+
+#: inc/admin/activation.php:18 template-parts/footer/drawers.php:59 template-parts/header/header.php:116 template-parts/products/quick-view.php:35
+msgid "Compare"
+msgstr ""
+
+#: inc/admin/activation.php:19 template-parts/footer/drawers.php:64
+msgid "Contact us"
+msgstr ""
+
+#: inc/admin/activation.php:20 inc/helpers/catalog.php:183
+msgid "FAQ"
+msgstr ""
+
+#: inc/admin/activation.php:21 inc/admin/activation.php:85 inc/helpers/breadcrumb.php:16 inc/helpers/catalog.php:175 template-parts/footer/drawers.php:45 template-parts/footer/mobile-bar.php:16
+msgid "Home"
+msgstr ""
+
+#: inc/admin/activation.php:22 inc/helpers/breadcrumb.php:55 inc/helpers/catalog.php:181 inc/helpers/schema.php:577 inc/helpers/schema.php:714 inc/helpers/schema.php:721
+msgid "Blog"
+msgstr ""
+
+#: inc/admin/activation.php:87 inc/admin/demo-import.php:524 inc/admin/demo-import.php:566 inc/admin/system-status.php:48 inc/helpers/breadcrumb.php:26 inc/helpers/catalog.php:177
+msgid "Shop"
+msgstr ""
+
+#: inc/admin/core.php:26 inc/admin/core.php:49
+msgid "Nexora Dashboard"
+msgstr ""
+
+#: inc/admin/core.php:26 inc/admin/help-boxes.php:18
+msgid "Dashboard"
+msgstr ""
+
+#: inc/admin/core.php:27 inc/admin/core.php:27 inc/admin/settings.php:248
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/admin/core.php:28 inc/admin/core.php:28 inc/admin/presets.php:92 inc/admin/tutorials.php:137
+msgid "Colors & Presets"
+msgstr ""
+
+#: inc/admin/core.php:29 inc/admin/plugins.php:164
+msgid "Plugin Manager"
+msgstr ""
+
+#: inc/admin/core.php:29 inc/admin/dashboard.php:138 inc/admin/help-boxes.php:21 inc/admin/wizard.php:22
+msgid "Plugins"
+msgstr ""
+
+#: inc/admin/core.php:30 inc/admin/core.php:30 inc/admin/demo-import.php:668
+msgid "Demo Import"
+msgstr ""
+
+#: inc/admin/core.php:31 inc/admin/core.php:31 inc/admin/dashboard.php:246 inc/admin/onboarding.php:20 inc/admin/tutorials.php:291
+msgid "Tutorials"
+msgstr ""
+
+#: inc/admin/core.php:32 inc/admin/core.php:32 inc/admin/system-status.php:151 inc/admin/tutorials.php:49
+msgid "System Status"
+msgstr ""
+
+#: inc/admin/core.php:33 inc/admin/core.php:33 inc/admin/tutorials.php:49
+msgid "Setup Wizard"
+msgstr ""
+
+#: inc/admin/core.php:45 inc/admin/core.php:340 inc/admin/dashboard.php:242
+msgid "My Store"
+msgstr ""
+
+#: inc/admin/core.php:108
+msgid "Select"
+msgstr ""
+
+#: inc/admin/core.php:109 inc/admin/settings.php:122 inc/admin/settings.php:164 inc/admin/wizard.php:270 inc/enqueue.php:128 template-parts/header/mini-cart.php:42
+msgid "Remove"
+msgstr ""
+
+#: inc/admin/core.php:110
+msgid "Are you sure? This cannot be undone."
+msgstr ""
+
+#: inc/admin/core.php:111
+msgid "Saving…"
+msgstr ""
+
+#: inc/admin/core.php:112
+msgid "Saved."
+msgstr ""
+
+#: inc/admin/core.php:113
+msgid "Something went wrong."
+msgstr ""
+
+#: inc/admin/core.php:114
+msgid "Importing… please keep this tab open."
+msgstr ""
+
+#: inc/admin/core.php:115
+msgid "Type to search…"
+msgstr ""
+
+#: inc/admin/core.php:127 inc/admin/core.php:138
+msgid "Permission denied."
+msgstr ""
+
+#: inc/admin/core.php:232
+msgid "Theme sections"
+msgstr ""
+
+#: inc/admin/core.php:237
+msgid "View site"
+msgstr ""
+
+#: inc/admin/core.php:253
+msgid "Nexora theme %s — built for WooCommerce by"
+msgstr ""
+
+#: inc/admin/dashboard.php:39
+msgid "Orders (30 days)"
+msgstr ""
+
+#: inc/admin/dashboard.php:40
+msgid "Revenue (30 days)"
+msgstr ""
+
+#: inc/admin/dashboard.php:41
+msgid "Orders to fulfil"
+msgstr ""
+
+#: inc/admin/dashboard.php:42 inc/admin/system-status.php:62
+msgid "Published products"
+msgstr ""
+
+#: inc/admin/dashboard.php:43 inc/woocommerce/product-card.php:247 inc/woocommerce/wishlist.php:68 template-parts/products/stock.php:15 template-parts/products/wish-item.php:24 woocommerce/content-product.php:56
+msgid "Out of stock"
+msgstr ""
+
+#: inc/admin/dashboard.php:44
+msgid "Customers"
+msgstr ""
+
+#: inc/admin/dashboard.php:60 woocommerce/myaccount/dashboard.php:22
+msgid "Welcome, %s"
+msgstr ""
+
+#: inc/admin/dashboard.php:60
+msgid "Everything about your store in one place: health, quick actions, and step-by-step help."
+msgstr ""
+
+#: inc/admin/dashboard.php:64
+msgid "Finish setting up your store"
+msgstr ""
+
+#: inc/admin/dashboard.php:64
+msgid "The setup wizard walks you through logo, colours, homepage, WooCommerce and demo content in about five minutes. You can re-run it anytime."
+msgstr ""
+
+#: inc/admin/dashboard.php:64
+msgid "Start setup wizard"
+msgstr ""
+
+#: inc/admin/dashboard.php:70
+msgid "Some critical items need attention before you can sell."
+msgstr ""
+
+#: inc/admin/dashboard.php:71
+msgid "The store works, but a few recommended settings are missing."
+msgstr ""
+
+#: inc/admin/dashboard.php:72
+msgid "All checks passed — your store is ready."
+msgstr ""
+
+#: inc/admin/dashboard.php:74
+msgid "%1$d passed · %2$d recommended · %3$d critical"
+msgstr ""
+
+#: inc/admin/dashboard.php:74
+msgid "View details"
+msgstr ""
+
+#: inc/admin/dashboard.php:90 inc/admin/help-boxes.php:19
+msgid "Theme settings"
+msgstr ""
+
+#: inc/admin/dashboard.php:91
+msgid "Homepage sections"
+msgstr ""
+
+#: inc/admin/dashboard.php:92
+msgid "Colors & presets"
+msgstr ""
+
+#: inc/admin/dashboard.php:93
+msgid "Logo & site identity"
+msgstr ""
+
+#: inc/admin/dashboard.php:94 inc/admin/tutorials.php:78
+msgid "Menus"
+msgstr ""
+
+#: inc/admin/dashboard.php:95
+msgid "Widgets"
+msgstr ""
+
+#: inc/admin/dashboard.php:98 inc/admin/tutorials.php:94
+msgid "Add product"
+msgstr ""
+
+#: inc/admin/dashboard.php:99 inc/helpers/schema.php:787 inc/helpers/schema.php:792 inc/helpers/schema.php:793 inc/woocommerce/account.php:40
+msgid "Orders"
+msgstr ""
+
+#: inc/admin/dashboard.php:100
+msgid "Payments"
+msgstr ""
+
+#: inc/admin/dashboard.php:101 inc/helpers/schema.php:685 inc/helpers/schema.php:794 woocommerce/cart/cart-totals.php:35 woocommerce/myaccount/view-order.php:107
+msgid "Shipping"
+msgstr ""
+
+#: inc/admin/dashboard.php:103
+msgid "Write a post"
+msgstr ""
+
+#: inc/admin/dashboard.php:104 inc/admin/help-boxes.php:22
+msgid "Demo import"
+msgstr ""
+
+#: inc/admin/dashboard.php:111 inc/admin/onboarding.php:19
+msgid "Quick actions"
+msgstr ""
+
+#: inc/admin/dashboard.php:118
+msgid "Theme version"
+msgstr ""
+
+#: inc/admin/dashboard.php:120 inc/admin/dashboard.php:121
+msgid "not active"
+msgstr ""
+
+#: inc/admin/dashboard.php:123
+msgid "Language"
+msgstr ""
+
+#: inc/admin/dashboard.php:124
+msgid "Color preset"
+msgstr ""
+
+#: inc/admin/dashboard.php:125 inc/admin/wizard.php:27
+msgid "Demo content"
+msgstr ""
+
+#: inc/admin/dashboard.php:125
+msgid "none"
+msgstr ""
+
+#: inc/admin/dashboard.php:131
+msgid "At a glance"
+msgstr ""
+
+#: inc/admin/dashboard.php:135
+msgid "%d required plugin missing"
+msgid_plural "%d required plugins missing"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/dashboard.php:135
+msgid "All required plugins active"
+msgstr ""
+
+#: inc/admin/dashboard.php:136
+msgid "%d recommended plugins not yet installed."
+msgstr ""
+
+#: inc/admin/dashboard.php:137
+msgid "Open plugin manager"
+msgstr ""
+
+#: inc/admin/dashboard.php:148
+msgid "WooCommerce readiness"
+msgstr ""
+
+#: inc/admin/dashboard.php:148
+msgid "All checks"
+msgstr ""
+
+#: inc/admin/dashboard.php:157
+msgid "Getting started guides"
+msgstr ""
+
+#: inc/admin/dashboard.php:157 inc/admin/tutorials.php:295
+msgid "All tutorials"
+msgstr ""
+
+#: inc/admin/dashboard.php:163
+msgid "Clear theme caches"
+msgstr ""
+
+#: inc/admin/dashboard.php:164
+msgid "Export newsletter subscribers (CSV)"
+msgstr ""
+
+#: inc/admin/dashboard.php:165
+msgid "Export theme options (JSON)"
+msgstr ""
+
+#: inc/admin/dashboard.php:166
+msgid "Replay onboarding tour"
+msgstr ""
+
+#: inc/admin/dashboard.php:167
+msgid "Reset all theme options"
+msgstr ""
+
+#: inc/admin/dashboard.php:168
+msgid "Import options: paste the exported JSON on the System Status page."
+msgstr ""
+
+#: inc/admin/dashboard.php:169 inc/admin/onboarding.php:21
+msgid "Tools"
+msgstr ""
+
+#: inc/admin/dashboard.php:191
+msgid "Theme caches cleared."
+msgstr ""
+
+#: inc/admin/dashboard.php:217
+msgid "The onboarding tour will start now."
+msgstr ""
+
+#: inc/admin/dashboard.php:223
+msgid "All theme options were reset to defaults. Presets and pages were kept."
+msgstr ""
+
+#: inc/admin/dashboard.php:245
+msgid "Store health: %1$d passed, %2$d recommended, %3$d critical."
+msgstr ""
+
+#: inc/admin/dashboard.php:246
+msgid "Open theme dashboard"
+msgstr ""
+
+#: inc/admin/demo-import.php:25
+msgid "Modern Fashion"
+msgstr ""
+
+#: inc/admin/demo-import.php:26
+msgid "Apparel, shoes, accessories and beauty. Editorial hero, lookbook tiles, Luxury Green preset."
+msgstr ""
+
+#: inc/admin/demo-import.php:33
+msgid "Electronics"
+msgstr ""
+
+#: inc/admin/demo-import.php:34
+msgid "Phones, laptops, audio and cameras. Spec-heavy product pages, compare table, Modern Blue preset."
+msgstr ""
+
+#: inc/admin/demo-import.php:41
+msgid "General Store"
+msgstr ""
+
+#: inc/admin/demo-import.php:42
+msgid "Everything: electronics, fashion, home, beauty and sport. The full homepage with all 15 sections, Classic Red preset."
+msgstr ""
+
+#: inc/admin/demo-import.php:157 inc/helpers/schema.php:227
+msgid "Product categories"
+msgstr ""
+
+#: inc/admin/demo-import.php:158
+msgid "Brands & attributes"
+msgstr ""
+
+#: inc/admin/demo-import.php:159
+msgid "Products & images"
+msgstr ""
+
+#: inc/admin/demo-import.php:160 inc/woocommerce/account.php:43 woocommerce/content-single-product.php:33
+msgid "Reviews"
+msgstr ""
+
+#: inc/admin/demo-import.php:161
+msgid "Blog posts"
+msgstr ""
+
+#: inc/admin/demo-import.php:162
+msgid "Homepage & theme settings"
+msgstr ""
+
+#: inc/admin/demo-import.php:193
+msgid "Categories created."
+msgstr ""
+
+#: inc/admin/demo-import.php:198 inc/helpers/schema.php:623 inc/woocommerce/wishlist.php:73 woocommerce/loop/active-filters.php:15
+msgid "Brand"
+msgstr ""
+
+#: inc/admin/demo-import.php:206 woocommerce/loop/active-filters.php:16
+msgid "Colour"
+msgstr ""
+
+#: inc/admin/demo-import.php:207
+msgid "Size"
+msgstr ""
+
+#: inc/admin/demo-import.php:209
+msgid "Brands and attributes ready."
+msgstr ""
+
+#: inc/admin/demo-import.php:219
+msgid "Products %1$d / %2$d"
+msgstr ""
+
+#: inc/admin/demo-import.php:248
+msgid "Reviews added."
+msgstr ""
+
+#: inc/admin/demo-import.php:277
+msgid "Blog posts published."
+msgstr ""
+
+#: inc/admin/demo-import.php:281
+msgid "Homepage configured."
+msgstr ""
+
+#: inc/admin/demo-import.php:494
+msgid "Season opening"
+msgstr ""
+
+#: inc/admin/demo-import.php:494
+msgid "Up to 40% off the newest tech"
+msgstr ""
+
+#: inc/admin/demo-import.php:494
+msgid "Headphones, wearables and laptops from top brands — delivered in 24 hours."
+msgstr ""
+
+#: inc/admin/demo-import.php:495
+msgid "New collection"
+msgstr ""
+
+#: inc/admin/demo-import.php:495
+msgid "Dress for the season"
+msgstr ""
+
+#: inc/admin/demo-import.php:495
+msgid "Coats, sneakers and accessories curated by our stylists."
+msgstr ""
+
+#: inc/admin/demo-import.php:496
+msgid "Home & living"
+msgstr ""
+
+#: inc/admin/demo-import.php:496
+msgid "Make every room feel new"
+msgstr ""
+
+#: inc/admin/demo-import.php:496
+msgid "Furniture, lighting and decor with free assembly."
+msgstr ""
+
+#: inc/admin/demo-import.php:504 inc/helpers/schema.php:393 inc/helpers/schema.php:460 template-parts/home/hero.php:80 template-parts/home/promo.php:29
+msgid "Shop now"
+msgstr ""
+
+#: inc/admin/demo-import.php:505 inc/helpers/catalog.php:178
+msgid "Offers"
+msgstr ""
+
+#: inc/admin/demo-import.php:560 inc/helpers/schema.php:300
+msgid "Newsletter"
+msgstr ""
+
+#: inc/admin/demo-import.php:561
+msgid "Sign in"
+msgstr ""
+
+#: inc/admin/demo-import.php:562
+msgid "Offer"
+msgstr ""
+
+#: inc/admin/demo-import.php:629
+msgid "WooCommerce must be active before importing a demo."
+msgstr ""
+
+#: inc/admin/demo-import.php:635
+msgid "Invalid request."
+msgstr ""
+
+#: inc/admin/demo-import.php:659
+msgid "Removed %d demo objects."
+msgstr ""
+
+#: inc/admin/demo-import.php:668
+msgid "Start from a complete store and replace the content with yours. Demo products, categories, brands, reviews, posts and homepage settings are imported; your existing content is never changed. Everything can be removed with one click."
+msgstr ""
+
+#: inc/admin/demo-import.php:670
+msgid "WooCommerce is not active. Activate it first from the Plugins tab."
+msgstr ""
+
+#: inc/admin/demo-import.php:673
+msgid "Demo \"%s\" is installed."
+msgstr ""
+
+#: inc/admin/demo-import.php:673
+msgid "Importing another demo adds its content alongside. Remove first for a clean switch."
+msgstr ""
+
+#: inc/admin/demo-import.php:673
+msgid "Remove all demo content"
+msgstr ""
+
+#: inc/admin/demo-import.php:686
+msgid "Import this demo"
+msgstr ""
+
+#: inc/admin/demo-import.php:690
+msgid "Good to know"
+msgstr ""
+
+#: inc/admin/demo-import.php:690
+msgid "Images are copied from the theme into your media library — no external downloads."
+msgstr ""
+
+#: inc/admin/demo-import.php:690
+msgid "Products get the tag \"nexora-demo\"; the whole set is removable from this page."
+msgstr ""
+
+#: inc/admin/demo-import.php:690
+msgid "Prices are in the store currency without conversion. Adjust WooCommerce → Settings → General if needed."
+msgstr ""
+
+#: inc/admin/demo-import.php:690
+msgid "The import changes the active colour preset and homepage settings; your previous settings are kept in the theme options and can be restored via the settings tabs."
+msgstr ""
+
+#: inc/admin/help-boxes.php:18
+msgid "This screen summarises the health of your store. Use the tabs at the top to move between theme areas. Nothing here changes the front end by itself."
+msgstr ""
+
+#: inc/admin/help-boxes.php:19
+msgid "Each tab is saved separately. Toggles that are off hide the element entirely (no empty space is left). Fields marked with a note depend on another field and appear only when relevant."
+msgstr ""
+
+#: inc/admin/help-boxes.php:20
+msgid "Colour presets"
+msgstr ""
+
+#: inc/admin/help-boxes.php:20
+msgid "Colours are CSS custom properties. Anything you add in a child theme can use var(--theme-primary) and will follow the active preset."
+msgstr ""
+
+#: inc/admin/help-boxes.php:21
+msgid "Installs are performed by WordPress itself from the official directory. The theme never downloads code from elsewhere."
+msgstr ""
+
+#: inc/admin/help-boxes.php:22
+msgid "Demo products, categories, posts and settings are tagged so they can be removed completely. Your existing content is never modified."
+msgstr ""
+
+#: inc/admin/help-boxes.php:23 inc/admin/help-boxes.php:57
+msgid "System status"
+msgstr ""
+
+#: inc/admin/help-boxes.php:23
+msgid "Copy the support report when asking for help. It contains versions and active plugins only — no credentials."
+msgstr ""
+
+#: inc/admin/help-boxes.php:24
+msgid "Nexora menu locations"
+msgstr ""
+
+#: inc/admin/help-boxes.php:24
+msgid "Primary = main navigation bar. Mobile = drawer (falls back to Primary). Top bar start/end = small utility links. Footer 1/2 = link columns. Footer bottom = legal links. Account = user dropdown."
+msgstr ""
+
+#: inc/admin/help-boxes.php:25
+msgid "Nexora widget areas"
+msgstr ""
+
+#: inc/admin/help-boxes.php:25
+msgid "Shop sidebar shows next to the product grid (filters are built in — add extra widgets only if needed). Blog sidebar and Page sidebar appear on posts/pages with a sidebar layout. Footer extra sits above the copyright row."
+msgstr ""
+
+#: inc/admin/help-boxes.php:26
+msgid "Nexora homepage"
+msgstr ""
+
+#: inc/admin/help-boxes.php:26
+msgid "Set \"Your homepage displays\" to a static page and pick the \"Home\" page — the theme then renders the homepage sections configured in Theme Settings → Homepage."
+msgstr ""
+
+#: inc/admin/help-boxes.php:27
+msgid "Nexora product tips"
+msgstr ""
+
+#: inc/admin/help-boxes.php:27
+msgid "Featured image: square 800 px+. Attributes marked visible appear in the Specifications tab and compare table. Sale price triggers the discount badge. Highlights (ACF) show next to the price."
+msgstr ""
+
+#: inc/admin/help-boxes.php:54
+msgid "Open theme tutorials"
+msgstr ""
+
+#: inc/admin/help-boxes.php:57
+msgid "Theme dashboard"
+msgstr ""
+
+#: inc/admin/help-boxes.php:90 inc/helpers/schema.php:185
+msgid "Learn more"
+msgstr ""
+
+#: inc/admin/onboarding.php:17
+msgid "Theme navigation"
+msgstr ""
+
+#: inc/admin/onboarding.php:17
+msgid "These tabs are the whole theme: settings, colours, plugins, demo import, tutorials and system status. Everything else is standard WordPress."
+msgstr ""
+
+#: inc/admin/onboarding.php:18
+msgid "Store health"
+msgstr ""
+
+#: inc/admin/onboarding.php:18
+msgid "A live summary of WooCommerce and theme checks. Red items block sales; amber ones are recommendations."
+msgstr ""
+
+#: inc/admin/onboarding.php:19
+msgid "Jump straight to the things you edit most: homepage sections, colours, menus, products, orders."
+msgstr ""
+
+#: inc/admin/onboarding.php:20
+msgid "Step-by-step guides for store owners. Start with \"Your first 10 minutes\"."
+msgstr ""
+
+#: inc/admin/onboarding.php:21
+msgid "Clear caches, export subscribers and options, or replay this tour later."
+msgstr ""
+
+#: inc/admin/onboarding.php:40
+msgid "Skip tour"
+msgstr ""
+
+#: inc/admin/onboarding.php:41 inc/helpers/template-tags.php:152 inc/helpers/template-tags.php:284 template-parts/home/flash.php:47 woocommerce/myaccount/orders.php:75
+msgid "Next"
+msgstr ""
+
+#: inc/admin/onboarding.php:42 inc/admin/wizard.php:204
+msgid "Back"
+msgstr ""
+
+#: inc/admin/onboarding.php:43
+msgid "Finish"
+msgstr ""
+
+#: inc/admin/onboarding.php:44
+msgid "of"
+msgstr ""
+
+#: inc/admin/plugins.php:27
+msgid "Products, cart, checkout, orders and customer accounts. The theme cannot function as a store without it."
+msgstr ""
+
+#: inc/admin/plugins.php:35
+msgid "Adds extra editing fields on products, pages and posts (highlights, size guide, page banners). Advanced Custom Fields / ACF Pro are detected too. Theme options themselves do not need it."
+msgstr ""
+
+#: inc/admin/plugins.php:43
+msgid "Sitemaps, schema, meta tags. The theme’s built-in SEO output steps aside automatically when an SEO plugin is active."
+msgstr ""
+
+#: inc/admin/plugins.php:51
+msgid "Page caching for faster load times. Any major caching plugin is recognised."
+msgstr ""
+
+#: inc/admin/plugins.php:59
+msgid "Firewall, login protection and malware scanning."
+msgstr ""
+
+#: inc/admin/plugins.php:62
+msgid "Persian WooCommerce"
+msgstr ""
+
+#: inc/admin/plugins.php:67
+msgid "Iranian provinces, Toman/Rial formatting and Persian date helpers. Recommended for Iranian stores."
+msgstr ""
+
+#: inc/admin/plugins.php:71
+msgid "Payment gateway (ZarinPal / IDPay / your bank)"
+msgstr ""
+
+#: inc/admin/plugins.php:77
+msgid "Install the official gateway plugin from your payment provider and configure it under WooCommerce → Settings → Payments. The theme never handles payment data itself."
+msgstr ""
+
+#: inc/admin/plugins.php:120 inc/admin/presets.php:115
+msgid "Activate"
+msgstr ""
+
+#: inc/admin/plugins.php:128
+msgid "Install from WordPress.org"
+msgstr ""
+
+#: inc/admin/plugins.php:134
+msgid "Get it from the provider"
+msgstr ""
+
+#: inc/admin/plugins.php:164
+msgid "The theme depends on a few well-known plugins. Nothing is installed automatically — every install goes through the standard WordPress installer from WordPress.org, and payment gateways always come from your provider."
+msgstr ""
+
+#: inc/admin/plugins.php:166
+msgid "Required"
+msgstr ""
+
+#: inc/admin/plugins.php:166
+msgid "Recommended"
+msgstr ""
+
+#: inc/admin/plugins.php:176 inc/admin/presets.php:106 inc/admin/wizard.php:233
+msgid "Active"
+msgstr ""
+
+#: inc/admin/plugins.php:176
+msgid "Installed, not active"
+msgstr ""
+
+#: inc/admin/plugins.php:176 inc/admin/wizard.php:233
+msgid "Not installed"
+msgstr ""
+
+#: inc/admin/plugins.php:184
+msgid "Source: WordPress.org"
+msgstr ""
+
+#: inc/admin/plugins.php:184
+msgid "Source: provider website"
+msgstr ""
+
+#: inc/admin/plugins.php:194
+msgid "Security note"
+msgstr ""
+
+#: inc/admin/plugins.php:195
+msgid "Never upload plugins from untrusted sources. Nulled or repackaged plugins are the number one cause of hacked stores. Keep WordPress, WooCommerce and this theme up to date, and use a strong admin password with two-factor authentication."
+msgstr ""
+
+#: inc/admin/presets.php:30
+msgid "\"%s\" is now the active color preset."
+msgstr ""
+
+#: inc/admin/presets.php:38
+msgid "My preset"
+msgstr ""
+
+#: inc/admin/presets.php:46
+msgid "Preset saved."
+msgstr ""
+
+#: inc/admin/presets.php:53
+msgid "%s (copy)"
+msgstr ""
+
+#: inc/admin/presets.php:54
+msgid "Preset duplicated — you are now editing the copy."
+msgstr ""
+
+#: inc/admin/presets.php:60
+msgid "Preset deleted."
+msgstr ""
+
+#: inc/admin/presets.php:62
+msgid "Built-in presets cannot be deleted."
+msgstr ""
+
+#: inc/admin/presets.php:70
+msgid "Imported preset"
+msgstr ""
+
+#: inc/admin/presets.php:71
+msgid "Preset imported."
+msgstr ""
+
+#: inc/admin/presets.php:73
+msgid "Invalid preset JSON."
+msgstr ""
+
+#: inc/admin/presets.php:92
+msgid "Pick a ready-made palette or design your own. Every colour is a CSS variable (--theme-*), so the whole site — including WooCommerce pages — updates at once. Built-in presets are read-only; edit them to create your own copy."
+msgstr ""
+
+#: inc/admin/presets.php:96
+msgid "Presets"
+msgstr ""
+
+#: inc/admin/presets.php:108
+msgid "Built-in"
+msgstr ""
+
+#: inc/admin/presets.php:117 woocommerce/myaccount/dashboard.php:62 woocommerce/myaccount/dashboard.php:76 woocommerce/myaccount/my-address.php:28
+msgid "Edit"
+msgstr ""
+
+#: inc/admin/presets.php:118
+msgid "Duplicate"
+msgstr ""
+
+#: inc/admin/presets.php:120
+msgid "Delete"
+msgstr ""
+
+#: inc/admin/presets.php:124
+msgid "Import preset from JSON"
+msgstr ""
+
+#: inc/admin/presets.php:126 inc/admin/wizard.php:330
+msgid "Import"
+msgstr ""
+
+#: inc/admin/presets.php:134
+msgid "Edit preset"
+msgstr ""
+
+#: inc/admin/presets.php:134
+msgid "Customise (saves as a new preset)"
+msgstr ""
+
+#: inc/admin/presets.php:135
+msgid "Preset name"
+msgstr ""
+
+#: inc/admin/presets.php:135
+msgid "(custom)"
+msgstr ""
+
+#: inc/admin/presets.php:148
+msgid "Contrast check"
+msgstr ""
+
+#: inc/admin/presets.php:149
+msgid "Save preset"
+msgstr ""
+
+#: inc/admin/presets.php:149
+msgid "Activate after saving"
+msgstr ""
+
+#: inc/admin/presets.php:149
+msgid "Export JSON"
+msgstr ""
+
+#: inc/admin/presets.php:154
+msgid "Live preview"
+msgstr ""
+
+#: inc/admin/presets.php:155
+msgid "Free shipping on orders over 500,000 Toman"
+msgstr ""
+
+#: inc/admin/presets.php:157
+msgid "Sample product"
+msgstr ""
+
+#: inc/admin/presets.php:157 template-parts/products/compare-table.php:44 template-parts/products/wish-item.php:27 woocommerce/content-product.php:88 woocommerce/content-product.php:88
+msgid "Add to cart"
+msgstr ""
+
+#: inc/admin/presets.php:157
+msgid "Another product"
+msgstr ""
+
+#: inc/admin/presets.php:157 inc/helpers/schema.php:698 woocommerce/checkout/thankyou.php:28 woocommerce/content-single-product.php:110 woocommerce/myaccount/dashboard.php:39
+msgid "Details"
+msgstr ""
+
+#: inc/admin/presets.php:158
+msgid "Footer text · Links · Newsletter"
+msgstr ""
+
+#: inc/admin/presets.php:158
+msgid "All rights reserved."
+msgstr ""
+
+#: inc/admin/settings.php:33
+msgid "Unknown settings group."
+msgstr ""
+
+#: inc/admin/settings.php:37
+msgid "Settings restored to defaults."
+msgstr ""
+
+#: inc/admin/settings.php:41
+msgid "Settings saved."
+msgstr ""
+
+#: inc/admin/settings.php:122 inc/admin/wizard.php:270
+msgid "Select image"
+msgstr ""
+
+#: inc/admin/settings.php:132 inc/helpers/schema.php:535
+msgid "Label"
+msgstr ""
+
+#: inc/admin/settings.php:134
+msgid "New tab"
+msgstr ""
+
+#: inc/admin/settings.php:140
+msgid "Available once WooCommerce is active."
+msgstr ""
+
+#: inc/admin/settings.php:146
+msgid "Choose…"
+msgstr ""
+
+#: inc/admin/settings.php:148
+msgid "— Select —"
+msgstr ""
+
+#: inc/admin/settings.php:166
+msgid "Search products by name or SKU…"
+msgstr ""
+
+#: inc/admin/settings.php:208
+msgid "Add row"
+msgstr ""
+
+#: inc/admin/settings.php:232
+msgid "New row"
+msgstr ""
+
+#: inc/admin/settings.php:232
+msgid "Remove row"
+msgstr ""
+
+#: inc/admin/settings.php:248
+msgid "Every visible text, image and toggle in the theme lives here. Changes apply instantly on the front end — no cache purge needed unless you run a caching plugin."
+msgstr ""
+
+#: inc/admin/settings.php:250
+msgid "Settings groups"
+msgstr ""
+
+#: inc/admin/settings.php:277 woocommerce/myaccount/form-edit-account.php:34 woocommerce/myaccount/form-edit-account.php:34 woocommerce/myaccount/form-edit-account.php:46
+msgid "Save changes"
+msgstr ""
+
+#: inc/admin/settings.php:277
+msgid "Reset this tab to defaults"
+msgstr ""
+
+#: inc/admin/system-status.php:18 inc/admin/wizard.php:26
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/admin/system-status.php:18
+msgid "Not active — install and activate WooCommerce."
+msgstr ""
+
+#: inc/admin/system-status.php:24 inc/admin/wizard.php:297
+msgid "Currency"
+msgstr ""
+
+#: inc/admin/system-status.php:24 inc/admin/system-status.php:28
+msgid "Not set"
+msgstr ""
+
+#: inc/admin/system-status.php:28
+msgid "Store address"
+msgstr ""
+
+#: inc/admin/system-status.php:42
+msgid "Shipping methods"
+msgstr ""
+
+#: inc/admin/system-status.php:42
+msgid "%d zone configured"
+msgid_plural "%d zones configured"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/system-status.php:42
+msgid "No shipping method in any zone"
+msgstr ""
+
+#: inc/admin/system-status.php:46
+msgid "Payment gateways"
+msgstr ""
+
+#: inc/admin/system-status.php:46
+msgid "No enabled gateway — customers cannot pay"
+msgstr ""
+
+#: inc/admin/system-status.php:48 template-parts/footer/mobile-bar.php:19 template-parts/header/header.php:130 template-parts/header/header.php:132 woocommerce/checkout/form-checkout.php:24 woocommerce/checkout/thankyou.php:27
+msgid "Cart"
+msgstr ""
+
+#: inc/admin/system-status.php:48 template-parts/header/mini-cart.php:59 woocommerce/checkout/form-checkout.php:22 woocommerce/checkout/form-checkout.php:47
+msgid "Checkout"
+msgstr ""
+
+#: inc/admin/system-status.php:48
+msgid "My Account"
+msgstr ""
+
+#: inc/admin/system-status.php:56
+msgid "WooCommerce pages"
+msgstr ""
+
+#: inc/admin/system-status.php:56
+msgid "Missing: %s"
+msgstr ""
+
+#: inc/admin/system-status.php:56
+msgid "All core pages exist"
+msgstr ""
+
+#: inc/admin/system-status.php:59
+msgid "Terms & conditions page"
+msgstr ""
+
+#: inc/admin/system-status.php:59
+msgid "Not set (recommended for legal compliance)"
+msgstr ""
+
+#: inc/admin/system-status.php:65
+msgid "Taxes"
+msgstr ""
+
+#: inc/admin/system-status.php:65 inc/admin/system-status.php:111
+msgid "Enabled"
+msgstr ""
+
+#: inc/admin/system-status.php:65 inc/admin/system-status.php:108
+msgid "Disabled"
+msgstr ""
+
+#: inc/admin/system-status.php:68
+msgid "Guest checkout"
+msgstr ""
+
+#: inc/admin/system-status.php:68
+msgid "Allowed"
+msgstr ""
+
+#: inc/admin/system-status.php:68
+msgid "Account required"
+msgstr ""
+
+#: inc/admin/system-status.php:70
+msgid "HTTPS"
+msgstr ""
+
+#: inc/admin/system-status.php:70
+msgid "Secure connection active"
+msgstr ""
+
+#: inc/admin/system-status.php:70
+msgid "Store is not served over HTTPS — required for payments"
+msgstr ""
+
+#: inc/admin/system-status.php:82 inc/admin/wizard.php:28 inc/helpers/schema.php:349
+msgid "Homepage"
+msgstr ""
+
+#: inc/admin/system-status.php:82
+msgid "Set a static front page to use the Nexora homepage builder"
+msgstr ""
+
+#: inc/admin/system-status.php:83 inc/admin/wizard.php:24 inc/admin/wizard.php:267
+msgid "Logo"
+msgstr ""
+
+#: inc/admin/system-status.php:83
+msgid "Uploaded"
+msgstr ""
+
+#: inc/admin/system-status.php:83
+msgid "Using text logo"
+msgstr ""
+
+#: inc/admin/system-status.php:85
+msgid "Primary menu"
+msgstr ""
+
+#: inc/admin/system-status.php:85
+msgid "Assigned"
+msgstr ""
+
+#: inc/admin/system-status.php:85
+msgid "No menu assigned to \"Primary\""
+msgstr ""
+
+#: inc/admin/system-status.php:86 inc/admin/tutorials.php:220
+msgid "Permalinks"
+msgstr ""
+
+#: inc/admin/system-status.php:86
+msgid "Plain permalinks break product URLs"
+msgstr ""
+
+#: inc/admin/system-status.php:87
+msgid "Active color preset"
+msgstr ""
+
+#: inc/admin/system-status.php:88 inc/admin/wizard.php:188
+msgid "Setup wizard"
+msgstr ""
+
+#: inc/admin/system-status.php:88
+msgid "Completed"
+msgstr ""
+
+#: inc/admin/system-status.php:88
+msgid "Not completed"
+msgstr ""
+
+#: inc/admin/system-status.php:89
+msgid "Wishlist & compare pages"
+msgstr ""
+
+#: inc/admin/system-status.php:89
+msgid "Created"
+msgstr ""
+
+#: inc/admin/system-status.php:89
+msgid "Run \"Repair pages\" below"
+msgstr ""
+
+#: inc/admin/system-status.php:105
+msgid "Memory limit"
+msgstr ""
+
+#: inc/admin/system-status.php:106
+msgid "Max upload size"
+msgstr ""
+
+#: inc/admin/system-status.php:107
+msgid "Max execution time"
+msgstr ""
+
+#: inc/admin/system-status.php:108
+msgid "Enabled — turn off in production"
+msgstr ""
+
+#: inc/admin/system-status.php:109
+msgid "Image library"
+msgstr ""
+
+#: inc/admin/system-status.php:109 inc/helpers/schema.php:607 inc/helpers/schema.php:723
+msgid "None"
+msgstr ""
+
+#: inc/admin/system-status.php:110
+msgid "Loaded"
+msgstr ""
+
+#: inc/admin/system-status.php:110
+msgid "Missing — Persian text functions may misbehave"
+msgstr ""
+
+#: inc/admin/system-status.php:111
+msgid "Disabled (server cron expected)"
+msgstr ""
+
+#: inc/admin/system-status.php:140
+msgid "Fix"
+msgstr ""
+
+#: inc/admin/system-status.php:151
+msgid "A single place to verify the store is ready for customers. Green = fine, amber = recommended, red = must fix."
+msgstr ""
+
+#: inc/admin/system-status.php:155
+msgid "WooCommerce configuration"
+msgstr ""
+
+#: inc/admin/system-status.php:160
+msgid "Repair pages, menus & rewrite rules"
+msgstr ""
+
+#: inc/admin/system-status.php:161
+msgid "Theme configuration"
+msgstr ""
+
+#: inc/admin/system-status.php:164
+msgid "Server environment"
+msgstr ""
+
+#: inc/admin/system-status.php:190
+msgid "Copy this block when contacting support."
+msgstr ""
+
+#: inc/admin/system-status.php:191
+msgid "Support report"
+msgstr ""
+
+#: inc/admin/system-status.php:209
+msgid "Pages, menus and rewrite rules were repaired."
+msgstr ""
+
+#: inc/admin/tutorials.php:17
+msgid "Getting started"
+msgstr ""
+
+#: inc/admin/tutorials.php:18
+msgid "Products & categories"
+msgstr ""
+
+#: inc/admin/tutorials.php:19
+msgid "Design & homepage"
+msgstr ""
+
+#: inc/admin/tutorials.php:20
+msgid "Payments & shipping"
+msgstr ""
+
+#: inc/admin/tutorials.php:21
+msgid "Blog & pages"
+msgstr ""
+
+#: inc/admin/tutorials.php:22
+msgid "SEO & performance"
+msgstr ""
+
+#: inc/admin/tutorials.php:23
+msgid "Security & maintenance"
+msgstr ""
+
+#: inc/admin/tutorials.php:38
+msgid "Your first 10 minutes with Nexora"
+msgstr ""
+
+#: inc/admin/tutorials.php:41
+msgid "Activate WooCommerce, run the wizard, choose a colour preset and import a demo — in that order."
+msgstr ""
+
+#: inc/admin/tutorials.php:43
+msgid "Open Plugins in the theme menu and make sure WooCommerce is active. Without it, the shop, cart and checkout do not exist."
+msgstr ""
+
+#: inc/admin/tutorials.php:44
+msgid "Run the Setup Wizard. It asks for logo, store details, colours and whether to import demo content."
+msgstr ""
+
+#: inc/admin/tutorials.php:45
+msgid "Visit the front end. Everything you see is editable in Theme Settings — hover a section on the homepage to find its tab name."
+msgstr ""
+
+#: inc/admin/tutorials.php:46
+msgid "Replace demo products with your own (Products → All products). Demo items are tagged \"nexora-demo\" so you can delete them in one click from Demo Import."
+msgstr ""
+
+#: inc/admin/tutorials.php:47
+msgid "Check System Status until everything is green."
+msgstr ""
+
+#: inc/admin/tutorials.php:53
+msgid "Logo, favicon and site name"
+msgstr ""
+
+#: inc/admin/tutorials.php:56
+msgid "Where to upload the logo and how the text fallback works."
+msgstr ""
+
+#: inc/admin/tutorials.php:58
+msgid "Go to Appearance → Customize → Site Identity and upload a logo (SVG or PNG, at least 160 px tall for retina)."
+msgstr ""
+
+#: inc/admin/tutorials.php:59
+msgid "Upload a Site Icon (512×512 px) — it becomes the favicon and the icon on phone home screens."
+msgstr ""
+
+#: inc/admin/tutorials.php:60
+msgid "If you have a light version for the dark footer, add it in Theme Settings → General → Branding."
+msgstr ""
+
+#: inc/admin/tutorials.php:61
+msgid "No logo? The theme shows the \"Logo text\" from Theme Settings → General in the brand font."
+msgstr ""
+
+#: inc/admin/tutorials.php:63
+msgid "Customizer"
+msgstr ""
+
+#: inc/admin/tutorials.php:63
+msgid "General settings"
+msgstr ""
+
+#: inc/admin/tutorials.php:67
+msgid "Menus: main navigation, top bar and footer columns"
+msgstr ""
+
+#: inc/admin/tutorials.php:70
+msgid "The theme has eight menu locations. Here is what each one does."
+msgstr ""
+
+#: inc/admin/tutorials.php:72
+msgid "Appearance → Menus → create a menu and tick a location under \"Display location\"."
+msgstr ""
+
+#: inc/admin/tutorials.php:73
+msgid "Primary: the main bar under the header. Two levels deep; add product categories for a mega-menu feel."
+msgstr ""
+
+#: inc/admin/tutorials.php:74
+msgid "Mobile: shown in the off-canvas drawer. Leave empty to reuse Primary."
+msgstr ""
+
+#: inc/admin/tutorials.php:75
+msgid "Top bar (start/end): small utility links such as \"Track order\", \"Sell with us\"."
+msgstr ""
+
+#: inc/admin/tutorials.php:76
+msgid "Footer 1 / Footer 2 / Footer bottom: link columns and the legal row. Account: the dropdown under the user icon."
+msgstr ""
+
+#: inc/admin/tutorials.php:82
+msgid "Adding a product correctly"
+msgstr ""
+
+#: inc/admin/tutorials.php:85
+msgid "Images, price, sale price, stock, attributes and highlights — what the theme uses from each."
+msgstr ""
+
+#: inc/admin/tutorials.php:87
+msgid "Products → Add new. Title and long description go in the editor; the short description becomes the intro next to the gallery."
+msgstr ""
+
+#: inc/admin/tutorials.php:88
+msgid "Set a featured image (square, 800×800 px or larger). Gallery images appear as thumbnails and in the zoom viewer."
+msgstr ""
+
+#: inc/admin/tutorials.php:89
+msgid "Regular price + Sale price → the theme shows the discount percentage badge automatically."
+msgstr ""
+
+#: inc/admin/tutorials.php:90
+msgid "Inventory: enable stock management to get \"only 3 left\" urgency labels and out-of-stock overlays."
+msgstr ""
+
+#: inc/admin/tutorials.php:91
+msgid "Attributes: tick \"Visible on the product page\" — they populate the Specifications tab and the compare table. A \"Colour\" attribute with colour swatches shows dots on product cards."
+msgstr ""
+
+#: inc/admin/tutorials.php:92
+msgid "With ACF/SCF active, the Highlights box gives you the bullet list beside the price and a size-guide modal."
+msgstr ""
+
+#: inc/admin/tutorials.php:94
+msgid "Shop settings"
+msgstr ""
+
+#: inc/admin/tutorials.php:98
+msgid "Categories, brands and colour swatches"
+msgstr ""
+
+#: inc/admin/tutorials.php:101
+msgid "Category thumbnails drive the homepage tiles; brands come from WooCommerce Brands."
+msgstr ""
+
+#: inc/admin/tutorials.php:103
+msgid "Products → Categories: upload a thumbnail for every top-level category (square). These images are used in the homepage category strip and tiles."
+msgstr ""
+
+#: inc/admin/tutorials.php:104
+msgid "Products → Brands (WooCommerce 9.6+): add brands with logos. The homepage brands carousel and the shop filter pick them up automatically."
+msgstr ""
+
+#: inc/admin/tutorials.php:105
+msgid "Products → Attributes → Colour → Configure terms: each term has a colour picker added by the theme. Used for swatches on cards and filters."
+msgstr ""
+
+#: inc/admin/tutorials.php:107 inc/helpers/schema.php:295 inc/helpers/schema.php:417 inc/helpers/schema.php:621 inc/helpers/schema.php:847 template-parts/blog/sidebar-default.php:14
+msgid "Categories"
+msgstr ""
+
+#: inc/admin/tutorials.php:111
+msgid "Building the homepage section by section"
+msgstr ""
+
+#: inc/admin/tutorials.php:114
+msgid "Enable, disable and reorder 15 sections; pick product sources; upload banners."
+msgstr ""
+
+#: inc/admin/tutorials.php:116
+msgid "Theme Settings → Homepage → Layout: toggle sections on/off and drag to reorder."
+msgstr ""
+
+#: inc/admin/tutorials.php:117
+msgid "Hero slider: add up to 6 slides with image (1600×640 px), kicker, title, text and button. Side banners fill the two cards next to the slider."
+msgstr ""
+
+#: inc/admin/tutorials.php:118
+msgid "Product sections (Featured, Flash sale, New arrivals, Best sellers): choose a source — automatic (featured / on sale / newest / best selling), a category, or hand-picked products."
+msgstr ""
+
+#: inc/admin/tutorials.php:119
+msgid "Flash sale shows a countdown to the date you set; it hides itself when the date has passed."
+msgstr ""
+
+#: inc/admin/tutorials.php:120
+msgid "Testimonials: choose real WooCommerce reviews (4+ stars) or write your own. Stats band: four numbers with icons."
+msgstr ""
+
+#: inc/admin/tutorials.php:121
+msgid "Blog & newsletter: latest posts pull from your blog; newsletter subscribers are stored in the theme (export as CSV from the dashboard) or posted to a Mailchimp/Mailerlite form URL."
+msgstr ""
+
+#: inc/admin/tutorials.php:123
+msgid "Homepage settings"
+msgstr ""
+
+#: inc/admin/tutorials.php:127
+msgid "Colours: presets and your own palette"
+msgstr ""
+
+#: inc/admin/tutorials.php:130
+msgid "Switch between Classic Red, Modern Blue and Luxury Green, or save unlimited custom presets."
+msgstr ""
+
+#: inc/admin/tutorials.php:132
+msgid "Colors & Presets → click Activate on a preset. The whole site, including WooCommerce pages, changes instantly."
+msgstr ""
+
+#: inc/admin/tutorials.php:133
+msgid "Click Edit on any preset, adjust colours, watch the live preview and press Save — built-in presets are copied, custom ones are updated in place."
+msgstr ""
+
+#: inc/admin/tutorials.php:134
+msgid "The contrast checker warns when text on primary buttons falls under WCAG 4.5:1."
+msgstr ""
+
+#: inc/admin/tutorials.php:135
+msgid "Export JSON to move a palette to another site; import it on the same screen."
+msgstr ""
+
+#: inc/admin/tutorials.php:141
+msgid "Header, top bar and footer"
+msgstr ""
+
+#: inc/admin/tutorials.php:144
+msgid "Announcement bar, sticky header, search placeholders, footer columns, trust badges and payment icons."
+msgstr ""
+
+#: inc/admin/tutorials.php:146
+msgid "Header tab: announcement text with optional link and dismiss button; toggle the top bar, sticky header, category menu and search suggestions."
+msgstr ""
+
+#: inc/admin/tutorials.php:147
+msgid "Footer tab: about text, app badges, contact block, trust badges (paste the eNAMAD/Samandehi code — scripts are stripped for safety), payment icons and the copyright line."
+msgstr ""
+
+#: inc/admin/tutorials.php:148
+msgid "Footer link columns come from the Footer 1 / Footer 2 menu locations; the column titles are set in the Footer tab."
+msgstr ""
+
+#: inc/admin/tutorials.php:150 inc/helpers/schema.php:162
+msgid "Header"
+msgstr ""
+
+#: inc/admin/tutorials.php:150 inc/helpers/schema.php:257
+msgid "Footer"
+msgstr ""
+
+#: inc/admin/tutorials.php:154
+msgid "Accepting payments (ZarinPal, bank gateways, cash on delivery)"
+msgstr ""
+
+#: inc/admin/tutorials.php:157
+msgid "The theme never touches money — WooCommerce and your gateway plugin do. Here is the safe setup."
+msgstr ""
+
+#: inc/admin/tutorials.php:159
+msgid "Get the official plugin from your provider (for ZarinPal: zarinpal.com → Lab → WooCommerce). Never use a plugin from a forum or Telegram channel."
+msgstr ""
+
+#: inc/admin/tutorials.php:160
+msgid "Plugins → Add new → Upload plugin → activate."
+msgstr ""
+
+#: inc/admin/tutorials.php:161
+msgid "WooCommerce → Settings → Payments → enable the gateway and enter the merchant ID / API key given by the provider. These keys are stored by WooCommerce only."
+msgstr ""
+
+#: inc/admin/tutorials.php:162
+msgid "Place a test order. Providers offer a sandbox mode — switch it off before launch."
+msgstr ""
+
+#: inc/admin/tutorials.php:163
+msgid "Make sure the site runs on HTTPS (green lock). System Status warns if it does not."
+msgstr ""
+
+#: inc/admin/tutorials.php:165
+msgid "Payment settings"
+msgstr ""
+
+#: inc/admin/tutorials.php:169
+msgid "Shipping zones, free-shipping threshold and Persian provinces"
+msgstr ""
+
+#: inc/admin/tutorials.php:172
+msgid "Create zones, add flat-rate / free shipping, and show the free-shipping progress bar in the cart."
+msgstr ""
+
+#: inc/admin/tutorials.php:174
+msgid "WooCommerce → Settings → Shipping → Add zone (e.g. \"Tehran\", \"Other provinces\"). Install \"Persian WooCommerce\" to get province lists."
+msgstr ""
+
+#: inc/admin/tutorials.php:175
+msgid "Add a Flat rate and a Free shipping method with a minimum order amount."
+msgstr ""
+
+#: inc/admin/tutorials.php:176
+msgid "Theme Settings → Shop → Cart: enter the same threshold to display the \"X left for free shipping\" progress bar in the cart drawer."
+msgstr ""
+
+#: inc/admin/tutorials.php:178
+msgid "Shipping settings"
+msgstr ""
+
+#: inc/admin/tutorials.php:182
+msgid "Blog posts, categories and the magazine layout"
+msgstr ""
+
+#: inc/admin/tutorials.php:185
+msgid "Featured images, reading time, related posts and the sidebar."
+msgstr ""
+
+#: inc/admin/tutorials.php:187
+msgid "Posts → Add new. Set a featured image (1200×675 px). The first category becomes the coloured badge on the card."
+msgstr ""
+
+#: inc/admin/tutorials.php:188
+msgid "Settings → Reading: the \"Posts page\" is your blog index (the wizard creates \"Blog\")."
+msgstr ""
+
+#: inc/admin/tutorials.php:189
+msgid "Theme Settings → Blog: layout (grid / list), sidebar position, reading time, author box, related posts and the newsletter box."
+msgstr ""
+
+#: inc/admin/tutorials.php:190
+msgid "Appearance → Widgets → Blog sidebar: add Search, Categories, Recent posts, Tag cloud."
+msgstr ""
+
+#: inc/admin/tutorials.php:192
+msgid "Blog settings"
+msgstr ""
+
+#: inc/admin/tutorials.php:196
+msgid "Contact, FAQ, About and legal pages"
+msgstr ""
+
+#: inc/admin/tutorials.php:199
+msgid "Page templates included with the theme and how to fill them."
+msgstr ""
+
+#: inc/admin/tutorials.php:201
+msgid "Pages → edit \"Contact us\": the Contact template shows your address, phone, email, hours (from General settings), a map embed and a form. Paste a Contact Form 7 / WPForms shortcode in the Contact tab, or use the built-in simple form."
+msgstr ""
+
+#: inc/admin/tutorials.php:202
+msgid "The FAQ template renders the questions you enter in Theme Settings → Shop → FAQ as an accordion with search."
+msgstr ""
+
+#: inc/admin/tutorials.php:203
+msgid "For About/Terms/Privacy: create a normal page; choose \"Full width\" or \"Minimal\" template from the page sidebar when you do not want the sidebar."
+msgstr ""
+
+#: inc/admin/tutorials.php:204
+msgid "Set the Privacy Policy page in Settings → Privacy and the Terms page in WooCommerce → Settings → Advanced — checkout links to both."
+msgstr ""
+
+#: inc/admin/tutorials.php:206 inc/helpers/schema.php:764
+msgid "Pages"
+msgstr ""
+
+#: inc/admin/tutorials.php:210
+msgid "SEO basics and Rank Math"
+msgstr ""
+
+#: inc/admin/tutorials.php:213
+msgid "What the theme does out of the box and when to add an SEO plugin."
+msgstr ""
+
+#: inc/admin/tutorials.php:215
+msgid "Built in: semantic HTML, breadcrumb schema, product/organisation schema, Open Graph tags, clean titles. It all switches off automatically when Rank Math, Yoast, SEOPress or AIOSEO is active — no duplicates."
+msgstr ""
+
+#: inc/admin/tutorials.php:216
+msgid "Install Rank Math for sitemaps, per-page titles and Search Console integration."
+msgstr ""
+
+#: inc/admin/tutorials.php:217
+msgid "Settings → Permalinks → \"Post name\". Never use plain permalinks on a store."
+msgstr ""
+
+#: inc/admin/tutorials.php:218
+msgid "Write unique short descriptions for products and alt text for images."
+msgstr ""
+
+#: inc/admin/tutorials.php:224
+msgid "Speed: caching, images and fonts"
+msgstr ""
+
+#: inc/admin/tutorials.php:227
+msgid "The theme is light by design; these switches make it lighter."
+msgstr ""
+
+#: inc/admin/tutorials.php:229
+msgid "Theme Settings → Performance: lazy images, defer scripts, disable emoji script, disable block CSS, load WooCommerce assets only on shop pages, preload fonts."
+msgstr ""
+
+#: inc/admin/tutorials.php:230
+msgid "Install a caching plugin (LiteSpeed Cache if your host runs LiteSpeed, otherwise WP Super Cache). Exclude cart, checkout and my-account pages — most plugins do this automatically for WooCommerce."
+msgstr ""
+
+#: inc/admin/tutorials.php:231
+msgid "Upload images at sensible sizes (products 800–1200 px). WordPress generates WebP-friendly sizes automatically on modern hosts."
+msgstr ""
+
+#: inc/admin/tutorials.php:232
+msgid "After changing options, purge the cache plugin once."
+msgstr ""
+
+#: inc/admin/tutorials.php:234
+msgid "Performance settings"
+msgstr ""
+
+#: inc/admin/tutorials.php:238
+msgid "Keeping the store safe"
+msgstr ""
+
+#: inc/admin/tutorials.php:241
+msgid "Updates, backups, admin accounts and what the theme already protects."
+msgstr ""
+
+#: inc/admin/tutorials.php:243
+msgid "Update WordPress, WooCommerce, plugins and the theme when notified. Use a child theme for code customisations so updates never overwrite them."
+msgstr ""
+
+#: inc/admin/tutorials.php:244
+msgid "Install a security plugin (Wordfence) and enable two-factor authentication for administrators."
+msgstr ""
+
+#: inc/admin/tutorials.php:245
+msgid "Daily backups via your host or UpdraftPlus — test a restore once."
+msgstr ""
+
+#: inc/admin/tutorials.php:246
+msgid "Every theme form and AJAX action is protected with nonces and capability checks; uploads go through the WordPress media library; demo import is administrator-only."
+msgstr ""
+
+#: inc/admin/tutorials.php:247
+msgid "Turn WP_DEBUG off in production (System Status warns you)."
+msgstr ""
+
+#: inc/admin/tutorials.php:249
+msgid "Plugin manager"
+msgstr ""
+
+#: inc/admin/tutorials.php:253
+msgid "Customising safely with a child theme"
+msgstr ""
+
+#: inc/admin/tutorials.php:256
+msgid "Override templates and add CSS without losing changes on update."
+msgstr ""
+
+#: inc/admin/tutorials.php:258
+msgid "Download the ready-made child theme from the docs folder (nexora-child.zip) and install it via Appearance → Themes → Add new → Upload."
+msgstr ""
+
+#: inc/admin/tutorials.php:259
+msgid "Copy any file from nexora/template-parts or nexora/woocommerce into the same path inside the child theme and edit it there."
+msgstr ""
+
+#: inc/admin/tutorials.php:260
+msgid "Small CSS tweaks: Appearance → Customize → Additional CSS. Colours: use the preset editor instead of CSS."
+msgstr ""
+
+#: inc/admin/tutorials.php:261
+msgid "Hooks: the theme fires nexora_before_*/nexora_after_* actions around every homepage section — see docs/hooks.md."
+msgstr ""
+
+#: inc/admin/tutorials.php:291
+msgid "Short, practical guides written for store owners — no coding required. Tick a guide when you are done to keep track."
+msgstr ""
+
+#: inc/admin/tutorials.php:296
+msgid "%d min"
+msgstr ""
+
+#: inc/admin/tutorials.php:312
+msgid "Mark as not done"
+msgstr ""
+
+#: inc/admin/tutorials.php:312
+msgid "Mark as done"
+msgstr ""
+
+#: inc/admin/tutorials.php:318
+msgid "Search tutorials…"
+msgstr ""
+
+#: inc/admin/tutorials.php:318
+msgid "%1$d of %2$d completed"
+msgstr ""
+
+#: inc/admin/tutorials.php:335
+msgid "%d min read"
+msgstr ""
+
+#: inc/admin/wizard.php:21
+msgid "Welcome"
+msgstr ""
+
+#: inc/admin/wizard.php:21
+msgid "What the wizard does and how long it takes."
+msgstr ""
+
+#: inc/admin/wizard.php:22
+msgid "WooCommerce is required; the rest is optional."
+msgstr ""
+
+#: inc/admin/wizard.php:23
+msgid "Store details"
+msgstr ""
+
+#: inc/admin/wizard.php:23
+msgid "Name, tagline, contact info."
+msgstr ""
+
+#: inc/admin/wizard.php:24
+msgid "Upload the logo and site icon."
+msgstr ""
+
+#: inc/admin/wizard.php:25 woocommerce/content-product.php:81 woocommerce/loop/filters.php:131
+msgid "Colours"
+msgstr ""
+
+#: inc/admin/wizard.php:25
+msgid "Pick a preset — change it any time."
+msgstr ""
+
+#: inc/admin/wizard.php:26
+msgid "Currency, address, pages."
+msgstr ""
+
+#: inc/admin/wizard.php:27
+msgid "Start from a full store or an empty one."
+msgstr ""
+
+#: inc/admin/wizard.php:28
+msgid "Choose which sections to show."
+msgstr ""
+
+#: inc/admin/wizard.php:29
+msgid "Pages & menus"
+msgstr ""
+
+#: inc/admin/wizard.php:29
+msgid "Create essential pages and the main menu."
+msgstr ""
+
+#: inc/admin/wizard.php:30 woocommerce/checkout/form-checkout.php:30 woocommerce/checkout/thankyou.php:30
+msgid "Done"
+msgstr ""
+
+#: inc/admin/wizard.php:30
+msgid "Next steps and useful links."
+msgstr ""
+
+#: inc/admin/wizard.php:193
+msgid "Exit to dashboard"
+msgstr ""
+
+#: inc/admin/wizard.php:207
+msgid "Go to dashboard"
+msgstr ""
+
+#: inc/admin/wizard.php:209
+msgid "Save & continue"
+msgstr ""
+
+#: inc/admin/wizard.php:209
+msgid "Skip this step"
+msgstr ""
+
+#: inc/admin/wizard.php:217
+msgid "In about five minutes you will have a store with a logo, colours, contact details, WooCommerce basics, and — if you want — full demo content to edit instead of starting from a blank page."
+msgstr ""
+
+#: inc/admin/wizard.php:218
+msgid "Nothing is deleted and no account or API key is requested."
+msgstr ""
+
+#: inc/admin/wizard.php:218
+msgid "Every step can be skipped and every setting changed later in Theme Settings."
+msgstr ""
+
+#: inc/admin/wizard.php:218
+msgid "You can re-run this wizard from the theme menu."
+msgstr ""
+
+#: inc/admin/wizard.php:232
+msgid "required"
+msgstr ""
+
+#: inc/admin/wizard.php:233 inc/admin/wizard.php:330
+msgid "Installed"
+msgstr ""
+
+#: inc/admin/wizard.php:239
+msgid "After installing, return to this page — the wizard remembers where you were."
+msgstr ""
+
+#: inc/admin/wizard.php:249
+msgid "Store name"
+msgstr ""
+
+#: inc/admin/wizard.php:250
+msgid "Tagline"
+msgstr ""
+
+#: inc/admin/wizard.php:251
+msgid "Text logo (used when no image logo)"
+msgstr ""
+
+#: inc/admin/wizard.php:252 inc/helpers/schema.php:107
+msgid "Support phone"
+msgstr ""
+
+#: inc/admin/wizard.php:253 inc/helpers/schema.php:112
+msgid "Support email"
+msgstr ""
+
+#: inc/admin/wizard.php:254 inc/helpers/schema.php:121
+msgid "Working hours"
+msgstr ""
+
+#: inc/admin/wizard.php:255 inc/helpers/schema.php:117 page-templates/contact.php:43 template-parts/footer/footer.php:39
+msgid "Address"
+msgstr ""
+
+#: inc/admin/wizard.php:256
+msgid "Social (optional)"
+msgstr ""
+
+#: inc/admin/wizard.php:267
+msgid "SVG or PNG with transparent background, at least 160 px tall."
+msgstr ""
+
+#: inc/admin/wizard.php:267
+msgid "Site icon (favicon)"
+msgstr ""
+
+#: inc/admin/wizard.php:267
+msgid "Square PNG, 512×512 px."
+msgstr ""
+
+#: inc/admin/wizard.php:285
+msgid "Fine-tune or create your own palette later under Colors & Presets."
+msgstr ""
+
+#: inc/admin/wizard.php:290
+msgid "WooCommerce is not active yet. Go back to the Plugins step, or skip and configure it later."
+msgstr ""
+
+#: inc/admin/wizard.php:301
+msgid "Iranian stores: choose IRT (Toman) or IRR (Rial). The theme formats prices with Persian digits automatically."
+msgstr ""
+
+#: inc/admin/wizard.php:302
+msgid "Country / state"
+msgstr ""
+
+#: inc/admin/wizard.php:313
+msgid "City"
+msgstr ""
+
+#: inc/admin/wizard.php:314
+msgid "Street address"
+msgstr ""
+
+#: inc/admin/wizard.php:315
+msgid "Create missing WooCommerce pages (Shop, Cart, Checkout, My Account)"
+msgstr ""
+
+#: inc/admin/wizard.php:316
+msgid "Allow guest checkout"
+msgstr ""
+
+#: inc/admin/wizard.php:317
+msgid "Payment gateways and shipping rates are configured inside WooCommerce with your own credentials — the wizard never asks for them."
+msgstr ""
+
+#: inc/admin/wizard.php:317
+msgid "Open payments"
+msgstr ""
+
+#: inc/admin/wizard.php:317
+msgid "Open shipping"
+msgstr ""
+
+#: inc/admin/wizard.php:323
+msgid "Demo content needs WooCommerce. Skip for now and import later from the Demo Import tab."
+msgstr ""
+
+#: inc/admin/wizard.php:332
+msgid "Import runs in the background on this page; wait for the green tick, then continue. Prefer an empty store? Just continue."
+msgstr ""
+
+#: inc/admin/wizard.php:337
+msgid "Tick the sections you want on the homepage. Order and content are edited later in Theme Settings → Homepage."
+msgstr ""
+
+#: inc/admin/wizard.php:345
+msgid "The theme will create these pages if they do not exist yet, assign the right templates, and set the static homepage:"
+msgstr ""
+
+#: inc/admin/wizard.php:348
+msgid "exists"
+msgstr ""
+
+#: inc/admin/wizard.php:348
+msgid "will be created"
+msgstr ""
+
+#: inc/admin/wizard.php:350
+msgid "Also create a main menu with Home, Shop, Blog, FAQ and Contact (only if no menu is assigned)"
+msgstr ""
+
+#: inc/admin/wizard.php:355
+msgid "Your store is set up"
+msgstr ""
+
+#: inc/admin/wizard.php:355
+msgid "Health check: %1$d passed, %2$d recommended, %3$d critical."
+msgstr ""
+
+#: inc/admin/wizard.php:358
+msgid "View your site"
+msgstr ""
+
+#: inc/admin/wizard.php:359
+msgid "Add a product"
+msgstr ""
+
+#: inc/admin/wizard.php:360
+msgid "Set up payments"
+msgstr ""
+
+#: inc/admin/wizard.php:361
+msgid "Set up shipping"
+msgstr ""
+
+#: inc/admin/wizard.php:362
+msgid "Edit homepage"
+msgstr ""
+
+#: inc/admin/wizard.php:363
+msgid "Read tutorials"
+msgstr ""
+
+#: inc/ajax/front.php:15 inc/ajax/front.php:108
+msgid "Security check failed. Please reload the page."
+msgstr "بررسی امنیتی ناموفق بود. لطفاً صفحه را دوباره بارگذاری کنید."
+
+#: inc/ajax/front.php:26 inc/ajax/front.php:128 inc/enqueue.php:118
+msgid "Please enter a valid email."
+msgstr "لطفاً یک ایمیل معتبر وارد کنید."
+
+#: inc/ajax/front.php:37
+msgid "Too many attempts, please try again later."
+msgstr "تعداد تلاش‌ها زیاد است، لطفاً بعداً دوباره امتحان کنید."
+
+#: inc/ajax/front.php:48 inc/enqueue.php:117
+msgid "You are subscribed. Thank you!"
+msgstr "عضویت شما ثبت شد. سپاسگزاریم!"
+
+#: inc/ajax/front.php:111 inc/ajax/front.php:148
+msgid "Thanks! Your message has been sent."
+msgstr "سپاس! پیام شما ارسال شد."
+
+#: inc/ajax/front.php:116
+msgid "Too many messages, please try again later."
+msgstr "تعداد پیام‌ها زیاد است، لطفاً بعداً دوباره امتحان کنید."
+
+#: inc/ajax/front.php:125
+msgid "Please enter your name."
+msgstr "لطفاً نام خود را وارد کنید."
+
+#: inc/ajax/front.php:131
+msgid "Please choose a subject."
+msgstr "لطفاً موضوع را انتخاب کنید."
+
+#: inc/ajax/front.php:134
+msgid "Please write at least 20 characters."
+msgstr "لطفاً حداقل ۲۰ نویسه بنویسید."
+
+#: inc/ajax/front.php:137
+msgid "Please fix the highlighted fields."
+msgstr "لطفاً فیلدهای مشخص‌شده را اصلاح کنید."
+
+#: inc/ajax/front.php:142 inc/setup.php:129 page-templates/contact.php:40 page-templates/contact.php:60 template-parts/footer/footer.php:45 woocommerce/checkout/thankyou.php:39
+msgid "Email"
+msgstr "ایمیل"
+
+#: inc/ajax/front.php:142 page-templates/contact.php:37 page-templates/contact.php:63 template-parts/footer/footer.php:42 woocommerce/myaccount/dashboard.php:80 woocommerce/myaccount/view-order.php:106
+msgid "Phone"
+msgstr "تلفن"
+
+#: inc/ajax/front.php:142 page-templates/contact.php:64
+msgid "Subject"
+msgstr "موضوع"
+
+#: inc/ajax/front.php:142
+msgid "IP"
+msgstr "IP"
+
+#: inc/ajax/front.php:146
+msgid "The message could not be sent right now. Please call us instead."
+msgstr "در حال حاضر امکان ارسال پیام وجود ندارد. لطفاً با ما تماس بگیرید."
+
+#: inc/compat.php:14
+msgid "Nexora requires PHP %1$s and WordPress %2$s or newer. You are running PHP %3$s and WordPress %4$s. The theme has been loaded in a safe mode without its features."
+msgstr "نکسورا به PHP %1$s و وردپرس %2$s یا جدیدتر نیاز دارد. نسخه فعلی شما PHP %3$s و وردپرس %4$s است. قالب در حالت امن و بدون امکانات خود بارگذاری شد."
+
+#: inc/compat.php:25
+msgid "The Customizer is unavailable because Nexora is running in safe mode. Please upgrade PHP / WordPress."
+msgstr "سفارشی‌ساز در دسترس نیست چون نکسورا در حالت امن اجرا می‌شود. لطفاً PHP / وردپرس را به‌روز کنید."
+
+#: inc/customizer.php:19
+msgid "Nexora quick settings"
+msgstr "تنظیمات سریع نکسورا"
+
+#: inc/customizer.php:23
+msgid "Colour presets, header, footer, homepage sections and shop options are all in %s."
+msgstr "پیش‌تنظیم‌های رنگی، هدر، فوتر، بخش‌های صفحه اصلی و گزینه‌های فروشگاه همگی در %s قرار دارند."
+
+#: inc/customizer.php:24
+msgid "Nexora → Dashboard"
+msgstr "نکسورا ← پیشخوان"
+
+#: inc/customizer.php:46
+msgid "Colour preset"
+msgstr "پیش‌تنظیم رنگی"
+
+#: inc/customizer.php:64
+msgid "Popular search terms"
+msgstr "عبارت‌های پرجستجو"
+
+#: inc/customizer.php:65
+msgid "Comma-separated. Shown as chips when the search box is focused."
+msgstr "با ویرگول جدا کنید. هنگام فوکوس روی کادر جستجو به‌صورت برچسب نمایش داده می‌شوند."
+
+#: inc/enqueue.php:101 template-parts/footer/drawers.php:20 template-parts/footer/drawers.php:115 template-parts/footer/drawers.php:125
+msgid "Close"
+msgstr "بستن"
+
+#: inc/enqueue.php:102
+msgid "Undo"
+msgstr "بازگردانی"
+
+#: inc/enqueue.php:103
+msgid "Added to cart"
+msgstr "به سبد اضافه شد"
+
+#: inc/enqueue.php:104 template-parts/header/mini-cart.php:59
+msgid "View cart"
+msgstr "مشاهده سبد"
+
+#: inc/enqueue.php:105
+msgid "Could not add to cart."
+msgstr "افزودن به سبد ممکن نشد."
+
+#: inc/enqueue.php:106
+msgid "Added to wishlist"
+msgstr "به علاقه‌مندی‌ها اضافه شد"
+
+#: inc/enqueue.php:107
+msgid "Removed from wishlist"
+msgstr "از علاقه‌مندی‌ها حذف شد"
+
+#: inc/enqueue.php:109
+msgid "Added to compare"
+msgstr "به مقایسه اضافه شد"
+
+#: inc/enqueue.php:110
+msgid "Removed from compare"
+msgstr "از مقایسه حذف شد"
+
+#: inc/enqueue.php:111
+msgid "You can compare up to 4 products."
+msgstr "حداکثر ۴ محصول را می‌توانید مقایسه کنید."
+
+#: inc/enqueue.php:112 template-parts/footer/drawers.php:132
+msgid "Compare now"
+msgstr "مقایسه کنید"
+
+#: inc/enqueue.php:113
+msgid "%s products selected"
+msgstr "%s محصول انتخاب شده"
+
+#: inc/enqueue.php:114
+msgid "Link copied"
+msgstr "لینک کپی شد"
+
+#: inc/enqueue.php:115
+msgid "Loading…"
+msgstr "در حال بارگذاری…"
+
+#: inc/enqueue.php:116
+msgid "Please select the product options first."
+msgstr "لطفاً ابتدا گزینه‌های محصول را انتخاب کنید."
+
+#: inc/enqueue.php:119
+msgid "No matching products"
+msgstr "محصولی مطابق پیدا نشد"
+
+#: inc/enqueue.php:120
+msgid "Suggested products"
+msgstr "محصولات پیشنهادی"
+
+#: inc/enqueue.php:121
+msgid "Popular searches"
+msgstr "جستجوهای پرطرفدار"
+
+#: inc/enqueue.php:122
+msgid "Search results for"
+msgstr "نتایج جستجو برای"
+
+#: inc/enqueue.php:123
+msgid "Page"
+msgstr "صفحه"
+
+#: inc/enqueue.php:124 template-parts/home/flash.php:36
+msgid "hours"
+msgstr "ساعت"
+
+#: inc/enqueue.php:125 template-parts/home/flash.php:38
+msgid "minutes"
+msgstr "دقیقه"
+
+#: inc/enqueue.php:126 template-parts/home/flash.php:40
+msgid "seconds"
+msgstr "ثانیه"
+
+#: inc/enqueue.php:127
+msgid "Maximum quantity is %s"
+msgstr "حداکثر تعداد %s است"
+
+#: inc/helpers/breadcrumb.php:75
+msgid "Search: %s"
+msgstr "جستجو: %s"
+
+#: inc/helpers/breadcrumb.php:98
+msgid "Breadcrumb"
+msgstr "مسیر صفحه"
+
+#: inc/helpers/catalog.php:183
+msgid "Contact"
+msgstr "تماس با ما"
+
+#: inc/helpers/catalog.php:201
+msgid "Assign a menu"
+msgstr "یک فهرست اختصاص دهید"
+
+#: inc/helpers/catalog.php:213
+msgid "Nexora icon"
+msgstr "آیکون نکسورا"
+
+#: inc/helpers/catalog.php:220
+msgid "Linearicons name used in the category menu and homepage. Leave empty to auto-detect."
+msgstr "نام آیکون Linearicons برای منوی دسته‌ها و صفحه اصلی. برای تشخیص خودکار خالی بگذارید."
+
+#: inc/helpers/icons.php:106
+msgid "Rated %s out of 5"
+msgstr "امتیاز %s از ۵"
+
+#: inc/helpers/icons.php:109
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "%s دیدگاه"
+msgstr[1] "%s دیدگاه"
+
+#: inc/helpers/menus.php:37 inc/woocommerce/product-card.php:249
+msgid "New"
+msgstr "جدید"
+
+#: inc/helpers/menus.php:187
+msgid "Nexora tip: add a CSS class like icon-truck, hot, badge-new or badge-sale to a menu item to show an icon or a badge (enable \"CSS Classes\" in Screen Options)."
+msgstr "نکته نکسورا: با افزودن کلاس CSS مانند icon-truck، hot، badge-new یا badge-sale به آیتم منو، آیکون یا نشان نمایش داده می‌شود (گزینه «کلاس‌های CSS» را در تنظیمات صفحه فعال کنید)."
+
+#: inc/helpers/presets.php:22 inc/setup.php:32
+msgid "Primary"
+msgstr "رنگ اصلی"
+
+#: inc/helpers/presets.php:22
+msgid "Buttons, highlights, badges, active states."
+msgstr "دکمه‌ها، هایلایت‌ها، نشان‌ها و حالت‌های فعال."
+
+#: inc/helpers/presets.php:23
+msgid "Primary hover"
+msgstr "رنگ اصلی در هاور"
+
+#: inc/helpers/presets.php:23
+msgid "Primary colour on hover / focus."
+msgstr "رنگ اصلی هنگام هاور / فوکوس."
+
+#: inc/helpers/presets.php:24
+msgid "Text on primary"
+msgstr "متن روی رنگ اصلی"
+
+#: inc/helpers/presets.php:24
+msgid "Text colour placed on primary backgrounds. Keep contrast ≥ 4.5:1."
+msgstr "رنگ متن روی پس‌زمینه‌های رنگ اصلی. کنتراست را بالای ۴٫۵:۱ نگه دارید."
+
+#: inc/helpers/presets.php:25
+msgid "Secondary"
+msgstr "رنگ ثانویه"
+
+#: inc/helpers/presets.php:25
+msgid "Page background."
+msgstr "پس‌زمینه صفحه."
+
+#: inc/helpers/presets.php:26 inc/setup.php:36
+msgid "Surface"
+msgstr "سطح"
+
+#: inc/helpers/presets.php:26
+msgid "Cards, inputs and light sections."
+msgstr "کارت‌ها، فیلدها و بخش‌های روشن."
+
+#: inc/helpers/presets.php:27
+msgid "Accent / dark"
+msgstr "تأکیدی / تیره"
+
+#: inc/helpers/presets.php:27
+msgid "Dark buttons, category menu, headings."
+msgstr "دکمه‌های تیره، منوی دسته‌ها، تیترها."
+
+#: inc/helpers/presets.php:28 inc/helpers/schema.php:59 inc/helpers/schema.php:182 inc/helpers/schema.php:236 inc/helpers/schema.php:304 inc/helpers/schema.php:379
+msgid "Text"
+msgstr "متن"
+
+#: inc/helpers/presets.php:28
+msgid "Body text."
+msgstr "متن بدنه."
+
+#: inc/helpers/presets.php:29
+msgid "Muted text"
+msgstr "متن کم‌رنگ"
+
+#: inc/helpers/presets.php:29
+msgid "Secondary text, meta info."
+msgstr "متن‌های فرعی و اطلاعات متا."
+
+#: inc/helpers/presets.php:30
+msgid "Border"
+msgstr "حاشیه"
+
+#: inc/helpers/presets.php:30
+msgid "Dividers and outlines."
+msgstr "جداکننده‌ها و خطوط دور."
+
+#: inc/helpers/presets.php:31 inc/helpers/schema.php:460
+msgid "Button"
+msgstr "دکمه"
+
+#: inc/helpers/presets.php:31
+msgid "Default button background (usually = primary)."
+msgstr "پس‌زمینه پیش‌فرض دکمه (معمولاً برابر رنگ اصلی)."
+
+#: inc/helpers/presets.php:32
+msgid "Button text"
+msgstr "متن دکمه"
+
+#: inc/helpers/presets.php:33
+msgid "Header background"
+msgstr "پس‌زمینه هدر"
+
+#: inc/helpers/presets.php:34
+msgid "Header text"
+msgstr "متن هدر"
+
+#: inc/helpers/presets.php:35
+msgid "Top bar background"
+msgstr "پس‌زمینه نوار بالا"
+
+#: inc/helpers/presets.php:36
+msgid "Footer background"
+msgstr "پس‌زمینه فوتر"
+
+#: inc/helpers/presets.php:37
+msgid "Footer text"
+msgstr "متن فوتر"
+
+#: inc/helpers/presets.php:38
+msgid "Footer bottom row"
+msgstr "ردیف پایین فوتر"
+
+#: inc/helpers/presets.php:39
+msgid "Success"
+msgstr "موفقیت"
+
+#: inc/helpers/presets.php:40
+msgid "Danger / sale"
+msgstr "خطر / حراج"
+
+#: inc/helpers/presets.php:41
+msgid "Star rating"
+msgstr "ستاره امتیاز"
+
+#: inc/helpers/presets.php:66
+msgid "Classic Red"
+msgstr "قرمز کلاسیک"
+
+#: inc/helpers/presets.php:85
+msgid "Modern Blue"
+msgstr "آبی مدرن"
+
+#: inc/helpers/presets.php:108
+msgid "Luxury Green"
+msgstr "سبز لوکس"
+
+#: inc/helpers/presets.php:130
+msgid "Nexora Gold (original)"
+msgstr "طلایی نکسورا (اصلی)"
+
+#: inc/helpers/schema.php:50 inc/helpers/schema.php:177 inc/helpers/schema.php:235
+msgid "Icon"
+msgstr "آیکون"
+
+#: inc/helpers/schema.php:55 inc/helpers/schema.php:303 inc/helpers/schema.php:378 inc/helpers/schema.php:392 inc/helpers/schema.php:420 inc/helpers/schema.php:458
+msgid "Title"
+msgstr "عنوان"
+
+#: inc/helpers/schema.php:70 page-templates/faq.php:18
+msgid "General"
+msgstr "عمومی"
+
+#: inc/helpers/schema.php:72
+msgid "Branding and contact details used across the whole site (header, footer, contact page, schema.org data)."
+msgstr "برندینگ و اطلاعات تماس که در سراسر سایت استفاده می‌شود (هدر، فوتر، صفحه تماس، داده‌های schema.org)."
+
+#: inc/helpers/schema.php:75
+msgid "Branding"
+msgstr "برندینگ"
+
+#: inc/helpers/schema.php:76
+msgid "The main logo is managed in Appearance → Customize → Site Identity (or the Setup Wizard). Here you can add a light version for dark backgrounds and a short tagline shown next to the logo."
+msgstr "لوگوی اصلی از مسیر نمایش ← سفارشی‌سازی ← هویت سایت (یا جادوگر راه‌اندازی) مدیریت می‌شود. اینجا می‌توانید نسخه روشن برای پس‌زمینه‌های تیره و یک شعار کوتاه کنار لوگو اضافه کنید."
+
+#: inc/helpers/schema.php:80
+msgid "Light logo (footer / dark areas)"
+msgstr "لوگوی روشن (فوتر / بخش‌های تیره)"
+
+#: inc/helpers/schema.php:81
+msgid "Optional. Falls back to the main logo."
+msgstr "اختیاری. در صورت خالی‌بودن از لوگوی اصلی استفاده می‌شود."
+
+#: inc/helpers/schema.php:85
+msgid "Logo text"
+msgstr "متن لوگو"
+
+#: inc/helpers/schema.php:86
+msgid "Shown when no image logo is uploaded."
+msgstr "وقتی لوگوی تصویری بارگذاری نشده باشد نمایش داده می‌شود."
+
+#: inc/helpers/schema.php:91
+msgid "Tagline under the logo"
+msgstr "شعار زیر لوگو"
+
+#: inc/helpers/schema.php:92
+msgid "Online store"
+msgstr "فروشگاه اینترنتی"
+
+#: inc/helpers/schema.php:96
+msgid "Show text next to logo mark"
+msgstr "نمایش متن کنار نشان لوگو"
+
+#: inc/helpers/schema.php:102
+msgid "Contact information"
+msgstr "اطلاعات تماس"
+
+#: inc/helpers/schema.php:103
+msgid "Used in the top bar, footer, contact page and mobile menu."
+msgstr "در نوار بالا، فوتر، صفحه تماس و منوی موبایل استفاده می‌شود."
+
+#: inc/helpers/schema.php:122
+msgid "Saturday to Thursday, 9:00 – 21:00"
+msgstr "شنبه تا پنجشنبه، ۹:۰۰ تا ۲۱:۰۰"
+
+#: inc/helpers/schema.php:126
+msgid "WhatsApp number"
+msgstr "شماره واتساپ"
+
+#: inc/helpers/schema.php:127
+msgid "International format, e.g. 989120000000"
+msgstr "فرمت بین‌المللی، مثلاً 989120000000"
+
+#: inc/helpers/schema.php:131
+msgid "Map embed URL"
+msgstr "آدرس نقشه (embed)"
+
+#: inc/helpers/schema.php:132
+msgid "Google Maps / OpenStreetMap iframe URL for the contact page."
+msgstr "آدرس iframe نقشه گوگل / OpenStreetMap برای صفحه تماس."
+
+#: inc/helpers/schema.php:141 inc/helpers/template-tags.php:388 template-parts/footer/footer.php:138
+msgid "Social networks"
+msgstr "شبکه‌های اجتماعی"
+
+#: inc/helpers/schema.php:143
+msgid "Leave a field empty to hide that network. Icons are rendered from the theme SVG sprite."
+msgstr "برای پنهان‌کردن هر شبکه، فیلد آن را خالی بگذارید. آیکون‌ها از اسپرایت SVG قالب رندر می‌شوند."
+
+#: inc/helpers/schema.php:146
+msgid "Profiles"
+msgstr "پروفایل‌ها"
+
+#: inc/helpers/schema.php:164
+msgid "Announcement bar, top bar, main bar actions and the navigation row. Menus themselves are managed in Appearance → Menus."
+msgstr "نوار اطلاع‌رسانی، نوار بالا، اکشن‌های نوار اصلی و ردیف ناوبری. خود منوها از نمایش ← فهرست‌ها مدیریت می‌شوند."
+
+#: inc/helpers/schema.php:167
+msgid "Announcement bar"
+msgstr "نوار اطلاع‌رسانی"
+
+#: inc/helpers/schema.php:168
+msgid "A slim promotional strip above the header. Visitors can dismiss it; the choice is remembered in their browser."
+msgstr "یک نوار باریک تبلیغاتی بالای هدر. بازدیدکننده می‌تواند آن را ببندد؛ انتخاب او در مرورگرش ذخیره می‌شود."
+
+#: inc/helpers/schema.php:172
+msgid "Enable announcement bar"
+msgstr "فعال‌سازی نوار اطلاع‌رسانی"
+
+#: inc/helpers/schema.php:183
+msgid "Free shipping on orders over 2,000,000 Toman"
+msgstr "ارسال رایگان برای سفارش‌های بالای ۲٬۰۰۰٬۰۰۰ تومان"
+
+#: inc/helpers/schema.php:185 inc/helpers/schema.php:393
+msgid "Link"
+msgstr "لینک"
+
+#: inc/helpers/schema.php:189
+msgid "Top bar"
+msgstr "نوار بالا"
+
+#: inc/helpers/schema.php:193
+msgid "Enable top bar"
+msgstr "فعال‌سازی نوار بالا"
+
+#: inc/helpers/schema.php:198
+msgid "Support label"
+msgstr "برچسب پشتیبانی"
+
+#: inc/helpers/schema.php:199
+msgid "Support:"
+msgstr "پشتیبانی:"
+
+#: inc/helpers/schema.php:204
+msgid "Links in the top bar come from the \"Top bar (start)\" and \"Top bar (end)\" menu locations in Appearance → Menus."
+msgstr "لینک‌های نوار بالا از جایگاه‌های منوی «نوار بالا (ابتدا)» و «نوار بالا (انتها)» در نمایش ← فهرست‌ها می‌آیند."
+
+#: inc/helpers/schema.php:209
+msgid "Main bar"
+msgstr "نوار اصلی"
+
+#: inc/helpers/schema.php:211
+msgid "Show search box"
+msgstr "نمایش کادر جستجو"
+
+#: inc/helpers/schema.php:212
+msgid "Category dropdown inside search"
+msgstr "انتخاب دسته داخل جستجو"
+
+#: inc/helpers/schema.php:213
+msgid "Show account link"
+msgstr "نمایش لینک حساب کاربری"
+
+#: inc/helpers/schema.php:214
+msgid "Show compare icon"
+msgstr "نمایش آیکون مقایسه"
+
+#: inc/helpers/schema.php:215
+msgid "Show wishlist icon"
+msgstr "نمایش آیکون علاقه‌مندی‌ها"
+
+#: inc/helpers/schema.php:216
+msgid "Show cart with mini-cart"
+msgstr "نمایش سبد با مینی‌سبد"
+
+#: inc/helpers/schema.php:217
+msgid "Sticky header on scroll"
+msgstr "هدر چسبان هنگام اسکرول"
+
+#: inc/helpers/schema.php:218
+msgid "Extra header button (optional)"
+msgstr "دکمه اضافی هدر (اختیاری)"
+
+#: inc/helpers/schema.php:222
+msgid "Navigation row"
+msgstr "ردیف ناوبری"
+
+#: inc/helpers/schema.php:223
+msgid "The dark \"Categories\" button opens a mega menu built from your WooCommerce product categories."
+msgstr "دکمه تیره «دسته‌بندی‌ها» یک مگامنو از دسته‌های محصول ووکامرس باز می‌کند."
+
+#: inc/helpers/schema.php:225
+msgid "Show navigation row"
+msgstr "نمایش ردیف ناوبری"
+
+#: inc/helpers/schema.php:226
+msgid "Show categories mega menu"
+msgstr "نمایش مگامنوی دسته‌ها"
+
+#: inc/helpers/schema.php:227
+msgid "Categories button label"
+msgstr "برچسب دکمه دسته‌بندی‌ها"
+
+#: inc/helpers/schema.php:228
+msgid "Number of top-level categories"
+msgstr "تعداد دسته‌های سطح اول"
+
+#: inc/helpers/schema.php:229
+msgid "Show best sellers column in mega menu"
+msgstr "نمایش ستون پرفروش‌ها در مگامنو"
+
+#: inc/helpers/schema.php:232
+msgid "Right-side highlights"
+msgstr "هایلایت‌های سمت مقابل"
+
+#: inc/helpers/schema.php:237 inc/helpers/schema.php:519
+msgid "URL"
+msgstr "آدرس"
+
+#: inc/helpers/schema.php:240
+msgid "Free shipping"
+msgstr "ارسال رایگان"
+
+#: inc/helpers/schema.php:241 inc/helpers/schema.php:271
+msgid "Authenticity guarantee"
+msgstr "ضمانت اصالت کالا"
+
+#: inc/helpers/schema.php:247
+msgid "Mobile"
+msgstr "موبایل"
+
+#: inc/helpers/schema.php:249
+msgid "Show bottom tab bar on mobile"
+msgstr "نمایش نوار تب پایین در موبایل"
+
+#: inc/helpers/schema.php:259
+msgid "Feature strip, footer columns, newsletter, trust badges and the copyright row. Link columns use the footer menu locations."
+msgstr "نوار ویژگی‌ها، ستون‌های فوتر، خبرنامه، نمادهای اعتماد و ردیف کپی‌رایت. ستون‌های لینک از جایگاه‌های منوی فوتر استفاده می‌کنند."
+
+#: inc/helpers/schema.php:262
+msgid "Feature strip"
+msgstr "نوار ویژگی‌ها"
+
+#: inc/helpers/schema.php:264
+msgid "Show feature strip"
+msgstr "نمایش نوار ویژگی‌ها"
+
+#: inc/helpers/schema.php:266
+msgid "Features"
+msgstr "ویژگی‌ها"
+
+#: inc/helpers/schema.php:267
+msgid "Four short trust signals shown above the footer."
+msgstr "چهار نشانه اعتماد کوتاه که بالای فوتر نمایش داده می‌شوند."
+
+#: inc/helpers/schema.php:269
+msgid "Fast & free shipping"
+msgstr "ارسال سریع و رایگان"
+
+#: inc/helpers/schema.php:269
+msgid "On orders over the free-shipping threshold"
+msgstr "برای سفارش‌های بالای سقف ارسال رایگان"
+
+#: inc/helpers/schema.php:270 inc/helpers/schema.php:411
+msgid "7-day returns"
+msgstr "۷ روز ضمانت بازگشت"
+
+#: inc/helpers/schema.php:270
+msgid "No questions asked"
+msgstr "بدون هیچ سؤالی"
+
+#: inc/helpers/schema.php:271
+msgid "Original products with warranty"
+msgstr "کالای اصل با گارانتی"
+
+#: inc/helpers/schema.php:272 inc/helpers/schema.php:409 inc/helpers/schema.php:687
+msgid "Secure payment"
+msgstr "پرداخت امن"
+
+#: inc/helpers/schema.php:272 inc/helpers/schema.php:687
+msgid "Trusted bank gateways"
+msgstr "درگاه‌های بانکی معتبر"
+
+#: inc/helpers/schema.php:278
+msgid "About column"
+msgstr "ستون درباره ما"
+
+#: inc/helpers/schema.php:282
+msgid "About text"
+msgstr "متن درباره ما"
+
+#: inc/helpers/schema.php:283
+msgid "A multi-category online store built for a simple, fast and trustworthy shopping experience."
+msgstr "فروشگاه اینترنتی چنددسته‌ای برای تجربه‌ای ساده، سریع و قابل‌اعتماد از خرید."
+
+#: inc/helpers/schema.php:285
+msgid "Show contact details"
+msgstr "نمایش اطلاعات تماس"
+
+#: inc/helpers/schema.php:289
+msgid "Link columns"
+msgstr "ستون‌های لینک"
+
+#: inc/helpers/schema.php:290
+msgid "Assign menus to \"Footer column 1\" and \"Footer column 2\" in Appearance → Menus. The categories column is generated from WooCommerce."
+msgstr "منوها را در نمایش ← فهرست‌ها به «ستون ۱ فوتر» و «ستون ۲ فوتر» اختصاص دهید. ستون دسته‌ها از ووکامرس ساخته می‌شود."
+
+#: inc/helpers/schema.php:292
+msgid "Column 1 title"
+msgstr "عنوان ستون ۱"
+
+#: inc/helpers/schema.php:292 template-parts/header/cat-menu.php:48
+msgid "Quick links"
+msgstr "دسترسی سریع"
+
+#: inc/helpers/schema.php:293
+msgid "Column 2 title"
+msgstr "عنوان ستون ۲"
+
+#: inc/helpers/schema.php:293
+msgid "Customer service"
+msgstr "خدمات مشتریان"
+
+#: inc/helpers/schema.php:294
+msgid "Show categories column"
+msgstr "نمایش ستون دسته‌ها"
+
+#: inc/helpers/schema.php:295
+msgid "Categories column title"
+msgstr "عنوان ستون دسته‌ها"
+
+#: inc/helpers/schema.php:296
+msgid "Categories to list"
+msgstr "دسته‌های نمایشی"
+
+#: inc/helpers/schema.php:302
+msgid "Show newsletter form"
+msgstr "نمایش فرم خبرنامه"
+
+#: inc/helpers/schema.php:303 inc/helpers/schema.php:589
+msgid "Join our newsletter"
+msgstr "عضویت در خبرنامه"
+
+#: inc/helpers/schema.php:304
+msgid "Be the first to hear about special offers and new arrivals."
+msgstr "اولین نفری باشید که از پیشنهادهای ویژه و محصولات جدید باخبر می‌شود."
+
+#: inc/helpers/schema.php:307
+msgid "Form action URL (optional)"
+msgstr "آدرس action فرم (اختیاری)"
+
+#: inc/helpers/schema.php:308
+msgid "Leave empty to store subscribers in the theme (Nexora → Dashboard shows the count and lets you export CSV). Enter a Mailchimp / Mailerlite form URL to post there instead."
+msgstr "خالی بگذارید تا مشترکان در قالب ذخیره شوند (نکسورا ← پیشخوان تعداد را نشان می‌دهد و امکان خروجی CSV دارد). برای ارسال به Mailchimp / Mailerlite آدرس فرم را وارد کنید."
+
+#: inc/helpers/schema.php:310
+msgid "Show app badges"
+msgstr "نمایش نشان‌های اپلیکیشن"
+
+#: inc/helpers/schema.php:311
+msgid "App Store URL"
+msgstr "آدرس App Store"
+
+#: inc/helpers/schema.php:312
+msgid "Google Play URL"
+msgstr "آدرس Google Play"
+
+#: inc/helpers/schema.php:315
+msgid "Trust badges HTML"
+msgstr "کد HTML نمادهای اعتماد"
+
+#: inc/helpers/schema.php:316
+msgid "Paste the eNAMAD / Samandehi badge code here. Scripts are stripped for security; image + link badges work."
+msgstr "کد نماد اعتماد الکترونیکی / ساماندهی را اینجا قرار دهید. اسکریپت‌ها برای امنیت حذف می‌شوند؛ نمادهای تصویر + لینک کار می‌کنند."
+
+#: inc/helpers/schema.php:321
+msgid "Bottom row"
+msgstr "ردیف پایین"
+
+#: inc/helpers/schema.php:325
+msgid "Copyright text"
+msgstr "متن کپی‌رایت"
+
+#: inc/helpers/schema.php:326
+msgid "Use {year} for the current year and {site} for the site name."
+msgstr "از {year} برای سال جاری و {site} برای نام سایت استفاده کنید."
+
+#: inc/helpers/schema.php:327
+msgid "© {year} {site}. All rights reserved."
+msgstr "© {year} {site}. تمامی حقوق محفوظ است."
+
+#: inc/helpers/schema.php:329
+msgid "Show social icons"
+msgstr "نمایش آیکون‌های شبکه‌های اجتماعی"
+
+#: inc/helpers/schema.php:330
+msgid "Show payment icons"
+msgstr "نمایش آیکون‌های پرداخت"
+
+#: inc/helpers/schema.php:334
+msgid "Payment icons"
+msgstr "آیکون‌های پرداخت"
+
+#: inc/helpers/schema.php:351
+msgid "Every homepage section can be switched on/off, re-ordered and edited. Products always come from WooCommerce; posts from the blog. Set a static front page in Settings → Reading (the Setup Wizard does this for you)."
+msgstr "هر بخش صفحه اصلی قابل فعال/غیرفعال‌کردن، جابه‌جایی و ویرایش است. محصولات همیشه از ووکامرس و نوشته‌ها از وبلاگ می‌آیند. صفحه اصلی ثابت را در تنظیمات ← خواندن تعیین کنید (جادوگر راه‌اندازی این کار را برایتان انجام می‌دهد)."
+
+#: inc/helpers/schema.php:354
+msgid "Section order"
+msgstr "ترتیب بخش‌ها"
+
+#: inc/helpers/schema.php:355
+msgid "Drag to reorder. Disabled sections are skipped automatically."
+msgstr "برای تغییر ترتیب بکشید. بخش‌های غیرفعال به‌طور خودکار نادیده گرفته می‌شوند."
+
+#: inc/helpers/schema.php:359 woocommerce/myaccount/dashboard.php:39 woocommerce/myaccount/orders.php:31 woocommerce/myaccount/view-order.php:27
+msgid "Order"
+msgstr "ترتیب"
+
+#: inc/helpers/schema.php:366 inc/helpers/schema.php:845
+msgid "Hero slider"
+msgstr "اسلایدر اصلی"
+
+#: inc/helpers/schema.php:368
+msgid "Enable hero"
+msgstr "فعال‌سازی اسلایدر"
+
+#: inc/helpers/schema.php:369
+msgid "Autoplay delay (seconds, 0 = off)"
+msgstr "تأخیر پخش خودکار (ثانیه، ۰ = خاموش)"
+
+#: inc/helpers/schema.php:372
+msgid "Slides"
+msgstr "اسلایدها"
+
+#: inc/helpers/schema.php:374
+msgid "Recommended image size 1600×680. Wrap a word in [mark]…[/mark] to highlight it."
+msgstr "اندازه پیشنهادی تصویر ۱۶۰۰×۶۸۰. برای هایلایت یک کلمه آن را داخل [mark]…[/mark] بگذارید."
+
+#: inc/helpers/schema.php:376 inc/helpers/schema.php:390 template-parts/products/compare-table.php:24
+msgid "Image"
+msgstr "تصویر"
+
+#: inc/helpers/schema.php:377
+msgid "Eyebrow"
+msgstr "پیش‌عنوان"
+
+#: inc/helpers/schema.php:380
+msgid "Primary button"
+msgstr "دکمه اصلی"
+
+#: inc/helpers/schema.php:381
+msgid "Secondary button"
+msgstr "دکمه دوم"
+
+#: inc/helpers/schema.php:387
+msgid "Side tiles"
+msgstr "کاشی‌های کناری"
+
+#: inc/helpers/schema.php:391 inc/helpers/schema.php:457
+msgid "Kicker"
+msgstr "سرتیتر"
+
+#: inc/helpers/schema.php:394
+msgid "Dark style"
+msgstr "سبک تیره"
+
+#: inc/helpers/schema.php:401 inc/helpers/schema.php:846
+msgid "Trust bar"
+msgstr "نوار اعتماد"
+
+#: inc/helpers/schema.php:403
+msgid "Enable trust bar"
+msgstr "فعال‌سازی نوار اعتماد"
+
+#: inc/helpers/schema.php:405 inc/helpers/schema.php:681 woocommerce/myaccount/dashboard.php:39 woocommerce/myaccount/orders.php:31 woocommerce/myaccount/view-order.php:49
+msgid "Items"
+msgstr "موارد"
+
+#: inc/helpers/schema.php:408
+msgid "Fast delivery"
+msgstr "تحویل سریع"
+
+#: inc/helpers/schema.php:408
+msgid "24 to 72 hours"
+msgstr "۲۴ تا ۷۲ ساعت"
+
+#: inc/helpers/schema.php:409
+msgid "Trusted gateways"
+msgstr "درگاه‌های معتبر"
+
+#: inc/helpers/schema.php:410
+msgid "Authenticity"
+msgstr "اصالت کالا"
+
+#: inc/helpers/schema.php:410
+msgid "Original with warranty"
+msgstr "اصل با گارانتی"
+
+#: inc/helpers/schema.php:411
+msgid "Unconditional"
+msgstr "بدون قید و شرط"
+
+#: inc/helpers/schema.php:419 inc/helpers/schema.php:450 inc/helpers/schema.php:474 inc/helpers/schema.php:483 inc/helpers/schema.php:499 inc/helpers/schema.php:528
+msgid "Enable"
+msgstr "فعال"
+
+#: inc/helpers/schema.php:420
+msgid "Shop by category"
+msgstr "خرید بر اساس دسته‌بندی"
+
+#: inc/helpers/schema.php:421
+msgid "Everything you need, at a glance"
+msgstr "هر چه نیاز دارید، در یک نگاه"
+
+#: inc/helpers/schema.php:422
+msgid "Number of categories"
+msgstr "تعداد دسته‌ها"
+
+#: inc/helpers/schema.php:423
+msgid "Specific categories (optional)"
+msgstr "دسته‌های مشخص (اختیاری)"
+
+#: inc/helpers/schema.php:423
+msgid "Leave empty to show the most populated top-level categories."
+msgstr "خالی بگذارید تا پرمحصول‌ترین دسته‌های سطح اول نمایش داده شوند."
+
+#: inc/helpers/schema.php:427 inc/helpers/schema.php:428 inc/helpers/schema.php:848
+msgid "Featured products"
+msgstr "محصولات ویژه"
+
+#: inc/helpers/schema.php:428
+msgid "Hand-picked by our team this week"
+msgstr "منتخب تیم ما در این هفته"
+
+#: inc/helpers/schema.php:431 inc/helpers/schema.php:849
+msgid "Flash sale"
+msgstr "فروش فوق‌العاده"
+
+#: inc/helpers/schema.php:433
+msgid "Amazing offer"
+msgstr "پیشنهاد شگفت‌انگیز"
+
+#: inc/helpers/schema.php:433
+msgid "Do not miss out before time runs out"
+msgstr "پیش از پایان زمان از دست ندهید"
+
+#: inc/helpers/schema.php:435
+msgid "Card kicker"
+msgstr "سرتیتر کارت"
+
+#: inc/helpers/schema.php:435
+msgid "Today only"
+msgstr "فقط امروز"
+
+#: inc/helpers/schema.php:436
+msgid "Card headline"
+msgstr "تیتر کارت"
+
+#: inc/helpers/schema.php:436
+msgid "Up to 40% off"
+msgstr "تا ۴۰٪ تخفیف"
+
+#: inc/helpers/schema.php:437
+msgid "Card text"
+msgstr "متن کارت"
+
+#: inc/helpers/schema.php:437
+msgid "On selected electronics, fashion and home"
+msgstr "روی محصولات منتخب دیجیتال، مد و خانه"
+
+#: inc/helpers/schema.php:438
+msgid "Countdown end (YYYY-MM-DD HH:MM)"
+msgstr "پایان شمارش معکوس (YYYY-MM-DD HH:MM)"
+
+#: inc/helpers/schema.php:438
+msgid "Leave empty for a rolling daily countdown ending at midnight."
+msgstr "خالی بگذارید تا شمارش معکوس روزانه تا نیمه‌شب تکرار شود."
+
+#: inc/helpers/schema.php:439
+msgid "Card button"
+msgstr "دکمه کارت"
+
+#: inc/helpers/schema.php:439 template-parts/blog/sidebar-default.php:71 template-parts/home/flash.php:42
+msgid "All offers"
+msgstr "همه پیشنهادها"
+
+#: inc/helpers/schema.php:444 inc/helpers/schema.php:445 inc/helpers/schema.php:850 template-parts/header/cat-menu.php:51
+msgid "New arrivals"
+msgstr "جدیدترین‌ها"
+
+#: inc/helpers/schema.php:445
+msgid "Fresh additions from this week"
+msgstr "تازه‌های این هفته"
+
+#: inc/helpers/schema.php:448 inc/helpers/schema.php:851
+msgid "Promo banners"
+msgstr "بنرهای تبلیغاتی"
+
+#: inc/helpers/schema.php:453
+msgid "Banners"
+msgstr "بنرها"
+
+#: inc/helpers/schema.php:456
+msgid "Image (1200×600)"
+msgstr "تصویر (۱۲۰۰×۶۰۰)"
+
+#: inc/helpers/schema.php:461
+msgid "Style"
+msgstr "سبک"
+
+#: inc/helpers/schema.php:461
+msgid "Dark"
+msgstr "تیره"
+
+#: inc/helpers/schema.php:461
+msgid "Light"
+msgstr "روشن"
+
+#: inc/helpers/schema.php:468 inc/helpers/schema.php:469 inc/helpers/schema.php:852 template-parts/header/cat-menu.php:52 template-parts/header/cat-menu.php:56
+msgid "Best sellers"
+msgstr "پرفروش‌ترین‌ها"
+
+#: inc/helpers/schema.php:469
+msgid "Our customers' favourite picks"
+msgstr "انتخاب‌های محبوب مشتریان ما"
+
+#: inc/helpers/schema.php:472
+msgid "Collections (ranked lists)"
+msgstr "کالکشن‌ها (فهرست‌های رتبه‌بندی‌شده)"
+
+#: inc/helpers/schema.php:475
+msgid "Recommended collections"
+msgstr "کالکشن‌های پیشنهادی"
+
+#: inc/helpers/schema.php:476
+msgid "Popular picks this season"
+msgstr "انتخاب‌های محبوب این فصل"
+
+#: inc/helpers/schema.php:477
+msgid "Products per list"
+msgstr "تعداد محصول در هر فهرست"
+
+#: inc/helpers/schema.php:481 inc/helpers/schema.php:854
+msgid "Category tiles"
+msgstr "کاشی‌های دسته‌بندی"
+
+#: inc/helpers/schema.php:486
+msgid "Tiles"
+msgstr "کاشی‌ها"
+
+#: inc/helpers/schema.php:489 inc/helpers/schema.php:892 woocommerce/loop/active-filters.php:14
+msgid "Category"
+msgstr "دسته‌بندی"
+
+#: inc/helpers/schema.php:490
+msgid "Image (800×600)"
+msgstr "تصویر (۸۰۰×۶۰۰)"
+
+#: inc/helpers/schema.php:490
+msgid "Falls back to the category thumbnail."
+msgstr "در صورت خالی‌بودن از تصویر شاخص دسته استفاده می‌شود."
+
+#: inc/helpers/schema.php:497 inc/helpers/schema.php:855 template-parts/header/cat-menu.php:43 woocommerce/loop/filters.php:103
+msgid "Brands"
+msgstr "برندها"
+
+#: inc/helpers/schema.php:500
+msgid "Partner brands"
+msgstr "برندهای همکار"
+
+#: inc/helpers/schema.php:501
+msgid "Original products from trusted brands"
+msgstr "محصولات اصل از برندهای معتبر"
+
+#: inc/helpers/schema.php:504 inc/helpers/schema.php:554
+msgid "Source"
+msgstr "منبع"
+
+#: inc/helpers/schema.php:506
+msgid "WooCommerce Brands taxonomy (product_brand)"
+msgstr "تاکسونومی برندهای ووکامرس (product_brand)"
+
+#: inc/helpers/schema.php:507
+msgid "Manual list below"
+msgstr "فهرست دستی زیر"
+
+#: inc/helpers/schema.php:510
+msgid "WooCommerce 9.6+ ships a Brands taxonomy under Products → Brands."
+msgstr "ووکامرس ۹٫۶ به بعد تاکسونومی برندها را در محصولات ← برندها دارد."
+
+#: inc/helpers/schema.php:514
+msgid "Manual brands"
+msgstr "برندهای دستی"
+
+#: inc/helpers/schema.php:518
+msgid "Logo (optional)"
+msgstr "لوگو (اختیاری)"
+
+#: inc/helpers/schema.php:526 inc/helpers/schema.php:856
+msgid "Stats band"
+msgstr "نوار آمار"
+
+#: inc/helpers/schema.php:531
+msgid "Numbers"
+msgstr "اعداد"
+
+#: inc/helpers/schema.php:534
+msgid "Value"
+msgstr "مقدار"
+
+#: inc/helpers/schema.php:538
+msgid "Happy customers"
+msgstr "مشتری راضی"
+
+#: inc/helpers/schema.php:539 inc/helpers/schema.php:893
+msgid "Products"
+msgstr "محصولات"
+
+#: inc/helpers/schema.php:540
+msgid "Delivery satisfaction"
+msgstr "رضایت از تحویل"
+
+#: inc/helpers/schema.php:541
+msgid "Online support"
+msgstr "پشتیبانی آنلاین"
+
+#: inc/helpers/schema.php:547 inc/helpers/schema.php:857
+msgid "Testimonials"
+msgstr "نظرات مشتریان"
+
+#: inc/helpers/schema.php:550
+msgid "What customers say"
+msgstr "مشتریان چه می‌گویند"
+
+#: inc/helpers/schema.php:551
+msgid "Thousands of successful orders"
+msgstr "هزاران سفارش موفق"
+
+#: inc/helpers/schema.php:556
+msgid "Latest approved WooCommerce product reviews"
+msgstr "آخرین دیدگاه‌های تأییدشده محصولات ووکامرس"
+
+#: inc/helpers/schema.php:557
+msgid "Manual testimonials below"
+msgstr "نظرات دستی زیر"
+
+#: inc/helpers/schema.php:561
+msgid "Number of reviews"
+msgstr "تعداد دیدگاه‌ها"
+
+#: inc/helpers/schema.php:564
+msgid "Manual testimonials"
+msgstr "نظرات دستی"
+
+#: inc/helpers/schema.php:568
+msgid "Role / city"
+msgstr "نقش / شهر"
+
+#: inc/helpers/schema.php:569
+msgid "Rating (1-5)"
+msgstr "امتیاز (۱ تا ۵)"
+
+#: inc/helpers/schema.php:580
+msgid "From the blog"
+msgstr "از وبلاگ"
+
+#: inc/helpers/schema.php:581 inc/helpers/schema.php:722
+msgid "Buying guides, reviews and trends"
+msgstr "راهنمای خرید، بررسی‌ها و ترندها"
+
+#: inc/helpers/schema.php:582
+msgid "Number of posts"
+msgstr "تعداد نوشته‌ها"
+
+#: inc/helpers/schema.php:586 inc/helpers/schema.php:859
+msgid "Newsletter band"
+msgstr "نوار خبرنامه"
+
+#: inc/helpers/schema.php:590
+msgid "Special discounts and new products, before anyone else."
+msgstr "تخفیف‌های ویژه و محصولات جدید، زودتر از همه."
+
+#: inc/helpers/schema.php:600
+msgid "Product archive layout, filters and product-card behaviour. Products, categories and stock are managed in WooCommerce → Products."
+msgstr "چیدمان بایگانی محصولات، فیلترها و رفتار کارت محصول. محصولات، دسته‌ها و موجودی در ووکامرس ← محصولات مدیریت می‌شوند."
+
+#: inc/helpers/schema.php:603 inc/helpers/schema.php:665 inc/helpers/schema.php:895 woocommerce/archive-product.php:93
+msgid "Layout"
+msgstr "چیدمان"
+
+#: inc/helpers/schema.php:605
+msgid "Products per page"
+msgstr "تعداد محصول در هر صفحه"
+
+#: inc/helpers/schema.php:606
+msgid "Columns (desktop)"
+msgstr "ستون‌ها (دسکتاپ)"
+
+#: inc/helpers/schema.php:607 inc/helpers/schema.php:723 sidebar.php:12
+msgid "Sidebar"
+msgstr "سایدبار"
+
+#: inc/helpers/schema.php:607
+msgid "Start (right in RTL)"
+msgstr "ابتدا (راست در RTL)"
+
+#: inc/helpers/schema.php:607 inc/helpers/schema.php:723
+msgid "End"
+msgstr "انتها"
+
+#: inc/helpers/schema.php:608
+msgid "Show shop banner"
+msgstr "نمایش بنر فروشگاه"
+
+#: inc/helpers/schema.php:609
+msgid "Banner image (1600×360)"
+msgstr "تصویر بنر (۱۶۰۰×۳۶۰)"
+
+#: inc/helpers/schema.php:610
+msgid "Banner title"
+msgstr "عنوان بنر"
+
+#: inc/helpers/schema.php:611
+msgid "Banner text"
+msgstr "متن بنر"
+
+#: inc/helpers/schema.php:611
+msgid "Thousands of original products in one place"
+msgstr "هزاران محصول اصل در یک‌جا"
+
+#: inc/helpers/schema.php:612
+msgid "Show category chips row"
+msgstr "نمایش ردیف برچسب‌های دسته"
+
+#: inc/helpers/schema.php:613
+msgid "Show sort tabs (desktop)"
+msgstr "نمایش تب‌های مرتب‌سازی (دسکتاپ)"
+
+#: inc/helpers/schema.php:614
+msgid "Show grid / list switch"
+msgstr "نمایش دکمه تغییر شبکه / فهرست"
+
+#: inc/helpers/schema.php:618 template-parts/footer/drawers.php:112 template-parts/footer/drawers.php:114 woocommerce/archive-product.php:58 woocommerce/archive-product.php:67 woocommerce/loop/filters.php:63
+msgid "Filters"
+msgstr "فیلترها"
+
+#: inc/helpers/schema.php:619
+msgid "The sidebar is a widget area (Appearance → Widgets → Shop sidebar). WooCommerce's own filter widgets/blocks work out of the box; the toggles below add the theme's native filters."
+msgstr "سایدبار یک ناحیه ابزارک است (نمایش ← ابزارک‌ها ← سایدبار فروشگاه). ابزارک‌ها/بلوک‌های فیلتر خود ووکامرس بدون تنظیم کار می‌کنند؛ گزینه‌های زیر فیلترهای اختصاصی قالب را اضافه می‌کنند."
+
+#: inc/helpers/schema.php:622
+msgid "Price range"
+msgstr "بازه قیمت"
+
+#: inc/helpers/schema.php:624
+msgid "Brand attribute slug"
+msgstr "نامک ویژگی برند"
+
+#: inc/helpers/schema.php:624
+msgid "Uses the WooCommerce Brands taxonomy when available, otherwise the product attribute with this slug (pa_brand)."
+msgstr "در صورت وجود از تاکسونومی برندهای ووکامرس استفاده می‌شود، در غیر این صورت از ویژگی محصول با این نامک (pa_brand)."
+
+#: inc/helpers/schema.php:625 inc/woocommerce/wishlist.php:67 woocommerce/loop/filters.php:119
+msgid "Rating"
+msgstr "امتیاز"
+
+#: inc/helpers/schema.php:626
+msgid "Colour swatches"
+msgstr "نمونه‌های رنگ"
+
+#: inc/helpers/schema.php:627
+msgid "Colour attribute slug"
+msgstr "نامک ویژگی رنگ"
+
+#: inc/helpers/schema.php:628
+msgid "In stock / on sale switches"
+msgstr "کلیدهای فقط موجود / فقط حراج"
+
+#: inc/helpers/schema.php:632
+msgid "Cart & checkout"
+msgstr "سبد و تسویه‌حساب"
+
+#: inc/helpers/schema.php:634
+msgid "Free-shipping threshold (store currency)"
+msgstr "سقف ارسال رایگان (واحد پول فروشگاه)"
+
+#: inc/helpers/schema.php:634
+msgid "Shows a progress bar in the mini cart and cart page. Set 0 to hide. Configure the actual free-shipping rule in WooCommerce → Shipping."
+msgstr "یک نوار پیشرفت در مینی‌سبد و صفحه سبد نمایش می‌دهد. برای پنهان‌کردن ۰ بگذارید. قانون واقعی ارسال رایگان را در ووکامرس ← حمل‌ونقل تنظیم کنید."
+
+#: inc/helpers/schema.php:635
+msgid "Show coupon field in cart"
+msgstr "نمایش فیلد کد تخفیف در سبد"
+
+#: inc/helpers/schema.php:636
+msgid "Show \"You may also like\" under the cart"
+msgstr "نمایش «شاید بپسندید» زیر سبد"
+
+#: inc/helpers/schema.php:637
+msgid "Minimal header/footer on checkout"
+msgstr "هدر/فوتر مینیمال در تسویه‌حساب"
+
+#: inc/helpers/schema.php:638
+msgid "Show trust notes beside the order summary"
+msgstr "نمایش نکات اعتماد کنار خلاصه سفارش"
+
+#: inc/helpers/schema.php:642
+msgid "Product card"
+msgstr "کارت محصول"
+
+#: inc/helpers/schema.php:644
+msgid "Show category"
+msgstr "نمایش دسته"
+
+#: inc/helpers/schema.php:645
+msgid "Show rating"
+msgstr "نمایش امتیاز"
+
+#: inc/helpers/schema.php:646
+msgid "Show colour swatches (variable products)"
+msgstr "نمایش نمونه‌های رنگ (محصولات متغیر)"
+
+#: inc/helpers/schema.php:647
+msgid "Second image on hover"
+msgstr "تصویر دوم در هاور"
+
+#: inc/helpers/schema.php:648
+msgid "Quick view button"
+msgstr "دکمه مشاهده سریع"
+
+#: inc/helpers/schema.php:649
+msgid "Wishlist button"
+msgstr "دکمه علاقه‌مندی"
+
+#: inc/helpers/schema.php:650
+msgid "Compare button"
+msgstr "دکمه مقایسه"
+
+#: inc/helpers/schema.php:651
+msgid "Discount / new / out-of-stock badges"
+msgstr "نشان‌های تخفیف / جدید / ناموجود"
+
+#: inc/helpers/schema.php:652
+msgid "\"New\" badge for products younger than (days)"
+msgstr "نشان «جدید» برای محصولات جدیدتر از (روز)"
+
+#: inc/helpers/schema.php:660
+msgid "Product page"
+msgstr "صفحه محصول"
+
+#: inc/helpers/schema.php:662
+msgid "Single product layout. Specifications come from product attributes; reviews and Q&A use native WooCommerce comments."
+msgstr "چیدمان صفحه محصول. مشخصات از ویژگی‌های محصول می‌آید؛ دیدگاه‌ها و پرسش و پاسخ از دیدگاه‌های خود ووکامرس استفاده می‌کنند."
+
+#: inc/helpers/schema.php:667
+msgid "Sticky buy box on very wide screens"
+msgstr "باکس خرید چسبان در صفحه‌های خیلی عریض"
+
+#: inc/helpers/schema.php:668
+msgid "Sticky buy bar on mobile"
+msgstr "نوار خرید چسبان در موبایل"
+
+#: inc/helpers/schema.php:669
+msgid "Show brand line"
+msgstr "نمایش خط برند"
+
+#: inc/helpers/schema.php:670
+msgid "Show SKU"
+msgstr "نمایش شناسه محصول (SKU)"
+
+#: inc/helpers/schema.php:671 inc/helpers/schema.php:736
+msgid "Share buttons"
+msgstr "دکمه‌های اشتراک‌گذاری"
+
+#: inc/helpers/schema.php:672 woocommerce/content-single-product.php:175
+msgid "Related products"
+msgstr "محصولات مرتبط"
+
+#: inc/helpers/schema.php:673
+msgid "Up-sells"
+msgstr "محصولات پیشنهادی مکمل"
+
+#: inc/helpers/schema.php:677
+msgid "Assurance box"
+msgstr "باکس اطمینان"
+
+#: inc/helpers/schema.php:679
+msgid "Show assurance items"
+msgstr "نمایش موارد اطمینان"
+
+#: inc/helpers/schema.php:684
+msgid "Warranty"
+msgstr "گارانتی"
+
+#: inc/helpers/schema.php:684
+msgid "18-month official warranty"
+msgstr "گارانتی رسمی ۱۸ ماهه"
+
+#: inc/helpers/schema.php:685
+msgid "Delivery in 1-3 business days"
+msgstr "تحویل در ۱ تا ۳ روز کاری"
+
+#: inc/helpers/schema.php:686 inc/helpers/schema.php:795 page-templates/contact.php:18
+msgid "Returns"
+msgstr "بازگشت کالا"
+
+#: inc/helpers/schema.php:686
+msgid "7 days, no questions asked"
+msgstr "۷ روز، بدون هیچ سؤالی"
+
+#: inc/helpers/schema.php:693
+msgid "Seller box"
+msgstr "باکس فروشنده"
+
+#: inc/helpers/schema.php:695
+msgid "Show seller box"
+msgstr "نمایش باکس فروشنده"
+
+#: inc/helpers/schema.php:696
+msgid "Seller name"
+msgstr "نام فروشنده"
+
+#: inc/helpers/schema.php:697
+msgid "Seller meta"
+msgstr "اطلاعات فروشنده"
+
+#: inc/helpers/schema.php:697
+msgid "Official seller · 98% satisfaction"
+msgstr "فروشنده رسمی · ۹۸٪ رضایت"
+
+#: inc/helpers/schema.php:698
+msgid "Details link"
+msgstr "لینک جزئیات"
+
+#: inc/helpers/schema.php:702
+msgid "Tabs"
+msgstr "تب‌ها"
+
+#: inc/helpers/schema.php:704
+msgid "Specifications tab (from attributes)"
+msgstr "تب مشخصات (از ویژگی‌ها)"
+
+#: inc/helpers/schema.php:705
+msgid "Shipping & returns tab"
+msgstr "تب ارسال و بازگشت"
+
+#: inc/helpers/schema.php:706
+msgid "Shipping & returns content"
+msgstr "محتوای ارسال و بازگشت"
+
+#: inc/helpers/schema.php:716
+msgid "Posts archive and single post options. Content is managed in Posts."
+msgstr "گزینه‌های بایگانی نوشته‌ها و نوشته تکی. محتوا در نوشته‌ها مدیریت می‌شود."
+
+#: inc/helpers/schema.php:719
+msgid "Archive"
+msgstr "بایگانی"
+
+#: inc/helpers/schema.php:721
+msgid "Heading"
+msgstr "تیتر"
+
+#: inc/helpers/schema.php:722
+msgid "Subheading"
+msgstr "زیرتیتر"
+
+#: inc/helpers/schema.php:723
+msgid "Start"
+msgstr "ابتدا"
+
+#: inc/helpers/schema.php:724
+msgid "Show first sticky post as featured"
+msgstr "نمایش اولین نوشته سنجاق‌شده به‌عنوان شاخص"
+
+#: inc/helpers/schema.php:725
+msgid "Category pills"
+msgstr "برچسب‌های دسته"
+
+#: inc/helpers/schema.php:726
+msgid "Show author"
+msgstr "نمایش نویسنده"
+
+#: inc/helpers/schema.php:727
+msgid "Show date"
+msgstr "نمایش تاریخ"
+
+#: inc/helpers/schema.php:728
+msgid "Show reading time"
+msgstr "نمایش زمان مطالعه"
+
+#: inc/helpers/schema.php:732
+msgid "Single post"
+msgstr "نوشته تکی"
+
+#: inc/helpers/schema.php:734
+msgid "Auto table of contents (from H2)"
+msgstr "فهرست مطالب خودکار (از H2)"
+
+#: inc/helpers/schema.php:735
+msgid "Author box"
+msgstr "باکس نویسنده"
+
+#: inc/helpers/schema.php:737
+msgid "Previous / next navigation"
+msgstr "ناوبری قبلی / بعدی"
+
+#: inc/helpers/schema.php:738 single.php:116
+msgid "Related posts"
+msgstr "نوشته‌های مرتبط"
+
+#: inc/helpers/schema.php:746
+msgid "Typography"
+msgstr "تایپوگرافی"
+
+#: inc/helpers/schema.php:748
+msgid "Fonts are bundled locally (no external requests). Colours are managed under Nexora → Colour presets."
+msgstr "فونت‌ها به‌صورت محلی همراه قالب هستند (بدون درخواست خارجی). رنگ‌ها از نکسورا ← پیش‌تنظیم‌های رنگی مدیریت می‌شوند."
+
+#: inc/helpers/schema.php:751
+msgid "Fonts"
+msgstr "فونت‌ها"
+
+#: inc/helpers/schema.php:753
+msgid "Body font"
+msgstr "فونت متن"
+
+#: inc/helpers/schema.php:753 inc/helpers/schema.php:754
+msgid "System UI"
+msgstr "فونت سیستم"
+
+#: inc/helpers/schema.php:754
+msgid "Display / heading font"
+msgstr "فونت تیتر / نمایشی"
+
+#: inc/helpers/schema.php:755
+msgid "Base font size (px)"
+msgstr "اندازه پایه فونت (px)"
+
+#: inc/helpers/schema.php:756
+msgid "Corner radius"
+msgstr "گردی گوشه‌ها"
+
+#: inc/helpers/schema.php:756
+msgid "Sharp (default)"
+msgstr "تیز (پیش‌فرض)"
+
+#: inc/helpers/schema.php:756
+msgid "Soft"
+msgstr "نرم"
+
+#: inc/helpers/schema.php:756
+msgid "Rounded"
+msgstr "گرد"
+
+#: inc/helpers/schema.php:766
+msgid "Content for the special page templates (Contact, FAQ, Login) and the shared newsletter / auth visuals."
+msgstr "محتوای قالب‌های صفحه ویژه (تماس، سؤالات متداول، ورود) و تصاویر مشترک خبرنامه / ورود."
+
+#: inc/helpers/schema.php:769
+msgid "Contact page"
+msgstr "صفحه تماس"
+
+#: inc/helpers/schema.php:770
+msgid "Address, phone and hours come from General → Contact information."
+msgstr "آدرس، تلفن و ساعات کاری از عمومی ← اطلاعات تماس می‌آیند."
+
+#: inc/helpers/schema.php:772 inc/helpers/schema.php:781
+msgid "Intro text"
+msgstr "متن مقدمه"
+
+#: inc/helpers/schema.php:772
+msgid "Our support team answers every day from 9 to 21. Send a message or call us."
+msgstr "تیم پشتیبانی ما هر روز از ۹ تا ۲۱ پاسخگوست. پیام بفرستید یا تماس بگیرید."
+
+#: inc/helpers/schema.php:773
+msgid "Form shortcode (optional)"
+msgstr "شورت‌کد فرم (اختیاری)"
+
+#: inc/helpers/schema.php:773
+msgid "Paste a Contact Form 7 / WPForms / Gravity Forms shortcode. Leave empty to use the built-in form (messages are emailed to the admin address)."
+msgstr "شورت‌کد Contact Form 7 / WPForms / Gravity Forms را قرار دهید. خالی بگذارید تا از فرم داخلی استفاده شود (پیام‌ها به ایمیل مدیر ارسال می‌شوند)."
+
+#: inc/helpers/schema.php:774
+msgid "Show map"
+msgstr "نمایش نقشه"
+
+#: inc/helpers/schema.php:775
+msgid "Show FAQ teaser"
+msgstr "نمایش پیش‌نمایش سؤالات متداول"
+
+#: inc/helpers/schema.php:779
+msgid "FAQ page"
+msgstr "صفحه سؤالات متداول"
+
+#: inc/helpers/schema.php:781
+msgid "Answers to the most common questions about ordering, shipping and returns."
+msgstr "پاسخ رایج‌ترین پرسش‌ها درباره سفارش، ارسال و بازگشت کالا."
+
+#: inc/helpers/schema.php:784
+msgid "Questions"
+msgstr "پرسش‌ها"
+
+#: inc/helpers/schema.php:787
+msgid "Group"
+msgstr "گروه"
+
+#: inc/helpers/schema.php:788
+msgid "Question"
+msgstr "پرسش"
+
+#: inc/helpers/schema.php:789
+msgid "Answer"
+msgstr "پاسخ"
+
+#: inc/helpers/schema.php:792
+msgid "How can I track my order?"
+msgstr "چطور سفارشم را پیگیری کنم؟"
+
+#: inc/helpers/schema.php:792
+msgid "Go to My Account → Orders. Every order shows its status and the tracking code once shipped."
+msgstr "به حساب کاربری ← سفارش‌ها بروید. هر سفارش وضعیت و پس از ارسال، کد رهگیری خود را نشان می‌دهد."
+
+#: inc/helpers/schema.php:793
+msgid "Can I change or cancel an order?"
+msgstr "آیا می‌توانم سفارش را تغییر دهم یا لغو کنم؟"
+
+#: inc/helpers/schema.php:793
+msgid "Orders can be cancelled from My Account until they are marked as processing. After that, contact support."
+msgstr "سفارش‌ها تا قبل از وضعیت «در حال انجام» از حساب کاربری قابل لغو هستند. پس از آن با پشتیبانی تماس بگیرید."
+
+#: inc/helpers/schema.php:794
+msgid "How long does delivery take?"
+msgstr "تحویل چقدر طول می‌کشد؟"
+
+#: inc/helpers/schema.php:794
+msgid "Tehran: 24 hours. Other cities: 2 to 4 working days."
+msgstr "تهران: ۲۴ ساعت. سایر شهرها: ۲ تا ۴ روز کاری."
+
+#: inc/helpers/schema.php:795
+msgid "What is the return policy?"
+msgstr "شرایط بازگشت کالا چیست؟"
+
+#: inc/helpers/schema.php:795
+msgid "Unused items in original packaging can be returned within 7 days for a full refund."
+msgstr "کالاهای استفاده‌نشده با بسته‌بندی اصلی تا ۷ روز با بازگشت کامل وجه پذیرفته می‌شوند."
+
+#: inc/helpers/schema.php:796 page-templates/contact.php:18 woocommerce/checkout/form-checkout.php:28 woocommerce/checkout/payment.php:16 woocommerce/checkout/thankyou.php:29 woocommerce/myaccount/view-order.php:108
+msgid "Payment"
+msgstr "پرداخت"
+
+#: inc/helpers/schema.php:796
+msgid "Which payment methods are accepted?"
+msgstr "چه روش‌های پرداختی پذیرفته می‌شود؟"
+
+#: inc/helpers/schema.php:796
+msgid "All Shaparak bank cards through the secure gateway, plus cash on delivery in selected cities."
+msgstr "همه کارت‌های بانکی عضو شتاب از طریق درگاه امن، به‌علاوه پرداخت در محل در شهرهای منتخب."
+
+#: inc/helpers/schema.php:802
+msgid "Shared visuals"
+msgstr "تصاویر مشترک"
+
+#: inc/helpers/schema.php:804
+msgid "Login / register side image"
+msgstr "تصویر کناری ورود / ثبت‌نام"
+
+#: inc/helpers/schema.php:804
+msgid "Portrait 900×1200 px. Falls back to a branded gradient."
+msgstr "عمودی ۹۰۰×۱۲۰۰ پیکسل. در صورت خالی‌بودن از گرادیان برند استفاده می‌شود."
+
+#: inc/helpers/schema.php:805
+msgid "Newsletter band background"
+msgstr "پس‌زمینه نوار خبرنامه"
+
+#: inc/helpers/schema.php:806
+msgid "Category menu promo image"
+msgstr "تصویر تبلیغاتی منوی دسته‌ها"
+
+#: inc/helpers/schema.php:807
+msgid "Category menu promo link"
+msgstr "لینک تبلیغاتی منوی دسته‌ها"
+
+#: inc/helpers/schema.php:807 template-parts/header/cat-menu.php:65
+msgid "View offers"
+msgstr "مشاهده پیشنهادها"
+
+#: inc/helpers/schema.php:808
+msgid "404 page text"
+msgstr "متن صفحه ۴۰۴"
+
+#: inc/helpers/schema.php:808
+msgid "The page you are looking for has moved or never existed."
+msgstr "صفحه‌ای که دنبال آن هستید جابه‌جا شده یا هرگز وجود نداشته است."
+
+#: inc/helpers/schema.php:816
+msgid "Performance"
+msgstr "کارایی"
+
+#: inc/helpers/schema.php:818
+msgid "Safe front-end optimisations. All are reversible."
+msgstr "بهینه‌سازی‌های امن سمت کاربر. همه قابل بازگشت هستند."
+
+#: inc/helpers/schema.php:821
+msgid "Assets"
+msgstr "دارایی‌ها"
+
+#: inc/helpers/schema.php:823
+msgid "Remove WordPress emoji script"
+msgstr "حذف اسکریپت ایموجی وردپرس"
+
+#: inc/helpers/schema.php:824
+msgid "Skip Gutenberg block CSS on pages without blocks"
+msgstr "عدم بارگذاری CSS بلوک‌های گوتنبرگ در صفحات بدون بلوک"
+
+#: inc/helpers/schema.php:825
+msgid "Load WooCommerce scripts only on shop pages"
+msgstr "بارگذاری اسکریپت‌های ووکامرس فقط در صفحات فروشگاه"
+
+#: inc/helpers/schema.php:826
+msgid "Preload primary font files"
+msgstr "پیش‌بارگذاری فایل‌های فونت اصلی"
+
+#: inc/helpers/schema.php:827
+msgid "Native lazy loading for images"
+msgstr "بارگذاری تنبل بومی تصاویر"
+
+#: inc/helpers/schema.php:828
+msgid "Defer theme JavaScript"
+msgstr "به‌تعویق‌انداختن جاوااسکریپت قالب"
+
+#: inc/helpers/schema.php:853
+msgid "Collections"
+msgstr "کالکشن‌ها"
+
+#: inc/helpers/schema.php:880
+msgid "Product source"
+msgstr "منبع محصولات"
+
+#: inc/helpers/schema.php:882
+msgid "Featured products (star in product list)"
+msgstr "محصولات ویژه (ستاره در فهرست محصولات)"
+
+#: inc/helpers/schema.php:883 woocommerce/loop/active-filters.php:39
+msgid "On sale"
+msgstr "حراج"
+
+#: inc/helpers/schema.php:884 inc/woocommerce/setup.php:87
+msgid "Newest"
+msgstr "جدیدترین"
+
+#: inc/helpers/schema.php:885
+msgid "Best selling"
+msgstr "پرفروش‌ترین"
+
+#: inc/helpers/schema.php:886 inc/woocommerce/setup.php:88 template-parts/home/collections.php:13
+msgid "Top rated"
+msgstr "بالاترین امتیاز"
+
+#: inc/helpers/schema.php:887
+msgid "From a category"
+msgstr "از یک دسته"
+
+#: inc/helpers/schema.php:888
+msgid "Hand-picked products"
+msgstr "محصولات دست‌چین"
+
+#: inc/helpers/schema.php:894
+msgid "Number of products"
+msgstr "تعداد محصولات"
+
+#: inc/helpers/schema.php:895
+msgid "Carousel"
+msgstr "اسلایدر"
+
+#: inc/helpers/schema.php:895 woocommerce/archive-product.php:94
+msgid "Grid"
+msgstr "شبکه"
+
+#: inc/helpers/schema.php:896
+msgid "Columns"
+msgstr "ستون‌ها"
+
+#: inc/helpers/schema.php:897
+msgid "\"View all\" URL (optional)"
+msgstr "آدرس «مشاهده همه» (اختیاری)"
+
+#: inc/helpers/schema.php:897
+msgid "Defaults to the shop page with a matching sort/filter."
+msgstr "به‌صورت پیش‌فرض صفحه فروشگاه با مرتب‌سازی/فیلتر متناظر."
+
+#: inc/helpers/template-tags.php:121 template-parts/home/collections.php:28 template-parts/home/tiles.php:39
+msgid "View all"
+msgstr "مشاهده همه"
+
+#: inc/helpers/template-tags.php:151 inc/helpers/template-tags.php:283 template-parts/home/flash.php:47 woocommerce/myaccount/orders.php:73
+msgid "Previous"
+msgstr "قبلی"
+
+#: inc/helpers/template-tags.php:234 single.php:39 template-parts/blog/post-featured.php:23
+msgid "%s min read"
+msgstr "%s دقیقه مطالعه"
+
+#: inc/helpers/template-tags.php:291
+msgid "Pagination"
+msgstr "صفحه‌بندی"
+
+#: inc/helpers/template-tags.php:334
+msgid "Your comment is awaiting moderation."
+msgstr "دیدگاه شما در انتظار تأیید است."
+
+#: inc/security/sanitize.php:221 page-templates/contact.php:73
+msgid "Map"
+msgstr "نقشه"
+
+#: inc/setup.php:33
+msgid "Accent"
+msgstr "تأکیدی"
+
+#: inc/setup.php:35
+msgid "Muted"
+msgstr "کم‌رنگ"
+
+#: inc/setup.php:37
+msgid "White"
+msgstr "سفید"
+
+#: inc/setup.php:43
+msgid "Primary navigation"
+msgstr "ناوبری اصلی"
+
+#: inc/setup.php:44
+msgid "Mobile drawer menu (falls back to primary)"
+msgstr "منوی کشویی موبایل (در صورت خالی‌بودن از منوی اصلی استفاده می‌شود)"
+
+#: inc/setup.php:45
+msgid "Top bar (start)"
+msgstr "نوار بالا (ابتدا)"
+
+#: inc/setup.php:46
+msgid "Top bar (end)"
+msgstr "نوار بالا (انتها)"
+
+#: inc/setup.php:47
+msgid "Footer column 1"
+msgstr "ستون ۱ فوتر"
+
+#: inc/setup.php:48
+msgid "Footer column 2"
+msgstr "ستون ۲ فوتر"
+
+#: inc/setup.php:49
+msgid "Footer bottom links"
+msgstr "لینک‌های پایین فوتر"
+
+#: inc/setup.php:50
+msgid "Account sidebar extras"
+msgstr "موارد اضافی سایدبار حساب کاربری"
+
+#: inc/setup.php:75
+msgid "Nexora banner (1200×600)"
+msgstr "بنر نکسورا (۱۲۰۰×۶۰۰)"
+
+#: inc/setup.php:76
+msgid "Nexora post (800×500)"
+msgstr "نوشته نکسورا (۸۰۰×۵۰۰)"
+
+#: inc/setup.php:77
+msgid "Nexora square (640)"
+msgstr "مربع نکسورا (۶۴۰)"
+
+#: inc/setup.php:97
+msgid "Search…"
+msgstr "جستجو…"
+
+#: inc/setup.php:106
+msgid "Nexora: Minimal (no header/footer nav)"
+msgstr "نکسورا: مینیمال (بدون ناوبری هدر/فوتر)"
+
+#: inc/setup.php:107
+msgid "Nexora: Full width"
+msgstr "نکسورا: تمام‌عرض"
+
+#: inc/setup.php:108
+msgid "Nexora: Contact"
+msgstr "نکسورا: تماس با ما"
+
+#: inc/setup.php:109
+msgid "Nexora: FAQ"
+msgstr "نکسورا: سؤالات متداول"
+
+#: inc/setup.php:110
+msgid "Nexora: Wishlist"
+msgstr "نکسورا: علاقه‌مندی‌ها"
+
+#: inc/setup.php:111
+msgid "Nexora: Compare"
+msgstr "نکسورا: مقایسه"
+
+#: inc/widgets.php:12
+msgid "Blog sidebar"
+msgstr "سایدبار وبلاگ"
+
+#: inc/widgets.php:12
+msgid "Shown next to the posts archive and single posts."
+msgstr "کنار بایگانی نوشته‌ها و نوشته‌های تکی نمایش داده می‌شود."
+
+#: inc/widgets.php:13
+msgid "Shop sidebar"
+msgstr "سایدبار فروشگاه"
+
+#: inc/widgets.php:13
+msgid "Shown next to the product archive, below the theme filters. WooCommerce filter widgets work here."
+msgstr "کنار بایگانی محصولات، زیر فیلترهای قالب نمایش داده می‌شود. ابزارک‌های فیلتر ووکامرس اینجا کار می‌کنند."
+
+#: inc/widgets.php:14
+msgid "Page sidebar"
+msgstr "سایدبار صفحه"
+
+#: inc/widgets.php:14
+msgid "Optional sidebar for pages using the default template."
+msgstr "سایدبار اختیاری برای صفحات با قالب پیش‌فرض."
+
+#: inc/widgets.php:15
+msgid "Footer extra column"
+msgstr "ستون اضافی فوتر"
+
+#: inc/widgets.php:15
+msgid "Replaces the newsletter column when it contains widgets."
+msgstr "وقتی ابزارکی داشته باشد جایگزین ستون خبرنامه می‌شود."
+
+#: inc/widgets.php:16
+msgid "Product page: after buy box"
+msgstr "صفحه محصول: بعد از باکس خرید"
+
+#: inc/widgets.php:16
+msgid "Small trust widgets, banners, etc."
+msgstr "ابزارک‌های کوچک اعتماد، بنرها و غیره."
+
+#: inc/woocommerce/account.php:41 woocommerce/myaccount/orders.php:14
+msgid "In progress"
+msgstr "در حال انجام"
+
+#: inc/woocommerce/ajax.php:26
+msgid "This product cannot be purchased."
+msgstr "این محصول قابل خرید نیست."
+
+#: inc/woocommerce/ajax.php:41
+msgid "\"%s\" was added to your cart."
+msgstr "«%s» به سبد خرید شما اضافه شد."
+
+#: inc/woocommerce/ajax.php:58
+msgid "Item not found in cart."
+msgstr "مورد در سبد پیدا نشد."
+
+#: inc/woocommerce/ajax.php:85
+msgid "Product not found."
+msgstr "محصول پیدا نشد."
+
+#: inc/woocommerce/ajax.php:142
+msgid "Something went wrong. Please try again."
+msgstr "مشکلی پیش آمد. لطفاً دوباره تلاش کنید."
+
+#: inc/woocommerce/ajax.php:151
+msgid "Please log in first."
+msgstr "لطفاً ابتدا وارد شوید."
+
+#: inc/woocommerce/ajax.php:156
+msgid "Order not found."
+msgstr "سفارش پیدا نشد."
+
+#: inc/woocommerce/ajax.php:175
+msgid "None of the items are available right now."
+msgstr "هیچ‌کدام از موارد در حال حاضر موجود نیستند."
+
+#: inc/woocommerce/ajax.php:180
+msgid "%s item added to your cart."
+msgid_plural "%s items added to your cart."
+msgstr[0] "%s مورد به سبد خرید شما اضافه شد."
+msgstr[1] "%s مورد به سبد خرید شما اضافه شد."
+
+#: inc/woocommerce/hooks.php:63 page-templates/wishlist.php:47
+msgid "You may also like"
+msgstr "شاید بپسندید"
+
+#: inc/woocommerce/product-card.php:214
+msgid "Regular price"
+msgstr "قیمت عادی"
+
+#: inc/woocommerce/product-card.php:242
+msgid "%s%% off"
+msgstr "%s٪ تخفیف"
+
+#: inc/woocommerce/product-card.php:244
+msgid "Sale"
+msgstr "حراج"
+
+#: inc/woocommerce/product-card.php:251
+msgid "Best seller"
+msgstr "پرفروش"
+
+#: inc/woocommerce/product-card.php:267 inc/woocommerce/product-card.php:274
+msgid "Swatch colour"
+msgstr "رنگ نمونه"
+
+#: inc/woocommerce/product-card.php:267
+msgid "Hex colour used for filter and product-card swatches."
+msgstr "کد هگز رنگ برای فیلتر و نمونه‌های رنگ کارت محصول."
+
+#: inc/woocommerce/setup.php:66 template-parts/header/header.php:132
+msgid "Empty"
+msgstr "خالی"
+
+#: inc/woocommerce/setup.php:86
+msgid "Most popular"
+msgstr "محبوب‌ترین"
+
+#: inc/woocommerce/setup.php:89
+msgid "Price: low to high"
+msgstr "قیمت: کم به زیاد"
+
+#: inc/woocommerce/setup.php:90
+msgid "Price: high to low"
+msgstr "قیمت: زیاد به کم"
+
+#: inc/woocommerce/setup.php:91
+msgid "Biggest discount"
+msgstr "بیشترین تخفیف"
+
+#: inc/woocommerce/setup.php:92 woocommerce/myaccount/dashboard.php:65 woocommerce/myaccount/my-address.php:25
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: inc/woocommerce/single-product.php:49
+msgid "General specifications"
+msgstr "مشخصات کلی"
+
+#: inc/woocommerce/single-product.php:53 inc/woocommerce/wishlist.php:69
+msgid "SKU"
+msgstr "شناسه محصول"
+
+#: inc/woocommerce/single-product.php:56
+msgid "Weight"
+msgstr "وزن"
+
+#: inc/woocommerce/single-product.php:59
+msgid "Dimensions"
+msgstr "ابعاد"
+
+#: inc/woocommerce/single-product.php:62
+msgid "Physical"
+msgstr "فیزیکی"
+
+#: inc/woocommerce/single-product.php:156
+msgid "%s star"
+msgid_plural "%s stars"
+msgstr[0] "%s ستاره"
+msgstr[1] "%s ستاره"
+
+#: inc/woocommerce/single-product.php:159 inc/woocommerce/single-product.php:159
+msgid "Your rating"
+msgstr "امتیاز شما"
+
+#: inc/woocommerce/single-product.php:161
+msgid "Your review"
+msgstr "دیدگاه شما"
+
+#: inc/woocommerce/single-product.php:183 template-parts/home/reviews.php:62
+msgid "Verified purchase"
+msgstr "خرید تأییدشده"
+
+#: inc/woocommerce/single-product.php:187
+msgid "Your review is awaiting approval."
+msgstr "دیدگاه شما در انتظار تأیید است."
+
+#: inc/woocommerce/single-product.php:218
+msgid "Pros (one per line)"
+msgstr "نقاط قوت (هر کدام در یک خط)"
+
+#: inc/woocommerce/single-product.php:218
+msgid "Cons (one per line)"
+msgstr "نقاط ضعف (هر کدام در یک خط)"
+
+#: inc/woocommerce/wishlist.php:66 woocommerce/loop/active-filters.php:29 woocommerce/loop/filters.php:82
+msgid "Price"
+msgstr "قیمت"
+
+#: inc/woocommerce/wishlist.php:68 woocommerce/loop/filters.php:147
+msgid "Availability"
+msgstr "موجودی"
+
+#: inc/woocommerce/wishlist.php:68 template-parts/products/stock.php:22 template-parts/products/wish-item.php:24 woocommerce/loop/active-filters.php:36
+msgid "In stock"
+msgstr "موجود"
+
+#: inc/woocommerce/wishlist.php:80 woocommerce/content-single-product.php:28
+msgid "Description"
+msgstr "توضیحات"
+
+#: index.php:48
+msgid "No posts yet"
+msgstr "هنوز نوشته‌ای وجود ندارد"
+
+#: index.php:48
+msgid "Check back soon — new articles are on the way."
+msgstr "به‌زودی سر بزنید — مقالات جدید در راه‌اند."
+
+#: page-templates/compare.php:19 woocommerce/single-product/add-to-cart/variable.php:64
+msgid "Clear"
+msgstr "پاک‌کردن"
+
+#: page-templates/compare.php:22
+msgid "Compare needs WooCommerce"
+msgstr "مقایسه به ووکامرس نیاز دارد"
+
+#: page-templates/compare.php:22
+msgid "Install and activate WooCommerce to compare products."
+msgstr "برای مقایسه محصولات، ووکامرس را نصب و فعال کنید."
+
+#: page-templates/compare.php:30
+msgid "Nothing to compare yet"
+msgstr "هنوز چیزی برای مقایسه نیست"
+
+#: page-templates/compare.php:30
+msgid "Add up to 4 products using the compare button on product cards."
+msgstr "با دکمه مقایسه روی کارت محصولات تا ۴ محصول اضافه کنید."
+
+#: page-templates/contact.php:18
+msgid "Track my order"
+msgstr "پیگیری سفارش"
+
+#: page-templates/contact.php:18
+msgid "Sell on our store"
+msgstr "فروش در فروشگاه ما"
+
+#: page-templates/contact.php:18
+msgid "Other"
+msgstr "سایر"
+
+#: page-templates/contact.php:46
+msgid "Follow us"
+msgstr "ما را دنبال کنید"
+
+#: page-templates/contact.php:52 page-templates/contact.php:55
+msgid "Contact form"
+msgstr "فرم تماس"
+
+#: page-templates/contact.php:64
+msgid "Select…"
+msgstr "انتخاب کنید…"
+
+#: page-templates/contact.php:66
+msgid "Your message"
+msgstr "پیام شما"
+
+#: page-templates/contact.php:67
+msgid "Send message"
+msgstr "ارسال پیام"
+
+#: page-templates/contact.php:82
+msgid "Have a quick question?"
+msgstr "سؤال کوتاهی دارید؟"
+
+#: page-templates/contact.php:82
+msgid "Most answers about shipping, payment and returns are in our FAQ."
+msgstr "پاسخ بیشتر پرسش‌ها درباره ارسال، پرداخت و بازگشت کالا در سؤالات متداول ما هست."
+
+#: page-templates/contact.php:82
+msgid "Read the FAQ"
+msgstr "مطالعه سؤالات متداول"
+
+#: page-templates/faq.php:59
+msgid "No questions yet"
+msgstr "هنوز پرسشی ثبت نشده"
+
+#: page-templates/faq.php:59
+msgid "Add questions under Nexora → Pages → FAQ."
+msgstr "پرسش‌ها را در نکسورا ← صفحات ← سؤالات متداول اضافه کنید."
+
+#: page-templates/faq.php:62
+msgid "Still need help?"
+msgstr "هنوز به کمک نیاز دارید؟"
+
+#: page-templates/wishlist.php:22
+msgid "Add all to cart"
+msgstr "افزودن همه به سبد"
+
+#: page-templates/wishlist.php:23
+msgid "Clear list"
+msgstr "پاک‌کردن فهرست"
+
+#: page-templates/wishlist.php:27
+msgid "Wishlist needs WooCommerce"
+msgstr "علاقه‌مندی‌ها به ووکامرس نیاز دارد"
+
+#: page-templates/wishlist.php:27
+msgid "Install and activate WooCommerce to use the wishlist."
+msgstr "برای استفاده از علاقه‌مندی‌ها، ووکامرس را نصب و فعال کنید."
+
+#: page-templates/wishlist.php:35
+msgid "Your wishlist is empty"
+msgstr "فهرست علاقه‌مندی‌های شما خالی است"
+
+#: page-templates/wishlist.php:35
+msgid "Tap the heart on any product to save it here."
+msgstr "روی قلب هر محصول بزنید تا اینجا ذخیره شود."
+
+#: search.php:17
+msgid "Search results"
+msgstr "نتایج جستجو"
+
+#: search.php:21
+msgid "Search products and articles…"
+msgstr "جستجوی محصولات و مقالات…"
+
+#: search.php:31
+msgid "%1$s result for “%2$s”"
+msgid_plural "%1$s results for “%2$s”"
+msgstr[0] "%1$s نتیجه برای «%2$s»"
+msgstr[1] "%1$s نتیجه برای «%2$s»"
+
+#: search.php:37
+msgid "Looking for products?"
+msgstr "دنبال محصول می‌گردید؟"
+
+#: search.php:38
+msgid "Search in the shop"
+msgstr "جستجو در فروشگاه"
+
+#: search.php:53
+msgid "No results found"
+msgstr "نتیجه‌ای پیدا نشد"
+
+#: search.php:53
+msgid "Try different keywords or browse the shop."
+msgstr "کلیدواژه‌های دیگری امتحان کنید یا فروشگاه را مرور کنید."
+
+#: single.php:37
+msgid "By %s"
+msgstr "نوشته %s"
+
+#: single.php:40
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s دیدگاه"
+msgstr[1] "%s دیدگاه"
+
+#: single.php:48 single.php:49
+msgid "Table of contents"
+msgstr "فهرست مطالب"
+
+#: single.php:68
+msgid "About the author"
+msgstr "درباره نویسنده"
+
+#: single.php:80
+msgid "Previous / next post"
+msgstr "نوشته قبلی / بعدی"
+
+#: single.php:82
+msgid "Previous post"
+msgstr "نوشته قبلی"
+
+#: single.php:85
+msgid "Next post"
+msgstr "نوشته بعدی"
+
+#: single.php:116
+msgid "All posts"
+msgstr "همه نوشته‌ها"
+
+#: template-parts/blog/archive-head.php:17 template-parts/blog/archive-head.php:18
+msgid "Search articles"
+msgstr "جستجوی مقالات"
+
+#: template-parts/blog/category-tabs.php:17
+msgid "Post categories"
+msgstr "دسته‌های نوشته"
+
+#: template-parts/blog/category-tabs.php:19 woocommerce/archive-product.php:49 woocommerce/loop/filters.php:124 woocommerce/myaccount/orders.php:13
+msgid "All"
+msgstr "همه"
+
+#: template-parts/blog/post-card.php:25 template-parts/blog/post-featured.php:27
+msgid "Read more"
+msgstr "ادامه مطلب"
+
+#: template-parts/blog/post-featured.php:17
+msgid "Featured"
+msgstr "ویژه"
+
+#: template-parts/blog/sidebar-default.php:28
+msgid "Recent posts"
+msgstr "نوشته‌های اخیر"
+
+#: template-parts/blog/sidebar-default.php:46
+msgid "Tags"
+msgstr "برچسب‌ها"
+
+#: template-parts/blog/sidebar-default.php:59
+msgid "Get new articles by email"
+msgstr "دریافت مقالات جدید با ایمیل"
+
+#: template-parts/components/newsletter-form.php:21 template-parts/components/newsletter-form.php:23
+msgid "Your email address"
+msgstr "آدرس ایمیل شما"
+
+#: template-parts/components/newsletter-form.php:24
+msgid "Subscribe"
+msgstr "عضویت"
+
+#: template-parts/components/share.php:16
+msgid "Share this"
+msgstr "اشتراک‌گذاری"
+
+#: template-parts/components/share.php:17 woocommerce/content-single-product.php:95 woocommerce/single-product/product-image.php:38
+msgid "Share"
+msgstr "اشتراک‌گذاری"
+
+#: template-parts/components/share.php:21
+msgid "Copy link"
+msgstr "کپی لینک"
+
+#: template-parts/footer/drawers.php:17 template-parts/footer/drawers.php:25 template-parts/footer/mobile-bar.php:26
+msgid "Menu"
+msgstr "منو"
+
+#: template-parts/footer/drawers.php:54 template-parts/footer/mobile-bar.php:15
+msgid "Quick access"
+msgstr "دسترسی سریع"
+
+#: template-parts/footer/drawers.php:56 template-parts/header/header.php:111 woocommerce/checkout/thankyou.php:22
+msgid "My account"
+msgstr "حساب کاربری من"
+
+#: template-parts/footer/drawers.php:56 template-parts/header/header.php:111
+msgid "Sign in / Register"
+msgstr "ورود / ثبت‌نام"
+
+#: template-parts/footer/drawers.php:57 woocommerce/checkout/thankyou.php:44
+msgid "Track order"
+msgstr "پیگیری سفارش"
+
+#: template-parts/footer/drawers.php:95 template-parts/header/cat-menu.php:39
+msgid "View all in %s"
+msgstr "مشاهده همه در %s"
+
+#: template-parts/footer/drawers.php:119 woocommerce/archive-product.php:116 woocommerce/loop/no-products-found.php:10
+msgid "Clear filters"
+msgstr "پاک‌کردن فیلترها"
+
+#: template-parts/footer/drawers.php:120 woocommerce/loop/filters.php:154
+msgid "Apply filters"
+msgstr "اعمال فیلترها"
+
+#: template-parts/footer/drawers.php:124 woocommerce/content-product.php:50 woocommerce/content-product.php:50
+msgid "Quick view"
+msgstr "مشاهده سریع"
+
+#: template-parts/footer/drawers.php:133
+msgid "Clear compare list"
+msgstr "پاک‌کردن فهرست مقایسه"
+
+#: template-parts/footer/footer.php:100
+msgid "Download on the"
+msgstr "دانلود از"
+
+#: template-parts/footer/footer.php:103
+msgid "Get it on"
+msgstr "دریافت از"
+
+#: template-parts/footer/footer.php:108
+msgid "Trust badges"
+msgstr "نمادهای اعتماد"
+
+#: template-parts/footer/footer.php:145
+msgid "Payment methods"
+msgstr "روش‌های پرداخت"
+
+#: template-parts/footer/mobile-bar.php:21 woocommerce/myaccount/navigation.php:18
+msgid "Account"
+msgstr "حساب کاربری"
+
+#: template-parts/header/cat-menu.php:50
+msgid "Hot deals"
+msgstr "پیشنهادهای داغ"
+
+#: template-parts/header/cat-menu.php:65
+msgid "Special offer"
+msgstr "پیشنهاد ویژه"
+
+#: template-parts/header/cat-menu.php:71 template-parts/header/search.php:23
+msgid "All categories"
+msgstr "همه دسته‌بندی‌ها"
+
+#: template-parts/header/header.php:28
+msgid "Dismiss"
+msgstr "بستن"
+
+#: template-parts/header/header.php:88
+msgid "Open menu"
+msgstr "باز کردن منو"
+
+#: template-parts/header/header.php:143
+msgid "Main menu"
+msgstr "منوی اصلی"
+
+#: template-parts/header/mini-cart.php:16 template-parts/header/mini-cart.php:17 woocommerce/cart/cart.php:17
+msgid "Shopping cart"
+msgstr "سبد خرید"
+
+#: template-parts/header/mini-cart.php:17
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s مورد"
+msgstr[1] "%s مورد"
+
+#: template-parts/header/mini-cart.php:35
+msgid "Decrease"
+msgstr "کاهش"
+
+#: template-parts/header/mini-cart.php:36 woocommerce/global/quantity-input.php:12
+msgid "Quantity"
+msgstr "تعداد"
+
+#: template-parts/header/mini-cart.php:37
+msgid "Increase"
+msgstr "افزایش"
+
+#: template-parts/header/mini-cart.php:54
+msgid "You qualify for free shipping."
+msgstr "شما مشمول ارسال رایگان هستید."
+
+#: template-parts/header/mini-cart.php:54 woocommerce/cart/cart-totals.php:21
+msgid "Add %s more for free shipping"
+msgstr "%s دیگر خرید کنید تا ارسال رایگان شود"
+
+#: template-parts/header/mini-cart.php:58 woocommerce/cart/cart-totals.php:26 woocommerce/checkout/review-order.php:30
+msgid "Subtotal"
+msgstr "جمع جزء"
+
+#: template-parts/header/mini-cart.php:62 woocommerce/cart/cart-empty.php:16
+msgid "Your cart is empty"
+msgstr "سبد خرید شما خالی است"
+
+#: template-parts/header/minimal.php:18
+msgid "Secure checkout"
+msgstr "تسویه‌حساب امن"
+
+#: template-parts/header/minimal.php:20 woocommerce/cart/cart.php:122
+msgid "Continue shopping"
+msgstr "ادامه خرید"
+
+#: template-parts/header/search.php:21
+msgid "Search in"
+msgstr "جستجو در"
+
+#: template-parts/header/search.php:30
+msgid "Search products"
+msgstr "جستجوی محصولات"
+
+#: template-parts/header/search.php:31
+msgid "Search products, brands and categories…"
+msgstr "جستجوی محصولات، برندها و دسته‌ها…"
+
+#: template-parts/home/blog.php:19
+msgid "Read the blog"
+msgstr "خواندن وبلاگ"
+
+#: template-parts/home/categories.php:36 template-parts/home/tiles.php:39
+msgid "%s product"
+msgid_plural "%s products"
+msgstr[0] "%s محصول"
+msgstr[1] "%s محصول"
+
+#: template-parts/home/collections.php:14
+msgid "Trending"
+msgstr "پرطرفدار"
+
+#: template-parts/home/collections.php:15
+msgid "Top discounts"
+msgstr "بیشترین تخفیف‌ها"
+
+#: template-parts/home/flash.php:31
+msgid "Time remaining"
+msgstr "زمان باقی‌مانده"
+
+#: template-parts/home/flash.php:33
+msgid "days"
+msgstr "روز"
+
+#: template-parts/home/hero.php:64
+msgid "Previous slide"
+msgstr "اسلاید قبلی"
+
+#: template-parts/home/hero.php:65
+msgid "Next slide"
+msgstr "اسلاید بعدی"
+
+#: template-parts/home/promo.php:15
+msgid "Promotions"
+msgstr "تبلیغات"
+
+#: template-parts/home/reviews.php:23
+msgid "Verified buyer"
+msgstr "خریدار تأییدشده"
+
+#: template-parts/home/reviews.php:23
+msgid "Customer"
+msgstr "مشتری"
+
+#: template-parts/home/stats.php:15
+msgid "Store in numbers"
+msgstr "فروشگاه در یک نگاه"
+
+#: template-parts/home/trust.php:15
+msgid "Why shop with us"
+msgstr "چرا از ما خرید کنید"
+
+#: template-parts/products/compare-table.php:26
+msgid "Remove from compare"
+msgstr "حذف از مقایسه"
+
+#: template-parts/products/compare-table.php:40 woocommerce/myaccount/orders.php:31
+msgid "Actions"
+msgstr "عملیات"
+
+#: template-parts/products/compare-table.php:46
+msgid "View product"
+msgstr "مشاهده محصول"
+
+#: template-parts/products/quick-view.php:36
+msgid "Full details"
+msgstr "جزئیات کامل"
+
+#: template-parts/products/stock.php:17 woocommerce/cart/cart.php:59
+msgid "Available on backorder"
+msgstr "قابل پیش‌سفارش"
+
+#: template-parts/products/stock.php:20
+msgid "Only %s left"
+msgstr "فقط %s عدد باقی مانده"
+
+#: template-parts/products/wish-item.php:29
+msgid "Select options"
+msgstr "انتخاب گزینه‌ها"
+
+#: template-parts/products/wish-item.php:31
+msgid "Notify me"
+msgstr "به من اطلاع بده"
+
+#: template-parts/products/wish-item.php:34
+msgid "Remove from wishlist"
+msgstr "حذف از علاقه‌مندی‌ها"
+
+#: woocommerce/archive-product.php:16
+msgid "Search results for “%s”"
+msgstr "نتایج جستجو برای «%s»"
+
+#: woocommerce/archive-product.php:72 woocommerce/archive-product.php:74
+msgid "Sort by"
+msgstr "مرتب‌سازی بر اساس"
+
+#: woocommerce/archive-product.php:95
+msgid "List"
+msgstr "فهرست"
+
+#: woocommerce/archive-product.php:116 woocommerce/loop/no-products-found.php:10
+msgid "No products found"
+msgstr "محصولی پیدا نشد"
+
+#: woocommerce/archive-product.php:116
+msgid "Try removing some filters or searching for something else."
+msgstr "برخی فیلترها را حذف کنید یا عبارت دیگری جستجو کنید."
+
+#: woocommerce/cart/cart-empty.php:16
+msgid "Looks like you have not added anything yet. Browse the shop and find something you love."
+msgstr "به نظر می‌رسد هنوز چیزی اضافه نکرده‌اید. فروشگاه را مرور کنید و چیزی که دوست دارید پیدا کنید."
+
+#: woocommerce/cart/cart-shipping.php:33
+msgid "Free"
+msgstr "رایگان"
+
+#: woocommerce/cart/cart-shipping.php:44
+msgid "Shipping to %s."
+msgstr "ارسال به %s."
+
+#: woocommerce/cart/cart-shipping.php:45
+msgid "Change address"
+msgstr "تغییر آدرس"
+
+#: woocommerce/cart/cart-shipping.php:47
+msgid "Shipping options will be updated during checkout."
+msgstr "گزینه‌های ارسال هنگام تسویه‌حساب به‌روز می‌شوند."
+
+#: woocommerce/cart/cart-shipping.php:55
+msgid "Shipping costs are calculated during checkout."
+msgstr "هزینه ارسال هنگام تسویه‌حساب محاسبه می‌شود."
+
+#: woocommerce/cart/cart-shipping.php:57
+msgid "Enter your address to view shipping options."
+msgstr "برای مشاهده گزینه‌های ارسال آدرس خود را وارد کنید."
+
+#: woocommerce/cart/cart-shipping.php:61
+msgid "There are no shipping options available. Please ensure that your address has been entered correctly, or contact us if you need any help."
+msgstr "هیچ گزینه ارسالی در دسترس نیست. لطفاً از درست واردکردن آدرس مطمئن شوید یا در صورت نیاز با ما تماس بگیرید."
+
+#: woocommerce/cart/cart-shipping.php:65
+msgid "No shipping options were found for %s."
+msgstr "گزینه ارسالی برای %s پیدا نشد."
+
+#: woocommerce/cart/cart-shipping.php:66
+msgid "Enter a different address"
+msgstr "آدرس دیگری وارد کنید"
+
+#: woocommerce/cart/cart-totals.php:14
+msgid "Order summary"
+msgstr "خلاصه سفارش"
+
+#: woocommerce/cart/cart-totals.php:21
+msgid "Congratulations — shipping is free!"
+msgstr "تبریک — ارسال رایگان است!"
+
+#: woocommerce/cart/cart-totals.php:46
+msgid "(estimated for %s)"
+msgstr "(برآورد برای %s)"
+
+#: woocommerce/cart/cart-totals.php:59 woocommerce/checkout/review-order.php:53 woocommerce/checkout/thankyou.php:40 woocommerce/myaccount/dashboard.php:39 woocommerce/myaccount/orders.php:31 woocommerce/myaccount/view-order.php:90
+msgid "Total"
+msgstr "مجموع"
+
+#: woocommerce/cart/cart-totals.php:64
+msgid "Secure payment via bank gateway"
+msgstr "پرداخت امن از طریق درگاه بانکی"
+
+#: woocommerce/cart/cart.php:17
+msgid "(%s item)"
+msgid_plural "(%s items)"
+msgstr[0] "(%s مورد)"
+msgstr[1] "(%s مورد)"
+
+#: woocommerce/cart/cart.php:18
+msgid "Empty cart"
+msgstr "خالی‌کردن سبد"
+
+#: woocommerce/cart/cart.php:35
+msgid "You are saving %s on this order."
+msgstr "در این سفارش %s صرفه‌جویی می‌کنید."
+
+#: woocommerce/cart/cart.php:55 woocommerce/content-single-product.php:50
+msgid "SKU:"
+msgstr "شناسه:"
+
+#: woocommerce/cart/cart.php:57
+msgid "Unit price:"
+msgstr "قیمت واحد:"
+
+#: woocommerce/cart/cart.php:58
+msgid "Only %s left in stock"
+msgstr "فقط %s عدد در انبار باقی مانده"
+
+#: woocommerce/cart/cart.php:61
+msgid "Move to wishlist"
+msgstr "انتقال به علاقه‌مندی‌ها"
+
+#: woocommerce/cart/cart.php:99
+msgid "Remove %s from cart"
+msgstr "حذف %s از سبد"
+
+#: woocommerce/cart/cart.php:116 woocommerce/checkout/form-checkout.php:41
+msgid "Coupon code"
+msgstr "کد تخفیف"
+
+#: woocommerce/cart/cart.php:117
+msgid "Enter coupon code"
+msgstr "کد تخفیف را وارد کنید"
+
+#: woocommerce/cart/cart.php:118 woocommerce/checkout/form-checkout.php:42
+msgid "Apply coupon"
+msgstr "اعمال کد تخفیف"
+
+#: woocommerce/cart/cart.php:118 woocommerce/checkout/form-checkout.php:42
+msgid "Apply"
+msgstr "اعمال"
+
+#: woocommerce/cart/cart.php:123 woocommerce/cart/cart.php:123
+msgid "Update cart"
+msgstr "به‌روزرسانی سبد"
+
+#: woocommerce/cart/cart.php:131
+msgid "Applied coupons:"
+msgstr "کدهای اعمال‌شده:"
+
+#: woocommerce/cart/proceed-to-checkout-button.php:11
+msgid "Proceed to checkout"
+msgstr "ادامه به تسویه‌حساب"
+
+#: woocommerce/cart/shipping-calculator.php:14
+msgid "Calculate shipping"
+msgstr "محاسبه هزینه ارسال"
+
+#: woocommerce/cart/shipping-calculator.php:18
+msgid "Country / region"
+msgstr "کشور / منطقه"
+
+#: woocommerce/cart/shipping-calculator.php:20
+msgid "Select a country / region…"
+msgstr "کشور / منطقه را انتخاب کنید…"
+
+#: woocommerce/cart/shipping-calculator.php:32 woocommerce/cart/shipping-calculator.php:35 woocommerce/cart/shipping-calculator.php:36 woocommerce/cart/shipping-calculator.php:42 woocommerce/cart/shipping-calculator.php:42
+msgid "State / County"
+msgstr "استان"
+
+#: woocommerce/cart/shipping-calculator.php:37
+msgid "Select an option…"
+msgstr "یک گزینه انتخاب کنید…"
+
+#: woocommerce/cart/shipping-calculator.php:48 woocommerce/cart/shipping-calculator.php:48
+msgid "Town / City"
+msgstr "شهر"
+
+#: woocommerce/cart/shipping-calculator.php:51 woocommerce/cart/shipping-calculator.php:51
+msgid "Postcode / ZIP"
+msgstr "کد پستی"
+
+#: woocommerce/cart/shipping-calculator.php:53
+msgid "Update"
+msgstr "به‌روزرسانی"
+
+#: woocommerce/checkout/form-billing.php:13
+msgid "Billing & shipping details"
+msgstr "اطلاعات صورتحساب و ارسال"
+
+#: woocommerce/checkout/form-billing.php:13
+msgid "Contact & billing details"
+msgstr "اطلاعات تماس و صورتحساب"
+
+#: woocommerce/checkout/form-billing.php:14
+msgid "Have an account?"
+msgstr "حساب کاربری دارید؟"
+
+#: woocommerce/checkout/form-billing.php:14 woocommerce/checkout/form-checkout.php:15 woocommerce/myaccount/form-login.php:30 woocommerce/myaccount/form-login.php:49 woocommerce/myaccount/form-login.php:49 woocommerce/myaccount/form-login.php:58
+msgid "Log in"
+msgstr "ورود"
+
+#: woocommerce/checkout/form-billing.php:32
+msgid "Create an account for faster checkout next time"
+msgstr "برای تسویه‌حساب سریع‌تر دفعه بعد، حساب کاربری بسازید"
+
+#: woocommerce/checkout/form-checkout.php:15
+msgid "Please log in to checkout"
+msgstr "برای تسویه‌حساب وارد شوید"
+
+#: woocommerce/checkout/form-checkout.php:15
+msgid "You must be logged in to checkout."
+msgstr "برای تسویه‌حساب باید وارد شده باشید."
+
+#: woocommerce/checkout/form-checkout.php:23 woocommerce/checkout/thankyou.php:26
+msgid "Checkout steps"
+msgstr "مراحل تسویه‌حساب"
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "Details & shipping"
+msgstr "اطلاعات و ارسال"
+
+#: woocommerce/checkout/form-checkout.php:34
+msgid "Already have an account?"
+msgstr "قبلاً حساب ساخته‌اید؟"
+
+#: woocommerce/checkout/form-checkout.php:34
+msgid "Log in for faster checkout"
+msgstr "برای تسویه‌حساب سریع‌تر وارد شوید"
+
+#: woocommerce/checkout/form-checkout.php:38
+msgid "Have a coupon?"
+msgstr "کد تخفیف دارید؟"
+
+#: woocommerce/checkout/form-checkout.php:39
+msgid "Click here to enter your code"
+msgstr "برای واردکردن کد اینجا کلیک کنید"
+
+#: woocommerce/checkout/form-checkout.php:59
+msgid "Shipping method"
+msgstr "روش ارسال"
+
+#: woocommerce/checkout/form-checkout.php:67
+msgid "Shipping options are shown in the order summary and update automatically when your address changes."
+msgstr "گزینه‌های ارسال در خلاصه سفارش نمایش داده می‌شوند و با تغییر آدرس به‌طور خودکار به‌روز می‌شوند."
+
+#: woocommerce/checkout/form-checkout.php:74
+msgid "Your order"
+msgstr "سفارش شما"
+
+#: woocommerce/checkout/form-checkout.php:74
+msgid "Edit cart"
+msgstr "ویرایش سبد"
+
+#: woocommerce/checkout/form-shipping.php:12 woocommerce/myaccount/form-edit-address.php:11 woocommerce/myaccount/my-address.php:13
+msgid "Shipping address"
+msgstr "آدرس ارسال"
+
+#: woocommerce/checkout/form-shipping.php:19
+msgid "Same as billing address"
+msgstr "مانند آدرس صورتحساب"
+
+#: woocommerce/checkout/form-shipping.php:19
+msgid "Deliver to the address entered above"
+msgstr "تحویل به آدرس واردشده در بالا"
+
+#: woocommerce/checkout/form-shipping.php:23
+msgid "Ship to a different address"
+msgstr "ارسال به آدرس دیگر"
+
+#: woocommerce/checkout/form-shipping.php:37
+msgid "This order does not require shipping."
+msgstr "این سفارش نیازی به ارسال ندارد."
+
+#: woocommerce/checkout/payment.php:25
+msgid "Sorry, it seems that there are no available payment methods. Please contact us if you require assistance."
+msgstr "متأسفانه به نظر می‌رسد هیچ روش پرداختی در دسترس نیست. در صورت نیاز به کمک با ما تماس بگیرید."
+
+#: woocommerce/checkout/payment.php:25
+msgid "Please fill in your details above to see available payment methods."
+msgstr "برای مشاهده روش‌های پرداخت، ابتدا اطلاعات خود را در بالا تکمیل کنید."
+
+#: woocommerce/checkout/payment.php:34
+msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the %1$sUpdate Totals%2$s button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgstr "از آنجا که مرورگر شما از جاوااسکریپت پشتیبانی نمی‌کند یا غیرفعال است، لطفاً پیش از ثبت سفارش روی دکمه %1$sبه‌روزرسانی مجموع%2$s کلیک کنید. در غیر این صورت ممکن است مبلغی بیش از مقدار نمایش‌داده‌شده از شما دریافت شود."
+
+#: woocommerce/checkout/payment.php:36 woocommerce/checkout/payment.php:36
+msgid "Update totals"
+msgstr "به‌روزرسانی مجموع"
+
+#: woocommerce/checkout/payment.php:44
+msgid "Your information is encrypted and secure"
+msgstr "اطلاعات شما رمزنگاری‌شده و امن است"
+
+#: woocommerce/checkout/thankyou.php:18
+msgid "Payment failed"
+msgstr "پرداخت ناموفق"
+
+#: woocommerce/checkout/thankyou.php:19
+msgid "Unfortunately your order cannot be processed as the payment was declined. Please attempt your purchase again."
+msgstr "متأسفانه سفارش شما قابل پردازش نیست چون پرداخت رد شد. لطفاً دوباره تلاش کنید."
+
+#: woocommerce/checkout/thankyou.php:21
+msgid "Try again"
+msgstr "تلاش مجدد"
+
+#: woocommerce/checkout/thankyou.php:34 woocommerce/checkout/thankyou.php:56
+msgid "Thank you. Your order has been received."
+msgstr "سپاسگزاریم. سفارش شما دریافت شد."
+
+#: woocommerce/checkout/thankyou.php:35
+msgid "We will start processing it as soon as the payment is confirmed. A confirmation has been sent to your email."
+msgstr "به محض تأیید پرداخت، پردازش سفارش را آغاز می‌کنیم. تأییدیه به ایمیل شما ارسال شد."
+
+#: woocommerce/checkout/thankyou.php:35
+msgid "A confirmation has been sent to your email. You can track the order from your account."
+msgstr "تأییدیه به ایمیل شما ارسال شد. می‌توانید سفارش را از حساب کاربری پیگیری کنید."
+
+#: woocommerce/checkout/thankyou.php:36
+msgid "Order number:"
+msgstr "شماره سفارش:"
+
+#: woocommerce/checkout/thankyou.php:38 woocommerce/myaccount/dashboard.php:39 woocommerce/myaccount/orders.php:31
+msgid "Date"
+msgstr "تاریخ"
+
+#: woocommerce/checkout/thankyou.php:41
+msgid "Payment method"
+msgstr "روش پرداخت"
+
+#: woocommerce/content-product.php:47 woocommerce/content-product.php:47 woocommerce/content-single-product.php:93 woocommerce/single-product/product-image.php:36
+msgid "Add to wishlist"
+msgstr "افزودن به علاقه‌مندی‌ها"
+
+#: woocommerce/content-product.php:53 woocommerce/content-product.php:53 woocommerce/content-single-product.php:94 woocommerce/single-product/product-image.php:37
+msgid "Add to compare"
+msgstr "افزودن به مقایسه"
+
+#: woocommerce/content-product.php:72 woocommerce/content-single-product.php:61
+msgid "%s sold"
+msgstr "%s فروخته شده"
+
+#: woocommerce/content-single-product.php:30
+msgid "Specifications"
+msgstr "مشخصات"
+
+#: woocommerce/content-single-product.php:36
+msgid "Shipping & returns"
+msgstr "ارسال و بازگشت کالا"
+
+#: woocommerce/content-single-product.php:48
+msgid "Brand:"
+msgstr "برند:"
+
+#: woocommerce/content-single-product.php:56
+msgid "(%s review)"
+msgid_plural "(%s reviews)"
+msgstr[0] "(%s دیدگاه)"
+msgstr[1] "(%s دیدگاه)"
+
+#: woocommerce/content-single-product.php:58
+msgid "Be the first to review"
+msgstr "اولین نفری باشید که دیدگاه می‌نویسد"
+
+#: woocommerce/content-single-product.php:81
+msgid "You save %s"
+msgstr "%s صرفه‌جویی می‌کنید"
+
+#: woocommerce/content-single-product.php:108
+msgid "Seller: %s"
+msgstr "فروشنده: %s"
+
+#: woocommerce/content-single-product.php:117
+msgid "Quick buy"
+msgstr "خرید سریع"
+
+#: woocommerce/content-single-product.php:119
+msgid "Seller:"
+msgstr "فروشنده:"
+
+#: woocommerce/content-single-product.php:136
+msgid "Product details"
+msgstr "جزئیات محصول"
+
+#: woocommerce/content-single-product.php:175
+msgid "You might also like these"
+msgstr "شاید این‌ها را هم بپسندید"
+
+#: woocommerce/content-single-product.php:183
+msgid "Complete the set"
+msgstr "مجموعه را کامل کنید"
+
+#: woocommerce/global/quantity-input.php:12
+msgid "%s quantity"
+msgstr "تعداد %s"
+
+#: woocommerce/global/quantity-input.php:24
+msgid "Decrease quantity"
+msgstr "کاهش تعداد"
+
+#: woocommerce/global/quantity-input.php:39
+msgid "Increase quantity"
+msgstr "افزایش تعداد"
+
+#: woocommerce/loop/active-filters.php:33
+msgid "%s stars and up"
+msgstr "%s ستاره و بالاتر"
+
+#: woocommerce/loop/active-filters.php:56 woocommerce/loop/filters.php:64
+msgid "Clear all"
+msgstr "پاک‌کردن همه"
+
+#: woocommerce/loop/filters.php:86
+msgid "Minimum price"
+msgstr "حداقل قیمت"
+
+#: woocommerce/loop/filters.php:87
+msgid "Maximum price"
+msgstr "حداکثر قیمت"
+
+#: woocommerce/loop/filters.php:91
+msgid "From"
+msgstr "از"
+
+#: woocommerce/loop/filters.php:92
+msgid "Min"
+msgstr "حداقل"
+
+#: woocommerce/loop/filters.php:93
+msgid "to"
+msgstr "تا"
+
+#: woocommerce/loop/filters.php:94
+msgid "To"
+msgstr "تا"
+
+#: woocommerce/loop/filters.php:95
+msgid "Max"
+msgstr "حداکثر"
+
+#: woocommerce/loop/filters.php:106 woocommerce/loop/filters.php:106
+msgid "Search brand"
+msgstr "جستجوی برند"
+
+#: woocommerce/loop/filters.php:122
+msgid "and up"
+msgstr "و بالاتر"
+
+#: woocommerce/loop/filters.php:149
+msgid "Only in stock"
+msgstr "فقط موجود"
+
+#: woocommerce/loop/filters.php:150
+msgid "Only on sale"
+msgstr "فقط حراج"
+
+#: woocommerce/loop/no-products-found.php:10
+msgid "Try removing some filters or searching with a different term."
+msgstr "برخی فیلترها را حذف کنید یا عبارت دیگری جستجو کنید."
+
+#: woocommerce/loop/result-count.php:14
+msgid "Showing the single result"
+msgstr "نمایش تنها نتیجه"
+
+#: woocommerce/loop/result-count.php:17
+msgid "Showing all %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] "نمایش همه %d نتیجه"
+msgstr[1] "نمایش همه %d نتیجه"
+
+#: woocommerce/loop/result-count.php:22
+msgid "Showing %1$s–%2$s of %3$s results"
+msgstr "نمایش %1$s تا %2$s از %3$s نتیجه"
+
+#: woocommerce/myaccount/dashboard.php:23
+msgid "From your dashboard you can view recent orders, manage your addresses and edit your account details."
+msgstr "از پیشخوان خود می‌توانید سفارش‌های اخیر را ببینید، آدرس‌ها را مدیریت کنید و اطلاعات حساب را ویرایش کنید."
+
+#: woocommerce/myaccount/dashboard.php:25 woocommerce/myaccount/form-edit-account.php:19
+msgid "Member since %s"
+msgstr "عضو از %s"
+
+#: woocommerce/myaccount/dashboard.php:35
+msgid "Recent orders"
+msgstr "سفارش‌های اخیر"
+
+#: woocommerce/myaccount/dashboard.php:35
+msgid "View all orders"
+msgstr "مشاهده همه سفارش‌ها"
+
+#: woocommerce/myaccount/dashboard.php:39 woocommerce/myaccount/orders.php:31
+msgid "Status"
+msgstr "وضعیت"
+
+#: woocommerce/myaccount/dashboard.php:48 woocommerce/myaccount/orders.php:53
+msgid "View"
+msgstr "مشاهده"
+
+#: woocommerce/myaccount/dashboard.php:55 woocommerce/myaccount/orders.php:79
+msgid "No orders yet"
+msgstr "هنوز سفارشی ندارید"
+
+#: woocommerce/myaccount/dashboard.php:55 woocommerce/myaccount/orders.php:79
+msgid "When you place an order it will show up here."
+msgstr "وقتی سفارشی ثبت کنید اینجا نمایش داده می‌شود."
+
+#: woocommerce/myaccount/dashboard.php:55 woocommerce/myaccount/orders.php:79
+msgid "Start shopping"
+msgstr "شروع خرید"
+
+#: woocommerce/myaccount/dashboard.php:62 woocommerce/myaccount/my-address.php:19
+msgid "Addresses"
+msgstr "آدرس‌ها"
+
+#: woocommerce/myaccount/dashboard.php:65
+msgid "Default address"
+msgstr "آدرس پیش‌فرض"
+
+#: woocommerce/myaccount/dashboard.php:70
+msgid "You have not set up an address yet."
+msgstr "هنوز آدرسی ثبت نکرده‌اید."
+
+#: woocommerce/myaccount/dashboard.php:76
+msgid "Profile"
+msgstr "پروفایل"
+
+#: woocommerce/myaccount/dashboard.php:78
+msgid "Full name"
+msgstr "نام کامل"
+
+#: woocommerce/myaccount/form-edit-account.php:16
+msgid "Personal information"
+msgstr "اطلاعات شخصی"
+
+#: woocommerce/myaccount/form-edit-account.php:23
+msgid "First name"
+msgstr "نام"
+
+#: woocommerce/myaccount/form-edit-account.php:24
+msgid "Last name"
+msgstr "نام خانوادگی"
+
+#: woocommerce/myaccount/form-edit-account.php:27
+msgid "Display name"
+msgstr "نام نمایشی"
+
+#: woocommerce/myaccount/form-edit-account.php:27
+msgid "This will be how your name will be displayed in the account section and in reviews"
+msgstr "این نام در بخش حساب کاربری و در دیدگاه‌ها نمایش داده می‌شود"
+
+#: woocommerce/myaccount/form-edit-account.php:28 woocommerce/myaccount/form-login.php:64
+msgid "Email address"
+msgstr "آدرس ایمیل"
+
+#: woocommerce/myaccount/form-edit-account.php:40 woocommerce/myaccount/form-edit-account.php:46
+msgid "Change password"
+msgstr "تغییر رمز عبور"
+
+#: woocommerce/myaccount/form-edit-account.php:42
+msgid "Current password"
+msgstr "رمز عبور فعلی"
+
+#: woocommerce/myaccount/form-edit-account.php:42
+msgid "Leave blank to leave unchanged"
+msgstr "برای بدون تغییر ماندن خالی بگذارید"
+
+#: woocommerce/myaccount/form-edit-account.php:43 woocommerce/myaccount/form-reset-password.php:21
+msgid "New password"
+msgstr "رمز عبور جدید"
+
+#: woocommerce/myaccount/form-edit-account.php:44
+msgid "Confirm new password"
+msgstr "تکرار رمز عبور جدید"
+
+#: woocommerce/myaccount/form-edit-address.php:11 woocommerce/myaccount/my-address.php:13 woocommerce/myaccount/my-address.php:15
+msgid "Billing address"
+msgstr "آدرس صورتحساب"
+
+#: woocommerce/myaccount/form-edit-address.php:20
+msgid "All addresses"
+msgstr "همه آدرس‌ها"
+
+#: woocommerce/myaccount/form-edit-address.php:29 woocommerce/myaccount/form-edit-address.php:29
+msgid "Save address"
+msgstr "ذخیره آدرس"
+
+#: woocommerce/myaccount/form-edit-address.php:30 woocommerce/single-product-reviews.php:57
+msgid "Cancel"
+msgstr "انصراف"
+
+#: woocommerce/myaccount/form-login.php:16
+msgid "Track orders in real time"
+msgstr "پیگیری لحظه‌ای سفارش‌ها"
+
+#: woocommerce/myaccount/form-login.php:16
+msgid "Save addresses for faster checkout"
+msgstr "ذخیره آدرس‌ها برای تسویه‌حساب سریع‌تر"
+
+#: woocommerce/myaccount/form-login.php:16
+msgid "Wishlist synced across devices"
+msgstr "همگام‌سازی علاقه‌مندی‌ها بین دستگاه‌ها"
+
+#: woocommerce/myaccount/form-login.php:16
+msgid "Exclusive member offers"
+msgstr "پیشنهادهای ویژه اعضا"
+
+#: woocommerce/myaccount/form-login.php:22
+msgid "Welcome to %s"
+msgstr "به %s خوش آمدید"
+
+#: woocommerce/myaccount/form-login.php:31
+msgid "New here?"
+msgstr "تازه‌وارد هستید؟"
+
+#: woocommerce/myaccount/form-login.php:31
+msgid "Create an account"
+msgstr "ساخت حساب کاربری"
+
+#: woocommerce/myaccount/form-login.php:35 woocommerce/myaccount/form-lost-password.php:23
+msgid "Username or email"
+msgstr "نام کاربری یا ایمیل"
+
+#: woocommerce/myaccount/form-login.php:39 woocommerce/myaccount/form-login.php:66
+msgid "Password"
+msgstr "رمز عبور"
+
+#: woocommerce/myaccount/form-login.php:40 woocommerce/myaccount/form-login.php:66 woocommerce/myaccount/form-reset-password.php:21
+msgid "Show password"
+msgstr "نمایش رمز عبور"
+
+#: woocommerce/myaccount/form-login.php:44
+msgid "Remember me"
+msgstr "مرا به خاطر بسپار"
+
+#: woocommerce/myaccount/form-login.php:45
+msgid "Forgot password?"
+msgstr "رمز عبور را فراموش کرده‌اید؟"
+
+#: woocommerce/myaccount/form-login.php:51
+msgid "or continue with"
+msgstr "یا ادامه با"
+
+#: woocommerce/myaccount/form-login.php:57 woocommerce/myaccount/form-login.php:72
+msgid "Create account"
+msgstr "ساخت حساب"
+
+#: woocommerce/myaccount/form-login.php:58
+msgid "Already registered?"
+msgstr "قبلاً ثبت‌نام کرده‌اید؟"
+
+#: woocommerce/myaccount/form-login.php:62
+msgid "Username"
+msgstr "نام کاربری"
+
+#: woocommerce/myaccount/form-login.php:68
+msgid "A link to set a new password will be sent to your email address."
+msgstr "لینک تعیین رمز عبور جدید به ایمیل شما ارسال می‌شود."
+
+#: woocommerce/myaccount/form-login.php:72
+msgid "Register"
+msgstr "ثبت‌نام"
+
+#: woocommerce/myaccount/form-lost-password.php:19
+msgid "Reset your password"
+msgstr "بازیابی رمز عبور"
+
+#: woocommerce/myaccount/form-lost-password.php:20
+msgid "Enter your username or email address and we will send you a link to create a new password."
+msgstr "نام کاربری یا ایمیل خود را وارد کنید تا لینک ساخت رمز عبور جدید را برایتان بفرستیم."
+
+#: woocommerce/myaccount/form-lost-password.php:29 woocommerce/myaccount/form-lost-password.php:29
+msgid "Send reset link"
+msgstr "ارسال لینک بازیابی"
+
+#: woocommerce/myaccount/form-lost-password.php:30 woocommerce/myaccount/lost-password-confirmation.php:20
+msgid "Back to login"
+msgstr "بازگشت به ورود"
+
+#: woocommerce/myaccount/form-reset-password.php:19
+msgid "Choose a new password"
+msgstr "رمز عبور جدید انتخاب کنید"
+
+#: woocommerce/myaccount/form-reset-password.php:22
+msgid "Confirm password"
+msgstr "تکرار رمز عبور"
+
+#: woocommerce/myaccount/form-reset-password.php:28
+msgid "Save"
+msgstr "ذخیره"
+
+#: woocommerce/myaccount/form-reset-password.php:28
+msgid "Save new password"
+msgstr "ذخیره رمز عبور جدید"
+
+#: woocommerce/myaccount/lost-password-confirmation.php:16
+msgid "Check your inbox"
+msgstr "ایمیل خود را بررسی کنید"
+
+#: woocommerce/myaccount/lost-password-confirmation.php:17
+msgid "Password reset email has been sent."
+msgstr "ایمیل بازیابی رمز عبور ارسال شد."
+
+#: woocommerce/myaccount/lost-password-confirmation.php:18
+msgid "A password reset email has been sent to the email address on file for your account, but may take several minutes to show up in your inbox. Please wait at least 10 minutes before attempting another reset."
+msgstr "ایمیل بازیابی رمز عبور به آدرس ثبت‌شده در حساب شما ارسال شد، اما ممکن است چند دقیقه طول بکشد تا در صندوق ورودی ظاهر شود. لطفاً پیش از درخواست مجدد حداقل ۱۰ دقیقه صبر کنید."
+
+#: woocommerce/myaccount/my-address.php:20
+msgid "The following addresses will be used on the checkout page by default."
+msgstr "آدرس‌های زیر به‌صورت پیش‌فرض در صفحه تسویه‌حساب استفاده می‌شوند."
+
+#: woocommerce/myaccount/my-address.php:26
+msgid "You have not set up this type of address yet."
+msgstr "هنوز این نوع آدرس را ثبت نکرده‌اید."
+
+#: woocommerce/myaccount/my-address.php:28
+msgid "Add"
+msgstr "افزودن"
+
+#: woocommerce/myaccount/orders.php:15 woocommerce/myaccount/view-order.php:16
+msgid "Delivered"
+msgstr "تحویل‌شده"
+
+#: woocommerce/myaccount/orders.php:16
+msgid "Cancelled / returned"
+msgstr "لغو / مرجوع‌شده"
+
+#: woocommerce/myaccount/orders.php:21
+msgid "My orders"
+msgstr "سفارش‌های من"
+
+#: woocommerce/myaccount/orders.php:22
+msgid "Filter orders"
+msgstr "فیلتر سفارش‌ها"
+
+#: woocommerce/myaccount/orders.php:69
+msgid "No orders match this filter."
+msgstr "سفارشی با این فیلتر پیدا نشد."
+
+#: woocommerce/myaccount/orders.php:72
+msgid "Orders pagination"
+msgstr "صفحه‌بندی سفارش‌ها"
+
+#: woocommerce/myaccount/orders.php:74
+msgid "Page %1$s of %2$s"
+msgstr "صفحه %1$s از %2$s"
+
+#: woocommerce/myaccount/view-order.php:13
+msgid "Order placed"
+msgstr "سفارش ثبت شد"
+
+#: woocommerce/myaccount/view-order.php:14
+msgid "Processing"
+msgstr "در حال پردازش"
+
+#: woocommerce/myaccount/view-order.php:15
+msgid "Shipped"
+msgstr "ارسال شد"
+
+#: woocommerce/myaccount/view-order.php:26
+msgid "Back to orders"
+msgstr "بازگشت به سفارش‌ها"
+
+#: woocommerce/myaccount/view-order.php:28
+msgid "Placed on %s"
+msgstr "ثبت‌شده در %s"
+
+#: woocommerce/myaccount/view-order.php:33
+msgid "Order progress"
+msgstr "پیشرفت سفارش"
+
+#: woocommerce/myaccount/view-order.php:61
+msgid "Review"
+msgstr "دیدگاه"
+
+#: woocommerce/myaccount/view-order.php:70
+msgid "Order updates"
+msgstr "به‌روزرسانی‌های سفارش"
+
+#: woocommerce/myaccount/view-order.php:75
+msgid "Your note"
+msgstr "یادداشت شما"
+
+#: woocommerce/myaccount/view-order.php:83
+msgid "Summary"
+msgstr "خلاصه"
+
+#: woocommerce/myaccount/view-order.php:96
+msgid "Reorder"
+msgstr "سفارش مجدد"
+
+#: woocommerce/myaccount/view-order.php:97
+msgid "Print invoice"
+msgstr "چاپ فاکتور"
+
+#: woocommerce/myaccount/view-order.php:102
+msgid "Delivery & payment"
+msgstr "تحویل و پرداخت"
+
+#: woocommerce/myaccount/view-order.php:104
+msgid "Ship to"
+msgstr "ارسال به"
+
+#: woocommerce/myaccount/view-order.php:105
+msgid "Bill to"
+msgstr "صورتحساب برای"
+
+#: woocommerce/myaccount/view-order.php:105
+msgid "N/A"
+msgstr "—"
+
+#: woocommerce/single-product-reviews.php:26
+msgid "Based on %s review"
+msgid_plural "Based on %s reviews"
+msgstr[0] "بر اساس %s دیدگاه"
+msgstr[1] "بر اساس %s دیدگاه"
+
+#: woocommerce/single-product-reviews.php:35
+msgid "Log in to review"
+msgstr "برای ثبت دیدگاه وارد شوید"
+
+#: woocommerce/single-product-reviews.php:37
+msgid "Write a review"
+msgstr "نوشتن دیدگاه"
+
+#: woocommerce/single-product-reviews.php:39
+msgid "Only verified buyers can review this product."
+msgstr "فقط خریداران تأییدشده می‌توانند برای این محصول دیدگاه بنویسند."
+
+#: woocommerce/single-product-reviews.php:50
+msgid "Write your review"
+msgstr "دیدگاه خود را بنویسید"
+
+#: woocommerce/single-product-reviews.php:50
+msgid "Be the first to review this product"
+msgstr "اولین نفری باشید که برای این محصول دیدگاه می‌نویسد"
+
+#: woocommerce/single-product-reviews.php:54
+msgid "Submit review"
+msgstr "ثبت دیدگاه"
+
+#: woocommerce/single-product-reviews.php:72
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr "برای ثبت دیدگاه باید %1$sوارد شده%2$s باشید."
+
+#: woocommerce/single-product-reviews.php:93
+msgid "There are no reviews yet."
+msgstr "هنوز دیدگاهی ثبت نشده است."
+
+#: woocommerce/single-product/add-to-cart/simple.php:34 woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php:28
+msgid "Buy now"
+msgstr "خرید"
+
+#: woocommerce/single-product/add-to-cart/simple.php:43
+msgid "Notify me when available"
+msgstr "موجود شد خبرم کن"
+
+#: woocommerce/single-product/add-to-cart/variable.php:24
+msgid "This product is currently out of stock and unavailable."
+msgstr "این محصول در حال حاضر ناموجود و غیرقابل خرید است."
+
+#: woocommerce/single-product/product-image.php:28 woocommerce/single-product/product-image.php:41
+msgid "Click to zoom"
+msgstr "برای بزرگنمایی کلیک کنید"
+
+#: woocommerce/single-product/product-image.php:44
+msgid "Previous image"
+msgstr "تصویر قبلی"
+
+#: woocommerce/single-product/product-image.php:45
+msgid "Next image"
+msgstr "تصویر بعدی"
+
+#: woocommerce/single-product/product-image.php:49
+msgid "Product images"
+msgstr "تصاویر محصول"
+
+#: woocommerce/single-product/product-image.php:52
+msgid "Image %s"
+msgstr "تصویر %s"
+
+#: woocommerce/single-product/tabs/description.php:24
+msgid "No description available for this product yet."
+msgstr "هنوز توضیحی برای این محصول ثبت نشده است."
+
