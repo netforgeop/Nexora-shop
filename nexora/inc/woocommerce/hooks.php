@@ -46,6 +46,10 @@ remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_r
 
 /* ---------- Cart / checkout ---------- */
 remove_action( 'woocommerce_cart_collaterals', 'woocommerce_cross_sell_display' );
+// The theme's checkout template prints its own login reminder and coupon form.
+remove_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_login_form', 10 );
+remove_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form', 10 );
+
 add_action( 'woocommerce_after_cart', 'nexora_wc_cart_suggestions', 20 );
 
 /**
@@ -223,3 +227,14 @@ add_action(
  * Shipping rows in cart/checkout totals use the theme's option-card layout.
  */
 add_filter( 'woocommerce_cart_shipping_method_full_label', static function ( $label ) { return $label; } );
+
+/**
+ * Stock text: Persian digits on Persian sites.
+ */
+add_filter(
+	'woocommerce_get_availability_text',
+	static function ( $text ) {
+		return nexora_is_fa() ? nexora_num( $text ) : $text;
+	},
+	20
+);

@@ -125,7 +125,7 @@ function nexora_comment_form_defaults( $defaults ) {
 	$defaults['title_reply_before']  = '<h3 class="review-form__title" id="reply-title">';
 	$defaults['title_reply_after']   = '</h3>';
 	$defaults['comment_field']       = '<div class="form-group"><label class="form-label" for="comment">' . esc_html__( 'Comment', 'nexora' ) . ' <span class="req">*</span></label><textarea id="comment" class="form-control" name="comment" rows="5" required></textarea></div>';
-	$defaults['fields']['author']    = '<div class="form-row"><div class="form-group"><label class="form-label" for="author">' . esc_html__( 'Name', 'nexora' ) . $req . '</label><input id="author" class="form-control" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '"' . ( $req ? ' required' : '' ) . '></div>';
+	$defaults['fields']['author']    = '<div class="form-cols"><div class="form-group"><label class="form-label" for="author">' . esc_html__( 'Name', 'nexora' ) . $req . '</label><input id="author" class="form-control" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '"' . ( $req ? ' required' : '' ) . '></div>';
 	$defaults['fields']['email']     = '<div class="form-group"><label class="form-label" for="email">' . esc_html__( 'Email', 'nexora' ) . $req . '</label><input id="email" class="form-control" name="email" type="email" dir="ltr" value="' . esc_attr( $commenter['comment_author_email'] ) . '"' . ( $req ? ' required' : '' ) . '></div></div>';
 	$defaults['fields']['url']       = '';
 	if ( isset( $defaults['fields']['cookies'] ) ) {

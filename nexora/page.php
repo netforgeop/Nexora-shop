@@ -8,9 +8,24 @@
 defined( 'ABSPATH' ) || exit;
 
 get_header();
+
+/*
+ * WooCommerce shortcode pages (cart, checkout, my-account) print their own
+ * page chrome (steps, heading, layout) — render them bare.
+ */
+if ( function_exists( 'is_woocommerce' ) && ( is_cart() || is_checkout() || is_account_page() ) ) {
+	while ( have_posts() ) :
+		the_post();
+		echo '<div class="wc-page wc-page--' . esc_attr( is_cart() ? 'cart' : ( is_checkout() ? 'checkout' : 'account' ) ) . '">';
+		the_content();
+		echo '</div>';
+	endwhile;
+	get_footer();
+	return;
+}
+
 $nexora_has_side = is_active_sidebar( 'sidebar-page' );
 ?>
-<?php nexora_breadcrumb(); ?>
 <section class="section section--sm page-default">
 	<div class="container">
 		<?php

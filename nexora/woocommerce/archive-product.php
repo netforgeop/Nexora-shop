@@ -28,6 +28,7 @@ $nexora_orderby = isset( $_GET['orderby'] ) ? sanitize_key( wp_unslash( $_GET['o
 $nexora_sorts   = nexora_wc_orderby( array() );
 $nexora_cols    = (int) nexora_option( 'shop', 'columns', 4 );
 $nexora_chips   = nexora_option( 'shop', 'chips' ) && ! $nexora_search ? nexora_top_categories( 12 ) : array();
+wc_setup_loop(); // Populate loop props (total, per_page, current_page) before the toolbar renders.
 ?>
 <?php nexora_breadcrumb(); ?>
 <section class="section section--sm shop-archive" data-shop data-per-page="<?php echo (int) wc_get_loop_prop( 'per_page' ); ?>" data-view="<?php echo esc_attr( $nexora_view ); ?>">
@@ -73,7 +74,6 @@ $nexora_chips   = nexora_option( 'shop', 'chips' ) && ! $nexora_search ? nexora_
 							<?php if ( nexora_option( 'shop', 'sort_tabs' ) ) : ?>
 								<div class="sort-tabs" role="group" aria-label="<?php esc_attr_e( 'Sort by', 'nexora' ); ?>">
 									<?php foreach ( $nexora_sorts as $nexora_k => $nexora_l ) : ?>
-										<?php if ( 'menu_order' === $nexora_k ) { continue; } ?>
 										<a class="sort-tabs__btn<?php echo $nexora_orderby === $nexora_k ? ' is-active' : ''; ?>" href="<?php echo esc_url( add_query_arg( array( 'orderby' => $nexora_k, 'paged' => false ) ) ); ?>" data-sort="<?php echo esc_attr( $nexora_k ); ?>"><?php echo esc_html( $nexora_l ); ?></a>
 									<?php endforeach; ?>
 								</div>

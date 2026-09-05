@@ -27,7 +27,18 @@ function nexora_num( $value ) {
 	if ( ! nexora_is_fa() ) {
 		return $value;
 	}
-	return strtr( $value, array( '0' => '۰', '1' => '۱', '2' => '۲', '3' => '۳', '4' => '۴', '5' => '۵', '6' => '۶', '7' => '۷', '8' => '۸', '9' => '۹' ) );
+	$map = array( '0' => '۰', '1' => '۱', '2' => '۲', '3' => '۳', '4' => '۴', '5' => '۵', '6' => '۶', '7' => '۷', '8' => '۸', '9' => '۹' );
+	if ( false === strpos( $value, '<' ) && false === strpos( $value, '&' ) ) {
+		return strtr( $value, $map );
+	}
+	// HTML: leave tags and character entities (e.g. &#x62A;) untouched.
+	return preg_replace_callback(
+		'/(<[^>]*>|&#?[a-zA-Z0-9]+;)|([0-9]+)/',
+		static function ( $m ) use ( $map ) {
+			return isset( $m[2] ) && '' !== $m[2] ? strtr( $m[2], $map ) : $m[1];
+		},
+		$value
+	);
 }
 
 /**

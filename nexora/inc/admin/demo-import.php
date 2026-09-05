@@ -80,6 +80,20 @@ function nexora_demo_str( $v ) {
 }
 
 /**
+ * Localised list from {fa:[],en:[]} pair (or plain list).
+ *
+ * @param mixed $v Value.
+ * @return array
+ */
+function nexora_demo_list( $v ) {
+	if ( is_array( $v ) && ( isset( $v['fa'] ) || isset( $v['en'] ) ) ) {
+		$lang = nexora_is_fa() ? 'fa' : 'en';
+		$v    = $v[ $lang ] ?? reset( $v );
+	}
+	return array_map( 'strval', (array) $v );
+}
+
+/**
  * Sideload a theme image into the media library (cached per path).
  *
  * @param string $rel   Path relative to assets/img.
@@ -263,7 +277,7 @@ function nexora_demo_run_step( $demo, $step, $offset = 0 ) {
 						'post_type'     => 'post',
 						'post_date'     => $post['date'] . ' 09:00:00',
 						'post_category' => $cat_id ? array( $cat_id ) : array(),
-						'tags_input'    => array_map( 'nexora_demo_str', array( $post['tags'] ) )[0] ?? array(),
+						'tags_input'    => nexora_demo_list( $post['tags'] ?? array() ),
 						'meta_input'    => array( '_nexora_demo' => $demo, 'nexora_featured' => ! empty( $post['featured'] ) ? 1 : 0 ),
 					)
 				);
@@ -387,7 +401,8 @@ function nexora_demo_import_product( array $p, $demo ) {
 	$size_ids = array();
 	if ( $has_variations ) {
 		foreach ( $p['sizes'] as $s ) {
-			$sid = nexora_demo_term( 'pa_size', (string) $s, sanitize_title( (string) $s ), $demo );
+			$s   = is_array( $s ) ? (string) ( $s['label'] ?? $s['name'] ?? reset( $s ) ) : (string) $s;
+			$sid = nexora_demo_term( 'pa_size', $s, sanitize_title( $s ), $demo );
 			if ( $sid ) {
 				$size_ids[] = $sid;
 			}
@@ -409,13 +424,16 @@ function nexora_demo_import_product( array $p, $demo ) {
 		$product->set_gallery_image_ids( $gallery );
 	}
 	$product->update_meta_data( '_nexora_demo', $demo );
-	$product->update_meta_data( 'total_sales', (int) $p['sold'] );
 	$product->update_meta_data( 'nexora_highlights', implode( "\n", (array) ( nexora_is_fa() ? $p['highlights']['fa'] : $p['highlights']['en'] ) ) );
 	$pid = $product->save();
+	if ( $pid && ! empty( $p['sold'] ) ) {
+		update_post_meta( $pid, 'total_sales', (int) $p['sold'] );
+	}
 
 	// Size variations.
 	if ( $has_variations && $pid ) {
 		foreach ( $p['sizes'] as $s ) {
+			$s = is_array( $s ) ? (string) ( $s['label'] ?? $s['name'] ?? reset( $s ) ) : (string) $s;
 			$v = new WC_Product_Variation();
 			$v->set_parent_id( $pid );
 			$v->set_attributes( array( 'pa_size' => sanitize_title( (string) $s ) ) );

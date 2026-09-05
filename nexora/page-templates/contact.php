@@ -55,11 +55,11 @@ nexora_breadcrumb();
 						<h2 class="h4 contact-form__title"><?php esc_html_e( 'Contact form', 'nexora' ); ?></h2>
 						<?php wp_nonce_field( 'nexora_contact', 'nexora_contact_nonce' ); ?>
 						<input type="text" name="website" class="visually-hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
-						<div class="form-row">
+						<div class="form-cols">
 							<div class="form-group"><label class="form-label" for="ct-name"><?php esc_html_e( 'Name', 'nexora' ); ?> <span class="req">*</span></label><input id="ct-name" class="form-control" name="name" required minlength="3" autocomplete="name"><span class="form-error" role="alert"></span></div>
 							<div class="form-group"><label class="form-label" for="ct-email"><?php esc_html_e( 'Email', 'nexora' ); ?> <span class="req">*</span></label><input id="ct-email" class="form-control" name="email" type="email" required dir="ltr" autocomplete="email"><span class="form-error" role="alert"></span></div>
 						</div>
-						<div class="form-row">
+						<div class="form-cols">
 							<div class="form-group"><label class="form-label" for="ct-phone"><?php esc_html_e( 'Phone', 'nexora' ); ?></label><input id="ct-phone" class="form-control" name="phone" type="tel" dir="ltr" autocomplete="tel"><span class="form-error" role="alert"></span></div>
 							<div class="form-group"><label class="form-label" for="ct-subject"><?php esc_html_e( 'Subject', 'nexora' ); ?> <span class="req">*</span></label><select id="ct-subject" class="form-control" name="subject" required><option value=""><?php esc_html_e( 'Select…', 'nexora' ); ?></option><?php foreach ( $nexora_subjects as $nexora_s ) : ?><option><?php echo esc_html( $nexora_s ); ?></option><?php endforeach; ?></select><span class="form-error" role="alert"></span></div>
 						</div>

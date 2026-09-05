@@ -14,12 +14,13 @@ defined( 'ABSPATH' ) || exit;
  */
 function nexora_required_pages() {
 	return array(
-		'page_wishlist' => array( __( 'Wishlist', 'nexora' ), 'page-templates/wishlist.php', '' ),
-		'page_compare'  => array( __( 'Compare', 'nexora' ), 'page-templates/compare.php', '' ),
-		'page_contact'  => array( __( 'Contact us', 'nexora' ), 'page-templates/contact.php', '' ),
-		'page_faq'      => array( __( 'FAQ', 'nexora' ), 'page-templates/faq.php', '' ),
-		'page_home'     => array( __( 'Home', 'nexora' ), '', '' ),
-		'page_blog'     => array( __( 'Blog', 'nexora' ), '', '' ),
+		// key => [ translated title, page template, content, stable slug ]
+		'page_wishlist' => array( __( 'Wishlist', 'nexora' ), 'page-templates/wishlist.php', '', 'wishlist' ),
+		'page_compare'  => array( __( 'Compare', 'nexora' ), 'page-templates/compare.php', '', 'compare' ),
+		'page_contact'  => array( __( 'Contact us', 'nexora' ), 'page-templates/contact.php', '', 'contact' ),
+		'page_faq'      => array( __( 'FAQ', 'nexora' ), 'page-templates/faq.php', '', 'faq' ),
+		'page_home'     => array( __( 'Home', 'nexora' ), '', '', 'home' ),
+		'page_blog'     => array( __( 'Blog', 'nexora' ), '', '', 'blog' ),
 	);
 }
 
@@ -33,14 +34,15 @@ function nexora_ensure_pages() {
 			continue;
 		}
 		// Reuse an existing page with the same template/slug if present.
-		$existing = get_page_by_path( sanitize_title( $def[0] ) );
+		$slug     = $def[3] ?? sanitize_title( $def[0] );
+		$existing = get_page_by_path( $slug );
 		if ( $existing && 'page' === $existing->post_type && 'trash' !== $existing->post_status ) {
 			$id = $existing->ID;
 		} else {
 			$id = wp_insert_post(
 				array(
 					'post_title'   => $def[0],
-					'post_name'    => sanitize_title( $def[0] ),
+					'post_name'    => $slug,
 					'post_status'  => 'publish',
 					'post_type'    => 'page',
 					'post_content' => $def[2],

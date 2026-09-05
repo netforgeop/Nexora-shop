@@ -84,7 +84,7 @@ function nexora_svg_sprite() {
 	$file = NEXORA_DIR . 'assets/icons/sprite.svg';
 	if ( is_readable( $file ) ) {
 		// Bundled theme file — trusted; still strip anything unexpected.
-		echo wp_kses( file_get_contents( $file ), array_merge( nexora_kses_svg(), array( 'svg' => array( 'xmlns' => true, 'style' => true, 'aria-hidden' => true ) ) ) ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents
+		echo wp_kses( file_get_contents( $file ), array_merge( nexora_kses_svg(), array( 'svg' => array( 'xmlns' => true, 'class' => true, 'width' => true, 'height' => true, 'aria-hidden' => true, 'focusable' => true ) ) ) ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents
 	}
 }
 

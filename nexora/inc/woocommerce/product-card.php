@@ -218,6 +218,18 @@ function nexora_price_html( $product, $size = '', $discount = false ) {
 				$html .= '<span class="price__discount">' . esc_html( nexora_num( $pct ) ) . '%</span>';
 			}
 		}
+	} elseif ( $product->is_type( 'variable' ) ) {
+		$min_reg  = (float) $product->get_variation_regular_price( 'min' );
+		$min_sale = (float) $product->get_variation_price( 'min' );
+		$max_sale = (float) $product->get_variation_price( 'max' );
+		if ( $min_sale === $max_sale || ! $max_sale ) {
+			$html .= '<span class="price__current">' . wp_kses_post( wc_price( wc_get_price_to_display( $product, array( 'price' => $min_sale ) ) ) ) . '</span>';
+			if ( $product->is_on_sale() && $min_reg > $min_sale ) {
+				$html .= '<s class="price__old"><span class="visually-hidden">' . esc_html__( 'Regular price', 'nexora' ) . ' </span>' . wp_kses_post( wc_price( wc_get_price_to_display( $product, array( 'price' => $min_reg ) ) ) ) . '</s>';
+			}
+		} else {
+			$html .= '<span class="price__current">' . wp_kses_post( wc_format_price_range( wc_get_price_to_display( $product, array( 'price' => $min_sale ) ), wc_get_price_to_display( $product, array( 'price' => $max_sale ) ) ) ) . '</span>';
+		}
 	} else {
 		$html .= '<span class="price__current">' . wp_kses_post( $product->get_price_html() ) . '</span>';
 	}

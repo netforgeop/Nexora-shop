@@ -123,6 +123,11 @@ add_action(
 					if ( class_exists( 'WooCommerce' ) ) {
 						if ( ! empty( $post['currency'] ) && array_key_exists( $post['currency'], get_woocommerce_currencies() ) ) {
 							update_option( 'woocommerce_currency', sanitize_text_field( $post['currency'] ) );
+							if ( in_array( $post['currency'], array( 'IRT', 'IRR', 'IRHT', 'IRHR' ), true ) ) {
+								// Persian currencies read "۱۲۰,۰۰۰ تومان": symbol after the number, no decimals.
+								update_option( 'woocommerce_currency_pos', 'right_space' );
+								update_option( 'woocommerce_price_num_decimals', 0 );
+							}
 						}
 						if ( ! empty( $post['country'] ) ) {
 							update_option( 'woocommerce_default_country', sanitize_text_field( $post['country'] ) );

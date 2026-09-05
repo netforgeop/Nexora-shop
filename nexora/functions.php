@@ -50,6 +50,7 @@ require_once NEXORA_DIR . 'inc/performance.php';
  */
 if ( class_exists( 'WooCommerce' ) ) {
 	require_once NEXORA_DIR . 'inc/woocommerce/setup.php';
+	require_once NEXORA_DIR . 'inc/woocommerce/i18n-fallback.php';
 	require_once NEXORA_DIR . 'inc/woocommerce/hooks.php';
 	require_once NEXORA_DIR . 'inc/woocommerce/product-card.php';
 	require_once NEXORA_DIR . 'inc/woocommerce/single-product.php';

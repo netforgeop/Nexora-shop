@@ -93,9 +93,6 @@ function nexora_admin_assets( $hook ) {
 	wp_enqueue_script( 'wp-color-picker' );
 	wp_enqueue_script( 'jquery-ui-sortable' );
 	wp_enqueue_style( 'nexora-admin', NEXORA_URI . 'assets/css/admin.css', array(), NEXORA_VERSION );
-	if ( is_rtl() ) {
-		wp_style_add_data( 'nexora-admin', 'rtl', 'replace' );
-	}
 	wp_enqueue_script( 'nexora-admin', NEXORA_URI . 'assets/js/admin.js', array( 'jquery', 'wp-color-picker', 'jquery-ui-sortable', 'wp-util' ), NEXORA_VERSION, true );
 	wp_localize_script(
 		'nexora-admin',
@@ -118,6 +115,21 @@ function nexora_admin_assets( $hook ) {
 	);
 }
 add_action( 'admin_enqueue_scripts', 'nexora_admin_assets' );
+
+/**
+ * Safety net: if another plugin dequeues/replaces our admin stylesheet (or an
+ * RTL "replace" swap points at a missing file), print the link tag directly so
+ * theme screens are never rendered unstyled.
+ */
+function nexora_admin_assets_fallback() {
+	if ( ! nexora_is_theme_screen() ) {
+		return;
+	}
+	if ( ! wp_style_is( 'nexora-admin', 'enqueued' ) && ! wp_style_is( 'nexora-admin', 'done' ) ) {
+		printf( '<link rel="stylesheet" id="nexora-admin-fallback" href="%s">' . "\n", esc_url( add_query_arg( 'ver', NEXORA_VERSION, NEXORA_URI . 'assets/css/admin.css' ) ) );
+	}
+}
+add_action( 'admin_print_styles', 'nexora_admin_assets_fallback', 100 );
 
 /**
  * Verify nonce + capability for admin AJAX; dies on failure.

@@ -8,7 +8,8 @@
 
 defined( 'ABSPATH' ) || exit;
 ?>
-<div class="summary__items scroll-thin shop_table woocommerce-checkout-review-order-table">
+<div class="shop_table woocommerce-checkout-review-order-table summary__review">
+<div class="summary__items scroll-thin">
 	<?php
 	do_action( 'woocommerce_review_order_before_cart_contents' );
 	foreach ( WC()->cart->get_cart() as $cart_item_key => $cart_item ) {
@@ -52,3 +53,4 @@ defined( 'ABSPATH' ) || exit;
 </div>
 <div class="summary__total order-total"><span><?php esc_html_e( 'Total', 'nexora' ); ?></span><span class="num"><?php wc_cart_totals_order_total_html(); ?></span></div>
 <?php do_action( 'woocommerce_review_order_after_order_total' ); ?>
+</div>

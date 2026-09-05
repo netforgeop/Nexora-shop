@@ -90,7 +90,12 @@ function nexora_breadcrumb_items() {
  * Print the breadcrumb.
  */
 function nexora_breadcrumb() {
-	$items = nexora_breadcrumb_items();
+	static $printed = false;
+	if ( $printed ) {
+		return; // Header already rendered it — templates may call it safely.
+	}
+	$printed = true;
+	$items   = nexora_breadcrumb_items();
 	if ( count( $items ) < 2 ) {
 		return;
 	}

@@ -13,7 +13,7 @@ if ( ! wp_doing_ajax() ) {
 }
 ?>
 <div id="payment" class="woocommerce-checkout-payment checkout-payment">
-	<h3 class="checkout-section__title checkout-section__title--sm"><span class="step-badge"><?php echo esc_html( nexora_num( WC()->cart->needs_shipping() ? 4 : 3 ) ); ?></span><?php esc_html_e( 'Payment', 'nexora' ); ?></h3>
+	<h3 class="checkout-section__title checkout-section__title--sm"><span class="step-badge"><?php echo esc_html( nexora_num( 3 ) ); ?></span><?php esc_html_e( 'Payment', 'nexora' ); ?></h3>
 	<?php if ( WC()->cart->needs_payment() ) : ?>
 		<ul class="wc_payment_methods payment_methods methods option-cards option-cards--compact">
 			<?php

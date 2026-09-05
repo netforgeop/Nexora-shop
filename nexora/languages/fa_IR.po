@@ -171,1975 +171,1975 @@ msgstr "انتخاب سردبیر"
 
 #: inc/admin/activation.php:17 inc/enqueue.php:108 inc/woocommerce/account.php:42 inc/woocommerce/hooks.php:88 template-parts/footer/drawers.php:58 template-parts/footer/mobile-bar.php:20
 msgid "Wishlist"
-msgstr ""
+msgstr "علاقه‌مندی‌ها"
 
 #: inc/admin/activation.php:18 template-parts/footer/drawers.php:59 template-parts/header/header.php:116 template-parts/products/quick-view.php:35
 msgid "Compare"
-msgstr ""
+msgstr "مقایسه"
 
 #: inc/admin/activation.php:19 template-parts/footer/drawers.php:64
 msgid "Contact us"
-msgstr ""
+msgstr "تماس با ما"
 
 #: inc/admin/activation.php:20 inc/helpers/catalog.php:183
 msgid "FAQ"
-msgstr ""
+msgstr "سؤالات متداول"
 
 #: inc/admin/activation.php:21 inc/admin/activation.php:85 inc/helpers/breadcrumb.php:16 inc/helpers/catalog.php:175 template-parts/footer/drawers.php:45 template-parts/footer/mobile-bar.php:16
 msgid "Home"
-msgstr ""
+msgstr "خانه"
 
 #: inc/admin/activation.php:22 inc/helpers/breadcrumb.php:55 inc/helpers/catalog.php:181 inc/helpers/schema.php:577 inc/helpers/schema.php:714 inc/helpers/schema.php:721
 msgid "Blog"
-msgstr ""
+msgstr "وبلاگ"
 
 #: inc/admin/activation.php:87 inc/admin/demo-import.php:524 inc/admin/demo-import.php:566 inc/admin/system-status.php:48 inc/helpers/breadcrumb.php:26 inc/helpers/catalog.php:177
 msgid "Shop"
-msgstr ""
+msgstr "فروشگاه"
 
 #: inc/admin/core.php:26 inc/admin/core.php:49
 msgid "Nexora Dashboard"
-msgstr ""
+msgstr "پیشخوان نکسورا"
 
 #: inc/admin/core.php:26 inc/admin/help-boxes.php:18
 msgid "Dashboard"
-msgstr ""
+msgstr "پیشخوان"
 
 #: inc/admin/core.php:27 inc/admin/core.php:27 inc/admin/settings.php:248
 msgid "Theme Settings"
-msgstr ""
+msgstr "تنظیمات قالب"
 
 #: inc/admin/core.php:28 inc/admin/core.php:28 inc/admin/presets.php:92 inc/admin/tutorials.php:137
 msgid "Colors & Presets"
-msgstr ""
+msgstr "رنگ‌ها و پریست‌ها"
 
 #: inc/admin/core.php:29 inc/admin/plugins.php:164
 msgid "Plugin Manager"
-msgstr ""
+msgstr "مدیریت افزونه‌ها"
 
 #: inc/admin/core.php:29 inc/admin/dashboard.php:138 inc/admin/help-boxes.php:21 inc/admin/wizard.php:22
 msgid "Plugins"
-msgstr ""
+msgstr "افزونه‌ها"
 
 #: inc/admin/core.php:30 inc/admin/core.php:30 inc/admin/demo-import.php:668
 msgid "Demo Import"
-msgstr ""
+msgstr "درون‌ریزی دمو"
 
 #: inc/admin/core.php:31 inc/admin/core.php:31 inc/admin/dashboard.php:246 inc/admin/onboarding.php:20 inc/admin/tutorials.php:291
 msgid "Tutorials"
-msgstr ""
+msgstr "آموزش‌ها"
 
 #: inc/admin/core.php:32 inc/admin/core.php:32 inc/admin/system-status.php:151 inc/admin/tutorials.php:49
 msgid "System Status"
-msgstr ""
+msgstr "وضعیت سیستم"
 
 #: inc/admin/core.php:33 inc/admin/core.php:33 inc/admin/tutorials.php:49
 msgid "Setup Wizard"
-msgstr ""
+msgstr "راه‌انداز سریع"
 
 #: inc/admin/core.php:45 inc/admin/core.php:340 inc/admin/dashboard.php:242
 msgid "My Store"
-msgstr ""
+msgstr "فروشگاه من"
 
 #: inc/admin/core.php:108
 msgid "Select"
-msgstr ""
+msgstr "انتخاب"
 
 #: inc/admin/core.php:109 inc/admin/settings.php:122 inc/admin/settings.php:164 inc/admin/wizard.php:270 inc/enqueue.php:128 template-parts/header/mini-cart.php:42
 msgid "Remove"
-msgstr ""
+msgstr "حذف"
 
 #: inc/admin/core.php:110
 msgid "Are you sure? This cannot be undone."
-msgstr ""
+msgstr "مطمئن هستید؟ این کار قابل بازگشت نیست."
 
 #: inc/admin/core.php:111
 msgid "Saving…"
-msgstr ""
+msgstr "در حال ذخیره…"
 
 #: inc/admin/core.php:112
 msgid "Saved."
-msgstr ""
+msgstr "ذخیره شد."
 
 #: inc/admin/core.php:113
 msgid "Something went wrong."
-msgstr ""
+msgstr "مشکلی پیش آمد."
 
 #: inc/admin/core.php:114
 msgid "Importing… please keep this tab open."
-msgstr ""
+msgstr "در حال درون‌ریزی… لطفاً این برگه را باز نگه دارید."
 
 #: inc/admin/core.php:115
 msgid "Type to search…"
-msgstr ""
+msgstr "برای جستجو تایپ کنید…"
 
 #: inc/admin/core.php:127 inc/admin/core.php:138
 msgid "Permission denied."
-msgstr ""
+msgstr "دسترسی مجاز نیست."
 
 #: inc/admin/core.php:232
 msgid "Theme sections"
-msgstr ""
+msgstr "بخش‌های قالب"
 
 #: inc/admin/core.php:237
 msgid "View site"
-msgstr ""
+msgstr "مشاهده سایت"
 
 #: inc/admin/core.php:253
 msgid "Nexora theme %s — built for WooCommerce by"
-msgstr ""
+msgstr "قالب نکسورا %s — ساخته‌شده برای ووکامرس توسط"
 
 #: inc/admin/dashboard.php:39
 msgid "Orders (30 days)"
-msgstr ""
+msgstr "سفارش‌ها (۳۰ روز)"
 
 #: inc/admin/dashboard.php:40
 msgid "Revenue (30 days)"
-msgstr ""
+msgstr "درآمد (۳۰ روز)"
 
 #: inc/admin/dashboard.php:41
 msgid "Orders to fulfil"
-msgstr ""
+msgstr "سفارش‌های در انتظار"
 
 #: inc/admin/dashboard.php:42 inc/admin/system-status.php:62
 msgid "Published products"
-msgstr ""
+msgstr "محصولات منتشرشده"
 
 #: inc/admin/dashboard.php:43 inc/woocommerce/product-card.php:247 inc/woocommerce/wishlist.php:68 template-parts/products/stock.php:15 template-parts/products/wish-item.php:24 woocommerce/content-product.php:56
 msgid "Out of stock"
-msgstr ""
+msgstr "ناموجود"
 
 #: inc/admin/dashboard.php:44
 msgid "Customers"
-msgstr ""
+msgstr "مشتریان"
 
 #: inc/admin/dashboard.php:60 woocommerce/myaccount/dashboard.php:22
 msgid "Welcome, %s"
-msgstr ""
+msgstr "خوش آمدید، %s"
 
 #: inc/admin/dashboard.php:60
 msgid "Everything about your store in one place: health, quick actions, and step-by-step help."
-msgstr ""
+msgstr "همه‌چیز درباره فروشگاه شما در یک‌جا: سلامت سایت، دسترسی سریع و راهنمای گام‌به‌گام."
 
 #: inc/admin/dashboard.php:64
 msgid "Finish setting up your store"
-msgstr ""
+msgstr "راه‌اندازی فروشگاه را کامل کنید"
 
 #: inc/admin/dashboard.php:64
 msgid "The setup wizard walks you through logo, colours, homepage, WooCommerce and demo content in about five minutes. You can re-run it anytime."
-msgstr ""
+msgstr "راه‌انداز سریع در حدود پنج دقیقه لوگو، رنگ‌ها، صفحه اصلی، ووکامرس و محتوای دمو را تنظیم می‌کند. هر زمان می‌توانید دوباره اجرایش کنید."
 
 #: inc/admin/dashboard.php:64
 msgid "Start setup wizard"
-msgstr ""
+msgstr "شروع راه‌انداز"
 
 #: inc/admin/dashboard.php:70
 msgid "Some critical items need attention before you can sell."
-msgstr ""
+msgstr "چند مورد حیاتی پیش از شروع فروش نیاز به توجه دارند."
 
 #: inc/admin/dashboard.php:71
 msgid "The store works, but a few recommended settings are missing."
-msgstr ""
+msgstr "فروشگاه کار می‌کند، اما چند تنظیم پیشنهادی انجام نشده است."
 
 #: inc/admin/dashboard.php:72
 msgid "All checks passed — your store is ready."
-msgstr ""
+msgstr "همه بررسی‌ها موفق بود — فروشگاه شما آماده است."
 
 #: inc/admin/dashboard.php:74
 msgid "%1$d passed · %2$d recommended · %3$d critical"
-msgstr ""
+msgstr "%1$d موفق · %2$d پیشنهادی · %3$d حیاتی"
 
 #: inc/admin/dashboard.php:74
 msgid "View details"
-msgstr ""
+msgstr "مشاهده جزئیات"
 
 #: inc/admin/dashboard.php:90 inc/admin/help-boxes.php:19
 msgid "Theme settings"
-msgstr ""
+msgstr "تنظیمات قالب"
 
 #: inc/admin/dashboard.php:91
 msgid "Homepage sections"
-msgstr ""
+msgstr "بخش‌های صفحه اصلی"
 
 #: inc/admin/dashboard.php:92
 msgid "Colors & presets"
-msgstr ""
+msgstr "رنگ‌ها و پریست‌ها"
 
 #: inc/admin/dashboard.php:93
 msgid "Logo & site identity"
-msgstr ""
+msgstr "لوگو و هویت سایت"
 
 #: inc/admin/dashboard.php:94 inc/admin/tutorials.php:78
 msgid "Menus"
-msgstr ""
+msgstr "فهرست‌ها"
 
 #: inc/admin/dashboard.php:95
 msgid "Widgets"
-msgstr ""
+msgstr "ابزارک‌ها"
 
 #: inc/admin/dashboard.php:98 inc/admin/tutorials.php:94
 msgid "Add product"
-msgstr ""
+msgstr "افزودن محصول"
 
 #: inc/admin/dashboard.php:99 inc/helpers/schema.php:787 inc/helpers/schema.php:792 inc/helpers/schema.php:793 inc/woocommerce/account.php:40
 msgid "Orders"
-msgstr ""
+msgstr "سفارش‌ها"
 
 #: inc/admin/dashboard.php:100
 msgid "Payments"
-msgstr ""
+msgstr "پرداخت‌ها"
 
 #: inc/admin/dashboard.php:101 inc/helpers/schema.php:685 inc/helpers/schema.php:794 woocommerce/cart/cart-totals.php:35 woocommerce/myaccount/view-order.php:107
 msgid "Shipping"
-msgstr ""
+msgstr "حمل‌ونقل"
 
 #: inc/admin/dashboard.php:103
 msgid "Write a post"
-msgstr ""
+msgstr "نوشتن مطلب"
 
 #: inc/admin/dashboard.php:104 inc/admin/help-boxes.php:22
 msgid "Demo import"
-msgstr ""
+msgstr "درون‌ریزی دمو"
 
 #: inc/admin/dashboard.php:111 inc/admin/onboarding.php:19
 msgid "Quick actions"
-msgstr ""
+msgstr "دسترسی سریع"
 
 #: inc/admin/dashboard.php:118
 msgid "Theme version"
-msgstr ""
+msgstr "نسخه قالب"
 
 #: inc/admin/dashboard.php:120 inc/admin/dashboard.php:121
 msgid "not active"
-msgstr ""
+msgstr "غیرفعال"
 
 #: inc/admin/dashboard.php:123
 msgid "Language"
-msgstr ""
+msgstr "زبان"
 
 #: inc/admin/dashboard.php:124
 msgid "Color preset"
-msgstr ""
+msgstr "پریست رنگ"
 
 #: inc/admin/dashboard.php:125 inc/admin/wizard.php:27
 msgid "Demo content"
-msgstr ""
+msgstr "محتوای دمو"
 
 #: inc/admin/dashboard.php:125
 msgid "none"
-msgstr ""
+msgstr "هیچ"
 
 #: inc/admin/dashboard.php:131
 msgid "At a glance"
-msgstr ""
+msgstr "در یک نگاه"
 
 #: inc/admin/dashboard.php:135
 msgid "%d required plugin missing"
 msgid_plural "%d required plugins missing"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d افزونه ضروری نصب نیست"
+msgstr[1] "%d افزونه ضروری نصب نیست"
 
 #: inc/admin/dashboard.php:135
 msgid "All required plugins active"
-msgstr ""
+msgstr "همه افزونه‌های ضروری فعال‌اند"
 
 #: inc/admin/dashboard.php:136
 msgid "%d recommended plugins not yet installed."
-msgstr ""
+msgstr "%d افزونه پیشنهادی هنوز نصب نشده است."
 
 #: inc/admin/dashboard.php:137
 msgid "Open plugin manager"
-msgstr ""
+msgstr "باز کردن مدیریت افزونه‌ها"
 
 #: inc/admin/dashboard.php:148
 msgid "WooCommerce readiness"
-msgstr ""
+msgstr "آمادگی ووکامرس"
 
 #: inc/admin/dashboard.php:148
 msgid "All checks"
-msgstr ""
+msgstr "همه بررسی‌ها"
 
 #: inc/admin/dashboard.php:157
 msgid "Getting started guides"
-msgstr ""
+msgstr "راهنماهای شروع"
 
 #: inc/admin/dashboard.php:157 inc/admin/tutorials.php:295
 msgid "All tutorials"
-msgstr ""
+msgstr "همه آموزش‌ها"
 
 #: inc/admin/dashboard.php:163
 msgid "Clear theme caches"
-msgstr ""
+msgstr "پاک‌سازی کش قالب"
 
 #: inc/admin/dashboard.php:164
 msgid "Export newsletter subscribers (CSV)"
-msgstr ""
+msgstr "خروجی مشترکان خبرنامه (CSV)"
 
 #: inc/admin/dashboard.php:165
 msgid "Export theme options (JSON)"
-msgstr ""
+msgstr "خروجی تنظیمات قالب (JSON)"
 
 #: inc/admin/dashboard.php:166
 msgid "Replay onboarding tour"
-msgstr ""
+msgstr "پخش دوباره تور آشنایی"
 
 #: inc/admin/dashboard.php:167
 msgid "Reset all theme options"
-msgstr ""
+msgstr "بازنشانی همه تنظیمات قالب"
 
 #: inc/admin/dashboard.php:168
 msgid "Import options: paste the exported JSON on the System Status page."
-msgstr ""
+msgstr "درون‌ریزی تنظیمات: JSON خروجی‌گرفته را در صفحه وضعیت سیستم بچسبانید."
 
 #: inc/admin/dashboard.php:169 inc/admin/onboarding.php:21
 msgid "Tools"
-msgstr ""
+msgstr "ابزارها"
 
 #: inc/admin/dashboard.php:191
 msgid "Theme caches cleared."
-msgstr ""
+msgstr "کش قالب پاک شد."
 
 #: inc/admin/dashboard.php:217
 msgid "The onboarding tour will start now."
-msgstr ""
+msgstr "تور آشنایی اکنون شروع می‌شود."
 
 #: inc/admin/dashboard.php:223
 msgid "All theme options were reset to defaults. Presets and pages were kept."
-msgstr ""
+msgstr "همه تنظیمات قالب به پیش‌فرض بازگشت. پریست‌ها و صفحه‌ها حفظ شدند."
 
 #: inc/admin/dashboard.php:245
 msgid "Store health: %1$d passed, %2$d recommended, %3$d critical."
-msgstr ""
+msgstr "سلامت فروشگاه: %1$d موفق، %2$d پیشنهادی، %3$d حیاتی."
 
 #: inc/admin/dashboard.php:246
 msgid "Open theme dashboard"
-msgstr ""
+msgstr "باز کردن پیشخوان قالب"
 
 #: inc/admin/demo-import.php:25
 msgid "Modern Fashion"
-msgstr ""
+msgstr "مد مدرن"
 
 #: inc/admin/demo-import.php:26
 msgid "Apparel, shoes, accessories and beauty. Editorial hero, lookbook tiles, Luxury Green preset."
-msgstr ""
+msgstr "پوشاک، کفش، اکسسوری و زیبایی. هیرو مجله‌ای، کاشی‌های لوک‌بوک، پریست سبز لوکس."
 
 #: inc/admin/demo-import.php:33
 msgid "Electronics"
-msgstr ""
+msgstr "لوازم دیجیتال"
 
 #: inc/admin/demo-import.php:34
 msgid "Phones, laptops, audio and cameras. Spec-heavy product pages, compare table, Modern Blue preset."
-msgstr ""
+msgstr "گوشی، لپ‌تاپ، صوتی و دوربین. صفحات محصول با مشخصات کامل، جدول مقایسه، پریست آبی مدرن."
 
 #: inc/admin/demo-import.php:41
 msgid "General Store"
-msgstr ""
+msgstr "فروشگاه عمومی"
 
 #: inc/admin/demo-import.php:42
 msgid "Everything: electronics, fashion, home, beauty and sport. The full homepage with all 15 sections, Classic Red preset."
-msgstr ""
+msgstr "همه‌چیز: دیجیتال، مد، خانه، زیبایی و ورزش. صفحه اصلی کامل با هر ۱۵ بخش، پریست قرمز کلاسیک."
 
 #: inc/admin/demo-import.php:157 inc/helpers/schema.php:227
 msgid "Product categories"
-msgstr ""
+msgstr "دسته‌بندی محصولات"
 
 #: inc/admin/demo-import.php:158
 msgid "Brands & attributes"
-msgstr ""
+msgstr "برندها و ویژگی‌ها"
 
 #: inc/admin/demo-import.php:159
 msgid "Products & images"
-msgstr ""
+msgstr "محصولات و تصاویر"
 
 #: inc/admin/demo-import.php:160 inc/woocommerce/account.php:43 woocommerce/content-single-product.php:33
 msgid "Reviews"
-msgstr ""
+msgstr "دیدگاه‌ها"
 
 #: inc/admin/demo-import.php:161
 msgid "Blog posts"
-msgstr ""
+msgstr "مطالب وبلاگ"
 
 #: inc/admin/demo-import.php:162
 msgid "Homepage & theme settings"
-msgstr ""
+msgstr "صفحه اصلی و تنظیمات قالب"
 
 #: inc/admin/demo-import.php:193
 msgid "Categories created."
-msgstr ""
+msgstr "دسته‌بندی‌ها ساخته شد."
 
 #: inc/admin/demo-import.php:198 inc/helpers/schema.php:623 inc/woocommerce/wishlist.php:73 woocommerce/loop/active-filters.php:15
 msgid "Brand"
-msgstr ""
+msgstr "برند"
 
 #: inc/admin/demo-import.php:206 woocommerce/loop/active-filters.php:16
 msgid "Colour"
-msgstr ""
+msgstr "رنگ"
 
 #: inc/admin/demo-import.php:207
 msgid "Size"
-msgstr ""
+msgstr "سایز"
 
 #: inc/admin/demo-import.php:209
 msgid "Brands and attributes ready."
-msgstr ""
+msgstr "برندها و ویژگی‌ها آماده شد."
 
 #: inc/admin/demo-import.php:219
 msgid "Products %1$d / %2$d"
-msgstr ""
+msgstr "محصولات %1$d / %2$d"
 
 #: inc/admin/demo-import.php:248
 msgid "Reviews added."
-msgstr ""
+msgstr "دیدگاه‌ها افزوده شد."
 
 #: inc/admin/demo-import.php:277
 msgid "Blog posts published."
-msgstr ""
+msgstr "مطالب وبلاگ منتشر شد."
 
 #: inc/admin/demo-import.php:281
 msgid "Homepage configured."
-msgstr ""
+msgstr "صفحه اصلی پیکربندی شد."
 
 #: inc/admin/demo-import.php:494
 msgid "Season opening"
-msgstr ""
+msgstr "آغاز فصل"
 
 #: inc/admin/demo-import.php:494
 msgid "Up to 40% off the newest tech"
-msgstr ""
+msgstr "تا ۴۰٪ تخفیف جدیدترین گجت‌ها"
 
 #: inc/admin/demo-import.php:494
 msgid "Headphones, wearables and laptops from top brands — delivered in 24 hours."
-msgstr ""
+msgstr "هدفون، پوشیدنی و لپ‌تاپ از برندهای برتر — تحویل در ۲۴ ساعت."
 
 #: inc/admin/demo-import.php:495
 msgid "New collection"
-msgstr ""
+msgstr "کالکشن جدید"
 
 #: inc/admin/demo-import.php:495
 msgid "Dress for the season"
-msgstr ""
+msgstr "استایل این فصل"
 
 #: inc/admin/demo-import.php:495
 msgid "Coats, sneakers and accessories curated by our stylists."
-msgstr ""
+msgstr "کت، کتانی و اکسسوری با انتخاب استایلیست‌های ما."
 
 #: inc/admin/demo-import.php:496
 msgid "Home & living"
-msgstr ""
+msgstr "خانه و زندگی"
 
 #: inc/admin/demo-import.php:496
 msgid "Make every room feel new"
-msgstr ""
+msgstr "هر اتاق را نو کنید"
 
 #: inc/admin/demo-import.php:496
 msgid "Furniture, lighting and decor with free assembly."
-msgstr ""
+msgstr "مبلمان، روشنایی و دکور با نصب رایگان."
 
 #: inc/admin/demo-import.php:504 inc/helpers/schema.php:393 inc/helpers/schema.php:460 template-parts/home/hero.php:80 template-parts/home/promo.php:29
 msgid "Shop now"
-msgstr ""
+msgstr "خرید کنید"
 
 #: inc/admin/demo-import.php:505 inc/helpers/catalog.php:178
 msgid "Offers"
-msgstr ""
+msgstr "پیشنهادها"
 
 #: inc/admin/demo-import.php:560 inc/helpers/schema.php:300
 msgid "Newsletter"
-msgstr ""
+msgstr "خبرنامه"
 
 #: inc/admin/demo-import.php:561
 msgid "Sign in"
-msgstr ""
+msgstr "ورود"
 
 #: inc/admin/demo-import.php:562
 msgid "Offer"
-msgstr ""
+msgstr "پیشنهاد"
 
 #: inc/admin/demo-import.php:629
 msgid "WooCommerce must be active before importing a demo."
-msgstr ""
+msgstr "پیش از درون‌ریزی دمو باید ووکامرس فعال باشد."
 
 #: inc/admin/demo-import.php:635
 msgid "Invalid request."
-msgstr ""
+msgstr "درخواست نامعتبر."
 
 #: inc/admin/demo-import.php:659
 msgid "Removed %d demo objects."
-msgstr ""
+msgstr "%d آیتم دمو حذف شد."
 
 #: inc/admin/demo-import.php:668
 msgid "Start from a complete store and replace the content with yours. Demo products, categories, brands, reviews, posts and homepage settings are imported; your existing content is never changed. Everything can be removed with one click."
-msgstr ""
+msgstr "از یک فروشگاه کامل شروع کنید و محتوا را با محتوای خودتان جایگزین کنید. محصولات، دسته‌ها، برندها، دیدگاه‌ها، مطالب و تنظیمات صفحه اصلی دمو درون‌ریزی می‌شوند؛ محتوای فعلی شما هرگز تغییر نمی‌کند. همه‌چیز با یک کلیک قابل حذف است."
 
 #: inc/admin/demo-import.php:670
 msgid "WooCommerce is not active. Activate it first from the Plugins tab."
-msgstr ""
+msgstr "ووکامرس فعال نیست. ابتدا از برگه افزونه‌ها آن را فعال کنید."
 
 #: inc/admin/demo-import.php:673
 msgid "Demo \"%s\" is installed."
-msgstr ""
+msgstr "دموی «%s» نصب شده است."
 
 #: inc/admin/demo-import.php:673
 msgid "Importing another demo adds its content alongside. Remove first for a clean switch."
-msgstr ""
+msgstr "درون‌ریزی دموی دیگر، محتوای آن را کنار محتوای فعلی اضافه می‌کند. برای تعویض تمیز، ابتدا حذف کنید."
 
 #: inc/admin/demo-import.php:673
 msgid "Remove all demo content"
-msgstr ""
+msgstr "حذف همه محتوای دمو"
 
 #: inc/admin/demo-import.php:686
 msgid "Import this demo"
-msgstr ""
+msgstr "درون‌ریزی این دمو"
 
 #: inc/admin/demo-import.php:690
 msgid "Good to know"
-msgstr ""
+msgstr "خوب است بدانید"
 
 #: inc/admin/demo-import.php:690
 msgid "Images are copied from the theme into your media library — no external downloads."
-msgstr ""
+msgstr "تصاویر از داخل قالب به کتابخانه رسانه کپی می‌شوند — بدون دانلود خارجی."
 
 #: inc/admin/demo-import.php:690
 msgid "Products get the tag \"nexora-demo\"; the whole set is removable from this page."
-msgstr ""
+msgstr "محصولات برچسب «nexora-demo» می‌گیرند؛ کل مجموعه از همین صفحه قابل حذف است."
 
 #: inc/admin/demo-import.php:690
 msgid "Prices are in the store currency without conversion. Adjust WooCommerce → Settings → General if needed."
-msgstr ""
+msgstr "قیمت‌ها به واحد پول فروشگاه و بدون تبدیل هستند. در صورت نیاز از ووکامرس ← تنظیمات ← عمومی تغییر دهید."
 
 #: inc/admin/demo-import.php:690
 msgid "The import changes the active colour preset and homepage settings; your previous settings are kept in the theme options and can be restored via the settings tabs."
-msgstr ""
+msgstr "درون‌ریزی، پریست رنگ فعال و تنظیمات صفحه اصلی را تغییر می‌دهد؛ تنظیمات قبلی در گزینه‌های قالب حفظ شده و از برگه‌های تنظیمات قابل بازیابی است."
 
 #: inc/admin/help-boxes.php:18
 msgid "This screen summarises the health of your store. Use the tabs at the top to move between theme areas. Nothing here changes the front end by itself."
-msgstr ""
+msgstr "این صفحه خلاصه سلامت فروشگاه شماست. با برگه‌های بالا بین بخش‌های قالب جابه‌جا شوید. هیچ‌چیز در اینجا به‌خودی‌خود ظاهر سایت را تغییر نمی‌دهد."
 
 #: inc/admin/help-boxes.php:19
 msgid "Each tab is saved separately. Toggles that are off hide the element entirely (no empty space is left). Fields marked with a note depend on another field and appear only when relevant."
-msgstr ""
+msgstr "هر برگه جداگانه ذخیره می‌شود. کلیدهای خاموش، عنصر را کاملاً پنهان می‌کنند (فضای خالی نمی‌ماند). فیلدهای دارای توضیح به فیلد دیگری وابسته‌اند و فقط در صورت نیاز نمایش داده می‌شوند."
 
 #: inc/admin/help-boxes.php:20
 msgid "Colour presets"
-msgstr ""
+msgstr "پریست‌های رنگ"
 
 #: inc/admin/help-boxes.php:20
 msgid "Colours are CSS custom properties. Anything you add in a child theme can use var(--theme-primary) and will follow the active preset."
-msgstr ""
+msgstr "رنگ‌ها متغیرهای CSS هستند. هر چیزی که در پوسته فرزند اضافه کنید می‌تواند از var(--theme-primary) استفاده کند و از پریست فعال پیروی می‌کند."
 
 #: inc/admin/help-boxes.php:21
 msgid "Installs are performed by WordPress itself from the official directory. The theme never downloads code from elsewhere."
-msgstr ""
+msgstr "نصب‌ها توسط خود وردپرس از مخزن رسمی انجام می‌شود. قالب هرگز از جای دیگری کد دانلود نمی‌کند."
 
 #: inc/admin/help-boxes.php:22
 msgid "Demo products, categories, posts and settings are tagged so they can be removed completely. Your existing content is never modified."
-msgstr ""
+msgstr "محصولات، دسته‌ها، مطالب و تنظیمات دمو برچسب‌گذاری شده‌اند تا کاملاً قابل حذف باشند. محتوای فعلی شما هرگز تغییر نمی‌کند."
 
 #: inc/admin/help-boxes.php:23 inc/admin/help-boxes.php:57
 msgid "System status"
-msgstr ""
+msgstr "وضعیت سیستم"
 
 #: inc/admin/help-boxes.php:23
 msgid "Copy the support report when asking for help. It contains versions and active plugins only — no credentials."
-msgstr ""
+msgstr "هنگام درخواست پشتیبانی، گزارش پشتیبانی را کپی کنید. فقط شامل نسخه‌ها و افزونه‌های فعال است — بدون هیچ اطلاعات محرمانه."
 
 #: inc/admin/help-boxes.php:24
 msgid "Nexora menu locations"
-msgstr ""
+msgstr "جایگاه‌های فهرست نکسورا"
 
 #: inc/admin/help-boxes.php:24
 msgid "Primary = main navigation bar. Mobile = drawer (falls back to Primary). Top bar start/end = small utility links. Footer 1/2 = link columns. Footer bottom = legal links. Account = user dropdown."
-msgstr ""
+msgstr "اصلی = نوار ناوبری اصلی. موبایل = منوی کشویی (در نبودش از اصلی استفاده می‌شود). نوار بالا ابتدا/انتها = لینک‌های کوچک کاربردی. فوتر ۱/۲ = ستون‌های لینک. پایین فوتر = لینک‌های قانونی. حساب = منوی کاربر."
 
 #: inc/admin/help-boxes.php:25
 msgid "Nexora widget areas"
-msgstr ""
+msgstr "نواحی ابزارک نکسورا"
 
 #: inc/admin/help-boxes.php:25
 msgid "Shop sidebar shows next to the product grid (filters are built in — add extra widgets only if needed). Blog sidebar and Page sidebar appear on posts/pages with a sidebar layout. Footer extra sits above the copyright row."
-msgstr ""
+msgstr "سایدبار فروشگاه کنار شبکه محصولات نمایش داده می‌شود (فیلترها داخلی‌اند — فقط در صورت نیاز ابزارک اضافه کنید). سایدبار وبلاگ و صفحه در نوشته‌ها/صفحات با چیدمان سایدبار ظاهر می‌شوند. فوتر اضافه بالای ردیف کپی‌رایت قرار می‌گیرد."
 
 #: inc/admin/help-boxes.php:26
 msgid "Nexora homepage"
-msgstr ""
+msgstr "صفحه اصلی نکسورا"
 
 #: inc/admin/help-boxes.php:26
 msgid "Set \"Your homepage displays\" to a static page and pick the \"Home\" page — the theme then renders the homepage sections configured in Theme Settings → Homepage."
-msgstr ""
+msgstr "«نمایش صفحه اصلی» را روی یک برگه ثابت بگذارید و برگه «خانه» را انتخاب کنید — قالب بخش‌های تنظیم‌شده در تنظیمات قالب ← صفحه اصلی را نمایش می‌دهد."
 
 #: inc/admin/help-boxes.php:27
 msgid "Nexora product tips"
-msgstr ""
+msgstr "نکات محصول نکسورا"
 
 #: inc/admin/help-boxes.php:27
 msgid "Featured image: square 800 px+. Attributes marked visible appear in the Specifications tab and compare table. Sale price triggers the discount badge. Highlights (ACF) show next to the price."
-msgstr ""
+msgstr "تصویر شاخص: مربع، حداقل ۸۰۰ پیکسل. ویژگی‌های «قابل نمایش» در برگه مشخصات و جدول مقایسه می‌آیند. قیمت فروش ویژه، نشان تخفیف را فعال می‌کند. نکات برجسته (ACF) کنار قیمت نمایش داده می‌شوند."
 
 #: inc/admin/help-boxes.php:54
 msgid "Open theme tutorials"
-msgstr ""
+msgstr "باز کردن آموزش‌های قالب"
 
 #: inc/admin/help-boxes.php:57
 msgid "Theme dashboard"
-msgstr ""
+msgstr "پیشخوان قالب"
 
 #: inc/admin/help-boxes.php:90 inc/helpers/schema.php:185
 msgid "Learn more"
-msgstr ""
+msgstr "بیشتر بدانید"
 
 #: inc/admin/onboarding.php:17
 msgid "Theme navigation"
-msgstr ""
+msgstr "ناوبری قالب"
 
 #: inc/admin/onboarding.php:17
 msgid "These tabs are the whole theme: settings, colours, plugins, demo import, tutorials and system status. Everything else is standard WordPress."
-msgstr ""
+msgstr "این برگه‌ها کل قالب هستند: تنظیمات، رنگ‌ها، افزونه‌ها، درون‌ریزی دمو، آموزش‌ها و وضعیت سیستم. بقیه، وردپرس استاندارد است."
 
 #: inc/admin/onboarding.php:18
 msgid "Store health"
-msgstr ""
+msgstr "سلامت فروشگاه"
 
 #: inc/admin/onboarding.php:18
 msgid "A live summary of WooCommerce and theme checks. Red items block sales; amber ones are recommendations."
-msgstr ""
+msgstr "خلاصه زنده بررسی‌های ووکامرس و قالب. موارد قرمز مانع فروش‌اند؛ موارد نارنجی پیشنهادی هستند."
 
 #: inc/admin/onboarding.php:19
 msgid "Jump straight to the things you edit most: homepage sections, colours, menus, products, orders."
-msgstr ""
+msgstr "مستقیم به چیزهایی بروید که بیشتر ویرایش می‌کنید: بخش‌های صفحه اصلی، رنگ‌ها، فهرست‌ها، محصولات، سفارش‌ها."
 
 #: inc/admin/onboarding.php:20
 msgid "Step-by-step guides for store owners. Start with \"Your first 10 minutes\"."
-msgstr ""
+msgstr "راهنماهای گام‌به‌گام برای صاحبان فروشگاه. با «۱۰ دقیقه اول» شروع کنید."
 
 #: inc/admin/onboarding.php:21
 msgid "Clear caches, export subscribers and options, or replay this tour later."
-msgstr ""
+msgstr "پاک‌سازی کش، خروجی مشترکان و تنظیمات، یا پخش دوباره این تور در آینده."
 
 #: inc/admin/onboarding.php:40
 msgid "Skip tour"
-msgstr ""
+msgstr "رد کردن تور"
 
 #: inc/admin/onboarding.php:41 inc/helpers/template-tags.php:152 inc/helpers/template-tags.php:284 template-parts/home/flash.php:47 woocommerce/myaccount/orders.php:75
 msgid "Next"
-msgstr ""
+msgstr "بعدی"
 
 #: inc/admin/onboarding.php:42 inc/admin/wizard.php:204
 msgid "Back"
-msgstr ""
+msgstr "قبلی"
 
 #: inc/admin/onboarding.php:43
 msgid "Finish"
-msgstr ""
+msgstr "پایان"
 
 #: inc/admin/onboarding.php:44
 msgid "of"
-msgstr ""
+msgstr "از"
 
 #: inc/admin/plugins.php:27
 msgid "Products, cart, checkout, orders and customer accounts. The theme cannot function as a store without it."
-msgstr ""
+msgstr "محصولات، سبد خرید، تسویه‌حساب، سفارش‌ها و حساب مشتریان. قالب بدون آن نمی‌تواند به‌عنوان فروشگاه کار کند."
 
 #: inc/admin/plugins.php:35
 msgid "Adds extra editing fields on products, pages and posts (highlights, size guide, page banners). Advanced Custom Fields / ACF Pro are detected too. Theme options themselves do not need it."
-msgstr ""
+msgstr "فیلدهای ویرایشی اضافه به محصولات، برگه‌ها و نوشته‌ها می‌افزاید (نکات برجسته، راهنمای سایز، بنر صفحه). Advanced Custom Fields / ACF Pro هم شناسایی می‌شوند. خود تنظیمات قالب به آن نیازی ندارند."
 
 #: inc/admin/plugins.php:43
 msgid "Sitemaps, schema, meta tags. The theme’s built-in SEO output steps aside automatically when an SEO plugin is active."
-msgstr ""
+msgstr "نقشه سایت، اسکیما، متا تگ‌ها. خروجی سئوی داخلی قالب با فعال شدن افزونه سئو به‌طور خودکار کنار می‌رود."
 
 #: inc/admin/plugins.php:51
 msgid "Page caching for faster load times. Any major caching plugin is recognised."
-msgstr ""
+msgstr "کش صفحه برای بارگذاری سریع‌تر. همه افزونه‌های کش معروف شناسایی می‌شوند."
 
 #: inc/admin/plugins.php:59
 msgid "Firewall, login protection and malware scanning."
-msgstr ""
+msgstr "فایروال، محافظت از ورود و اسکن بدافزار."
 
 #: inc/admin/plugins.php:62
 msgid "Persian WooCommerce"
-msgstr ""
+msgstr "ووکامرس فارسی"
 
 #: inc/admin/plugins.php:67
 msgid "Iranian provinces, Toman/Rial formatting and Persian date helpers. Recommended for Iranian stores."
-msgstr ""
+msgstr "استان‌های ایران، قالب‌بندی تومان/ریال و تاریخ شمسی. برای فروشگاه‌های ایرانی توصیه می‌شود."
 
 #: inc/admin/plugins.php:71
 msgid "Payment gateway (ZarinPal / IDPay / your bank)"
-msgstr ""
+msgstr "درگاه پرداخت (زرین‌پال / آیدی‌پی / بانک شما)"
 
 #: inc/admin/plugins.php:77
 msgid "Install the official gateway plugin from your payment provider and configure it under WooCommerce → Settings → Payments. The theme never handles payment data itself."
-msgstr ""
+msgstr "افزونه رسمی درگاه را از ارائه‌دهنده پرداخت خود نصب و در ووکامرس ← تنظیمات ← پرداخت‌ها پیکربندی کنید. قالب هرگز خودش اطلاعات پرداخت را مدیریت نمی‌کند."
 
 #: inc/admin/plugins.php:120 inc/admin/presets.php:115
 msgid "Activate"
-msgstr ""
+msgstr "فعال‌سازی"
 
 #: inc/admin/plugins.php:128
 msgid "Install from WordPress.org"
-msgstr ""
+msgstr "نصب از WordPress.org"
 
 #: inc/admin/plugins.php:134
 msgid "Get it from the provider"
-msgstr ""
+msgstr "دریافت از ارائه‌دهنده"
 
 #: inc/admin/plugins.php:164
 msgid "The theme depends on a few well-known plugins. Nothing is installed automatically — every install goes through the standard WordPress installer from WordPress.org, and payment gateways always come from your provider."
-msgstr ""
+msgstr "قالب به چند افزونه شناخته‌شده وابسته است. هیچ‌چیز خودکار نصب نمی‌شود — هر نصب از طریق نصب‌کننده استاندارد وردپرس از WordPress.org انجام می‌شود و درگاه‌های پرداخت همیشه از ارائه‌دهنده شما می‌آیند."
 
 #: inc/admin/plugins.php:166
 msgid "Required"
-msgstr ""
+msgstr "ضروری"
 
 #: inc/admin/plugins.php:166
 msgid "Recommended"
-msgstr ""
+msgstr "پیشنهادی"
 
 #: inc/admin/plugins.php:176 inc/admin/presets.php:106 inc/admin/wizard.php:233
 msgid "Active"
-msgstr ""
+msgstr "فعال"
 
 #: inc/admin/plugins.php:176
 msgid "Installed, not active"
-msgstr ""
+msgstr "نصب‌شده، غیرفعال"
 
 #: inc/admin/plugins.php:176 inc/admin/wizard.php:233
 msgid "Not installed"
-msgstr ""
+msgstr "نصب نشده"
 
 #: inc/admin/plugins.php:184
 msgid "Source: WordPress.org"
-msgstr ""
+msgstr "منبع: WordPress.org"
 
 #: inc/admin/plugins.php:184
 msgid "Source: provider website"
-msgstr ""
+msgstr "منبع: وب‌سایت ارائه‌دهنده"
 
 #: inc/admin/plugins.php:194
 msgid "Security note"
-msgstr ""
+msgstr "نکته امنیتی"
 
 #: inc/admin/plugins.php:195
 msgid "Never upload plugins from untrusted sources. Nulled or repackaged plugins are the number one cause of hacked stores. Keep WordPress, WooCommerce and this theme up to date, and use a strong admin password with two-factor authentication."
-msgstr ""
+msgstr "هرگز افزونه از منابع نامعتبر بارگذاری نکنید. افزونه‌های نال‌شده یا بازبسته‌بندی‌شده اولین عامل هک شدن فروشگاه‌ها هستند. وردپرس، ووکامرس و این قالب را به‌روز نگه دارید و از رمز عبور قوی مدیر همراه با تأیید دومرحله‌ای استفاده کنید."
 
 #: inc/admin/presets.php:30
 msgid "\"%s\" is now the active color preset."
-msgstr ""
+msgstr "«%s» اکنون پریست رنگ فعال است."
 
 #: inc/admin/presets.php:38
 msgid "My preset"
-msgstr ""
+msgstr "پریست من"
 
 #: inc/admin/presets.php:46
 msgid "Preset saved."
-msgstr ""
+msgstr "پریست ذخیره شد."
 
 #: inc/admin/presets.php:53
 msgid "%s (copy)"
-msgstr ""
+msgstr "%s (کپی)"
 
 #: inc/admin/presets.php:54
 msgid "Preset duplicated — you are now editing the copy."
-msgstr ""
+msgstr "پریست تکثیر شد — اکنون در حال ویرایش نسخه کپی هستید."
 
 #: inc/admin/presets.php:60
 msgid "Preset deleted."
-msgstr ""
+msgstr "پریست حذف شد."
 
 #: inc/admin/presets.php:62
 msgid "Built-in presets cannot be deleted."
-msgstr ""
+msgstr "پریست‌های داخلی قابل حذف نیستند."
 
 #: inc/admin/presets.php:70
 msgid "Imported preset"
-msgstr ""
+msgstr "پریست درون‌ریزی‌شده"
 
 #: inc/admin/presets.php:71
 msgid "Preset imported."
-msgstr ""
+msgstr "پریست درون‌ریزی شد."
 
 #: inc/admin/presets.php:73
 msgid "Invalid preset JSON."
-msgstr ""
+msgstr "JSON پریست نامعتبر است."
 
 #: inc/admin/presets.php:92
 msgid "Pick a ready-made palette or design your own. Every colour is a CSS variable (--theme-*), so the whole site — including WooCommerce pages — updates at once. Built-in presets are read-only; edit them to create your own copy."
-msgstr ""
+msgstr "یک پالت آماده انتخاب کنید یا پالت خودتان را بسازید. هر رنگ یک متغیر CSS است (--theme-*)، بنابراین کل سایت — از جمله صفحات ووکامرس — یک‌جا به‌روز می‌شود. پریست‌های داخلی فقط‌خواندنی‌اند؛ با ویرایش آن‌ها نسخه شخصی خود را بسازید."
 
 #: inc/admin/presets.php:96
 msgid "Presets"
-msgstr ""
+msgstr "پریست‌ها"
 
 #: inc/admin/presets.php:108
 msgid "Built-in"
-msgstr ""
+msgstr "داخلی"
 
 #: inc/admin/presets.php:117 woocommerce/myaccount/dashboard.php:62 woocommerce/myaccount/dashboard.php:76 woocommerce/myaccount/my-address.php:28
 msgid "Edit"
-msgstr ""
+msgstr "ویرایش"
 
 #: inc/admin/presets.php:118
 msgid "Duplicate"
-msgstr ""
+msgstr "تکثیر"
 
 #: inc/admin/presets.php:120
 msgid "Delete"
-msgstr ""
+msgstr "حذف"
 
 #: inc/admin/presets.php:124
 msgid "Import preset from JSON"
-msgstr ""
+msgstr "درون‌ریزی پریست از JSON"
 
 #: inc/admin/presets.php:126 inc/admin/wizard.php:330
 msgid "Import"
-msgstr ""
+msgstr "درون‌ریزی"
 
 #: inc/admin/presets.php:134
 msgid "Edit preset"
-msgstr ""
+msgstr "ویرایش پریست"
 
 #: inc/admin/presets.php:134
 msgid "Customise (saves as a new preset)"
-msgstr ""
+msgstr "سفارشی‌سازی (به‌عنوان پریست جدید ذخیره می‌شود)"
 
 #: inc/admin/presets.php:135
 msgid "Preset name"
-msgstr ""
+msgstr "نام پریست"
 
 #: inc/admin/presets.php:135
 msgid "(custom)"
-msgstr ""
+msgstr "(سفارشی)"
 
 #: inc/admin/presets.php:148
 msgid "Contrast check"
-msgstr ""
+msgstr "بررسی کنتراست"
 
 #: inc/admin/presets.php:149
 msgid "Save preset"
-msgstr ""
+msgstr "ذخیره پریست"
 
 #: inc/admin/presets.php:149
 msgid "Activate after saving"
-msgstr ""
+msgstr "فعال‌سازی پس از ذخیره"
 
 #: inc/admin/presets.php:149
 msgid "Export JSON"
-msgstr ""
+msgstr "خروجی JSON"
 
 #: inc/admin/presets.php:154
 msgid "Live preview"
-msgstr ""
+msgstr "پیش‌نمایش زنده"
 
 #: inc/admin/presets.php:155
 msgid "Free shipping on orders over 500,000 Toman"
-msgstr ""
+msgstr "ارسال رایگان برای سفارش‌های بالای ۵۰۰٬۰۰۰ تومان"
 
 #: inc/admin/presets.php:157
 msgid "Sample product"
-msgstr ""
+msgstr "محصول نمونه"
 
 #: inc/admin/presets.php:157 template-parts/products/compare-table.php:44 template-parts/products/wish-item.php:27 woocommerce/content-product.php:88 woocommerce/content-product.php:88
 msgid "Add to cart"
-msgstr ""
+msgstr "افزودن به سبد"
 
 #: inc/admin/presets.php:157
 msgid "Another product"
-msgstr ""
+msgstr "محصولی دیگر"
 
 #: inc/admin/presets.php:157 inc/helpers/schema.php:698 woocommerce/checkout/thankyou.php:28 woocommerce/content-single-product.php:110 woocommerce/myaccount/dashboard.php:39
 msgid "Details"
-msgstr ""
+msgstr "جزئیات"
 
 #: inc/admin/presets.php:158
 msgid "Footer text · Links · Newsletter"
-msgstr ""
+msgstr "متن فوتر · لینک‌ها · خبرنامه"
 
 #: inc/admin/presets.php:158
 msgid "All rights reserved."
-msgstr ""
+msgstr "تمامی حقوق محفوظ است."
 
 #: inc/admin/settings.php:33
 msgid "Unknown settings group."
-msgstr ""
+msgstr "گروه تنظیمات ناشناخته."
 
 #: inc/admin/settings.php:37
 msgid "Settings restored to defaults."
-msgstr ""
+msgstr "تنظیمات به پیش‌فرض بازگشت."
 
 #: inc/admin/settings.php:41
 msgid "Settings saved."
-msgstr ""
+msgstr "تنظیمات ذخیره شد."
 
 #: inc/admin/settings.php:122 inc/admin/wizard.php:270
 msgid "Select image"
-msgstr ""
+msgstr "انتخاب تصویر"
 
 #: inc/admin/settings.php:132 inc/helpers/schema.php:535
 msgid "Label"
-msgstr ""
+msgstr "برچسب"
 
 #: inc/admin/settings.php:134
 msgid "New tab"
-msgstr ""
+msgstr "برگه جدید"
 
 #: inc/admin/settings.php:140
 msgid "Available once WooCommerce is active."
-msgstr ""
+msgstr "پس از فعال شدن ووکامرس در دسترس است."
 
 #: inc/admin/settings.php:146
 msgid "Choose…"
-msgstr ""
+msgstr "انتخاب کنید…"
 
 #: inc/admin/settings.php:148
 msgid "— Select —"
-msgstr ""
+msgstr "— انتخاب —"
 
 #: inc/admin/settings.php:166
 msgid "Search products by name or SKU…"
-msgstr ""
+msgstr "جستجوی محصول با نام یا شناسه…"
 
 #: inc/admin/settings.php:208
 msgid "Add row"
-msgstr ""
+msgstr "افزودن ردیف"
 
 #: inc/admin/settings.php:232
 msgid "New row"
-msgstr ""
+msgstr "ردیف جدید"
 
 #: inc/admin/settings.php:232
 msgid "Remove row"
-msgstr ""
+msgstr "حذف ردیف"
 
 #: inc/admin/settings.php:248
 msgid "Every visible text, image and toggle in the theme lives here. Changes apply instantly on the front end — no cache purge needed unless you run a caching plugin."
-msgstr ""
+msgstr "هر متن، تصویر و کلید قابل‌مشاهده قالب اینجاست. تغییرات بلافاصله در سایت اعمال می‌شود — مگر اینکه افزونه کش داشته باشید که در آن صورت باید کش را پاک کنید."
 
 #: inc/admin/settings.php:250
 msgid "Settings groups"
-msgstr ""
+msgstr "گروه‌های تنظیمات"
 
 #: inc/admin/settings.php:277 woocommerce/myaccount/form-edit-account.php:34 woocommerce/myaccount/form-edit-account.php:34 woocommerce/myaccount/form-edit-account.php:46
 msgid "Save changes"
-msgstr ""
+msgstr "ذخیره تغییرات"
 
 #: inc/admin/settings.php:277
 msgid "Reset this tab to defaults"
-msgstr ""
+msgstr "بازنشانی این برگه به پیش‌فرض"
 
 #: inc/admin/system-status.php:18 inc/admin/wizard.php:26
 msgid "WooCommerce"
-msgstr ""
+msgstr "ووکامرس"
 
 #: inc/admin/system-status.php:18
 msgid "Not active — install and activate WooCommerce."
-msgstr ""
+msgstr "غیرفعال — ووکامرس را نصب و فعال کنید."
 
 #: inc/admin/system-status.php:24 inc/admin/wizard.php:297
 msgid "Currency"
-msgstr ""
+msgstr "واحد پول"
 
 #: inc/admin/system-status.php:24 inc/admin/system-status.php:28
 msgid "Not set"
-msgstr ""
+msgstr "تنظیم نشده"
 
 #: inc/admin/system-status.php:28
 msgid "Store address"
-msgstr ""
+msgstr "آدرس فروشگاه"
 
 #: inc/admin/system-status.php:42
 msgid "Shipping methods"
-msgstr ""
+msgstr "روش‌های ارسال"
 
 #: inc/admin/system-status.php:42
 msgid "%d zone configured"
 msgid_plural "%d zones configured"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ناحیه پیکربندی شده"
+msgstr[1] "%d ناحیه پیکربندی شده"
 
 #: inc/admin/system-status.php:42
 msgid "No shipping method in any zone"
-msgstr ""
+msgstr "هیچ روش ارسالی در هیچ ناحیه‌ای نیست"
 
 #: inc/admin/system-status.php:46
 msgid "Payment gateways"
-msgstr ""
+msgstr "درگاه‌های پرداخت"
 
 #: inc/admin/system-status.php:46
 msgid "No enabled gateway — customers cannot pay"
-msgstr ""
+msgstr "هیچ درگاهی فعال نیست — مشتریان نمی‌توانند پرداخت کنند"
 
 #: inc/admin/system-status.php:48 template-parts/footer/mobile-bar.php:19 template-parts/header/header.php:130 template-parts/header/header.php:132 woocommerce/checkout/form-checkout.php:24 woocommerce/checkout/thankyou.php:27
 msgid "Cart"
-msgstr ""
+msgstr "سبد خرید"
 
 #: inc/admin/system-status.php:48 template-parts/header/mini-cart.php:59 woocommerce/checkout/form-checkout.php:22 woocommerce/checkout/form-checkout.php:47
 msgid "Checkout"
-msgstr ""
+msgstr "تسویه‌حساب"
 
 #: inc/admin/system-status.php:48
 msgid "My Account"
-msgstr ""
+msgstr "حساب کاربری"
 
 #: inc/admin/system-status.php:56
 msgid "WooCommerce pages"
-msgstr ""
+msgstr "برگه‌های ووکامرس"
 
 #: inc/admin/system-status.php:56
 msgid "Missing: %s"
-msgstr ""
+msgstr "موجود نیست: %s"
 
 #: inc/admin/system-status.php:56
 msgid "All core pages exist"
-msgstr ""
+msgstr "همه برگه‌های اصلی موجودند"
 
 #: inc/admin/system-status.php:59
 msgid "Terms & conditions page"
-msgstr ""
+msgstr "برگه قوانین و مقررات"
 
 #: inc/admin/system-status.php:59
 msgid "Not set (recommended for legal compliance)"
-msgstr ""
+msgstr "تنظیم نشده (برای رعایت قوانین توصیه می‌شود)"
 
 #: inc/admin/system-status.php:65
 msgid "Taxes"
-msgstr ""
+msgstr "مالیات"
 
 #: inc/admin/system-status.php:65 inc/admin/system-status.php:111
 msgid "Enabled"
-msgstr ""
+msgstr "فعال"
 
 #: inc/admin/system-status.php:65 inc/admin/system-status.php:108
 msgid "Disabled"
-msgstr ""
+msgstr "غیرفعال"
 
 #: inc/admin/system-status.php:68
 msgid "Guest checkout"
-msgstr ""
+msgstr "خرید مهمان"
 
 #: inc/admin/system-status.php:68
 msgid "Allowed"
-msgstr ""
+msgstr "مجاز"
 
 #: inc/admin/system-status.php:68
 msgid "Account required"
-msgstr ""
+msgstr "نیازمند حساب کاربری"
 
 #: inc/admin/system-status.php:70
 msgid "HTTPS"
-msgstr ""
+msgstr "HTTPS"
 
 #: inc/admin/system-status.php:70
 msgid "Secure connection active"
-msgstr ""
+msgstr "اتصال امن فعال است"
 
 #: inc/admin/system-status.php:70
 msgid "Store is not served over HTTPS — required for payments"
-msgstr ""
+msgstr "فروشگاه روی HTTPS نیست — برای پرداخت ضروری است"
 
 #: inc/admin/system-status.php:82 inc/admin/wizard.php:28 inc/helpers/schema.php:349
 msgid "Homepage"
-msgstr ""
+msgstr "صفحه اصلی"
 
 #: inc/admin/system-status.php:82
 msgid "Set a static front page to use the Nexora homepage builder"
-msgstr ""
+msgstr "برای استفاده از صفحه‌ساز نکسورا یک برگه ثابت به‌عنوان صفحه اصلی تنظیم کنید"
 
 #: inc/admin/system-status.php:83 inc/admin/wizard.php:24 inc/admin/wizard.php:267
 msgid "Logo"
-msgstr ""
+msgstr "لوگو"
 
 #: inc/admin/system-status.php:83
 msgid "Uploaded"
-msgstr ""
+msgstr "بارگذاری شده"
 
 #: inc/admin/system-status.php:83
 msgid "Using text logo"
-msgstr ""
+msgstr "استفاده از لوگوی متنی"
 
 #: inc/admin/system-status.php:85
 msgid "Primary menu"
-msgstr ""
+msgstr "فهرست اصلی"
 
 #: inc/admin/system-status.php:85
 msgid "Assigned"
-msgstr ""
+msgstr "اختصاص یافته"
 
 #: inc/admin/system-status.php:85
 msgid "No menu assigned to \"Primary\""
-msgstr ""
+msgstr "هیچ فهرستی به «اصلی» اختصاص نیافته"
 
 #: inc/admin/system-status.php:86 inc/admin/tutorials.php:220
 msgid "Permalinks"
-msgstr ""
+msgstr "پیوندهای یکتا"
 
 #: inc/admin/system-status.php:86
 msgid "Plain permalinks break product URLs"
-msgstr ""
+msgstr "پیوند یکتای ساده، آدرس محصولات را خراب می‌کند"
 
 #: inc/admin/system-status.php:87
 msgid "Active color preset"
-msgstr ""
+msgstr "پریست رنگ فعال"
 
 #: inc/admin/system-status.php:88 inc/admin/wizard.php:188
 msgid "Setup wizard"
-msgstr ""
+msgstr "راه‌انداز سریع"
 
 #: inc/admin/system-status.php:88
 msgid "Completed"
-msgstr ""
+msgstr "تکمیل‌شده"
 
 #: inc/admin/system-status.php:88
 msgid "Not completed"
-msgstr ""
+msgstr "تکمیل‌نشده"
 
 #: inc/admin/system-status.php:89
 msgid "Wishlist & compare pages"
-msgstr ""
+msgstr "برگه‌های علاقه‌مندی و مقایسه"
 
 #: inc/admin/system-status.php:89
 msgid "Created"
-msgstr ""
+msgstr "ساخته شده"
 
 #: inc/admin/system-status.php:89
 msgid "Run \"Repair pages\" below"
-msgstr ""
+msgstr "«تعمیر برگه‌ها» را در پایین اجرا کنید"
 
 #: inc/admin/system-status.php:105
 msgid "Memory limit"
-msgstr ""
+msgstr "محدودیت حافظه"
 
 #: inc/admin/system-status.php:106
 msgid "Max upload size"
-msgstr ""
+msgstr "حداکثر اندازه بارگذاری"
 
 #: inc/admin/system-status.php:107
 msgid "Max execution time"
-msgstr ""
+msgstr "حداکثر زمان اجرا"
 
 #: inc/admin/system-status.php:108
 msgid "Enabled — turn off in production"
-msgstr ""
+msgstr "فعال — در سایت اصلی خاموش کنید"
 
 #: inc/admin/system-status.php:109
 msgid "Image library"
-msgstr ""
+msgstr "کتابخانه تصویر"
 
 #: inc/admin/system-status.php:109 inc/helpers/schema.php:607 inc/helpers/schema.php:723
 msgid "None"
-msgstr ""
+msgstr "هیچ"
 
 #: inc/admin/system-status.php:110
 msgid "Loaded"
-msgstr ""
+msgstr "بارگذاری شده"
 
 #: inc/admin/system-status.php:110
 msgid "Missing — Persian text functions may misbehave"
-msgstr ""
+msgstr "موجود نیست — توابع متن فارسی ممکن است درست کار نکنند"
 
 #: inc/admin/system-status.php:111
 msgid "Disabled (server cron expected)"
-msgstr ""
+msgstr "غیرفعال (کران سرور انتظار می‌رود)"
 
 #: inc/admin/system-status.php:140
 msgid "Fix"
-msgstr ""
+msgstr "رفع"
 
 #: inc/admin/system-status.php:151
 msgid "A single place to verify the store is ready for customers. Green = fine, amber = recommended, red = must fix."
-msgstr ""
+msgstr "یک‌جا برای اطمینان از آمادگی فروشگاه برای مشتریان. سبز = خوب، نارنجی = پیشنهادی، قرمز = باید رفع شود."
 
 #: inc/admin/system-status.php:155
 msgid "WooCommerce configuration"
-msgstr ""
+msgstr "پیکربندی ووکامرس"
 
 #: inc/admin/system-status.php:160
 msgid "Repair pages, menus & rewrite rules"
-msgstr ""
+msgstr "تعمیر برگه‌ها، فهرست‌ها و قوانین بازنویسی"
 
 #: inc/admin/system-status.php:161
 msgid "Theme configuration"
-msgstr ""
+msgstr "پیکربندی قالب"
 
 #: inc/admin/system-status.php:164
 msgid "Server environment"
-msgstr ""
+msgstr "محیط سرور"
 
 #: inc/admin/system-status.php:190
 msgid "Copy this block when contacting support."
-msgstr ""
+msgstr "هنگام تماس با پشتیبانی این بخش را کپی کنید."
 
 #: inc/admin/system-status.php:191
 msgid "Support report"
-msgstr ""
+msgstr "گزارش پشتیبانی"
 
 #: inc/admin/system-status.php:209
 msgid "Pages, menus and rewrite rules were repaired."
-msgstr ""
+msgstr "برگه‌ها، فهرست‌ها و قوانین بازنویسی تعمیر شدند."
 
 #: inc/admin/tutorials.php:17
 msgid "Getting started"
-msgstr ""
+msgstr "شروع کار"
 
 #: inc/admin/tutorials.php:18
 msgid "Products & categories"
-msgstr ""
+msgstr "محصولات و دسته‌ها"
 
 #: inc/admin/tutorials.php:19
 msgid "Design & homepage"
-msgstr ""
+msgstr "طراحی و صفحه اصلی"
 
 #: inc/admin/tutorials.php:20
 msgid "Payments & shipping"
-msgstr ""
+msgstr "پرداخت و ارسال"
 
 #: inc/admin/tutorials.php:21
 msgid "Blog & pages"
-msgstr ""
+msgstr "وبلاگ و برگه‌ها"
 
 #: inc/admin/tutorials.php:22
 msgid "SEO & performance"
-msgstr ""
+msgstr "سئو و سرعت"
 
 #: inc/admin/tutorials.php:23
 msgid "Security & maintenance"
-msgstr ""
+msgstr "امنیت و نگهداری"
 
 #: inc/admin/tutorials.php:38
 msgid "Your first 10 minutes with Nexora"
-msgstr ""
+msgstr "۱۰ دقیقه اول شما با نکسورا"
 
 #: inc/admin/tutorials.php:41
 msgid "Activate WooCommerce, run the wizard, choose a colour preset and import a demo — in that order."
-msgstr ""
+msgstr "ووکامرس را فعال کنید، راه‌انداز را اجرا کنید، پریست رنگ انتخاب کنید و یک دمو درون‌ریزی کنید — به همین ترتیب."
 
 #: inc/admin/tutorials.php:43
 msgid "Open Plugins in the theme menu and make sure WooCommerce is active. Without it, the shop, cart and checkout do not exist."
-msgstr ""
+msgstr "از منوی قالب، افزونه‌ها را باز کنید و مطمئن شوید ووکامرس فعال است. بدون آن فروشگاه، سبد و تسویه‌حساب وجود ندارند."
 
 #: inc/admin/tutorials.php:44
 msgid "Run the Setup Wizard. It asks for logo, store details, colours and whether to import demo content."
-msgstr ""
+msgstr "راه‌انداز سریع را اجرا کنید. لوگو، اطلاعات فروشگاه، رنگ‌ها و درون‌ریزی دمو را می‌پرسد."
 
 #: inc/admin/tutorials.php:45
 msgid "Visit the front end. Everything you see is editable in Theme Settings — hover a section on the homepage to find its tab name."
-msgstr ""
+msgstr "به سایت سر بزنید. هر چه می‌بینید در تنظیمات قالب قابل ویرایش است — روی هر بخش صفحه اصلی بروید تا نام برگه‌اش را ببینید."
 
 #: inc/admin/tutorials.php:46
 msgid "Replace demo products with your own (Products → All products). Demo items are tagged \"nexora-demo\" so you can delete them in one click from Demo Import."
-msgstr ""
+msgstr "محصولات دمو را با محصولات خود جایگزین کنید (محصولات ← همه محصولات). آیتم‌های دمو برچسب «nexora-demo» دارند و از درون‌ریزی دمو با یک کلیک حذف می‌شوند."
 
 #: inc/admin/tutorials.php:47
 msgid "Check System Status until everything is green."
-msgstr ""
+msgstr "وضعیت سیستم را بررسی کنید تا همه‌چیز سبز شود."
 
 #: inc/admin/tutorials.php:53
 msgid "Logo, favicon and site name"
-msgstr ""
+msgstr "لوگو، فاوآیکون و نام سایت"
 
 #: inc/admin/tutorials.php:56
 msgid "Where to upload the logo and how the text fallback works."
-msgstr ""
+msgstr "لوگو را کجا بارگذاری کنید و جایگزین متنی چگونه کار می‌کند."
 
 #: inc/admin/tutorials.php:58
 msgid "Go to Appearance → Customize → Site Identity and upload a logo (SVG or PNG, at least 160 px tall for retina)."
-msgstr ""
+msgstr "به نمایش ← سفارشی‌سازی ← هویت سایت بروید و لوگو بارگذاری کنید (SVG یا PNG، حداقل ۱۶۰ پیکسل ارتفاع برای رتینا)."
 
 #: inc/admin/tutorials.php:59
 msgid "Upload a Site Icon (512×512 px) — it becomes the favicon and the icon on phone home screens."
-msgstr ""
+msgstr "آیکون سایت (۵۱۲×۵۱۲ پیکسل) بارگذاری کنید — فاوآیکون و آیکون صفحه اصلی گوشی می‌شود."
 
 #: inc/admin/tutorials.php:60
 msgid "If you have a light version for the dark footer, add it in Theme Settings → General → Branding."
-msgstr ""
+msgstr "اگر نسخه روشن برای فوتر تیره دارید، در تنظیمات قالب ← عمومی ← برندینگ اضافه کنید."
 
 #: inc/admin/tutorials.php:61
 msgid "No logo? The theme shows the \"Logo text\" from Theme Settings → General in the brand font."
-msgstr ""
+msgstr "لوگو ندارید؟ قالب «متن لوگو» را از تنظیمات قالب ← عمومی با فونت برند نمایش می‌دهد."
 
 #: inc/admin/tutorials.php:63
 msgid "Customizer"
-msgstr ""
+msgstr "سفارشی‌ساز"
 
 #: inc/admin/tutorials.php:63
 msgid "General settings"
-msgstr ""
+msgstr "تنظیمات عمومی"
 
 #: inc/admin/tutorials.php:67
 msgid "Menus: main navigation, top bar and footer columns"
-msgstr ""
+msgstr "فهرست‌ها: ناوبری اصلی، نوار بالا و ستون‌های فوتر"
 
 #: inc/admin/tutorials.php:70
 msgid "The theme has eight menu locations. Here is what each one does."
-msgstr ""
+msgstr "قالب هشت جایگاه فهرست دارد. کاربرد هر کدام را ببینید."
 
 #: inc/admin/tutorials.php:72
 msgid "Appearance → Menus → create a menu and tick a location under \"Display location\"."
-msgstr ""
+msgstr "نمایش ← فهرست‌ها ← فهرست بسازید و در «جایگاه نمایش» یک جایگاه را تیک بزنید."
 
 #: inc/admin/tutorials.php:73
 msgid "Primary: the main bar under the header. Two levels deep; add product categories for a mega-menu feel."
-msgstr ""
+msgstr "اصلی: نوار اصلی زیر هدر. دو سطح؛ برای حس مگامنو، دسته‌های محصول را اضافه کنید."
 
 #: inc/admin/tutorials.php:74
 msgid "Mobile: shown in the off-canvas drawer. Leave empty to reuse Primary."
-msgstr ""
+msgstr "موبایل: در منوی کشویی نمایش داده می‌شود. خالی بگذارید تا از اصلی استفاده شود."
 
 #: inc/admin/tutorials.php:75
 msgid "Top bar (start/end): small utility links such as \"Track order\", \"Sell with us\"."
-msgstr ""
+msgstr "نوار بالا (ابتدا/انتها): لینک‌های کوچک مثل «پیگیری سفارش»، «همکاری در فروش»."
 
 #: inc/admin/tutorials.php:76
 msgid "Footer 1 / Footer 2 / Footer bottom: link columns and the legal row. Account: the dropdown under the user icon."
-msgstr ""
+msgstr "فوتر ۱ / فوتر ۲ / پایین فوتر: ستون‌های لینک و ردیف قانونی. حساب: منوی کشویی زیر آیکون کاربر."
 
 #: inc/admin/tutorials.php:82
 msgid "Adding a product correctly"
-msgstr ""
+msgstr "افزودن صحیح محصول"
 
 #: inc/admin/tutorials.php:85
 msgid "Images, price, sale price, stock, attributes and highlights — what the theme uses from each."
-msgstr ""
+msgstr "تصاویر، قیمت، قیمت فروش ویژه، موجودی، ویژگی‌ها و نکات برجسته — قالب از هر کدام چه استفاده‌ای می‌کند."
 
 #: inc/admin/tutorials.php:87
 msgid "Products → Add new. Title and long description go in the editor; the short description becomes the intro next to the gallery."
-msgstr ""
+msgstr "محصولات ← افزودن. عنوان و توضیحات کامل در ویرایشگر؛ توضیح کوتاه، معرفی کنار گالری می‌شود."
 
 #: inc/admin/tutorials.php:88
 msgid "Set a featured image (square, 800×800 px or larger). Gallery images appear as thumbnails and in the zoom viewer."
-msgstr ""
+msgstr "تصویر شاخص بگذارید (مربع، ۸۰۰×۸۰۰ پیکسل یا بزرگ‌تر). تصاویر گالری به‌صورت بندانگشتی و در نمای زوم ظاهر می‌شوند."
 
 #: inc/admin/tutorials.php:89
 msgid "Regular price + Sale price → the theme shows the discount percentage badge automatically."
-msgstr ""
+msgstr "قیمت عادی + قیمت فروش ویژه ← قالب به‌طور خودکار نشان درصد تخفیف را نمایش می‌دهد."
 
 #: inc/admin/tutorials.php:90
 msgid "Inventory: enable stock management to get \"only 3 left\" urgency labels and out-of-stock overlays."
-msgstr ""
+msgstr "موجودی: مدیریت انبار را فعال کنید تا برچسب «فقط ۳ عدد مانده» و پوشش ناموجود را داشته باشید."
 
 #: inc/admin/tutorials.php:91
 msgid "Attributes: tick \"Visible on the product page\" — they populate the Specifications tab and the compare table. A \"Colour\" attribute with colour swatches shows dots on product cards."
-msgstr ""
+msgstr "ویژگی‌ها: «نمایش در صفحه محصول» را تیک بزنید — برگه مشخصات و جدول مقایسه را پر می‌کنند. ویژگی «رنگ» با نمونه رنگ، نقطه‌های رنگی روی کارت محصول نشان می‌دهد."
 
 #: inc/admin/tutorials.php:92
 msgid "With ACF/SCF active, the Highlights box gives you the bullet list beside the price and a size-guide modal."
-msgstr ""
+msgstr "با فعال بودن ACF/SCF، جعبه نکات برجسته فهرست کنار قیمت و پنجره راهنمای سایز را می‌دهد."
 
 #: inc/admin/tutorials.php:94
 msgid "Shop settings"
-msgstr ""
+msgstr "تنظیمات فروشگاه"
 
 #: inc/admin/tutorials.php:98
 msgid "Categories, brands and colour swatches"
-msgstr ""
+msgstr "دسته‌ها، برندها و نمونه‌های رنگ"
 
 #: inc/admin/tutorials.php:101
 msgid "Category thumbnails drive the homepage tiles; brands come from WooCommerce Brands."
-msgstr ""
+msgstr "بندانگشتی دسته‌ها، کاشی‌های صفحه اصلی را می‌سازند؛ برندها از برندهای ووکامرس می‌آیند."
 
 #: inc/admin/tutorials.php:103
 msgid "Products → Categories: upload a thumbnail for every top-level category (square). These images are used in the homepage category strip and tiles."
-msgstr ""
+msgstr "محصولات ← دسته‌ها: برای هر دسته اصلی بندانگشتی (مربع) بارگذاری کنید. این تصاویر در نوار دسته‌ها و کاشی‌های صفحه اصلی استفاده می‌شوند."
 
 #: inc/admin/tutorials.php:104
 msgid "Products → Brands (WooCommerce 9.6+): add brands with logos. The homepage brands carousel and the shop filter pick them up automatically."
-msgstr ""
+msgstr "محصولات ← برندها (ووکامرس ۹.۶+): برندها را با لوگو اضافه کنید. اسلایدر برندهای صفحه اصلی و فیلتر فروشگاه خودکار آن‌ها را می‌گیرند."
 
 #: inc/admin/tutorials.php:105
 msgid "Products → Attributes → Colour → Configure terms: each term has a colour picker added by the theme. Used for swatches on cards and filters."
-msgstr ""
+msgstr "محصولات ← ویژگی‌ها ← رنگ ← پیکربندی: هر مقدار یک انتخابگر رنگ دارد که قالب اضافه کرده. برای نمونه‌های رنگ روی کارت‌ها و فیلترها استفاده می‌شود."
 
 #: inc/admin/tutorials.php:107 inc/helpers/schema.php:295 inc/helpers/schema.php:417 inc/helpers/schema.php:621 inc/helpers/schema.php:847 template-parts/blog/sidebar-default.php:14
 msgid "Categories"
-msgstr ""
+msgstr "دسته‌ها"
 
 #: inc/admin/tutorials.php:111
 msgid "Building the homepage section by section"
-msgstr ""
+msgstr "ساخت صفحه اصلی بخش‌به‌بخش"
 
 #: inc/admin/tutorials.php:114
 msgid "Enable, disable and reorder 15 sections; pick product sources; upload banners."
-msgstr ""
+msgstr "۱۵ بخش را فعال، غیرفعال و مرتب کنید؛ منبع محصولات را انتخاب کنید؛ بنر بارگذاری کنید."
 
 #: inc/admin/tutorials.php:116
 msgid "Theme Settings → Homepage → Layout: toggle sections on/off and drag to reorder."
-msgstr ""
+msgstr "تنظیمات قالب ← صفحه اصلی ← چیدمان: بخش‌ها را روشن/خاموش کنید و با کشیدن مرتب کنید."
 
 #: inc/admin/tutorials.php:117
 msgid "Hero slider: add up to 6 slides with image (1600×640 px), kicker, title, text and button. Side banners fill the two cards next to the slider."
-msgstr ""
+msgstr "اسلایدر هیرو: تا ۶ اسلاید با تصویر (۱۶۰۰×۶۴۰ پیکسل)، سرنویس، عنوان، متن و دکمه اضافه کنید. بنرهای کناری دو کارت کنار اسلایدر را پر می‌کنند."
 
 #: inc/admin/tutorials.php:118
 msgid "Product sections (Featured, Flash sale, New arrivals, Best sellers): choose a source — automatic (featured / on sale / newest / best selling), a category, or hand-picked products."
-msgstr ""
+msgstr "بخش‌های محصول (ویژه، فروش فوری، جدیدترین‌ها، پرفروش‌ها): منبع را انتخاب کنید — خودکار (ویژه / تخفیف‌دار / جدیدترین / پرفروش)، یک دسته، یا محصولات دست‌چین."
 
 #: inc/admin/tutorials.php:119
 msgid "Flash sale shows a countdown to the date you set; it hides itself when the date has passed."
-msgstr ""
+msgstr "فروش فوری شمارش معکوس تا تاریخ تعیین‌شده را نشان می‌دهد؛ پس از گذشتن تاریخ خودش پنهان می‌شود."
 
 #: inc/admin/tutorials.php:120
 msgid "Testimonials: choose real WooCommerce reviews (4+ stars) or write your own. Stats band: four numbers with icons."
-msgstr ""
+msgstr "نظرات مشتریان: دیدگاه‌های واقعی ووکامرس (۴+ ستاره) یا متن خودتان. نوار آمار: چهار عدد با آیکون."
 
 #: inc/admin/tutorials.php:121
 msgid "Blog & newsletter: latest posts pull from your blog; newsletter subscribers are stored in the theme (export as CSV from the dashboard) or posted to a Mailchimp/Mailerlite form URL."
-msgstr ""
+msgstr "وبلاگ و خبرنامه: آخرین مطالب از وبلاگ شما؛ مشترکان خبرنامه در قالب ذخیره می‌شوند (خروجی CSV از پیشخوان) یا به آدرس فرم Mailchimp/Mailerlite ارسال می‌شوند."
 
 #: inc/admin/tutorials.php:123
 msgid "Homepage settings"
-msgstr ""
+msgstr "تنظیمات صفحه اصلی"
 
 #: inc/admin/tutorials.php:127
 msgid "Colours: presets and your own palette"
-msgstr ""
+msgstr "رنگ‌ها: پریست‌ها و پالت شخصی"
 
 #: inc/admin/tutorials.php:130
 msgid "Switch between Classic Red, Modern Blue and Luxury Green, or save unlimited custom presets."
-msgstr ""
+msgstr "بین قرمز کلاسیک، آبی مدرن و سبز لوکس جابه‌جا شوید یا پریست‌های سفارشی نامحدود ذخیره کنید."
 
 #: inc/admin/tutorials.php:132
 msgid "Colors & Presets → click Activate on a preset. The whole site, including WooCommerce pages, changes instantly."
-msgstr ""
+msgstr "رنگ‌ها و پریست‌ها ← روی «فعال‌سازی» یک پریست بزنید. کل سایت، از جمله صفحات ووکامرس، فوراً تغییر می‌کند."
 
 #: inc/admin/tutorials.php:133
 msgid "Click Edit on any preset, adjust colours, watch the live preview and press Save — built-in presets are copied, custom ones are updated in place."
-msgstr ""
+msgstr "روی «ویرایش» هر پریست بزنید، رنگ‌ها را تنظیم کنید، پیش‌نمایش زنده را ببینید و ذخیره کنید — پریست‌های داخلی کپی می‌شوند، سفارشی‌ها همان‌جا به‌روز می‌شوند."
 
 #: inc/admin/tutorials.php:134
 msgid "The contrast checker warns when text on primary buttons falls under WCAG 4.5:1."
-msgstr ""
+msgstr "بررسی کنتراست هشدار می‌دهد اگر متن روی دکمه‌های اصلی زیر نسبت ۴.۵:۱ استاندارد WCAG باشد."
 
 #: inc/admin/tutorials.php:135
 msgid "Export JSON to move a palette to another site; import it on the same screen."
-msgstr ""
+msgstr "برای انتقال پالت به سایت دیگر خروجی JSON بگیرید؛ در همان صفحه درون‌ریزی کنید."
 
 #: inc/admin/tutorials.php:141
 msgid "Header, top bar and footer"
-msgstr ""
+msgstr "هدر، نوار بالا و فوتر"
 
 #: inc/admin/tutorials.php:144
 msgid "Announcement bar, sticky header, search placeholders, footer columns, trust badges and payment icons."
-msgstr ""
+msgstr "نوار اعلان، هدر چسبان، متن جستجو، ستون‌های فوتر، نمادهای اعتماد و آیکون‌های پرداخت."
 
 #: inc/admin/tutorials.php:146
 msgid "Header tab: announcement text with optional link and dismiss button; toggle the top bar, sticky header, category menu and search suggestions."
-msgstr ""
+msgstr "برگه هدر: متن اعلان با لینک و دکمه بستن اختیاری؛ روشن/خاموش کردن نوار بالا، هدر چسبان، منوی دسته‌ها و پیشنهادهای جستجو."
 
 #: inc/admin/tutorials.php:147
 msgid "Footer tab: about text, app badges, contact block, trust badges (paste the eNAMAD/Samandehi code — scripts are stripped for safety), payment icons and the copyright line."
-msgstr ""
+msgstr "برگه فوتر: متن درباره، نشان‌های اپ، بلوک تماس، نمادهای اعتماد (کد اینماد/ساماندهی را بچسبانید — اسکریپت‌ها برای امنیت حذف می‌شوند)، آیکون‌های پرداخت و خط کپی‌رایت."
 
 #: inc/admin/tutorials.php:148
 msgid "Footer link columns come from the Footer 1 / Footer 2 menu locations; the column titles are set in the Footer tab."
-msgstr ""
+msgstr "ستون‌های لینک فوتر از جایگاه‌های فهرست فوتر ۱ / فوتر ۲ می‌آیند؛ عنوان ستون‌ها در برگه فوتر تنظیم می‌شود."
 
 #: inc/admin/tutorials.php:150 inc/helpers/schema.php:162
 msgid "Header"
-msgstr ""
+msgstr "هدر"
 
 #: inc/admin/tutorials.php:150 inc/helpers/schema.php:257
 msgid "Footer"
-msgstr ""
+msgstr "فوتر"
 
 #: inc/admin/tutorials.php:154
 msgid "Accepting payments (ZarinPal, bank gateways, cash on delivery)"
-msgstr ""
+msgstr "دریافت پرداخت (زرین‌پال، درگاه‌های بانکی، پرداخت در محل)"
 
 #: inc/admin/tutorials.php:157
 msgid "The theme never touches money — WooCommerce and your gateway plugin do. Here is the safe setup."
-msgstr ""
+msgstr "قالب هرگز با پول سروکار ندارد — ووکامرس و افزونه درگاه شما این کار را می‌کنند. راه‌اندازی امن را ببینید."
 
 #: inc/admin/tutorials.php:159
 msgid "Get the official plugin from your provider (for ZarinPal: zarinpal.com → Lab → WooCommerce). Never use a plugin from a forum or Telegram channel."
-msgstr ""
+msgstr "افزونه رسمی را از ارائه‌دهنده بگیرید (زرین‌پال: zarinpal.com ← آزمایشگاه ← ووکامرس). هرگز از افزونه‌ای که از انجمن یا کانال تلگرام گرفته‌اید استفاده نکنید."
 
 #: inc/admin/tutorials.php:160
 msgid "Plugins → Add new → Upload plugin → activate."
-msgstr ""
+msgstr "افزونه‌ها ← افزودن ← بارگذاری افزونه ← فعال‌سازی."
 
 #: inc/admin/tutorials.php:161
 msgid "WooCommerce → Settings → Payments → enable the gateway and enter the merchant ID / API key given by the provider. These keys are stored by WooCommerce only."
-msgstr ""
+msgstr "ووکامرس ← تنظیمات ← پرداخت‌ها ← درگاه را فعال کنید و مرچنت‌کد / کلید API ارائه‌دهنده را وارد کنید. این کلیدها فقط توسط ووکامرس ذخیره می‌شوند."
 
 #: inc/admin/tutorials.php:162
 msgid "Place a test order. Providers offer a sandbox mode — switch it off before launch."
-msgstr ""
+msgstr "یک سفارش آزمایشی ثبت کنید. ارائه‌دهندگان حالت آزمایشی دارند — پیش از راه‌اندازی آن را خاموش کنید."
 
 #: inc/admin/tutorials.php:163
 msgid "Make sure the site runs on HTTPS (green lock). System Status warns if it does not."
-msgstr ""
+msgstr "مطمئن شوید سایت روی HTTPS است (قفل سبز). وضعیت سیستم در غیر این صورت هشدار می‌دهد."
 
 #: inc/admin/tutorials.php:165
 msgid "Payment settings"
-msgstr ""
+msgstr "تنظیمات پرداخت"
 
 #: inc/admin/tutorials.php:169
 msgid "Shipping zones, free-shipping threshold and Persian provinces"
-msgstr ""
+msgstr "نواحی ارسال، سقف ارسال رایگان و استان‌های ایران"
 
 #: inc/admin/tutorials.php:172
 msgid "Create zones, add flat-rate / free shipping, and show the free-shipping progress bar in the cart."
-msgstr ""
+msgstr "ناحیه بسازید، نرخ ثابت / ارسال رایگان اضافه کنید و نوار پیشرفت ارسال رایگان را در سبد نشان دهید."
 
 #: inc/admin/tutorials.php:174
 msgid "WooCommerce → Settings → Shipping → Add zone (e.g. \"Tehran\", \"Other provinces\"). Install \"Persian WooCommerce\" to get province lists."
-msgstr ""
+msgstr "ووکامرس ← تنظیمات ← حمل‌ونقل ← افزودن ناحیه (مثلاً «تهران»، «سایر استان‌ها»). برای فهرست استان‌ها «ووکامرس فارسی» را نصب کنید."
 
 #: inc/admin/tutorials.php:175
 msgid "Add a Flat rate and a Free shipping method with a minimum order amount."
-msgstr ""
+msgstr "یک نرخ ثابت و یک ارسال رایگان با حداقل مبلغ سفارش اضافه کنید."
 
 #: inc/admin/tutorials.php:176
 msgid "Theme Settings → Shop → Cart: enter the same threshold to display the \"X left for free shipping\" progress bar in the cart drawer."
-msgstr ""
+msgstr "تنظیمات قالب ← فروشگاه ← سبد: همان سقف را وارد کنید تا نوار «X تا ارسال رایگان» در سبد کشویی نمایش داده شود."
 
 #: inc/admin/tutorials.php:178
 msgid "Shipping settings"
-msgstr ""
+msgstr "تنظیمات ارسال"
 
 #: inc/admin/tutorials.php:182
 msgid "Blog posts, categories and the magazine layout"
-msgstr ""
+msgstr "مطالب وبلاگ، دسته‌ها و چیدمان مجله‌ای"
 
 #: inc/admin/tutorials.php:185
 msgid "Featured images, reading time, related posts and the sidebar."
-msgstr ""
+msgstr "تصاویر شاخص، زمان مطالعه، مطالب مرتبط و سایدبار."
 
 #: inc/admin/tutorials.php:187
 msgid "Posts → Add new. Set a featured image (1200×675 px). The first category becomes the coloured badge on the card."
-msgstr ""
+msgstr "نوشته‌ها ← افزودن. تصویر شاخص (۱۲۰۰×۶۷۵ پیکسل) بگذارید. اولین دسته، نشان رنگی روی کارت می‌شود."
 
 #: inc/admin/tutorials.php:188
 msgid "Settings → Reading: the \"Posts page\" is your blog index (the wizard creates \"Blog\")."
-msgstr ""
+msgstr "تنظیمات ← خواندن: «برگه نوشته‌ها» صفحه وبلاگ شماست (راه‌انداز «وبلاگ» را می‌سازد)."
 
 #: inc/admin/tutorials.php:189
 msgid "Theme Settings → Blog: layout (grid / list), sidebar position, reading time, author box, related posts and the newsletter box."
-msgstr ""
+msgstr "تنظیمات قالب ← وبلاگ: چیدمان (شبکه / فهرست)، جای سایدبار، زمان مطالعه، جعبه نویسنده، مطالب مرتبط و جعبه خبرنامه."
 
 #: inc/admin/tutorials.php:190
 msgid "Appearance → Widgets → Blog sidebar: add Search, Categories, Recent posts, Tag cloud."
-msgstr ""
+msgstr "نمایش ← ابزارک‌ها ← سایدبار وبلاگ: جستجو، دسته‌ها، آخرین نوشته‌ها و ابر برچسب اضافه کنید."
 
 #: inc/admin/tutorials.php:192
 msgid "Blog settings"
-msgstr ""
+msgstr "تنظیمات وبلاگ"
 
 #: inc/admin/tutorials.php:196
 msgid "Contact, FAQ, About and legal pages"
-msgstr ""
+msgstr "برگه‌های تماس، سؤالات متداول، درباره ما و قانونی"
 
 #: inc/admin/tutorials.php:199
 msgid "Page templates included with the theme and how to fill them."
-msgstr ""
+msgstr "قالب‌های برگه همراه پوسته و نحوه پر کردن آن‌ها."
 
 #: inc/admin/tutorials.php:201
 msgid "Pages → edit \"Contact us\": the Contact template shows your address, phone, email, hours (from General settings), a map embed and a form. Paste a Contact Form 7 / WPForms shortcode in the Contact tab, or use the built-in simple form."
-msgstr ""
+msgstr "برگه‌ها ← ویرایش «تماس با ما»: قالب تماس، آدرس، تلفن، ایمیل، ساعات کاری (از تنظیمات عمومی)، نقشه و فرم را نشان می‌دهد. شورت‌کد Contact Form 7 / WPForms را در برگه تماس بچسبانید یا از فرم ساده داخلی استفاده کنید."
 
 #: inc/admin/tutorials.php:202
 msgid "The FAQ template renders the questions you enter in Theme Settings → Shop → FAQ as an accordion with search."
-msgstr ""
+msgstr "قالب سؤالات متداول، پرسش‌هایی که در تنظیمات قالب ← فروشگاه ← سؤالات متداول وارد می‌کنید را به‌صورت آکاردئون با جستجو نمایش می‌دهد."
 
 #: inc/admin/tutorials.php:203
 msgid "For About/Terms/Privacy: create a normal page; choose \"Full width\" or \"Minimal\" template from the page sidebar when you do not want the sidebar."
-msgstr ""
+msgstr "برای درباره ما/قوانین/حریم خصوصی: برگه معمولی بسازید؛ اگر سایدبار نمی‌خواهید قالب «تمام‌عرض» یا «مینیمال» را از کنار برگه انتخاب کنید."
 
 #: inc/admin/tutorials.php:204
 msgid "Set the Privacy Policy page in Settings → Privacy and the Terms page in WooCommerce → Settings → Advanced — checkout links to both."
-msgstr ""
+msgstr "برگه حریم خصوصی را در تنظیمات ← حریم خصوصی و برگه قوانین را در ووکامرس ← تنظیمات ← پیشرفته تنظیم کنید — تسویه‌حساب به هر دو لینک می‌دهد."
 
 #: inc/admin/tutorials.php:206 inc/helpers/schema.php:764
 msgid "Pages"
-msgstr ""
+msgstr "برگه‌ها"
 
 #: inc/admin/tutorials.php:210
 msgid "SEO basics and Rank Math"
-msgstr ""
+msgstr "اصول سئو و رنک‌مث"
 
 #: inc/admin/tutorials.php:213
 msgid "What the theme does out of the box and when to add an SEO plugin."
-msgstr ""
+msgstr "قالب به‌صورت پیش‌فرض چه می‌کند و کی افزونه سئو اضافه کنید."
 
 #: inc/admin/tutorials.php:215
 msgid "Built in: semantic HTML, breadcrumb schema, product/organisation schema, Open Graph tags, clean titles. It all switches off automatically when Rank Math, Yoast, SEOPress or AIOSEO is active — no duplicates."
-msgstr ""
+msgstr "داخلی: HTML معنایی، اسکیمای مسیر راهنما، اسکیمای محصول/سازمان، تگ‌های Open Graph، عنوان‌های تمیز. با فعال شدن رنک‌مث، یواست، SEOPress یا AIOSEO همه خودکار خاموش می‌شوند — بدون تکرار."
 
 #: inc/admin/tutorials.php:216
 msgid "Install Rank Math for sitemaps, per-page titles and Search Console integration."
-msgstr ""
+msgstr "برای نقشه سایت، عنوان هر صفحه و اتصال سرچ‌کنسول، رنک‌مث را نصب کنید."
 
 #: inc/admin/tutorials.php:217
 msgid "Settings → Permalinks → \"Post name\". Never use plain permalinks on a store."
-msgstr ""
+msgstr "تنظیمات ← پیوندهای یکتا ← «نام نوشته». هرگز در فروشگاه از پیوند ساده استفاده نکنید."
 
 #: inc/admin/tutorials.php:218
 msgid "Write unique short descriptions for products and alt text for images."
-msgstr ""
+msgstr "برای محصولات توضیح کوتاه یکتا و برای تصاویر متن جایگزین بنویسید."
 
 #: inc/admin/tutorials.php:224
 msgid "Speed: caching, images and fonts"
-msgstr ""
+msgstr "سرعت: کش، تصاویر و فونت‌ها"
 
 #: inc/admin/tutorials.php:227
 msgid "The theme is light by design; these switches make it lighter."
-msgstr ""
+msgstr "قالب ذاتاً سبک است؛ این کلیدها آن را سبک‌تر می‌کنند."
 
 #: inc/admin/tutorials.php:229
 msgid "Theme Settings → Performance: lazy images, defer scripts, disable emoji script, disable block CSS, load WooCommerce assets only on shop pages, preload fonts."
-msgstr ""
+msgstr "تنظیمات قالب ← سرعت: بارگذاری تنبل تصاویر، تأخیر اسکریپت‌ها، غیرفعال کردن اسکریپت ایموجی و CSS بلوک‌ها، بارگذاری فایل‌های ووکامرس فقط در صفحات فروشگاه، پیش‌بارگذاری فونت‌ها."
 
 #: inc/admin/tutorials.php:230
 msgid "Install a caching plugin (LiteSpeed Cache if your host runs LiteSpeed, otherwise WP Super Cache). Exclude cart, checkout and my-account pages — most plugins do this automatically for WooCommerce."
-msgstr ""
+msgstr "افزونه کش نصب کنید (LiteSpeed Cache اگر هاست شما لایت‌اسپید است، وگرنه WP Super Cache). سبد، تسویه‌حساب و حساب کاربری را مستثنا کنید — بیشتر افزونه‌ها این کار را برای ووکامرس خودکار انجام می‌دهند."
 
 #: inc/admin/tutorials.php:231
 msgid "Upload images at sensible sizes (products 800–1200 px). WordPress generates WebP-friendly sizes automatically on modern hosts."
-msgstr ""
+msgstr "تصاویر را با اندازه منطقی بارگذاری کنید (محصولات ۸۰۰ تا ۱۲۰۰ پیکسل). وردپرس روی هاست‌های مدرن اندازه‌های WebP را خودکار می‌سازد."
 
 #: inc/admin/tutorials.php:232
 msgid "After changing options, purge the cache plugin once."
-msgstr ""
+msgstr "پس از تغییر تنظیمات، یک بار کش افزونه را پاک کنید."
 
 #: inc/admin/tutorials.php:234
 msgid "Performance settings"
-msgstr ""
+msgstr "تنظیمات سرعت"
 
 #: inc/admin/tutorials.php:238
 msgid "Keeping the store safe"
-msgstr ""
+msgstr "حفظ امنیت فروشگاه"
 
 #: inc/admin/tutorials.php:241
 msgid "Updates, backups, admin accounts and what the theme already protects."
-msgstr ""
+msgstr "به‌روزرسانی، پشتیبان‌گیری، حساب‌های مدیر و آنچه قالب از قبل محافظت می‌کند."
 
 #: inc/admin/tutorials.php:243
 msgid "Update WordPress, WooCommerce, plugins and the theme when notified. Use a child theme for code customisations so updates never overwrite them."
-msgstr ""
+msgstr "وردپرس، ووکامرس، افزونه‌ها و قالب را با اعلان به‌روز کنید. برای تغییرات کدی از پوسته فرزند استفاده کنید تا به‌روزرسانی آن‌ها را پاک نکند."
 
 #: inc/admin/tutorials.php:244
 msgid "Install a security plugin (Wordfence) and enable two-factor authentication for administrators."
-msgstr ""
+msgstr "افزونه امنیتی (Wordfence) نصب کنید و تأیید دومرحله‌ای را برای مدیران فعال کنید."
 
 #: inc/admin/tutorials.php:245
 msgid "Daily backups via your host or UpdraftPlus — test a restore once."
-msgstr ""
+msgstr "پشتیبان‌گیری روزانه از طریق هاست یا UpdraftPlus — یک بار بازیابی را تست کنید."
 
 #: inc/admin/tutorials.php:246
 msgid "Every theme form and AJAX action is protected with nonces and capability checks; uploads go through the WordPress media library; demo import is administrator-only."
-msgstr ""
+msgstr "همه فرم‌ها و درخواست‌های AJAX قالب با nonce و بررسی دسترسی محافظت می‌شوند؛ بارگذاری‌ها از کتابخانه رسانه وردپرس می‌گذرند؛ درون‌ریزی دمو فقط برای مدیر است."
 
 #: inc/admin/tutorials.php:247
 msgid "Turn WP_DEBUG off in production (System Status warns you)."
-msgstr ""
+msgstr "WP_DEBUG را در سایت اصلی خاموش کنید (وضعیت سیستم هشدار می‌دهد)."
 
 #: inc/admin/tutorials.php:249
 msgid "Plugin manager"
-msgstr ""
+msgstr "مدیریت افزونه‌ها"
 
 #: inc/admin/tutorials.php:253
 msgid "Customising safely with a child theme"
-msgstr ""
+msgstr "سفارشی‌سازی امن با پوسته فرزند"
 
 #: inc/admin/tutorials.php:256
 msgid "Override templates and add CSS without losing changes on update."
-msgstr ""
+msgstr "قالب‌ها را بازنویسی و CSS اضافه کنید بدون اینکه با به‌روزرسانی از بین بروند."
 
 #: inc/admin/tutorials.php:258
 msgid "Download the ready-made child theme from the docs folder (nexora-child.zip) and install it via Appearance → Themes → Add new → Upload."
-msgstr ""
+msgstr "پوسته فرزند آماده را از پوشه docs (nexora-child.zip) دانلود و از نمایش ← پوسته‌ها ← افزودن ← بارگذاری نصب کنید."
 
 #: inc/admin/tutorials.php:259
 msgid "Copy any file from nexora/template-parts or nexora/woocommerce into the same path inside the child theme and edit it there."
-msgstr ""
+msgstr "هر فایلی از nexora/template-parts یا nexora/woocommerce را در همان مسیر داخل پوسته فرزند کپی و همان‌جا ویرایش کنید."
 
 #: inc/admin/tutorials.php:260
 msgid "Small CSS tweaks: Appearance → Customize → Additional CSS. Colours: use the preset editor instead of CSS."
-msgstr ""
+msgstr "تغییرات کوچک CSS: نمایش ← سفارشی‌سازی ← CSS اضافی. رنگ‌ها: به‌جای CSS از ویرایشگر پریست استفاده کنید."
 
 #: inc/admin/tutorials.php:261
 msgid "Hooks: the theme fires nexora_before_*/nexora_after_* actions around every homepage section — see docs/hooks.md."
-msgstr ""
+msgstr "هوک‌ها: قالب اکشن‌های nexora_before_*/nexora_after_* را دور هر بخش صفحه اصلی اجرا می‌کند — docs/hooks.md را ببینید."
 
 #: inc/admin/tutorials.php:291
 msgid "Short, practical guides written for store owners — no coding required. Tick a guide when you are done to keep track."
-msgstr ""
+msgstr "راهنماهای کوتاه و کاربردی برای صاحبان فروشگاه — بدون نیاز به کدنویسی. پس از انجام هر راهنما تیک بزنید تا پیگیری کنید."
 
 #: inc/admin/tutorials.php:296
 msgid "%d min"
-msgstr ""
+msgstr "%d دقیقه"
 
 #: inc/admin/tutorials.php:312
 msgid "Mark as not done"
-msgstr ""
+msgstr "علامت‌گذاری به‌عنوان انجام‌نشده"
 
 #: inc/admin/tutorials.php:312
 msgid "Mark as done"
-msgstr ""
+msgstr "علامت‌گذاری به‌عنوان انجام‌شده"
 
 #: inc/admin/tutorials.php:318
 msgid "Search tutorials…"
-msgstr ""
+msgstr "جستجوی آموزش‌ها…"
 
 #: inc/admin/tutorials.php:318
 msgid "%1$d of %2$d completed"
-msgstr ""
+msgstr "%1$d از %2$d انجام شده"
 
 #: inc/admin/tutorials.php:335
 msgid "%d min read"
-msgstr ""
+msgstr "%d دقیقه مطالعه"
 
 #: inc/admin/wizard.php:21
 msgid "Welcome"
-msgstr ""
+msgstr "خوش آمدید"
 
 #: inc/admin/wizard.php:21
 msgid "What the wizard does and how long it takes."
-msgstr ""
+msgstr "راه‌انداز چه می‌کند و چقدر زمان می‌برد."
 
 #: inc/admin/wizard.php:22
 msgid "WooCommerce is required; the rest is optional."
-msgstr ""
+msgstr "ووکامرس ضروری است؛ بقیه اختیاری."
 
 #: inc/admin/wizard.php:23
 msgid "Store details"
-msgstr ""
+msgstr "اطلاعات فروشگاه"
 
 #: inc/admin/wizard.php:23
 msgid "Name, tagline, contact info."
-msgstr ""
+msgstr "نام، شعار، اطلاعات تماس."
 
 #: inc/admin/wizard.php:24
 msgid "Upload the logo and site icon."
-msgstr ""
+msgstr "لوگو و آیکون سایت را بارگذاری کنید."
 
 #: inc/admin/wizard.php:25 woocommerce/content-product.php:81 woocommerce/loop/filters.php:131
 msgid "Colours"
-msgstr ""
+msgstr "رنگ‌ها"
 
 #: inc/admin/wizard.php:25
 msgid "Pick a preset — change it any time."
-msgstr ""
+msgstr "یک پریست انتخاب کنید — هر زمان قابل تغییر است."
 
 #: inc/admin/wizard.php:26
 msgid "Currency, address, pages."
-msgstr ""
+msgstr "واحد پول، آدرس، برگه‌ها."
 
 #: inc/admin/wizard.php:27
 msgid "Start from a full store or an empty one."
-msgstr ""
+msgstr "از فروشگاه کامل شروع کنید یا خالی."
 
 #: inc/admin/wizard.php:28
 msgid "Choose which sections to show."
-msgstr ""
+msgstr "انتخاب کنید کدام بخش‌ها نمایش داده شوند."
 
 #: inc/admin/wizard.php:29
 msgid "Pages & menus"
-msgstr ""
+msgstr "برگه‌ها و فهرست‌ها"
 
 #: inc/admin/wizard.php:29
 msgid "Create essential pages and the main menu."
-msgstr ""
+msgstr "ساخت برگه‌های ضروری و فهرست اصلی."
 
 #: inc/admin/wizard.php:30 woocommerce/checkout/form-checkout.php:30 woocommerce/checkout/thankyou.php:30
 msgid "Done"
-msgstr ""
+msgstr "پایان"
 
 #: inc/admin/wizard.php:30
 msgid "Next steps and useful links."
-msgstr ""
+msgstr "گام‌های بعدی و لینک‌های مفید."
 
 #: inc/admin/wizard.php:193
 msgid "Exit to dashboard"
-msgstr ""
+msgstr "خروج به پیشخوان"
 
 #: inc/admin/wizard.php:207
 msgid "Go to dashboard"
-msgstr ""
+msgstr "رفتن به پیشخوان"
 
 #: inc/admin/wizard.php:209
 msgid "Save & continue"
-msgstr ""
+msgstr "ذخیره و ادامه"
 
 #: inc/admin/wizard.php:209
 msgid "Skip this step"
-msgstr ""
+msgstr "رد کردن این مرحله"
 
 #: inc/admin/wizard.php:217
 msgid "In about five minutes you will have a store with a logo, colours, contact details, WooCommerce basics, and — if you want — full demo content to edit instead of starting from a blank page."
-msgstr ""
+msgstr "در حدود پنج دقیقه فروشگاهی با لوگو، رنگ‌ها، اطلاعات تماس، تنظیمات پایه ووکامرس و — در صورت تمایل — محتوای کامل دمو برای ویرایش خواهید داشت، به‌جای شروع از صفر."
 
 #: inc/admin/wizard.php:218
 msgid "Nothing is deleted and no account or API key is requested."
-msgstr ""
+msgstr "هیچ‌چیز حذف نمی‌شود و هیچ حساب یا کلید API درخواست نمی‌شود."
 
 #: inc/admin/wizard.php:218
 msgid "Every step can be skipped and every setting changed later in Theme Settings."
-msgstr ""
+msgstr "هر مرحله قابل رد کردن است و هر تنظیمی بعداً در تنظیمات قالب قابل تغییر است."
 
 #: inc/admin/wizard.php:218
 msgid "You can re-run this wizard from the theme menu."
-msgstr ""
+msgstr "می‌توانید این راه‌انداز را از منوی قالب دوباره اجرا کنید."
 
 #: inc/admin/wizard.php:232
 msgid "required"
-msgstr ""
+msgstr "ضروری"
 
 #: inc/admin/wizard.php:233 inc/admin/wizard.php:330
 msgid "Installed"
-msgstr ""
+msgstr "نصب‌شده"
 
 #: inc/admin/wizard.php:239
 msgid "After installing, return to this page — the wizard remembers where you were."
-msgstr ""
+msgstr "پس از نصب به این صفحه برگردید — راه‌انداز جای شما را به خاطر دارد."
 
 #: inc/admin/wizard.php:249
 msgid "Store name"
-msgstr ""
+msgstr "نام فروشگاه"
 
 #: inc/admin/wizard.php:250
 msgid "Tagline"
-msgstr ""
+msgstr "شعار"
 
 #: inc/admin/wizard.php:251
 msgid "Text logo (used when no image logo)"
-msgstr ""
+msgstr "لوگوی متنی (وقتی لوگوی تصویری نیست)"
 
 #: inc/admin/wizard.php:252 inc/helpers/schema.php:107
 msgid "Support phone"
-msgstr ""
+msgstr "تلفن پشتیبانی"
 
 #: inc/admin/wizard.php:253 inc/helpers/schema.php:112
 msgid "Support email"
-msgstr ""
+msgstr "ایمیل پشتیبانی"
 
 #: inc/admin/wizard.php:254 inc/helpers/schema.php:121
 msgid "Working hours"
-msgstr ""
+msgstr "ساعات کاری"
 
 #: inc/admin/wizard.php:255 inc/helpers/schema.php:117 page-templates/contact.php:43 template-parts/footer/footer.php:39
 msgid "Address"
-msgstr ""
+msgstr "آدرس"
 
 #: inc/admin/wizard.php:256
 msgid "Social (optional)"
-msgstr ""
+msgstr "شبکه‌های اجتماعی (اختیاری)"
 
 #: inc/admin/wizard.php:267
 msgid "SVG or PNG with transparent background, at least 160 px tall."
-msgstr ""
+msgstr "SVG یا PNG با پس‌زمینه شفاف، حداقل ۱۶۰ پیکسل ارتفاع."
 
 #: inc/admin/wizard.php:267
 msgid "Site icon (favicon)"
-msgstr ""
+msgstr "آیکون سایت (فاوآیکون)"
 
 #: inc/admin/wizard.php:267
 msgid "Square PNG, 512×512 px."
-msgstr ""
+msgstr "PNG مربع، ۵۱۲×۵۱۲ پیکسل."
 
 #: inc/admin/wizard.php:285
 msgid "Fine-tune or create your own palette later under Colors & Presets."
-msgstr ""
+msgstr "بعداً در رنگ‌ها و پریست‌ها پالت را تنظیم دقیق کنید یا پالت خودتان را بسازید."
 
 #: inc/admin/wizard.php:290
 msgid "WooCommerce is not active yet. Go back to the Plugins step, or skip and configure it later."
-msgstr ""
+msgstr "ووکامرس هنوز فعال نیست. به مرحله افزونه‌ها برگردید یا رد کنید و بعداً پیکربندی کنید."
 
 #: inc/admin/wizard.php:301
 msgid "Iranian stores: choose IRT (Toman) or IRR (Rial). The theme formats prices with Persian digits automatically."
-msgstr ""
+msgstr "فروشگاه‌های ایرانی: IRT (تومان) یا IRR (ریال) را انتخاب کنید. قالب قیمت‌ها را خودکار با اعداد فارسی نمایش می‌دهد."
 
 #: inc/admin/wizard.php:302
 msgid "Country / state"
-msgstr ""
+msgstr "کشور / استان"
 
 #: inc/admin/wizard.php:313
 msgid "City"
-msgstr ""
+msgstr "شهر"
 
 #: inc/admin/wizard.php:314
 msgid "Street address"
-msgstr ""
+msgstr "آدرس خیابان"
 
 #: inc/admin/wizard.php:315
 msgid "Create missing WooCommerce pages (Shop, Cart, Checkout, My Account)"
-msgstr ""
+msgstr "ساخت برگه‌های ناموجود ووکامرس (فروشگاه، سبد، تسویه‌حساب، حساب کاربری)"
 
 #: inc/admin/wizard.php:316
 msgid "Allow guest checkout"
-msgstr ""
+msgstr "اجازه خرید مهمان"
 
 #: inc/admin/wizard.php:317
 msgid "Payment gateways and shipping rates are configured inside WooCommerce with your own credentials — the wizard never asks for them."
-msgstr ""
+msgstr "درگاه‌های پرداخت و نرخ‌های ارسال داخل ووکامرس با اطلاعات خودتان پیکربندی می‌شوند — راه‌انداز هرگز آن‌ها را نمی‌پرسد."
 
 #: inc/admin/wizard.php:317
 msgid "Open payments"
-msgstr ""
+msgstr "باز کردن پرداخت‌ها"
 
 #: inc/admin/wizard.php:317
 msgid "Open shipping"
-msgstr ""
+msgstr "باز کردن حمل‌ونقل"
 
 #: inc/admin/wizard.php:323
 msgid "Demo content needs WooCommerce. Skip for now and import later from the Demo Import tab."
-msgstr ""
+msgstr "محتوای دمو به ووکامرس نیاز دارد. فعلاً رد کنید و بعداً از برگه درون‌ریزی دمو وارد کنید."
 
 #: inc/admin/wizard.php:332
 msgid "Import runs in the background on this page; wait for the green tick, then continue. Prefer an empty store? Just continue."
-msgstr ""
+msgstr "درون‌ریزی در پس‌زمینه همین صفحه اجرا می‌شود؛ منتظر تیک سبز بمانید و ادامه دهید. فروشگاه خالی می‌خواهید؟ فقط ادامه دهید."
 
 #: inc/admin/wizard.php:337
 msgid "Tick the sections you want on the homepage. Order and content are edited later in Theme Settings → Homepage."
-msgstr ""
+msgstr "بخش‌هایی که در صفحه اصلی می‌خواهید را تیک بزنید. ترتیب و محتوا بعداً در تنظیمات قالب ← صفحه اصلی ویرایش می‌شود."
 
 #: inc/admin/wizard.php:345
 msgid "The theme will create these pages if they do not exist yet, assign the right templates, and set the static homepage:"
-msgstr ""
+msgstr "قالب این برگه‌ها را اگر وجود نداشته باشند می‌سازد، قالب مناسب را اختصاص می‌دهد و صفحه اصلی ثابت را تنظیم می‌کند:"
 
 #: inc/admin/wizard.php:348
 msgid "exists"
-msgstr ""
+msgstr "موجود است"
 
 #: inc/admin/wizard.php:348
 msgid "will be created"
-msgstr ""
+msgstr "ساخته خواهد شد"
 
 #: inc/admin/wizard.php:350
 msgid "Also create a main menu with Home, Shop, Blog, FAQ and Contact (only if no menu is assigned)"
-msgstr ""
+msgstr "همچنین فهرست اصلی با خانه، فروشگاه، وبلاگ، سؤالات متداول و تماس بساز (فقط اگر فهرستی اختصاص نیافته)"
 
 #: inc/admin/wizard.php:355
 msgid "Your store is set up"
-msgstr ""
+msgstr "فروشگاه شما راه‌اندازی شد"
 
 #: inc/admin/wizard.php:355
 msgid "Health check: %1$d passed, %2$d recommended, %3$d critical."
-msgstr ""
+msgstr "بررسی سلامت: %1$d موفق، %2$d پیشنهادی، %3$d حیاتی."
 
 #: inc/admin/wizard.php:358
 msgid "View your site"
-msgstr ""
+msgstr "مشاهده سایت"
 
 #: inc/admin/wizard.php:359
 msgid "Add a product"
-msgstr ""
+msgstr "افزودن محصول"
 
 #: inc/admin/wizard.php:360
 msgid "Set up payments"
-msgstr ""
+msgstr "راه‌اندازی پرداخت"
 
 #: inc/admin/wizard.php:361
 msgid "Set up shipping"
-msgstr ""
+msgstr "راه‌اندازی ارسال"
 
 #: inc/admin/wizard.php:362
 msgid "Edit homepage"
-msgstr ""
+msgstr "ویرایش صفحه اصلی"
 
 #: inc/admin/wizard.php:363
 msgid "Read tutorials"
-msgstr ""
+msgstr "خواندن آموزش‌ها"
 
 #: inc/ajax/front.php:15 inc/ajax/front.php:108
 msgid "Security check failed. Please reload the page."
@@ -2913,7 +2913,7 @@ msgstr "برای تغییر ترتیب بکشید. بخش‌های غیرفعا�
 
 #: inc/helpers/schema.php:359 woocommerce/myaccount/dashboard.php:39 woocommerce/myaccount/orders.php:31 woocommerce/myaccount/view-order.php:27
 msgid "Order"
-msgstr "ترتیب"
+msgstr "سفارش"
 
 #: inc/helpers/schema.php:366 inc/helpers/schema.php:845
 msgid "Hero slider"
@@ -5104,10 +5104,10 @@ msgid "Showing the single result"
 msgstr "نمایش تنها نتیجه"
 
 #: woocommerce/loop/result-count.php:17
-msgid "Showing all %d result"
-msgid_plural "Showing all %d results"
-msgstr[0] "نمایش همه %d نتیجه"
-msgstr[1] "نمایش همه %d نتیجه"
+msgid "Showing all %s result"
+msgid_plural "Showing all %s results"
+msgstr[0] "نمایش همه %s نتیجه"
+msgstr[1] "نمایش همه %s نتیجه"
 
 #: woocommerce/loop/result-count.php:22
 msgid "Showing %1$s–%2$s of %3$s results"
@@ -5523,3 +5523,6 @@ msgstr "تصویر %s"
 msgid "No description available for this product yet."
 msgstr "هنوز توضیحی برای این محصول ثبت نشده است."
 
+
+msgid "Refund and Returns Policy"
+msgstr "سیاست بازگشت و استرداد وجه"

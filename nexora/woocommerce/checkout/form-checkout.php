@@ -54,20 +54,6 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 					</div>
 					<?php do_action( 'woocommerce_checkout_after_customer_details' ); ?>
 				<?php endif; ?>
-				<?php if ( WC()->cart->needs_shipping() && WC()->cart->show_shipping() ) : ?>
-					<section class="checkout-section" aria-labelledby="co-ship">
-						<div class="checkout-section__head"><h2 class="checkout-section__title" id="co-ship"><span class="step-badge"><?php echo esc_html( nexora_num( 3 ) ); ?></span><?php esc_html_e( 'Shipping method', 'nexora' ); ?></h2></div>
-						<div class="checkout-shipping-methods" data-checkout-shipping>
-							<?php
-							/**
-							 * Shipping rates are part of the review-order fragment so they refresh via AJAX;
-							 * this wrapper is filled from review-order.php (see .checkout-shipping-methods--live).
-							 */
-							?>
-							<p class="small text-muted"><?php esc_html_e( 'Shipping options are shown in the order summary and update automatically when your address changes.', 'nexora' ); ?></p>
-						</div>
-					</section>
-				<?php endif; ?>
 			</div>
 			<aside class="cart-layout__aside">
 				<div class="summary" id="order_review_wrap">

@@ -215,7 +215,7 @@ function nexora_review( $comment, $args, $depth ) { // phpcs:ignore Generic.Code
 add_filter(
 	'woocommerce_product_review_comment_form_args',
 	static function ( $args ) {
-		$args['comment_field'] .= '<div class="form-row"><div class="form-group"><label class="form-label" for="nexora_pros">' . esc_html__( 'Pros (one per line)', 'nexora' ) . '</label><textarea id="nexora_pros" class="form-control" name="nexora_pros" rows="2"></textarea></div><div class="form-group"><label class="form-label" for="nexora_cons">' . esc_html__( 'Cons (one per line)', 'nexora' ) . '</label><textarea id="nexora_cons" class="form-control" name="nexora_cons" rows="2"></textarea></div></div>';
+		$args['comment_field'] .= '<div class="form-cols"><div class="form-group"><label class="form-label" for="nexora_pros">' . esc_html__( 'Pros (one per line)', 'nexora' ) . '</label><textarea id="nexora_pros" class="form-control" name="nexora_pros" rows="2"></textarea></div><div class="form-group"><label class="form-label" for="nexora_cons">' . esc_html__( 'Cons (one per line)', 'nexora' ) . '</label><textarea id="nexora_cons" class="form-control" name="nexora_cons" rows="2"></textarea></div></div>';
 		return $args;
 	},
 	20

@@ -83,13 +83,13 @@ add_filter(
  */
 function nexora_wc_orderby( $options ) {
 	$options = array(
+		'menu_order' => __( 'Default', 'nexora' ),
 		'popularity' => __( 'Most popular', 'nexora' ),
 		'date'       => __( 'Newest', 'nexora' ),
 		'rating'     => __( 'Top rated', 'nexora' ),
 		'price'      => __( 'Price: low to high', 'nexora' ),
 		'price-desc' => __( 'Price: high to low', 'nexora' ),
 		'discount'   => __( 'Biggest discount', 'nexora' ),
-		'menu_order' => __( 'Default', 'nexora' ),
 	);
 	return $options;
 }
@@ -203,3 +203,53 @@ add_filter(
 		return $src ?: NEXORA_URI . 'assets/img/placeholder.svg';
 	}
 );
+
+/**
+ * Cart / checkout: the theme ships fully designed classic templates
+ * (woocommerce/cart/*.php, woocommerce/checkout/*.php). WooCommerce creates its
+ * pages with the block versions, which ignore theme templates; we therefore
+ * render the classic shortcodes in place of those blocks and normalise the page
+ * content on activation so the editor shows the real thing as well.
+ */
+function nexora_wc_block_to_shortcode( $block_content, $block ) {
+	if ( is_admin() || ( defined( 'REST_REQUEST' ) && REST_REQUEST ) ) {
+		return $block_content;
+	}
+	$map = array(
+		'woocommerce/cart'     => '[woocommerce_cart]',
+		'woocommerce/checkout' => '[woocommerce_checkout]',
+	);
+	if ( ! isset( $block['blockName'], $map[ $block['blockName'] ] ) ) {
+		return $block_content;
+	}
+	return do_shortcode( $map[ $block['blockName'] ] );
+}
+add_filter( 'render_block', 'nexora_wc_block_to_shortcode', 10, 2 );
+
+function nexora_wc_normalise_pages() {
+	if ( ! function_exists( 'wc_get_page_id' ) ) {
+		return;
+	}
+	$pages = array(
+		'cart'     => '[woocommerce_cart]',
+		'checkout' => '[woocommerce_checkout]',
+	);
+	foreach ( $pages as $key => $shortcode ) {
+		$id = (int) wc_get_page_id( $key );
+		if ( $id <= 0 ) {
+			continue;
+		}
+		$post = get_post( $id );
+		if ( ! $post || false === strpos( $post->post_content, 'wp:woocommerce/' . $key ) ) {
+			continue;
+		}
+		wp_update_post(
+			array(
+				'ID'           => $id,
+				'post_content' => '<!-- wp:shortcode -->' . $shortcode . '<!-- /wp:shortcode -->',
+			)
+		);
+	}
+}
+add_action( 'nexora_activated', 'nexora_wc_normalise_pages' );
+add_action( 'woocommerce_page_created', 'nexora_wc_normalise_pages', 20 );

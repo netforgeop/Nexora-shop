@@ -58,7 +58,7 @@ $nexora_can   = 'yes' !== get_option( 'woocommerce_review_rating_verification_re
 				);
 				$name_email_required = (bool) get_option( 'require_name_email', 1 );
 				$fields              = array( 'author' => array( 'label' => __( 'Name', 'nexora' ), 'type' => 'text', 'value' => $commenter['comment_author'], 'required' => $name_email_required, 'autocomplete' => 'name' ), 'email' => array( 'label' => __( 'Email', 'nexora' ), 'type' => 'email', 'value' => $commenter['comment_author_email'], 'required' => $name_email_required, 'autocomplete' => 'email' ) );
-				$row                 = '<div class="form-row">';
+				$row                 = '<div class="form-cols">';
 				foreach ( $fields as $key => $field ) {
 					$row .= '<div class="form-group"><label class="form-label" for="' . esc_attr( $key ) . '">' . esc_html( $field['label'] ) . ( $field['required'] ? ' <span class="req">*</span>' : '' ) . '</label><input id="' . esc_attr( $key ) . '" class="form-control" name="' . esc_attr( $key ) . '" type="' . esc_attr( $field['type'] ) . '" value="' . esc_attr( $field['value'] ) . '" autocomplete="' . esc_attr( $field['autocomplete'] ) . '"' . ( 'email' === $key ? ' dir="ltr"' : '' ) . ( $field['required'] ? ' required' : '' ) . '></div>';
 				}
